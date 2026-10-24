@@ -1,0 +1,32 @@
+PASS Y2 current double-pole coefficient
+PASS Y0 current double-pole coefficient
+PASS Y2 first-jet vector beta a2-a0=t(d+a2)
+PASS K0 leaves no C pole
+PASS spatial base differential reconstruction off singular faces
+PASS unary repair symmetric Pf and PV terms
+PASS balanced ordered matching removes odd contact
+PASS full source-pair current jet n=0
+PASS full source-pair current jet n=1
+PASS full source-pair current jet n=2
+PASS full source-pair current jet n=3
+PASS full source-pair current jet n=4
+PASS first descendant retains C contraction
+PASS radial moment derivative n=0
+PASS physical source-pair descendant denominator n=0
+PASS radial moment derivative n=1
+PASS physical source-pair descendant denominator n=1
+PASS radial moment derivative n=2
+PASS physical source-pair descendant denominator n=2
+PASS current improvement coefficient
+PASS distinct source cross coefficient
+PASS equal source coefficient
+PASS disjoint two-unary forests have two source matchings
+PASS same source cannot fuse twice
+PASS one-bar crossing position 0 has same repaired value
+PASS one-bar crossing position 1 has same repaired value
+PASS one-bar crossing position 2 has same repaired value
+PASS K0 insertion marginal B B A scalar vanishes
+PASS A A A K0 full degree
+PASS normalized mixed coefficient
+PASS normalized unit at first and mixed source order
+TOTAL 31 PASS

@@ -1,0 +1,34 @@
+PASS primary source squares
+PASS both current/source exponential simple powers
+PASS double derivative coefficients 1 and t-1
+PASS a0+(t-1)d=-(d+a2)
+PASS A/V1 exponential double pole
+PASS complete pair Wick polynomial as spatial differential operator
+PASS ordered source sign moment sigma=-1
+PASS ordered edge simple moment sigma=-1
+PASS ordered edge first moment sigma=-1
+PASS outer-test jet cancels in local limit sigma=-1
+PASS ordered source sign moment sigma=1
+PASS ordered edge simple moment sigma=1
+PASS ordered edge first moment sigma=1
+PASS outer-test jet cancels in local limit sigma=1
+PASS spatial double pole differs by -pi delta from circular finite part
+PASS raw first-jet convolution holomorphic coefficient
+PASS raw first-jet convolution antiholomorphic coefficient
+PASS tail average retains symmetric double-pole finite part
+PASS tail double-pole delta-prime cancellation
+PASS tail jump exact endpoint coefficient
+PASS unary repair has explicit nonzero symmetric density terms
+PASS endpoint descendant includes test derivatives
+PASS endpoint radial coefficient n=0
+PASS endpoint radial coefficient n=1
+PASS endpoint radial coefficient n=2
+PASS endpoint radial coefficient n=3
+PASS one K0 in B3A has vanishing leading two-C scalar
+PASS same source cannot be contracted independently onto both currents
+PASS unary face may nest inside full mixed face
+PASS identical source second-order factor is one half
+PASS unlike source cross coefficient is one
+PASS uniform three-position bar averaging is not local half matching
+PASS two extremal bar placements match each lower pair by one half
+SUMMARY 33 PASS 0 FAIL

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-24",
+  "completed_pass_records": 252,
+  "scope": "full-jet balanced finite five-current mixed/Serre relation sector through mass two; four quartet/bar choices",
+  "sha256": {
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_companion.py": "1e1b26cd50e5bd2cdd634a323ba9be29e5237feefc98e70c6eef3eae1cc326d9",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_proper_face.py": "32b8a23307b2e538b0de156cd1fafecbd22a72f5cf28d873806e3b280a98fddc",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_descent.py": "fae0f9dcc9b36262d8c77c142469e919065bb6311c456ea464ecfa3b8e99ce46",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_forest_inventory_v2.py": "5b6e29d0a2893fa3be61038478d5da55367a398abd6fb68110e1a5a2c93ff7a2",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_proper_face_v2.py": "0261ea7a2cd5b7b6416870a642175aa68bf0f52aac05c7821dfd3a132e23d80b",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_forest_inventory.py": "8e28c9b761be24f1c5f6ad5b98649938ee9d9d13660d7f04f9b687db789ef77a",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_full_jets.py": "15792829b61c2e4e93a294d59469b33833ce94c63160482f968823851a1bf71d",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_companion_v2.py": "f69159c65ec63d373c62f547f1309c1a7822816b8338aace80f8ea7d51c9858e",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_even_laurent.py": "99d520db23f21204c7bff40c4d594c45a71fa0e220f3aeddb789787e5407108a",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_even_laurent.out": "064d9ad70c977341b1fbd1857560e57e82209c5c98738059f08638659d910e2f",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_full_jets.out": "4e7cfe210245dd6816583db28c0c904969464174bd292cd7cd0b906adda62b1c",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_companion.out": "a7c8b010b3e259fb066e43258abb249aa7b9c4f04cf78b137b537669b3ef5a51",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_proper_face.out": "0ce5f4facddc40f95a0c4a175adc3f69ed11af445d9068b45a560e877896fc01",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_forest_inventory.out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_descent.out": "3c24a775261bbb8e1a7452899c5f4fb970cbdca78733570f6b42719212bc4d31",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_companion_v2.out": "d80578925005c4ccaeaaea1de3fa9e34ef9179cfc3534ca4393f0dcda83896a3",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_forest_inventory_v2.out": "71fe13e0013a45bbca04e22d2f9b78d491f87fd96cffa9ec779768ca7a979eb5",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/preservation.out": "d7a8395bc0ea4c2b46334d223cd4e67a6e672811db99fbe19f09483466387443",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_proper_face_v2.out": "acdaf23c147558583fb621bf1c1b701cc84511f6a11ccd38d0d54310807e51a1",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_proper_face_diagnostic.txt": "8daaf9d097b30d3d6a78c3c8a5a54a37a1e880de22dfa63021df5127aa01ff65",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_companion_diagnostic.txt": "e406411422c649decce1c12fb7152e10ab36bec771914b097fc59481a42f8fd5",
+    "referee_scratch/sl21_symmetric_descent_20261024/audit/check_forest_inventory_diagnostic.txt": "40e08a58fbc6ed63e39aad64665070707b9d6fbea45151768184ebd8b59e6cc6",
+    "briefs/referee_sl21_symmetric_descent_audit_report.md": "829562c7e08b4bcacfd3d8db7523397cf8fa90b9e7a11815de20eb110ed47d0a"
+  }
+}

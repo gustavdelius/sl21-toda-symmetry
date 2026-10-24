@@ -1,0 +1,13 @@
+PASS N=1 unlike coefficient residual=0
+PASS N=1 equal coefficient residual=0
+INFO N=1 distinct source allocations: bulk 1; one unary 2; two unary 0
+PASS N=2 unlike coefficient residual=0
+PASS N=2 equal coefficient residual=0
+INFO N=2 distinct source allocations: bulk 1; one unary 4; two unary 2
+PASS N=3 unlike coefficient residual=0
+PASS N=3 equal coefficient residual=0
+INFO N=3 distinct source allocations: bulk 1; one unary 6; two unary 6
+PASS N=4 unlike coefficient residual=0
+PASS N=4 equal coefficient residual=0
+INFO N=4 distinct source allocations: bulk 1; one unary 8; two unary 12
+TOTAL 8 PASS

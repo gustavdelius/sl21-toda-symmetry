@@ -1,0 +1,5 @@
+PASS node0 full spectator derivative polynomial residual=0
+PASS node0 exact full Laurent simple coefficient residual=0
+PASS node0 minority pole identity residual=0
+PASS node0 mask first-jet bound epsilon integral[R^(omega-2)] retained
+PASS node2 full spectator derivative polynomial residual=0

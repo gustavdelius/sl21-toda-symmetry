@@ -1,0 +1,46 @@
+Quantum Group Symmetriesand Non-Local Currents 2D QFT                                     111
+
+                                         [~--, Q _+] = 4- 2Q •                         (3.20e)
+                                         [3-, ~+3 = + 2~•                              (3.20f)
+where a --- 272/2~i. In deriving the last equations we have used (3.9).
+    It is possible to show by scaling arguments that the algebra (3.20) is exact to
+all orders in perturbation theory. Thus the algebra (3.20) can be taken as a
+non-perturbative definition of the theory. The scaling argument goes as follows.
+The scaling dimension of an operator 60 is dim(O) = A((9) + z~((9). The most general
+possibility for the right-hand side of (3.19b) is ~ 2"(Sdz(9 . + ~d~6.). From the fact
+                                                           /I
+
+that the dimension of the left-hand side of (3.19b) is 2/7, and dim(2) = 2 -/~2, one
+finds that dim(O.) - 1 = 4//~2 + n/~2 - 2(1 + n). This equation can only be satisfied
+if (_9,= 0zH., (9-,= 0ell,. The field H. must be a product of exp(4- 2At0) with the
+                                                                           k   fl /
+                                                                           2     ^
+perturbingfieldraisedtosomepowerk.                 ThereforeH.,,~exp(+(~+kfl)~),keZ,
+
+and dim((9,) - 1 =   (;   + kfl      Assuming that fl is irrational, one thus finds that
+k 2 = n and 2k = - 1 - n. The only solution is n = 1.
+     The algebra (3.20) is a known infinite dimensional algebra, namely the
+q-deformation of the sl(2) attine K a c - M o o d y algebra, denoted ~ ) , with zero
+center [2, 3]. Only the Serre relations for s/q(2) are missing in (3.20). This algebra
+is reviewed in Appendix A. Let Ei, Fi, Hi, i = 0, 1, denote the Chevaley basis for
+the centerless sly(2) algebra in the principal gradation (see Appendix A for
+definitions). They satisfy the following defining relations:
+                                  [ H i, E j] = a o E j,
+                                  [Hi, F j] = - ai~F ~,
+                                                qn, _ q - m
+                                  [Ei, F~] = 6ij q - q - 1 '                            (3.21)
+
+with air the Cartan matrix of the affine K a c - M o o d y algebra s ~ ) . The relations
+between the non-local charges Q_+ and ()_+ and these generators are:
+                            Q+ = c E , q m / 2 ;     Q_ = cEoq"O/2;
+                            Q - = cFlq"~/2;          Q,+ = cFoq"~                       (3.22)
+                             ~-- = H 1 = _ Ho,
+
+where c is a constant c 2 = ~ / 7 (q- - 1) . The last equation in (3.14) reflects the
+fact that the center of @ ) is zero.
+    Note that when q = - i, (fl = 2/x/~), the algebra (3.20) is a topological extension
+of the N = 2 supersymmetry algebra. This fact was recently used in the study of
+perturbations of the N = 2 superconformal series [15].
+3d. T h e Fundamental  Soliton Fields. We will now construct the fundamental
+quantum fields that create sine-Gordon solitons out of the vacuum. These fields
+

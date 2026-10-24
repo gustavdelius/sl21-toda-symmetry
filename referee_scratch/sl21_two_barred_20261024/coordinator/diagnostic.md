@@ -1,0 +1,2 @@
+Initial run:54 PASS,1 FAIL. The failed comparison used structural equality between (4−t)/t and4/t−1 after simplifying only one side. Version2 simplifies their difference; the formula is unchanged. Initial source/output retained.
+Initial Gaussian-jet run:6 PASS,1 FAIL. The coefficient check compared an expanded polynomial with a factored product structurally. Version2 compares expanded differences, retaining both initial files.

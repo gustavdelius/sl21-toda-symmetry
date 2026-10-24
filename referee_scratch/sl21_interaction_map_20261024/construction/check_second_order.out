@@ -1,0 +1,7 @@
+PASS distinct unary fusion holomorphic exponent
+PASS distinct unary fusion antiholomorphic exponent
+PASS distinct-source two-face remaining denominator sign
+PASS equal source unary fusion oscillator is regular
+PASS equal source factorial cancels two assignments
+PASS spectator Laurent regulator coefficient is beta+1
+TOTAL 6 PASS

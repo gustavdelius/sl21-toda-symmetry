@@ -1,0 +1,25 @@
+PASS Wick source A derivative n=3, shape=[-4/5, 1/7, 6/5]
+PASS Wick tail A derivative n=3, i=0, shape=[-4/5, 1/7, 6/5]
+PASS Wick tail A derivative n=3, i=1, shape=[-4/5, 1/7, 6/5]
+PASS Wick tail A derivative n=3, i=2, shape=[-4/5, 1/7, 6/5]
+PASS node 0 marginal scalar vanishes, shape=[-4/5, 1/7, 6/5]
+PASS Wick source A derivative n=3, shape=[-2/3, 1/3, 7/4]
+PASS Wick tail A derivative n=3, i=0, shape=[-2/3, 1/3, 7/4]
+PASS Wick tail A derivative n=3, i=1, shape=[-2/3, 1/3, 7/4]
+PASS Wick tail A derivative n=3, i=2, shape=[-2/3, 1/3, 7/4]
+PASS node 0 marginal scalar vanishes, shape=[-2/3, 1/3, 7/4]
+PASS Wick source A derivative n=2, shape=[-3/4, 5/6]
+PASS Wick tail A derivative n=2, i=0, shape=[-3/4, 5/6]
+PASS Wick tail A derivative n=2, i=1, shape=[-3/4, 5/6]
+PASS node 0 resolved ABB source cancels after integration
+PASS ABB combined primitive includes infinity constant
+PASS actual word endpoint phases, end=-1.0
+PASS endpoint polynomial with independent BB exponent, end=-1.0
+PASS actual word endpoint phases, end=1.0
+PASS endpoint polynomial with independent BB exponent, end=1.0
+PASS equal-interval A integration with independent exponents, word 0: error=2.15e-13
+PASS equal-interval A integration with independent exponents, word 1: error=1.66e-13
+PASS equal-interval A integration with independent exponents, word 2: error=3e-13
+PASS equal-interval A integration with independent exponents, word 3: error=2.18e-13
+PASS sum of integrated scalar words in convergence region: absolute residual=1.49e-13
+RESULT 24 PASS, 0 FAIL

@@ -1,0 +1,50 @@
+PASS physical null root 0
+PASS dual pairing 0
+PASS Yukawa scalar period 0
+PASS physical null root 2
+PASS dual pairing 2
+PASS Yukawa scalar period 2
+PASS T period
+PASS dual period
+PASS F phase differs from s by 2 pi i
+PASS U phase includes direct fermion minus
+PASS FA inverse phase
+PASS dual length
+PASS topological dual pairing
+PASS two-component left Jacobian
+PASS mass sign change from left parity
+PASS single-site mass Pfaffian
+PASS Pfaffian unchanged under left parity
+PASS left kinetic bilinears unchanged
+PASS topological weight independent of anchor
+PASS left anchored right endpoint fixed
+PASS left anchored left endpoint shift
+PASS right anchored left endpoint fixed
+PASS right anchored right endpoint shift
+PASS A has same disorder momentum as its current
+PASS A topological weight
+PASS B has same disorder momentum as its current
+PASS B topological weight
+PASS HA has same disorder momentum as its current
+PASS HA topological weight
+PASS HB1 has same disorder momentum as its current
+PASS HB1 topological weight
+PASS HB2 has same disorder momentum as its current
+PASS HB2 topological weight
+PASS F left BCH phase versus character
+PASS U left BCH phase versus character
+PASS dual EOM coefficient Y0
+PASS dual EOM coefficient Y2
+PASS dual EOM coefficient V1
+PASS dual EOM coefficient P
+PASS difference EOM selects Y0
+PASS difference EOM selects minus Y2
+PASS difference EOM removes both potentials
+PASS P bare/Wick logarithmic conversion
+PASS V1 bare/Wick logarithmic conversion
+PASS Y0 scalar has no bosonic self factor
+PASS Y2 scalar has no bosonic self factor
+PASS weighted SD retains derivative of insertion
+PASS discarding weighted SD contact is false
+PASS SD probe Bessel moment independently integrated
+TOTAL 49 PASS, 0 FAIL

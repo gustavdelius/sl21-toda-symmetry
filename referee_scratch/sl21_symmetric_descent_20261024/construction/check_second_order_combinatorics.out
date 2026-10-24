@@ -1,0 +1,4 @@
+PASS exact distinct original-slot U02 combinatorics
+PASS no same-original-slot double replacement
+PASS insertion/repair order02 coefficient preserves map order
+PASS total 3

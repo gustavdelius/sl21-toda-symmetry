@@ -1,0 +1,11 @@
+kappa= 0.47140452079103173 VV poles u/pi= [] mixed poles u/pi= []
+kappa= 0.8660254037844386 VV poles u/pi= [] mixed poles u/pi= []
+kappa= 1.4142135623730951 VV poles u/pi= [0.585786437626905] mixed poles u/pi= [0.414213562373095]
+PASS structural simple pole confirmed by 1/epsilon scaling vv ratio= 10.000000000992717
+PASS structural simple pole confirmed by 1/epsilon scaling bv ratio= 9.999999999791832
+PASS structural simple pole confirmed by 1/epsilon scaling vb ratio= 9.99999999979183
+kappa= 1.7320508075688772 VV poles u/pi= [0.8452994616207484] mixed poles u/pi= [0.15470053837925157]
+PASS structural simple pole confirmed by 1/epsilon scaling vv ratio= 10.00000000077895
+PASS structural simple pole confirmed by 1/epsilon scaling bv ratio= 9.999999998106553
+PASS structural simple pole confirmed by 1/epsilon scaling vb ratio= 9.999999998106551
+PASS scalar CDD freedom: unitarity, crossing and 2pi*i periodicity

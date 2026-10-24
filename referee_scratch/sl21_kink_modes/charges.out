@@ -1,0 +1,9 @@
+PASS full axial Noether-current conservation from arbitrary traceless symmetric Yukawa matrix
+PASS local W-supercurrent has nonzero divergence coefficient grad(V)-Hess(W)grad(W)= [sqrt(2)*mu**2*exp(sqrt(2)*u), 0]
+PASS axial rotation and combined v-shift/vector rotation are exact action symmetries
+PASS dimensional obstruction: an isolated 1|1 doublet is not a nontrivial type-one sl(2|1) module
+PASS no Cartan combination assigns defining-triplet weights only unit topological charges +/-1
+PASS all finite Uq(sl(2|1)) Cartan, supercommutator, nilpotence and Serre relations on a compatible four-state module
+Compatible weights (T,F,parity): [(-1, -1/2, 0), (1, 1/2, 0), (1, -1/2, 1), (-1, 1/2, 1)]
+PASS compatible highest weight alpha=-1/2; e1 selection rule (Delta T,Delta F)=(-2,1), e2=(0,-1)
+CAUTION: the nonlocal field operators realizing these matrices, vacuum charge offsets, and affine extension on physical kinks are NOT constructed.

@@ -1,0 +1,50 @@
+PASS orthogonal local field transformation
+PASS unit determinant local transformation
+PASS Y0 momentum in SL coordinates
+PASS Y2 momentum in SL coordinates
+PASS even root potential momentum
+PASS composite potential momentum
+PASS dual current momentum
+PASS FA endpoint momentum
+PASS U endpoint momentum
+PASS F endpoint momentum
+PASS C prefactor has no free component
+PASS first SL hierarchy coupling constraint
+PASS physical Yukawa0 null
+PASS physical Yukawa2 null
+PASS bosonized fermion dimension
+PASS unlike-screening OPE exponent
+PASS dual screening integer OPE
+PASS identity primary label to original momentum
+PASS FA primary label to original momentum
+PASS U primary label to original momentum
+PASS F primary label to original momentum
+PASS U local with respect to LP2017 particles
+PASS FA Liouville reflection label is zero
+PASS FA p equals negative identity p
+PASS U p+ equals identity p+
+PASS U p- differs by -2h
+PASS dimension Yukawa is one
+PASS dimension even root is 2t
+PASS dimension FA from LP and direct roots
+PASS dimension U from LP and direct roots
+PASS Yukawa scalar phase i pi
+PASS potential period 2 pi i
+PASS dual phase
+PASS F character exponent modulo 2 pi i
+PASS U character including fermion minus
+PASS both bare potentials carry same Wick factor
+PASS potential bare-Wick exponent
+PASS null Yukawa bosonic Wick exponent
+PASS finite fermion antisymmetry
+PASS translated action and fermion flip congruence
+PASS two-component Berezin Jacobian
+PASS fermion determinant covariance
+PASS BB same-orbit difference
+PASS AA same-orbit difference
+PASS three-product with barA before endpoint weights
+PASS three-product with barB before endpoint weights
+PASS FA equals Liouville reflection image of identity
+PASS reflection coupling exponent
+PASS monodromy matches FA period character modulo integer
+Completed 49 independent checks.

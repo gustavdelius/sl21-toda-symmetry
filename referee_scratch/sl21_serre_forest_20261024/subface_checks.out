@@ -1,0 +1,31 @@
+PASS general-shape triple descendant from Wick tails, level 0
+PASS general-shape triple descendant from Wick tails, level 1
+PASS general-shape triple descendant from Wick tails, level 2
+PASS BB within BBB matches independently fused pair, jet 0
+PASS BB within BBB has no spurious odd midpoint pole, jet 0
+PASS BB within BBB matches independently fused pair, jet 1
+PASS BB within BBB has no spurious odd midpoint pole, jet 1
+PASS BB within BBB matches independently fused pair, jet 2
+PASS BB within BBB has no spurious odd midpoint pole, jet 2
+PASS embedded pair coefficient in four-current scalar primitive
+PASS four-current pair midpoint odd pole vanishes
+PASS UV BBBA scalar contraction cancels
+PASS UV BBBA constant regular derivative jet cancels
+PASS V1/B fused exchange phase
+PASS V1/A fused exchange phase
+PASS V2/B fused exchange phase
+PASS V2/A fused exchange phase
+PASS V3/B fused exchange phase
+PASS V3/A fused exchange phase
+PASS middle scalar chamber zero constant endpoint, chamber 0: abs=4.78e-12
+PASS middle chamber with nonconstant test obeys Stokes, chamber 0
+PASS middle scalar chamber zero constant endpoint, chamber 1: abs=1.48e-12
+PASS middle chamber with nonconstant test obeys Stokes, chamber 1
+DATA compact-shape delta=0.02 max_chamber=0.4411500297 defect=0.06205410134
+DATA compact-shape delta=0.01 max_chamber=0.4612954894 defect=0.03123428093
+DATA compact-shape delta=0.005 max_chamber=0.4718596509 defect=0.01566464435
+DATA compact-shape delta=0.0025 max_chamber=0.4772710986 defect=0.00784363929
+DATA compact-shape delta=-0.0025 max_chamber=0.4883626609 defect=0.007865124771
+PASS compact-shape middle chambers remain bounded across diagonal
+PASS vanishing coefficient times regular nonconstant chamber tends to zero
+RESULT 25 PASS, 0 FAIL

@@ -1,0 +1,1352 @@
+                                                                                                                             BI-TP-94/33
+                                                                                                                         UQMATH-94-05
+                                                                                                                          hep-th/9408006
+
+
+
+                                                  On Type-I Quantum Affine Superalgebras
+                                                                             Gustav W. Delius∗ †
+arXiv:hep-th/9408006v2 27 Oct 1994
+
+
+
+
+                                     Department of Mathematics, King’s College London, Stand, London WCR 2LS, UK
+                                                                            email: delius@mth.kcl.ac.uk
+
+
+                                                        Mark D. Gould, Jon R. Links, Yao-Zhong Zhang
+                                     Department of Mathematics, University of Queensland, Brisbane, Qld 4072, Australia
+                                                                            email: yzz@maths.uq.oz.au
+
+
+
+
+                                                                                     Abstract:
+
+                                            The type-I simple Lie-superalgebras are sl(m|n) and osp(2|2n). We study the quan-
+                                            tum deformations of their untwisted affine extensions Uq (sl(m|n)(1) ) and Uq (osp(2|2n)(1) ).
+
+                                            We identify additional relations between the simple generators (“extra q-Serre rela-
+                                            tions”) which need to be imposed to properly define Uq (sl(m|n)(1) ) and Uq (osp(2|2n)(1) ).
+
+                                            We present a general technique for deriving the spectral parameter dependent R-
+                                            matrices from quantum affine superalgebras.
+
+                                            We determine the R-matrices for the type-I affine superalgebra Uq (sl(m|n)(1) ) in
+                                            various representations, thereby deriving new solutions of the spectral-dependent
+                                            Yang-Baxter equation. In particular, because this algebra possesses one-parameter
+                                            families of finite-dimensional irreps, we are able to construct R-matrices depending on
+                                            two additional spectral-like parameters, providing generalizations of the free-fermion
+                                            model.
+
+
+
+
+                                      ∗
+                                          Supported by Habilitationsstipendium der Deutschen Forschungsgesellschaft
+                                      †
+                                          On leave from Department of Physics, Bielefeld University, Germany
+1    Introduction
+
+Quantum affine algebras are q-deformations [13, 14, 18, 19, 20] of the enveloping algebras of
+affine Kac-Moody algebras [23]. They were introduced as a powerful tool for the construction
+of solutions of the spectral parameter dependent Yang-Baxter equation. They are therefore
+the algebraic structures underlying the integrable models of statistical mechanics (commuting
+transfer matrices) as well as the quantum integrable field theories (quantum inverse scattering
+method, factorizable scattering matrices).
+    There are however solutions to the Yang-Baxter equation, and thus there are integrable
+models, which do not come from a quantum affine bosonic algebra. Examples are the Perk-
+Schultz model [8, 30] and the free fermion model [2]. It is now understood that the algebras
+underlying these models are quantum affine superalgebras. In spite of their significance, quantum
+affine superalgebras have so far remained essentially unstudied in the literature. In this paper
+we will study the type-I untwisted affine superalgebras Uq (sl(m|n)(1) ) and Uq (osp(2|2n)(1) ).
+    Lie superalgebras are by no means just straightforward generalizations of their bosonic coun-
+terparts. Rather they are much richer structures and have a more complicated representation
+theory [21, 22]. Two interesting effects occur when one defines the quantum deformations of
+the enveloping algebras of Lie superalgebras. One is that a fixed Lie superalgebra allows many
+inequivalent systems of simple roots and that these give rise to different Hopf algebras upon de-
+formation. They are related by twistings [26]. The other is that the simple raising and lowering
+generators of a Lie superalgebra obey more relations than just the usual Serre relations known
+from bosonic Lie algebras [34, 35, 24, 25, 36, 37]. We give the necessary extra Serre relations to
+properly define Uq (sl(m|n)(1) ) and Uq (osp(2|2n)(1) ) in section 2.
+    To every pair of finite-dimensional irreps of a quantum affine algebra there exists a spectral
+parameter dependent R-matrix. It can in principle be constructed by inserting the representation
+matrices into the general formula for the universal R-matrix. The universal R-matrices are known
+also for quantum affine superalgebras [25]. In practice however, this method is too difficult and
+therefore, in section 3, we present a practical method to obtain the R-matrices. Our method
+immediately gives the spectral decomposition of the R-matrices, i.e., it gives the R-matrices in
+the form
+                                                  X
+                                        R̆(x) =       ρν (x)Pν                                (1.1)
+                                                  ν
+
+where the Pν are elementary intertwining operators of the non-affine algebra and the ρν (x) are
+meromorphic functions of the spectral parameter x. In section 4 we determine these functions
+ρν (x) explicitly for a large number of examples.
+    Type-I superalgebras are particularly interesting because they possess one-parameter families
+of finite-dimensional irreps. The R-matrices for a pair of such representations will then also
+depend on these extra parameters. These parameters enter the Yang-Baxter equation in a
+
+
+
+                                                  1
+similar way as the spectral parameter, though in a non-additive form. An R-matrix of this form,
+depending on three “spectral” parameters, has been known: the R-matrix of the free fermion
+model [2]. This paper gives the quantum group theoretic interpretation for this R-matrix (in
+its trigonometric form): it is the R-matrix for the tensor product of two parameter-dependent
+2-dimensional irreps of Uq (sl(1|1)(1) ). This allows us to give the generalizations of this R-matrix
+for other type-I affine superalgebras in sections 4.2. We expect that these R-matrices will find
+interesting physical applications.
+        This paper is organized as follows: In section 2 we give the definition of the type-I untwisted
+quantum affine superalgebras Uq (sl(m|n)(1) ) and Uq (osp(2|2n)(1) ). In particular we identify ex-
+tra Serre relations needed to define them. In section 3 we give a general techique for deriving the
+spectral parameter dependent R-matrices from these quantum affine superalgebras. In section 4
+we apply this technique to derive a large number of new R-matrices and in particular the novel
+R-matrices depending on extra spectral-like parameters. Section 5 contains a discussion of our
+results. For the convenience of the reader, two appendices review some known material on the
+representation theory of superalgebras. Appendix A reviews Kac’s induced module construction
+and appendix B gives the results about the classification of finite-dimensional unitary irreps of
+type-I superalgebras.
+
+
+2        Definition of Quantum Affine Superalgebras and extra Serre
+         relations
+
+In this section we want to define a quantum affine superalgebra Uq (G (1) ) as the quantum de-
+formation, depending on a nonzero parameter q ∈ C, of the universal enveloping algebra of an
+untwisted simple affine superalgebra G (1) .
+        Let G be a simple superalgebra [21]. Throughout the paper we choose the distinguished‡
+set of simple roots αi , i = 1, · · · , r. Let ( , ) be a fixed invariant bilinear form on the root
+space of G. Let G (1) denote the untwisted affine superalgebra associated with G. It possesses
+an additional simple root α0 = δ − ψ, where δ is the minimal imaginary root of G (1) satisfying
+(δ, δ) = 0 = (δ, αi ), ∀i, and ψ denotes the highest root of G. The generalized Cartan matrix
+A = (aij )0≤i,j≤r is defined from the simple roots by
+                                             
+                                              2(αi ,αj ) ,       if (αi , αi ) 6= 0
+                                                 (αi ,αi )
+                                     aij =                                                                 (2.1)
+                                              (α , α ),          if (αi , αi ) = 0
+                                                   i    j
+
+
+        In order to be able to define the quantum deformation Uq (G (1) ) we present G (1) entirely in
+terms of its generators {ei , fi , hi , i = 0, 1, ..., r} corresponding to the simple roots. In analogy
+    ‡
+        As mentioned in the introduction, (affine) superalgebras allow many inequivalent systems of simple roots.
+See [21]. The relation between the different quantum superalgebras obtained by choosing different systems of
+simple roots is studied in [26].
+
+
+                                                              2
+to the procedure used for bosonic Lie algebras we define G (1) as the Lie superalgebra generated
+by the simple generators {ei , fi , hi , i = 0, 1, ..., r} § subject to the relations
+
+                       [hi , hj ] = 0,        [ei , fj ] = δij hj ,
+
+                       [hi , ej ] = (αi , αj ) ej ,          [hi , fj ] = −(αi , αj ) fj ,
+
+                       [ei , ei ] = [fi , fi ] = 0,       if (αi , αi ) = 0,                                          (2.2)
+
+                       (ad ei )1−aij ej = 0,            (ad fi )1−aij fj = 0,          if (αi , αi ) 6= 0, i 6= j.
+
+Here [ , ] denotes the Lie superbracket wich satisfies [a, b] = −(−1)[a][b] [b, a] where [a] ∈ Z2
+denotes the degree of the element a, and (ad a) b ≡ [a, b]. The last relations in eq. (2.2) are the
+usual Serre relations.
+       The universal enveloping algebra U (G (1) ) of G (1) is the unital Z2 -graded associative algebra
+generated by the same generators and the same relations eq. (2.2) where now however [ , ]
+denotes the (anti)commutator [a, b] = a b − (−1)[a][b] b a. The Lie superalgebra G (1) is naturally
+embedded in U (G (1) ).
+       While in the purely bosonic case G (1) = G (1) , this is not generally true for Lie superalgebras.
+Rather, the Lie superalgebra G (1) defined above generally contains a proper maximal Lie algebra
+ideal M and the affine superalgebra G (1) is obtained as the quotient G (1) /M [34, 35]. The extra
+relations among the simple generators which hold in G (1) are refered to as “extra Serre relations”.
+The universal enveloping algebra U (G (1) ) is obtained as the quotient U (G (1) ) = U (G (1) )/M̃ where
+M̃ is the two-sided ideal in U (G (1) ) generated by M .
+       We now introduce the quantum deformation Uq (G (1) ) of the universal enveloping algebra
+U (G (1) ) as the unital Z2 -graded associative algebra generated by {ei , fi , q ±hi , i = 0, 1, ..., r}
+subject to the relations
+
+                              ′           ′
+                      q h .q h = q h+h ,          h, h′ = ±hi , i = 0, 1, ..., r
+                                          a                               −aij
+                      q hi ej q −hi = qi ij ej , q hi fj q −hi = qi              fj
+                                         q hi − q −hi
+                      [ei , fj ] = δij
+                                          q − q −1
+                      e2i = fi2 = 0 ,      if (αi , αi ) = 0
+                                               
+                      1−aij
+                                      1 −  a ij
+                                                
+                                                      1−a −k
+                            (−1)k                   ei ij ej eki = 0,
+                       X
+                                                                                       (i 6= j),    (αi , αi ) 6= 0
+                       k=0               k      
+                                                 qi
+                                                     
+                      1−aij
+                                          1 − aij            1−aij −k
+                              (−1)k                                     fj fik = 0,
+                       X
+                                                             fi                         (i 6= j),   (αi , αi ) 6= 0   (2.3)
+                       k=0                    k       
+                                                        qi
+   §
+       Note that throughout this paper we define the affine algebras without the derivation d. It can be reintroduced
+at any stage without any complications.
+
+
+
+
+                                                                    3
+where                                                    −
+                                                 1 −  a
+                                             
+                                                        ij
+                                             
+                                             
+                               
+                                             
+                                             
+                                                          ,            if αi is even
+                                                    k
+                                             
+                    1 − aij                 
+                                             
+                                                           qi
+                                        =                                 +                               (2.4)
+                        k                   
+                                                         [αj ]   1 −  a ij
+                                    qi         (−)k(k−(−1) )/2 
+                                             
+                                             
+                                             
+                                                                            ,              if αi is odd
+                                                                     k
+                                             
+                                             
+                                             
+                                                                                        qi
+
+with
+                            ±
+                                                [m]± !
+                                        
+                        m                    [m−n]± ![n]± ! ,   m≥n≥0
+                                         
+                                  =                                              ,
+                        n                 0,       otherwise
+                              q
+                                                                                   q m ± q −m
+                    [m]± ! = [m]± [m − 1]± · · · [0]± ,                  [m]± =               ,   [0]± = 1   (2.5)
+                                                                                     q − q −1
+                                                
+                                                 q (αi ,αi )/2 ,       if (αi , αi ) 6= 0
+                                         qi =                                                                (2.6)
+                                                 q,                    if (αi , αi ) = 0
+Throughout this paper we will assume that q is generic, i.e. not a root of unity. In the limit
+q → 1 the above relations reproduce the relations eq. (2.2) and thus Uq (G (1) ) goes over to
+U (G (1) ).
+    The algebra Uq (G (1) ) is a Hopf algebra. The coproduct is given by
+
+                                                ∆(q ±h ) = q ±h ⊗ q ±h
+
+                                                ∆(ei ) = ei ⊗ q −hi /2 + q hi /2 ⊗ ei                        (2.7)
+
+                                                ∆(fi ) = fi ⊗ q −hi /2 + q hi /2 ⊗ fi
+
+We omit the formulas for the antipode and the counit.
+    Finally we are ready to define the quantum affine superalgebra Uq (G (1) ) as the quotient
+Uq (G (1) ) = Uq (G (1) )/M̃q , where M̃q is a proper two-sided Hopf algebra ideal in Uq (G (1) ) which,
+in the limit q → 1, goes over to the ideal M̃ in U (G (1) ). This ensures that Uq (G (1) ) is a Hopf
+algebra which goes over to the undeformed algebra U (G (1) ) in the limit of q → 1. The extra
+relations among the simple generators which arise from the division by the ideal M̃q are refered
+to as “extra q-Serre relations”. In the following we will identify the extra q-Serre relations for
+Uq (sl(m|n)(1) ) and Uq (osp(2|2n)(1) ).
+    All of the above definitions can also be taken over to the non-affine case with the only change
+that all indices run only from 1 to r, i.e., there are no e0 , f0 and h0 .
+
+
+2.1     Extra q-Serre relations for Uq (sl(m|n)(1) )
+
+Suitable extra q-Serre relations for the case G = sl(m|n) have been derived in [34, 35], see also
+note added to [24]. These can be straightforwardly extended to G (1) = sl(m|n)(1) .
+    For sl(m|n)(1) we take the set of simple roots,
+
+                                         α0 = δ − ǫ1 + δn ,
+
+                                                                    4
+                                  αi = ǫi − ǫi+1 ,               i = 1, 2, · · · , m − 1
+
+                                  αm = ǫm − δ1 ,
+
+                                  αm+j = δj − δj+1 ,                 j = 1, 2, · · · , n − 1        (2.8)
+
+with δ, {ǫi }m            n
+             i=1 and {δi }i=1 satisfying
+
+                                 (δ, δ) = (δ, ǫi ) = (δ, δi ) = 0,            (ǫi , ǫj ) = δij ,
+
+                                 (δi , δj ) = −δij ,        (ǫi , δj ) = 0                          (2.9)
+
+The associated Dynkin diagram is
+
+                                                       α
+                                                       N0
+                                  ✦ ❛❛
+                                  ✦
+                             ✦✦✦    1 ❛❛
+                            ✦            ❛❛
+                          ✦✦               ❛❛
+                       ✦                      ❛
+                   1✦✦✦ 1      1    1  1     1 ❛❛
+                                                ❛1
+                    ❥   ❥       ❥   N  ❥      ❥   ❥
+                   α1       α2          αm−1       αm            αm+1        αm+n−2 αm+n−1         (2.10)
+
+where the grey nodes
+                        N
+                            correspond to the fermionic simple roots.
+   In addition to the extra q-Serre relations given in [34, 35] for Uq (sl(m|n)),
+
+                 em em−1 em em+1 + em−1 em em+1 em + em em+1 em em−1 +
+
+                                      + em+1 em em−1 em − (q + q −1 )em em−1 em+1 em = 0 ,
+
+                 fm fm−1 fm fm+1 + fm−1 fm fm+1 fm + fm fm+1 fm fm−1 +
+
+                                      + fm+1 fm fm−1 fm − (q + q −1 )fm fm−1 fm+1 fm = 0 ,         (2.11)
+
+one has, for Uq (sl(m|n)(1) ), the following extra q-Serre relations involving e0 and f0
+
+                   e0 e1 e0 em+n−1 + e1 e0 em+n−1 e0 + e0 em+n−1 e0 e1 +
+
+                                         + em+n−1 e0 e1 e0 − (q + q −1 )e0 e1 em+n−1 e0 = 0 ,
+
+                   f0 f1 f0 fm+n−1 + f1 f0 fm+n−1 f0 + f0 fm+n−1 f0 f1 +
+
+                                         + fm+n−1 f0 f1 f0 − (q + q −1 )f0 f1 fm+n−1 f0 = 0 .      (2.12)
+
+
+Definition 1 We set Uq (sl(m|n)(1) ) to be the Hopf superalgebra generated by the defining rela-
+tions (2.3) of Uq (sl(m|n)(1) ) subject to the extra q-Serre relations (2.11) and (2.12).
+
+
+2.2   Extra q-Serre relations for Uq (osp(2|2n)(1) )
+
+The set of simple roots of osp(2|2n)(1) can be expressed as
+
+                                        α0 = δ − ǫ − δ1 ,
+
+                                        α1 = ǫ − δ1 ,
+
+                                        αi = δi−1 − δi ,             i = 2, 3, · · · , n
+
+                                        αn+1 = 2δn                                                 (2.13)
+
+                                                             5
+with δ, ǫ and {δi }ni=1 satisfying
+
+                                 (δ, δ) = (δ, ǫ) = (δ, δi ) = 0,         (ǫ, ǫ) = −1,
+
+                                 (δi , δj ) = δij ,     (ǫ, δi ) = 0 .                               (2.14)
+
+The Dynkin diagram for osp(2|2n)(1) is
+
+
+                             N1
+                          α0  ❛❛
+                                ❛ 2                             2        1
+                                 ❥                ···           ❥     ❥
+                             N✦✦✦ α2                           αn ❅
+                                                                  ❅ αn+1
+                          α1
+                                 1                                                                   (2.15)
+
+   From the Dynkin diagram we immediately see that Uq (osp(2|2n)) is a subalgebra of Uq (osp(2|2n)(1) ).
+Furthermore, there is no extra q-Serre relations for Uq (osp(2|2n)); namely, Uq (osp(2|2n)) ≡
+Uq (osp(2|2n)). However, for Uq (osp(2|2n)(1) ), we have found the following extra q-Serre rela-
+tions:
+
+           Xq ≡ e2 e1 e0 + e1 e0 e2 − e2 e0 e1 − e0 e1 e2 + (q + q −1 )(e0 e2 e1 − e1 e2 e0 ) = 0,
+
+           Yq ≡ f2 f1 f0 + f1 f0 f2 − f2 f0 f1 − f0 f1 f2 + (q + q −1 )(f0 f2 f1 − f1 f2 f0 ) = 0.   (2.16)
+
+Direct calculation shows that Xq , Yq generate a proper Hopf algebra ideal M̃q .
+
+Definition 2 We set Uq (osp(2|2n)(1) ) to be the Hopf superalgebra generated by the defining
+relations (2.3) of Uq (osp(2|2n)(1) ) subject to the extra q-Serre relations (2.16).
+
+   Note that the extra q-Serre relations (2.11), (2.12) and (2.16) have evident classical coun-
+terparts: in the q → 1 limit they reduce to the extra Serre relations which need to be imposed
+to properly define the corresponding classical affine superalgebras. These extra Serre relations
+have also been found by Yamane [37]
+
+
+2.3      The universal R-matrix
+
+The algebras Uq (sl(m|n)(1) ) and Uq (osp(2|2n)(1) ) are quasitriangular graded Hopf algebras,
+which means the following:
+   Let ∆′ be the opposite coproduct: ∆′ = T ∆, where T is the graded twist map: T (a ⊗ b) =
+(−1)[a][b] b ⊗ a , ∀a, b ∈ Uq (G (1) ). Then ∆ and ∆′ are related by the universal R-matrix R in
+Uq (G (1) ) ⊗ Uq (G (1) ) satisfying, among others, the relations
+
+                                R∆(a) = ∆′ (a)R ,             ∀a ∈ Uq (G (1) )                       (2.17)
+
+                                (I ⊗ ∆)R = R13 R12 ,            (∆ ⊗ I)R = R13 R23                   (2.18)
+
+
+
+
+                                                          6
+where if R =
+               P
+                   ai ⊗ bi then R12 =
+                                        P
+                                               ai ⊗ bi ⊗ 1 , R13 =
+                                                                     P
+                                                                          ai ⊗ 1 ⊗ bi etc. It follows from (2.18)
+that R satisfies the QYBE
+                                        R12 R13 R23 = R23 R13 R12 .                                       (2.19)
+
+The multiplication rule for the tensor product is defined for elements a, b, c, d ∈ Uq (G (1) ) by
+
+                                   (a ⊗ b)(c ⊗ d) = (−1)[b][c] (ac ⊗ bd)                                  (2.20)
+
+The existence of the universal R-matrix follows from Drinfeld’s double construction [13, 14]
+provided the algebra has a triangular decomposition. This triangular decomposition follows
+from Theorem 1 in [35].
+    For any x ∈ C× , we define an automorphism Dx of Uq (G (1) ) as
+
+                        Dx (ei ) = xδi0 ei ,      Dx (fi ) = x−δi0 fi ,     Dx (hi ) = hi .               (2.21)
+
+The parameter x is called the spectral parameter. One obtains a spectral parameter dependent
+universal R-matrix R(x) in Uq (G (1) ) ⊗ Uq (G (1) ) by setting
+
+                                            R(x) = (Dx ⊗ I)(R).                                           (2.22)
+
+It solves the spectral parameter dependent Yang-Baxter equation
+
+                            R12 (x)R13 (xy)R23 (y) = R23 (y)R13 (xy)R12 (x).                              (2.23)
+
+
+3    General Solution of Jimbo’s Equations for the R-matrices
+
+In this section we will present our general techique for determining the spectral parameter
+dependent R-matrices for quantum superalgebras. From now on, with an abuse of notation, we
+will set
+                                   e0 ≡ fψ ,        f0 ≡ eψ ,      h0 ≡ −hψ                                 (3.1)
+
+    Let πλ , πµ and πν be three irreps of a quantum superalgebra Uq (G), afforded by the irre-
+ducible modules V (λ), V (µ) and V (ν) with highest weights λ, µ and ν, respectively. Assume
+that all πλ , πµ and πν are affinizable, i.e. they can be extended to finite dimensional irreps of
+the corresponding quantum affine superalgebra Uq (G (1) ). Let
+
+                                        Rλµ (x) = (πλ ⊗ πµ )(R(x))                                          (3.2)
+
+where x ∈ C is the spectral parameter introduced in eq. (2.22). Then Rλµ (x) satisfies the system
+of linear equations [20] deduced from the intertwining property (2.17)
+
+                      Rλµ (x)∆λµ (a) = ∆′λµ (a)Rλµ (x) ,            ∀a ∈ Uq (G),
+                                                                                      
+                      Rλµ (x) xπλ (e0 ) ⊗ πµ (q −h0 /2 ) + πλ (q h0 /2 ) ⊗ πµ (e0 )
+                                                                                      
+                            = xπλ (e0 ) ⊗ πµ (q h0 /2 ) + πλ (q −h0 /2 ) ⊗ πµ (e0 ) Rλµ (x)                 (3.3)
+
+                                                         7
+and satisfies the QYBE in the tensor product module V (λ) ⊗ V (µ) ⊗ V (ν) of three irreps:
+
+                             λµ     λν      µν        µν     λν      λµ
+                            R12 (x)R13 (xy)R23 (y) = R23 (y)R13 (xy)R12 (x).                                                            (3.4)
+
+In the above, ∆λµ (a) ≡ (πλ ⊗ πµ )∆(a). The solution Rλµ (x) to the above equations intertwines
+the coproduct and opposite coproduct of Uq (G (1) ) in the representation (πλ ⊗ πµ )(ev x ⊗ ev1 )∆.
+Because this representation is irreducible for generic x, by Schur’s lemma the solution is uniquely
+determined up to a scalar factor. We fix this factor in such a way that
+
+                                                  R̆λµ (x)R̆µλ (x−1 ) = I,                                                              (3.5)
+
+which is usually called the unitarity condition in the literature. The multiplicative spectral
+parameter x can be transformed into an additive spectral parameter u by x = exp(u).
+   In all our equations we implicitly use the “graded” multiplication rule of eq. (2.20). Thus
+the R-matrix of a quantum superalgebra satisfies a “graded” Yang-Baxter equation which, when
+written as an ordinary matrix equation, contains extra signs:
+                        α′ β ′                 α′′ γ ′                    ′′ ′′                        ′       ′       ′
+                  Rλµ (x)            Rλν (xy)                (Rµν (y))ββ ′ γγ′ (−1)[α][β]+[γ][α ]+[γ ][β ]
+                            αβ                      α′ γ
+                                      ′ ′
+                                                            α′ γ ′′                α′′ β ′′                        ′       ′   ′
+                     = (Rµν (y))ββγγ            Rλν (xy)                  Rλµ (x)                 (−1)[β][γ]+[γ ][α]+[β ][α ] ,         (3.6)
+                                                               αγ ′                     α′ β ′
+
+where [α] denotes the degree of the basis vector vα . However after a redefinition
+                                                α′ β ′                 α′ β ′
+                                        R̃λµ                 = Rλµ                  (−1)[α][β]                                          (3.7)
+                                                   αβ                      αβ
+
+the signs disappear from the equation. Thus any solution of the “graded” Yang-Baxter equation
+arising from the R-matrix of a quantum superalgebra provides also a solution of the standard
+Yang-Baxter equation after the redefinition in eq. (3.7). The graded Yang-Baxter equation was
+studied already in [27].
+   Now introduce the graded permutation operator P λµ on the tensor product module V (λ) ⊗
+V (µ) such that
+
+                    P λµ (vα ⊗ vβ ) = (−1)[α][β] vβ ⊗ vα , ∀vα ∈ V (λ) , vβ ∈ V (µ)                                                     (3.8)
+
+and set
+                                                 R̆λµ (x) = P λµ Rλµ (x).                                                               (3.9)
+
+Then (3.3) can be rewritten as
+
+                      R̆λµ (x)∆λµ (a) = ∆µλ (a)R̆λµ (x) ,                           ∀a ∈ Uq (G),
+                                                                                                              
+                      R̆λµ (x) xπλ (e0 ) ⊗ πµ (q −h0 /2 ) + πλ (q h0 /2 ) ⊗ πµ (e0 )
+                                                                                                              
+                             = πµ (e0 ) ⊗ πλ (q −h0 /2 ) + xπµ (q h0 /2 ) ⊗ πλ (e0 ) R̆λµ (x)                                          (3.10)
+
+and in terms of R̆λµ (x) the QYBE becomes
+
+   (I ⊗ R̆λµ (x))(R̆λν (xy) ⊗ I)(I ⊗ R̆µν (y)) = (R̆µν (y) ⊗ I)(I ⊗ R̆λν (xy))(R̆λµ (x) ⊗ I)                                           (3.11)
+
+                                                                      8
+both sides of which act from V (λ)⊗V (µ)⊗V (ν) to V (ν)⊗V (µ)⊗V (λ). Note that this equation,
+if written in matrix form, does not have extra signs in the superalgebra case. This is because
+the definition of the graded permutation operator in eq. (3.8) includes the signs of eq. (3.7).
+   Consider three special cases: x = 0, x = ∞ and x = 1. For these special values of x, R̆λµ (x)
+satisfies the spectral-free QYBE,
+
+                  (I ⊗ R̆λµ )(R̆λν ⊗ I)(I ⊗ R̆µν ) = (R̆µν ⊗ I)(I ⊗ R̆λν )(R̆λµ ⊗ I).                  (3.12)
+
+Moreover, from (3.10), we have respectively, for x = 0,
+
+                        R̆λµ (0)∆λµ (a) = ∆µλ (a)R̆λµ (0) ,                    ∀a ∈ Uq (G),
+                                                                                                
+                        R̆λµ (0) πλ (q h0 /2 ) ⊗ πµ (e0 ) = πµ (e0 ) ⊗ πλ (q −h0 /2 ) R̆λµ (0)         (3.13)
+
+for x = ∞,
+
+                    R̆λµ (∞)∆λµ (a) = ∆µλ (a)R̆λµ (∞) ,                         ∀a ∈ Uq (G),
+                                                                                                
+                    R̆λµ (∞) πλ (e0 ) ⊗ πµ (q −h0 /2 ) = πµ (q h0 /2 ) ⊗ πλ (e0 ) R̆λµ (∞)             (3.14)
+
+and for x = 1,
+
+                         R̆λµ (1)∆λµ (a) = ∆µλ (a)R̆λµ (1) ,                   ∀a ∈ Uq (G),
+                                                                                              
+                         R̆λµ (1) πλ (e0 ) ⊗ πµ (q −h0 /2 ) + πλ (q h0 /2 ) ⊗ πµ (e0 )
+                                                                                              
+                               = πµ (e0 ) ⊗ πλ (q −h0 /2 ) + πµ (q h0 /2 ) ⊗ πλ (e0 ) R̆λµ (1).        (3.15)
+
+   Eqs.(3.13), (3.14) and (3.15) respectively admit a unique solution for any given two irreps of
+Uq (G). We consider only the case where the tensor product decomposition
+                                                                       M
+                                              V (λ) ⊗ V (µ) =                  V (ν),                  (3.16)
+                                                                           ν
+
+is multiplicity-free.
+   We first focus on the x = 1 case, i.e. (3.15). In this case we have, from (3.5),
+
+                                                  R̆λµ (1)R̆µλ (1) = I.                                (3.17)
+
+Let Pνλµ : V (λ) ⊗ V (µ) → V (ν) be the projection operators which satisfy
+
+                                        Pνλµ Pνλµ          λµ
+                                                                                   Pνλµ = I.
+                                                                               X
+                                                ′ = δνν ′ Pν  ,                                        (3.18)
+                                                                               ν
+
+Following [10], we define operators Pλµ
+                                     ν by
+
+
+                                         Pλµ   µλ  λµ       λµ    λµ
+                                          ν = Pν R̆ (1) = R̆ (1) Pν .                                  (3.19)
+
+Then, by definition
+                                                  R̆λµ (1) =               Pλµ
+                                                               X
+                                                                            ν .                        (3.20)
+                                                                   ν
+
+
+                                                           9
+It is easy to show that
+                                         λµ     µλ
+                                     Pλµ             λµ         λµ
+                                      ν Pν ′ = Pν ′ Pν = δνν ′ Pν ,                                  (3.21)
+
+and
+
+                                       λµ
+                                   Pµλ
+                                    ν Pν ′ = Pνλµ R̆µλ (1)R̆λµ (1)Pνλµ
+                                                                     ′
+
+
+                                                 = Pνλµ Pνλµ          λµ
+                                                           ′ = δνν ′ Pν                              (3.22)
+
+Eqs.(3.21, 3.22) imply that the operators Pλµ
+                                           ν are “projection” operators. As can be seen from
+
+(3.15), the “projectors” Pλµ
+                          ν are intertwiners of Uq (G). The general solution satisfying the first
+
+equation of (3.10) thus is a sum of these elementary intertwiners
+
+                                          R̆λµ (x) =           ρν (x) Pλµ
+                                                          X
+                                                                       ν                             (3.23)
+                                                          ν
+
+where ρν (x) are some functions of x. Our task is now to determine these functions so that (3.23)
+satisfies also the second equation of (3.10).
+   We begin by determining ρν (x) at the special value x = 0. At x = 0 the R-matrix R̆λµ (0)
+reduces to the R-matrix of the quantum superalgebra Uq (G) in V (λ) ⊗ V (µ): R̆λµ (0) ≡ R̆λµ .
+We recall the following fact about the universal R-matrix R̄ for Uq (G):
+
+                    R̄T R̄ = (v ⊗ v)∆(v −1 ) ,       v = uq −2hρ ,      πλ (v) = q −C(λ) · IV (λ)    (3.24)
+
+with u =
+           P         [i]
+               i (−1) S(b̄i )āi where R̄ =
+                                            P
+                                              i āi ⊗ b̄i . S is the antipode for Uq (G), C(λ) = (λ, λ + 2ρ)
+
+is the eigenvalue of the quadratic Casimir element of G in an irrep with highest weight λ; ρ is
+the graded half-sum of positive roots of G. We now compute R̆µλ R̆λµ . Using the above equations
+we have
+
+                               (ρν (0))2 Pνλµ = R̆µλ R̆λµ ≡ P µλ R̄µλ P λµ R̄λµ
+                          X
+
+                           ν
+                                                = (R̄T )λµ R̄λµ = (πλ ⊗ πµ )(R̄T R̄)
+
+                                                = πλ (v) ⊗ πµ (v)(πλ ⊗ πµ )∆(v −1 )
+
+                                                          q C(ν)−C(λ)−C(µ) Pνλµ
+                                                     X
+                                                =                                                    (3.25)
+                                                      ν
+
+where use has been made of R̆λµ ≡ P λµ R̄λµ ≡ P λµ (πλ ⊗ πµ )(R̄). It follows immediately that
+                                                              C(ν)−C(λ)−C(µ)
+                                         ρν (0) = ǫ(ν)q             2                                (3.26)
+
+where ǫ(ν) is the parity of V (ν) in V (λ) ⊗ V (µ): it arises as an eigenvalue of the unitary
+self-adjoint operator Rλµ (1) at q = 1 (see [10] for an explanation). Thus
+                                                              C(ν)−C(λ)−C(µ)
+                                   R̆λµ (0) =                                  Pλµ
+                                                X
+                                                     ǫ(ν)q          2
+                                                                                ν .                  (3.27)
+                                                 ν
+
+A similar relation for quantum bosonic algebras was obtained in [32, 15].
+
+
+                                                          10
+     The ρν (x) at the special value x = ∞ can be easily obtained from (3.27) with the help of
+the unitarity condition (3.5):
+                                                                      C(ν)−C(λ)−C(µ)
+                                R̆λµ (∞) =           ǫ(ν) q −                            Pλµ
+                                               X
+                                                                                          ν .                        (3.28)
+                                                                            2
+
+                                                ν
+
+Remark: both Pνλµ and Pλµ
+                       ν can be determined by using pure representation theory of Uq (G)
+
+as follows. Let {|eνα iλ⊗µ } be an orthonormal basis for V (ν) in V (λ) ⊗ V (µ). V (ν) is also em-
+bedded in V (µ) ⊗ V (λ) through the opposite coproduct ∆′ . Let {|eνα iµ⊗λ } be the corresponding
+orthonormal basis. Then for real generic q > 0, Pνλµ and Pλµ
+                                                          ν may be written as
+
+
+                                             Pνλµ =           |eνα iλ⊗µ λ⊗µ heνα | ,
+                                                      X
+
+                                                          α
+                                             Pλµ              |eνα iµ⊗λ λ⊗µ heνα | .
+                                                      X
+                                              ν =                                                                    (3.29)
+                                                          α
+
+which should extend to all complex q via analytic continuation arguments. For more details see
+[11].
+     Now we have sufficient relations to solve (3.10) generally. Inserting (3.23) into the second
+equation of (3.10), and using (3.13), (3.14), (3.15) and the spectral decomposition formulae
+(3.20) , (3.27) and (3.28), one ends up with [10]
+                                                      ′                                                     ′
+            n                                                                                                o
+              ρν (x) xq C(ν)/2 + ǫ(ν)ǫ(ν ′ )q C(ν )/2 − ρν ′ (x) q C(ν)/2 + ǫ(ν)ǫ(ν ′ )xq C(ν )/2
+                                                                 
+                     × Pνλµ πλ (e0 ) ⊗ πµ (q −h0 /2 ) Pνλµ
+                                                         ′ = 0,                         ∀ν 6= ν ′ .                  (3.30)
+
+If
+                                                                           
+                                    Pνλµ πλ (e0 ) ⊗ πµ (q −h0 /2 ) Pνλµ
+                                                                      ′ 6= 0                                         (3.31)
+
+then (3.30) gives rise to a relation between ρν (x) and ρν ′ (x),
+                                                                                    ′
+                                         q C(ν)/2 + ǫ(ν)ǫ(ν ′ )xq C(ν )/2
+                        ρν (x) = ρν ′ (x) C(ν)/2                            ,                 ∀ν 6= ν ′ .            (3.32)
+                                         xq        + ǫ(ν)ǫ(ν ′ )q C(ν ′ )/2
+It can be shown [10] that ǫ(ν)ǫ(ν ′ ) = −1 always if (3.31) is satisfied. With the help of notation
+                                                              1 − xq a
+                                                    hai ≡                                                            (3.33)
+                                                               x − qa
+(3.32) then becomes
+                                          C(ν ′ ) − C(ν)
+                                                                           
+                               ρν (x) =                  ρν ′ (x) .                        (3.34)
+                                                  2
+     We have a relation between the coefficients ρν and ρν ′ whenever the condition eq. (3.31) is
+satisfied, i.e., whenever πλ (e0 ) ⊗ πµ (q −h0 /2 ) maps from the module V (ν ′ ) to the module V (ν).
+As a graphical aid [38] we introduce the tensor product graph.
+
+Definition 3 The tensor product graph Gλµ associated to the tensor product V (λ)⊗ V (µ) is
+a graph whose vertices are the irreducible modules V (ν) appearing in the decomposition eq. (3.16)
+of V (λ) ⊗ V (µ). There is an edge between a vertex V (ν) and a vertex V (ν ′ ) iff
+                                                                           
+                                    Pνλµ πλ (e0 ) ⊗ πµ (q −h0 /2 ) Pνλµ
+                                                                      ′ 6= 0.                                        (3.35)
+
+
+                                                              11
+      If V (λ) and V (µ) are irreducible Uq (G)-modules then the tensor product graph is always
+connected, i.e., every node is linked to every other node by a path of edges. This follows from
+the fact that πλ (e0 )⊗πµ (q −h0 /2 ) is related to the lowest component of an adjoint tensor operator;
+for details see [38]. This implies that the relations eq. (3.34) are sufficient to determine all the
+coefficients ρν (x) uniquely. If the tensor product graph is multiply connected, i.e., if there exist
+more than two paths between two nodes, then the relations overdetermine the coefficients, i.e.,
+there are consistency conditions. However, because the existence of a solution to the Jimbo
+equations is guaranteed by the existence of the universal R-matrix, these consistency conditions
+will always be satisfied.
+      The straightforward but tedious and impractical way to determine the tensor product graph
+is to work out explicitly the left hand side of (3.35). It is much more practical to work instead
+with the following larger graph.
+
+Definition 4 The extended tensor product graph Γλµ associated to the tensor product
+V (λ) ⊗ V (µ) is a graph whose vertices are the irreducible modules V (ν) appearing in the de-
+composition eq. (3.16) of V (λ) ⊗ V (µ). There is an edge between two vertices V (ν) and V (ν ′ )
+iff
+                            V (ν ′ ) ⊂ Vadj ⊗ V (ν)    and   ǫ(ν)ǫ(ν ′ ) = −1.                  (3.36)
+
+It follows again from the fact that πλ (e0 ) ⊗ πµ (q −h0 /2 ) is related to the lowest component of an
+adjoint tensor operator that the condition in eq. (3.36) is a necessary condition for eq. (3.35)
+[38]. This means that every link contained in the tensor product graph is contained also in the
+extended tensor product graph but the latter may contain more links. Only if the extended
+tensor product graph is a tree do we know that it is equal to the tensor product graph. If we
+impose a relation (3.34) on the ρ’s for every link in the extended tensor product graph, we may
+be imposing too many relations and thus may not always find a solution. If however we do find
+a solution, then this is the unique correct solution which we would have obtained also from the
+tensor product graph.
+      The advantage of using the extended tensor product graph is that it can be constructed using
+only Lie algebra representation theory. We only need to be able to decompose tensor products
+and to determine the parity of submodules.
+
+
+4       New R-Matrices
+
+We will now apply the technique developed in the last section to a number of interesting exam-
+ples.
+
+
+
+
+                                                      12
+4.1      Examples of R-Matrices for Uq (sl(m|n)(1) )
+
+As already seen in section 2.1 we find it convenient to embedd the root space of sl(m|n) into
+the bigger space spanned by {ǫi }m        n
+                                 i=1 {δj }j=1 and equipped with the non-definite inner product
+                                              S
+
+
+                               (ǫi , ǫj ) = δij ,    (δi , δj ) = −δij ,            (ǫi , δj ) = 0,                            (4.1)
+                                                                                                        Pn
+The root space is the subspace with no component in the direction of                                         i=1 δi .   Any weight Λ
+may be written as
+                                                                           m
+                                                                           X                n
+                                                                                            X
+                            Λ ≡ (Λ1 , · · · , Λm |Λ̄1 , · · · , Λ̄n ) ≡           Λi ǫi +         Λ̄j δj .                     (4.2)
+                                                                           i=1              j=1
+
+The graded half sum ρ of the positive roots of sl(m|n) is
+                                  m
+                                  X                                 n
+                                                                    X
+                           2ρ =         (m − n − 2i + 1)ǫi +               (m + n − 2j + 1)δj .                                (4.3)
+                                  i=1                               j=1
+
+For convenience of notation we define the following elements
+                                                              b
+                                                              X
+                                                       λb =         ǫi .                                                       (4.4)
+                                                              i=1
+
+Because an evaluation homomorphism exists for Uq (sl(m|n)(1) ) [39]¶ , every irrep of Uq (sl(m|n))
+provides also an irrep for Uq (sl(m|n)(1) ). Thus to any tensor product of two irreps of Uq (sl(m|n))
+there corresponds a spectral parameter dependent R-matrix. Here, as examples, we will con-
+struct the R-matrices corresponding to the following tensor products: (i) rank a (≥ 1) symmetric
+tensor (which has the highest weight aλ1 ) with rank b (≥ 1) symmetric tensor of the same type;
+(ii) rank a antisymmetric tensor with rank b antisymmetric tensor of the same type. Without
+loss of generality, we assume m ≥ a ≥ b in the following. For more information on the irreducible
+representations see Appendix B
+      We start with case (i). We assume the symmetric tensors to be contravariant. The case
+of covariant symmetric tensors can be similarily treated. Such contravariant symmetric tensors
+are obviously atypical and type (1) unitary. In view of arguments in Appendix B we obtain the
+tensor product decomposition
+                                                                      M
+                                          V (aλ1 ) ⊗ V (bλ1 ) =                 V (Λc ),                                       (4.5)
+                                                                           c
+
+where
+                                  Λc = (a + b − c)ǫ1 + cǫ2 ,                   c = 0, 1, · · · , b.                            (4.6)
+
+      The corresponding tensor product graph is
+
+               V (aλ1 ) ⊗ V (bλ1 ) =          ⑦           ⑦           ···                ⑦             ⑦
+                                            Λ0          Λ1                            Λb−1            Λb                       (4.7)
+  ¶
+      In [39] the author constructs an evaluation homomorphism from Uq (sl(m|n)(1) ) to Uq (sl(m|n)). However, one
+can show that the evaluation map constructed in [39] also preserves the extra q-Serre relations (2.12) and thus
+also provides a homomorphism from Uq (sl(m|n)(1) ) to Uq (sl(m|n)).
+
+
+                                                             13
+The Casimir takes the following values on the representations appearing in the above graph
+
+                         C(Λc ) = (a + b − c)2 + c2 − 2c + (a + b)(m − n − 1).                             (4.8)
+
+Using this information and eq. (3.34) we can determine all the functions ρν (x) and we arrive at
+the spectral decomposition of the R-matrix
+                                                       b Y
+                                                         c
+                                                                                      aλ1 ,bλ1
+                          R̆aλ1 ,bλ1 (x) = ρΛ0 (x)
+                                                       X
+                                                                    ha + b − 2i + 2i PΛ c
+                                                                                                           (4.9)
+                                                       c=0 i=1
+                                                 Q0
+(our convention here and below is that                 i=1 (. . .) = 1.).     The a = b = 1 case had been worked
+out already in [3, 4]. The overall scalar factor ρΛ0 (x) is not determined by the Jimbo equations
+or by the Yang-Baxter equation but by the normalization condition eq. (3.5). We will from now
+on drop such overall scalar factors from the formulas for the R-matrices.
+   It should be emphasized that although the spectral decomposition (4.9) of the R-matrices
+obtained from Uq (sl(m|n)) formally look like those for the R-matrices obtained from Uq (sl(m +
+n)), they are actually completely different. For example the ranks of the elementary intertwiners
+ aλ1 ,bλ1
+PΛ c
+          in (4.9) differ from those in the case of Uq (sl(m + n)) and thus the R-matrices (4.9) have
+different multiplicities of eigenvalues from those for Uq (sl(m + n)). In particular, the R-matrices
+for the case of a = b = 1 are known to give rise to the Perk-Schultz model R-matrices [8, 30].
+As an example, let us compute the projectors for the a = b = 1 case of Uq (sl(2|1)) explicitly.
+We have,
+                               
+            PλΛ10λ1   = [2]−1
+                           q  [2]q (e11 + e55 ) + q(e22 + e33 + e66 ) + q −1 (e44 + e77 + e88 )
+
+                          +e24 + e37 + e42 + e68 + e73 + e86 )
+
+            PλΛ11λ1   = 1 − PλΛ10λ1                                                                       (4.10)
+
+and the R-matrix is
+                                   1 − xq 2         1 − q −2
+     R̆λ1 λ1 (x) = e11 + e55 +              e99 +            (e22 + e33 + e66 + x(e44 + e77 + e88 ))
+                                    x − q2         1 − xq −2
+                                  q −1 (1 − x)
+                                +              (e24 + e37 + e68 + e42 + e73 + e86 )                (4.11)
+                                   1 − xq −2
+where eij is the matrix satisfying (eij )kl = δik δjl . (4.11) is the Perk-Schultz 15-vertex model
+R-matrix.
+   For case (ii) we again assume the antisymmetric tensors to be contravariant. Such con-
+travariant antisymmetric tensors are atypical and type (1) unitary. Following the arguments of
+Appendix B, the tensor product decomposition can be worked out to be
+                                                                      M
+                                        V (λa ) ⊗ V (λb ) =                V (Λc )                        (4.12)
+                                                                       c
+
+where, when a + b ≤ m,
+                                          a+c
+                                          X            b−c
+                                                       X
+                                   Λc =         ǫi +         ǫi ,      c = 0, 1, · · · , b                (4.13)
+                                          i=1          i=1
+
+
+                                                             14
+and when a + b > m,
+                            a+c
+                            X             b−c
+                                          X
+                     Λc =         ǫi +           ǫi ,     c = 0, 1, · · · , m − a
+                            i=1           i=1
+                            Xm            b−c
+                                          X
+                     Λc =         ǫi +           ǫi + (a + c − m)δ1 ,            c = m − a + 1, · · · , b         (4.14)
+                            i=1           i=1
+
+The corresponding tensor product graph is
+
+                 V (λa ) ⊗ V (λb ) =               ⑦          ⑦            ···             ⑦     ⑦
+                                                                                                                  (4.15)
+                                                 Λ0         Λ1                       Λb−1       Λb
+The Casimirs are
+
+                C(Λc ) = 2c(b − a − 1) − 2c2 + (m − n + 1)(a + b) + 2b − a2 − b2                                  (4.16)
+
+and we obtain the following spectral decomposition of the R-matrix
+                                                        b Y
+                                                          c
+                                       λa ,λb                                   λa ,λb
+                                                        X
+                                  R̆            (x) =             h2i + a − bi PΛ c
+                                                                                                                  (4.17)
+                                                        c=0 i=1
+
+
+4.2    R-Matrices for Uq (sl(1|n)(1) ) with Extra Continuous Parameters
+
+It is well known [22] that type-I superalgebras admit nontrivial one-parameter families of finite-
+dimensional irreps which deform to provide one-parameter families of finite-dimensional irreps
+of the corresponding type-I quantum superalgebras [17].
+     For an indeterminate α ∈ R we will consider the one-parameter family of 2n -dimensional
+irreducible Uq (sl(1|n))-modules V (α) with highest weights of the form Λ(α) = (α|0, · · · , 0) ≡ αǫ.
+From the classification scheme given in Appendix B, V (α) is a unitary irreducible module
+provided that 0 < q ∈ R and α > n − 1 or α < 0. It follows that the tensor product module
+V (α) ⊗ V (β) is completely reducible for α, β > n − 1 or α, β < 0. The decomposition is given
+by
+                                                                     n
+                                                                     M
+                                            V (α) ⊗ V (β) =                V (Λc )                                (4.18)
+                                                                     c=0
+with
+                                                                                     c
+                                                                                     X
+                                  Λc = (α + β − c)ǫ + λc ,                   λc =          δi                     (4.19)
+                                                                                     i=1
+To see this, we observe that each highest weight occuring in the decomposition is of the form of
+αǫ + µ, where µ is an element of the weight spectrum of V (β). Moreover, to ensure that αǫ + µ
+                                                                                                     L
+is a dominant weight for sl(1|n), the weight µ must be dominant for u(1)                                 sl(n). From the
+induced module construction of Appendix A, we see that µ must be of the form µc = (β −c)ǫ+λc
+and it occurs with unit multiplicity. It is easily checked by dimensions that all highest weights
+Λc = αǫ + µc arise in the decomposition, leading to (4.18).
+     The tensor product graph in this case is simply
+
+                   V (α) ⊗ V (β) =                 ⑦          ⑦            ···             ⑦     ⑦
+                                                                                                                  (4.20)
+                                                 Λ0         Λ1                       Λn−1       Λn
+                                                              15
+Using the fact that Λc+1 = Λc − ǫ + δc+1 , we obtain the differences of the Casimirs
+
+                                       C(Λc ) − C(Λc+1 )
+                                                         = α + β − 2c.                                                   (4.21)
+                                               2
+
+For the R-matrix we find
+                                                  c
+                                                n Y
+                                   R̆αβ (x) =             hα + β − 2i + 2i Pαβ
+                                                X
+                                                                            Λc .                                         (4.22)
+                                                c=0 i=1
+
+This R-matrix is obtained for 0 < q ∈ R and α, β > n − 1 or α, β < 0 but should hold for other
+values of q, α, β via analytic continuation arguments.
+      It is worth emphasizing that R̆αβ (x) satisfies the QYBE
+
+ (I ⊗ R̆αβ (x))(R̆αγ (xy) ⊗ I)(I ⊗ R̆βγ (y)) = (R̆βγ (y) ⊗ I)(I ⊗ R̆αγ (xy) ⊗ I)(R̆αβ (x) ⊗ I) (4.23)
+
+acting on V (α) ⊗ V (β) ⊗ V (γ) and the parameters α, β and γ enter the QYBE in a non-additive
+form.
+      We should remark that although it appears that the eigenvalues of R̆αβ (x) depend only on
+α + β, the elementary intertwiners Pαβ                                                      k
+                                    Λc depend on both α and β. For example, for Uq (sl(1|1)) ,
+the Pαβ      αβ
+     Λ0 and PΛ1 in the above equation take the form
+                                                                                                                    
+                                   [α + β]q                   0                             0                    0
+                                                                                                                  
+                                       0        ([α]q [β]q )1/2 q (α+β)/2                  [α]q                  0 
+                                                                                                                  
+       Pαβ               −1 
+                            
+        Λ0    =   [α + β]q                                                                                        ,
+                                       0                     [β]q              ([α]q [β]q )1/2 q −(α+β)/2        0 
+                                                                                                                   
+                            
+                                                                                                                  
+                                       0                      0                             0                    0
+                                                                                                                    
+                                   0                0                                0                      0
+                                                                                                                    
+                         −1  0        ([α]q [β]q )1/2 q −(α+β)/2                 −[β]q                     0
+                                                                                                                    
+       Pαβ
+                                                                                                                    
+        Λ1    =   [α + β]q                                                                                           .(4.24)
+                             0                  −[α]q                   ([α]q [β]q )1/2 q (α+β)/2          0
+                                                                                                                     
+                                                                                                                     
+                                                                                                                    
+                                   0                0                                0               [α + β]q
+
+and the R-matrix in this case reads
+                                                                                                                          
+                  1                    0                                            0                                0
+                                                       −1
+                                                                                                                           
+                                                    q−q                          xq β −q α
+            0        −([α]q [β]q )1/2 q (α+β)/2 · x−q                                                               0
+                                                                                                                          
+                                                       α+β                       x−q α+β
+R̆αβ (x) = 
+                                                                                                                           
+                                                                                                                           
+                                                                                                     −1 )
+                                    xq α −q β
+            0                                                    −([α]q [β]q )1/2 q (α+β)/2 · x(q−q                 0
+                                                                                                                          
+                                    x−q α+β                                                     x−q α+β
+                                                                                                                           
+                                                                                                                          
+                                                                                                                1−xq α+β
+                  0                    0                                            0                            x−q α+β
+                                                                                                                         (4.25)
+More details can be found in [7]. It should be pointed out that (4.25) is the trigonometric limit,
+up to a similarity transformation (c.f. [5]), of the 8-vertex free fermion model R-matrix with
+extra non-additive parameters, obtained in [2].
+  k
+      sl(1|1) is not a simple algebra, but our method give nevertheless a valid R-matrix, as the example shows.
+
+
+
+
+                                                           16
+5    Discussion
+
+By extending the formalism of [10] for quantum bosonic algebras, a systematic method was
+developed for obtaining trigonometric solutions R̆(x) ∈ End(V (λ) ⊗ V (µ)) to the QYBE for
+the type-I quantum superalgebras Uq (G), where V (λ), V (µ) are irreducible Uq (G)-modules such
+that their tensor product is completely reducible and multiplicity-free. In this connection, it
+is worth noting that the type-I quantum superalgebras admit two distinct (large) classes of
+unitary irreps, classified in refs.[17, 28] and discussed in Appendix B, so that V (λ) ⊗ V (µ) is
+automatically completely reducible provided V (λ), V (µ) are both unitary of the same type.
+    Our approach, which is based on the tensor product graph method, enables the construction
+of a large number of new R-matrices. As explicit examples, we have considered the cases
+where V (λ), V (µ) correspond to the contravariant symmetric or anti-symmetric tensor irreps
+of Uq (sl(m|n)) in section 4.1. They give rise to generalizations of the Perk-Schultz model R-
+matrices.
+    As noted in the introduction, quantum superalgebras are not straightforward generalizations
+of quantum algebras but have a far richer structure and representation theory. In particular,
+the type-I quantum superalgebras have the intriguing property that they admit one-parameter
+families of irreps V (Λ(α)), Λ(α) ≡ Λ + α
+                                             P
+                                                 i ǫi , corresponding to each typical Λ ∈ D+ (c.f.
+
+Appendix A). For real α sufficiently large these irreps are all unitary, typical and have the same
+dimension. This enables the construction of new R-matrices R̆αβ (x) ∈ End[V (Λ(α)) ⊗ V (Λ(β))]
+depending on two extra parameters α, β.
+    It should be emphasized that these R-matrices do not satisfy the usual QYBE (except when
+α = β) but rather its natural extension, eq.(4.23), in which the parameters α, β enter in a
+way analogous to the spectral parameter x but in a non-additive form. Nevertheless, as will be
+shown elsewhere, solutions to this equation give rise to exactly solvable models and the entire
+apparatus of the QISM, including the (nested) algebraic Bethe ansatz, can be extended for the
+treatment of these models. In this way we obtain new three parameter exactly solvable models
+generalizing the (trigonometric) free fermion model [2]. The latter in fact arises from a certain
+one parameter family of two dimensional irreps of Uq (sl(1|1)), as we have shown in the paper.
+    Further new examples of such R-matrices arising from one-parameter families of irreps for
+Uq (sl(1|n)) (which includes the free fermion six vertex model when n = 1) were obtained in
+section 4.2 . In future work we aim to investigate the exactly solvable models arising from these
+trigonometric R-matrices (and their rational limits) and the physical significance of the two
+extra parameters, α, β.
+
+                                     Acknowledgements:
+
+We thank Anthony J. Bracken and Rui Bin Zhang for discussions. The financial support from
+the Australian Research Council is gratefully acknowledged.
+
+                                                 17
+A      Kac’s Induced Module Construction
+
+For self-containedness, in this appendix we will give a brief overview of the induced module
+construction for type-I superalgebras due to Kac [21, 22]. However, as is shown in [40, 41],
+the construction also applies in the quantum case for generic q, giving modules with the same
+dimension and weight spectrum as the q = 1 case.
+    Let G denote a Lie superalgebra with the distinguished Z gradation [21],
+                                                         M
+                                                  G=           Gi                                           (A.1)
+                                                         i∈Z
+
+satisfying [Gi , Gj ] = Gi+j . For type-I Lie superalgebras, (A.1) simplifies to G = G−1
+                                                                                                   L
+                                                                                                       G0
+                                                                                                            L
+                                                                                                                G1 .
+This immediately implies that for x, y ∈ G−1 , [x, y] = xy + yx = 0 =⇒ xy = −yx, and in
+particular, x2 = 0.
+    Let ∆+                                                             +
+         1 denote the positive odd roots of G. We have that {Fα | α ∈ ∆1 } form a basis
+
+for G−1 and {Eα | α ∈ ∆+
+                       1 } a basis for G1 . We refer to G0 as the “even subalgebra” of G.
+                                      L           L
+Specifically, we have G0 = u(1)           sl(m)       sl(n) ,       for G = sl(m|n) with m, n ≥ 2,          G0 =
+       L                                                            L
+u(1)       sl(n) , for G = sl(1|n), n ≥ 2 and G0 = u(1)                 sp(2n) , for G = osp(2|2n). From (A.1)
+we see that [G0 , G−1 ] = G−1 so that G−1 provides a representation of G0 . Let U (G−1 ) denote the
+universal enveloping algebra of G−1 . U (G−1 ) is finite dimensional and the P.B.W theorem takes
+a particularly simple form. We choose the following basis elements for U (G−1 )
+                                                                              
+                                 
+                                                                              
+                                                                               
+                                                      (Fα )tα ,
+                                               Y
+                                     Γ(t̂) =                         tα = 0, 1                              (A.2)
+                                                                              
+                                               α∈∆+
+                                                                              
+                                                  1
+
+
+which are unique up to a sign. These elements generate a finite dimensional module for G0 under
+the adjoint action.
+    Now let V0 (Λ) denote an irreducible G0 -module and set V (Λ) to be the tensor product module
+
+                                     V (Λ) = U (G−1 ) ⊗U (G0 ) V0 (Λ) .                                     (A.3)
+
+We refer to V (Λ) as the Kac module.
+    The G-module V (Λ) is not necessarily irreducible. If it is, we set V (Λ) = V (Λ) and refer to
+Λ and V (Λ) as “typical”. On the other hand, if V (Λ) contains a proper maximal submodule M
+(necessarily unique) we set V (Λ) = V (Λ) / M and refer to Λ and V (Λ) as “atypical”. There is
+a well known criterion for typicality of V (Λ) due to Kac [22], that is V (Λ) is typical G-module
+iff (Λ + ρ, α) 6= 0 , ∀α ∈ ∆+
+                            1.
+
+    Let us remark that for typical modules the dimensions are easily evaluated to be dimV (Λ) =
+2d · dimV0 (Λ), where d (which equals to mn for sl(m|n) and to 2n for osp(2|2n)) is the num-
+ber of odd positive roots. This formula is particularly useful in determining tensor product
+decompositions of typical modules.
+
+
+                                                        18
+    The induced module construction provides an insight into the existence of one-parameter
+families of irreps. Observe that for the type-I superalgebras, the even subalgebra G0 contains a
+u(1) subalgebra. Hence when we take the G0 -module V0 (Λ), the action of the u(1) subalgebra is
+simply scalar multiplication by an arbitrary α ∈ C. When we take the Kac module, we thereby
+obtain a one-parameter family of modules with the same dimension.
+
+
+B     Classification Theorems of Finite-Dimensional Irreps
+
+The type-I superalgebras admit two types of unitary representations which may be described as
+follows. We define a conjugation operation on G generators by e†i = fi ,         fi† = ei ,    h†i = hi
+which is extended uniquely to all of G such that (uv)† = v † u† ,         ∀u, v ∈ G. If πΛ denotes a
+representation of highest weight Λ then we call πΛ type (1) unitary if
+
+                                     πΛ (u† ) = πΛ (u) ,   ∀u ∈ G                                (B.1)
+
+and type (2) unitary if
+                                 πΛ (u† ) = (−1)[u] πΛ (u) ,   ∀u ∈ G                            (B.2)
+
+where the overline denotes Hermitian matrix conjugation. The two types of unitary representa-
+tions are in fact related via duality.
+    Such unitary representations have the property that they are always completely reducible
+and the tensor product of two representations of the same type reduce completely into unitary
+representations of the same type.
+    The finite dimensional irreducible unitary representations have been classified in [16]. Refer-
+ence [16] deals with the irreps of gl(m|n) rather than sl(m|n). There is however no substantial
+difference besides the fact that some irreps which are distinct as irreps of gl(m|n) are isomorphic
+as irreps of sl(m|n).
+
+Theorem 1 A given gl(m|n)-module V (Λ), with Λ ∈ D+ , is type (1) unitary iff: i) (Λ +
+ρ, ǫm − δn ) > 0; or ii) there exists an odd index µ ∈ {1, 2, · · · , n} such that (Λ + ρ, ǫm − δµ ) =
+0 = (Λ, δµ − δn ). In the former case the given condition also enforces typicality on V (Λ), while
+in the latter case all irreps are atypical.
+
+
+Theorem 2 A given gl(m|n)-module V (Λ), with Λ ∈ D+ , is type (2) unitary iff: i) (Λ + ρ, ǫ1 −
+δ1 ) < 0; or ii) there exists an even index k ∈ {1, 2, · · · , m} such that (Λ + ρ, ǫk − δ1 ) = 0 =
+(Λ, ǫ1 − ǫk ). In the former case V (Λ) is typical, while in the latter case it is atypical.
+
+    The so-called contravariant and covariant tensor irreps for gl(m|n) were studied using the
+Young super-diagram method in [12, 1]. From [16], we have
+
+
+
+                                                   19
+Proposition 1 The contravariant and covariant tensor irreps of gl(m|n) are unitary irreps of
+type (1) and type (2), respectively.
+
+   Except for the typical type (1) unitary irreps with c = (Λ + ρ, ǫm − δn ) > 0 being non-
+integral, the rest of the type (1) unitary irreps include the contravariant tensor irreps. Similarily
+the atypical type (2) unitary irreps and the typicals with c′ = (Λ + ρ, ǫ1 − δ1 ) being an integer,
+include the covariant tensor irreps of gl(m|n).
+   Consider a contravariant tensor irrep of gl(m|n) which is characterized by a partition of the
+Young super-diagram,
+                                  P = (p1 , p2 , · · · , pm , pm+1 , pm+2 , · · · , pN )              (B.3)
+
+where the box numbers pa ∈ Z+ , pa ≥ pa+1 , ∀a and pm+1 ≤ n is assumed. Associated with
+each partition P , there exists a unique highest weight
+
+                                    Λ = (Λ1 , Λ2 , · · · , Λm |Λ̄1 , Λ̄2 , · · · , Λ̄n )              (B.4)
+
+with
+                                            Λi = pi ,           i = 1, 2, · · · , m                   (B.5)
+
+and the Λ̄i ’s defined by
+                           n                pm+1            pm+2                     pN
+                           X                X               X                        X
+                                 Λ̄i δi =           δi1 +           δi2 + · · · +             δiN−m   (B.6)
+                           i=1              i1 =1           i2 =1                   iN−m =1
+
+When pm ≥ n, the irreducible gl(m|n)-module associated with the partition P is typical and
+type (1) unitary. If pm < n, it is atypical and type (1) unitary.
+   The reduction of tensor products in the non-graded case extendeds to the graded case [12,
+1]: the Kronecker products for the same type of irreps of gl(m|n) (i.e. contravariant with
+contravariant, or covariant with covariant, but not a mixture of them) are governed by the
+usual (Littlewood-Richardson) rule. However, there is a major difference: for gl(k) the Young
+tableaux can have at most k − 1 rows but for gl(m|n) the Young super-tableaux can have any
+number of rows. This is because for superalgebras “antisymmetrization” of basis states implies
+antisymmetrization of bosonic parts but symmetrization of fermionic parts and one can continue
+the “antisymmetrization” process up to infinity.
+   We should emphasize that when c (resp. c′ ) is non-integral, there exists non-trivial one-
+parameter family of typical type (1) (resp. type (2)) unitary irreps, which are not tensorial.
+Thus those irreps cannot be dealt with by the Young super-diagram techniques. In particular,
+for any one-parameter family of Kac modules of gl(m|n) with highest weights of the form Λ(α) ≡
+       Pm
+Λ+α      i=1 ǫi ,   πΛ(α) is both unitary and typical for |α| sufficiently large. We then know that
+V (Λ(α)) ⊗ V (Λ(β)) is completely reducible. This provides an initial step in calculating the
+tensor product decomposition in previous sections.
+
+
+
+                                                               20
+   As shown in [17, 28, 39, 40, 41, 29], all of the above considerations apply equally well to the
+type-I quantum superalgebra Uq (sl(m|n)). In particular, the classification theorems still hold
+provided that Λ is real and q > 0.
+
+
+
+References
+
+ [1] A.B. Balantekin, I. Bars, J. Math. Phys. 22 (1981) 1149.
+
+ [2] V.V. Bazhanov, Yu.G. Stroganov, Theor. Math. Phys. 62 (1985) 253.
+
+ [3] V.V. Bazhanov, A.G. Shadrikov, Theor. Math. Phys. 73 (1988) 1302.
+
+ [4] A.J. Bracken, M.D. Gould, R.B. Zhang, Mod. Phys. Lett. A5 (1990) 831.
+
+ [5] A.J. Bracken, G.W. Delius, M.D. Gould, Y.-Z. Zhang, Infinite families of gauge-equivalent
+    R-matrices and gradations of quantized affine algebras, hep-th/9310183, Int. J. Mod. Phys.
+    B (1994) (in press).
+
+ [6] A.J. Bracken, G.W. Delius, M.D. Gould, Y.-Z. Zhang, Solutions of the quantum Yang-
+    Baxter equation with extra non-additive parameters, hep-th/9405138, J. Phys. A: Math.
+    Gen. (in press).
+
+ [7] A.J. Bracken, G.W. Delius, M.D. Gould, Y.-Z. Zhang, Two explicit solutions of the Yang-
+    Baxter equation with extra continuous parameters, in preparation (1994) .
+
+ [8] H.J. de Vega, E. Lopes, Phys. Rev. Lett. 67 (1991) 489.
+
+ [9] G.W. Delius, Y.-Z. Zhang, Finite dimensional representations of quantum affine algebras,
+    BI-TP-94/11, UQMATH-94-01, hep-th/9403162, (1994) .
+
+[10] G.W. Delius, M.D. Gould, Y.-Z. Zhang, On the construction of trigonometric solutions of
+    the Yang-Baxter equation, hep-th/9405030, Nucl. Phys. B (in press) .
+
+[11] G.W. Delius, M.D. Gould, Y.-Z. Zhang, Representation of R-matrices and elementary in-
+    tertwiners, in preparation (1994) .
+
+[12] P.H. Dondi, P.D. Jarvis, J. Phys. A: Math. Gen 14 (1981) 547.
+
+[13] V.G. Drinfel’d, Sov. Math. Dokl. 32 (1985) 254.
+
+[14] V.G. Drinfel’d, Quantum Groups, Proc. Int. Congr. Math., Berkeley (1986) 798.
+
+[15] V.G. Drinfel’d, Leningrad Math. J. 1 (1990) 321.
+
+[16] M.D. Gould, R.B. Zhang, J. Math. Phys. 31 (1990) 2552.
+
+
+                                               21
+[17] M.D. Gould, M. Scheunert, Classification of finite dimensional unitary irreps for
+    Uq (gl(m|n)), University of Queensland preprint (1993) .
+
+[18] M. Jimbo, Lett. Math. Phys. 10 (1985) 63.
+
+[19] M. Jimbo, Lett. Math. Phys. 11 (1986) 247.
+
+[20] M. Jimbo, Commun. Math. Phys. 102 (1986) 537.
+
+[21] V.G. Kac, Adv. Math. 26 (1977) 8.
+
+[22] V.G. Kac, Lect. Notes in Math. 676 (1978) 597.
+
+[23] V.G. Kac, Infinite dimensional Lie algebras, Cambridge University Press (1990) .
+
+[24] S.M. Khoroshkin, V.N. Tolstoy, Commun. Math. Phys. 141 (1991) 599.
+
+[25] S.M. Khoroshkin, V.N. Tolstoy, Proc. of the Int. Workshop on Math. Phys. “Quantum
+    Symmetries” (July 1991), H.-D. Doebner and V.K. Dobrev, eds. (1993) 336.
+
+[26] S.M. Khoroshkin, V.N. Tolstoy, Twisting of quantum (super)algebras. Connection of Drin-
+    feld’s and Cartan-Weyl realization for quantum affine algebras, MPIM BONN, MPI/94-23
+    (1994) .
+
+[27] P.P. Kulish, E.K. Sklyanin, J. Sov. Math. 19 (1982) 1596.
+
+[28] J.R. Links, M.D. Gould, Classification of unitary and grade star irreps for Uq (osp(2|2n)),
+    J. Math. Phys. (1994) (in press).
+
+[29] J.R. Links, M. Scheunert, M.D. Gould, Diagonalization of the braid generator on unitary
+    irreps of quantum supergroups, Lett. Math. Phys. (1994) (in press).
+
+[30] P. Martin, V. Rittenberg, Int. J. Mod. Phys. A7 (1B) (1992) 707.
+
+[31] E. Ogievetsky, N. Reshetikhin, P. Wiegmann, Nucl. Phys. B280 (1987) 45.
+
+[32] N.Yu. Reshetikhin, Quantized universal enveloping algebras, the Yang-Baxter equation and
+    invariants of links, LOMI E-4-87, E-17-87 (1988) .
+
+[33] M. Scheunert, W. Nahm, V. Rittenberg, J. Math. Phys. 18 (1977) 146, 155.
+
+[34] M. Scheunert, Lett. Math. Phys. 24 (1992) 173.
+
+[35] M. Scheunert, J. Math. Phys. 34 (1993) 3780.
+
+[36] H. Yamane, Proc. Jpn. Acad. A67 (1991) 108.
+
+[37] H. Yamane, Publ. RIMS, Kyoto Univ. 30 (1994) 15.
+
+
+                                              22
+[38] R.B. Zhang, M.D. Gould, A.J. Bracken, Nucl. Phys. B354 (1991) 625.
+
+[39] R.B. Zhang, J. Math. Phys. 33 (1992) 1970.
+
+[40] R.B. Zhang, J. Phys. A: Math. Gen 26 (1993) 7041.
+
+[41] R.B. Zhang, J. Math. Phys. 34 (1993) 1236.
+
+
+
+
+                                            23
+

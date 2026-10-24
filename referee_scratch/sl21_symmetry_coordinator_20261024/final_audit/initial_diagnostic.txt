@@ -1,0 +1,1 @@
+Initial script stopped at overlap sum check because the SymPy summation return value was not the assumed Piecewise shape (TypeError). No mathematical check failed. Replaced shape-dependent indexing with the directly differentiated geometric series.

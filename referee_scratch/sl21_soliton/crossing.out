@@ -1,0 +1,12 @@
+PASS double dual is D^-1 V(q^2*z) D, D=diag(q^2,1,-1)
+PASS matrix braiding unitarity vv scalar= 1
+PASS matrix braiding unitarity bv scalar= 1
+PASS matrix braiding unitarity vb scalar= 1
+PASS matrix braiding unitarity bb scalar= 1
+PASS R_bv(x) = (t**4*x - 1)/(t**2*(x - 1)) * st1(R_vv(x)^-1)
+PASS second dual crossing scalar= t**2*(x - 1)/(t**4*x - 1)
+PASS st1(R_vb^-1) = (-t**4 + x)/(t**2*(x - 1)) * R_bb
+PASS st1(R_bb^-1), double-dual identified = t**2*(x - 1)/(t**4*x - 1) * R_vb(q^2*x)
+finite singlet basis= [[-t**4, 0, 0, 0, -1, 0, 0, 0, 1]]
+bv unpermuted eigenvalues= {t**2: 1, t**(-2): 1, (t**4*x - 1)/(t**2*x - t**2): 1, 1: 6}
+vb unpermuted eigenvalues= {t**2: 1, t**(-2): 1, (t**2*x - t**2)/(-t**4 + x): 1, 1: 6}

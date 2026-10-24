@@ -1,0 +1,29 @@
+PASS triple/double/simple potential poles give full distributional response
+PASS double-Yukawa contact plus potential equals derivative of C E
+FAIL even-root A Ward coefficient
+PASS source-pair action subtraction coefficient
+PASS tail insertion subtraction coefficient
+PASS physical current subtraction is recovered only after h=t
+DATA Ward circle epsilon=0.04 normalized_error=5.2696916e-06
+DATA Ward circle epsilon=0.02 normalized_error=1.3174321e-06
+DATA Ward circle epsilon=0.01 normalized_error=3.293586e-07
+PASS direct regulated Ward circle converges to N
+PASS Ward circle remainder has two additional powers
+DATA subtraction epsilon=0.08 action_error=0.11708781 tail_error=0.0013112162
+DATA subtraction epsilon=0.04 action_error=0.043303428 tail_error=0.00048516589
+DATA subtraction epsilon=0.02 action_error=0.016021241 tail_error=0.00017952108
+DATA subtraction epsilon=0.01 action_error=0.0059280361 tail_error=6.6426747e-05
+PASS action matched subtraction converges
+PASS action next descendant has power 2h+2
+PASS tail matched subtraction converges
+PASS tail next descendant has power 2h+2
+PASS even-root scalar kernel is a B-coordinate derivative
+PASS even-root tail derivative at A slot 0
+PASS even-root tail derivative at A slot 1
+PASS even-root tail derivative at A slot 2
+PASS combined even-root scalar primitive normalization
+PASS AA-type source area n=2
+PASS AA-type action and all tails n=2
+PASS AA-type source area n=3
+PASS AA-type action and all tails n=3
+RESULT 20 PASS, 1 FAIL

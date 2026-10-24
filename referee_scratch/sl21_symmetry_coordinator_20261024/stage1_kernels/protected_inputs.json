@@ -1,0 +1,11 @@
+{
+  "briefs/referee_sl21_mixed_regulator_report.md": "6dba57979454930e74e96993a3dccee9c0f8df52c60fb926df45f3e38e928df2",
+  "briefs/referee_sl21_current_renorm_report.md": "a19c3d948bde9c4e83f2d4f3f8d91a2b06aecc2ec849e599c1522b1b97c1e8f7",
+  "briefs/referee_sl21_symmetry_coordinator_plan_20261024.md": "5ea0ab642a0ccc4c2450259a7aa1872bb205e9fc2186886296ac1d6f64e33a3a",
+  "briefs/referee_sl21_coord_stage0_audit_report.md": "d4e8438c60597d6bc577d50218e06a428c397d71c67659d847aadee25f9b8258",
+  "referee_scratch/sl21_symmetry_coordinator_20261024/stage0_worker/faces.json": "f370de4b326dd07588c846a9af8931ab02e021bc48921f7b2d43d1e8412ddfbc",
+  "referee_scratch/sl21_symmetry_coordinator_20261024/stage0_worker/inputs.sha256.json": "78d52286f0787a2691f148c1cceec812aac69c9d7a291ddb92d5b08e345d2c2a",
+  "referee_scratch/sl21_symmetry_coordinator_20261024/stage0_worker/audit.out": "ec16edb2fdb720f53e70ac285669567daa0024d13aedfd2f5d9d4f28a6967ea2",
+  "referee_scratch/sl21_symmetry_coordinator_20261024/stage0_worker/audit.py": "23bfa5d492991ac1dda78cfd31150467e4d928e27b4c6d457d58bdee85da5d77",
+  "referee_scratch/sl21_symmetry_coordinator_20261024/stage0_worker/checkpoint.md": "e83fdabd4f0270a2d3e430785afbbb72682014216fee1062381095724bc8b06f"
+}

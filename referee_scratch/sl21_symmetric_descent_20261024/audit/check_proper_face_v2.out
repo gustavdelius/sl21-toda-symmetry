@@ -1,0 +1,23 @@
+PASS node0 full spectator derivative polynomial residual=0
+PASS node0 full Laurent H2 field coefficient residual=0
+PASS node0 full Laurent H2 majority coefficient residual=0
+PASS node0 full Laurent H2 minority coefficient residual=0
+PASS node0 full Laurent J coefficient residual=0
+PASS node0 minority pole identity residual=0
+PASS node0 mask first-jet bound epsilon integral[R^(omega-2)] retained
+PASS node2 full spectator derivative polynomial residual=0
+PASS node2 full Laurent H2 field coefficient residual=0
+PASS node2 full Laurent H2 majority coefficient residual=0
+PASS node2 full Laurent H2 minority coefficient residual=0
+PASS node2 full Laurent J coefficient residual=0
+PASS node2 minority pole identity residual=0
+PASS node2 mask first-jet bound epsilon integral[R^(omega-2)] retained
+PASS source fusion exact derivative-current jet 0 residual=0
+PASS source fusion exact derivative-current jet 1 residual=0
+PASS source fusion exact derivative-current jet 2 residual=0
+PASS source fusion exact derivative-current jet 3 residual=0
+PASS source fusion exact derivative-current jet 4 residual=0
+PASS source fusion exact derivative-current jet 5 residual=0
+PASS source fusion exact derivative-current jet 6 residual=0
+PASS all cutoff Leibniz powers residual=0
+TOTAL 22 PASS

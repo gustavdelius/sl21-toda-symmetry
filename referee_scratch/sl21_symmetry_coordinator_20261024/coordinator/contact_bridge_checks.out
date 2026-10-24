@@ -1,0 +1,11 @@
+PASS node2 scalar Laurent violation
+PASS node0 scalar Laurent violation
+PASS node2 complete antichiral first jet
+PASS node2 action including strip edge
+PASS both tails with all field jets
+PASS raw mixed contact including regulator
+PASS node0 complete leftover
+PASS insertionwise finite matching
+PASS canonical physical endpoint coefficient
+PASS off-diagonal convention difference
+INFO This checks separated-source coefficients, not continuation or a quantum domain.

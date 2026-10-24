@@ -1,0 +1,64 @@
+PASS free-current neutrality Y0
+PASS free-current neutrality Y2
+PASS free-current neutrality V1
+PASS free-current neutrality P
+PASS free-current neutrality JA
+PASS free-current neutrality JB exponential
+PASS free-current neutrality JB derivative
+PASS free-current neutrality K left
+PASS free-current neutrality K right
+PASS free-current neutrality L left
+PASS free-current neutrality L right
+PASS free-current neutrality U
+PASS free-current neutrality F
+PASS free-current neutrality FA
+PASS orthogonal coordinates and nondegeneracy exceptions
+PASS screening period lattice representative
+PASS even-root and composite period
+PASS dual momentum period
+PASS U period character s^N with appropriate sign
+PASS F period character s^N with appropriate sign
+PASS FA period character s^N with appropriate sign
+PASS U and F have equal character but distinct UV momenta
+PASS elementary period needs the chiral fermion flip
+PASS q=-1 anchored endpoint weights
+PASS q=-1 antichiral weights reverse
+PASS q=-1 J has unchanged disorder weight
+PASS q=-1 Y tail has unchanged disorder weight
+PASS q=-1 two-source tail has unchanged disorder weight
+PASS q=-1 even tail has unchanged disorder weight
+PASS q=-1 U left endpoint phase
+PASS q=-1 U right endpoint commutes
+PASS q=-1 F left endpoint phase
+PASS q=-1 F right endpoint commutes
+PASS q=-1 FA left endpoint phase
+PASS q=-1 FA right endpoint commutes
+PASS q=1 anchored endpoint weights
+PASS q=1 antichiral weights reverse
+PASS q=1 J has unchanged disorder weight
+PASS q=1 Y tail has unchanged disorder weight
+PASS q=1 two-source tail has unchanged disorder weight
+PASS q=1 even tail has unchanged disorder weight
+PASS q=1 U left endpoint phase
+PASS q=1 U right endpoint commutes
+PASS q=1 F left endpoint phase
+PASS q=1 F right endpoint commutes
+PASS q=1 FA left endpoint phase
+PASS q=1 FA right endpoint commutes
+PASS sector shift q=-1 topological weight
+PASS sector shift q=-1 left endpoint phase
+PASS sector shift q=-1 right endpoint fixed
+PASS sector shift q=1 topological weight
+PASS sector shift q=1 left endpoint phase
+PASS sector shift q=1 right endpoint fixed
+PASS right-fixed BB boundary difference
+PASS right-fixed AA boundary difference
+PASS K=nu^N weight q=-1
+PASS K=nu^N weight q=1
+PASS F and U free-UV dimensions
+PASS AA endpoint dimension
+PASS BB endpoint dimension
+PASS scalar BB subtraction dimension
+PASS derivative BB subtraction dimension
+PASS endpoint dimensions agree with twice candidate charge spins
+FAIL body potential derivative is a sinh with one real zero

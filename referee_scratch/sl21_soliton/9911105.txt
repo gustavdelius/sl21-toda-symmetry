@@ -1,0 +1,2754 @@
+                                             The Exact S -Matrix for an osp(2|2) Disordered System
+
+                                                                                  Zorawar S. Bassi∗
+                                                                                   André LeClair
+
+                                                                               Newman Laboratory
+arXiv:hep-th/9911105v2 11 Dec 1999
+
+
+
+
+                                                                                Cornell University
+                                                                             Ithaca, NY 14853, USA
+                                                                                   December 1999
+
+
+                                                                                       Abstract
+                                           We study a two-dimensional disordered system consisting of Dirac fermions coupled to a scalar po-
+                                        tential. This model is closely related to a more general disordered system that has been introduced in
+                                        conjunction with the integer quantum Hall transition. After disorder averaging, the interaction can be
+                                        written as a marginal osp(2|2) current-current perturbation. The osp(2|2) current-current model in turn
+                                        can be viewed as the fully renormalized version of an osp(2|2)(1) Toda-type system (at the marginal
+                                        point). We build non-local charges for the Toda system satisfying the Uq [osp(2|2)(1) ] quantum superal-
+                                        gebra. The corresponding quantum group symmetry is used to construct a Toda S -matrix for the vector
+                                        representation. We argue that in the marginal (or rational) limit, this S -matrix gives the exact (Yangian
+                                        symmetric) physical S -matrix for the fundamental “solitons” of the osp(2|2) current-current model.
+
+                                        CLNS 99/1646; hep-th/9911105
+
+
+
+
+                                     ∗ zorawar@mail.lns.cornell.edu
+1. Introduction
+Non-perturbative techniques have proven to be very useful in the investigation of interacting field theories.
+This is especially true in two-dimensions, where rich symmetry structures have allowed the calculation of
+fundamental quantities, such as exact S -matrices and correlation functions, for many important models.
+In recent times, this progress has been further advanced by a better understanding of the mathematical
+framework underlying the symmetry structures. Perhaps this is most apparent in the construction of exact S -
+matrices for integrable 2D systems. Here a knowledge of the symmetry algebra and its representation theory is
+essential to building a S -matrix satisfying the Yang-Baxter constraint [1–6]. Well known examples of models
+with exact S -matrices include the sine-Gordon/massive Thirring model [7–9], Gross-Neveu models [10–12],
+principal chiral and sigma-type models [13–16], various statistical systems, such as RSOS systems [17,18], and
+Toda theories based on Lie algebras [19–25]. A relatively new class of models that have been investigated are
+based on Lie superalgebras. Supersymmetric Toda models belong to this category and their exact S -matrices
+have been calculated [26, 27].
+    In this paper we use the S -matrix approach to study a model based on the Lie superalgebra osp(2|2),
+which is closely related to a disordered system introduced to describe the integer quantum Hall transi-
+tion [28]. As shown by Bernard [29], the model arises after disorder averaging over a random scalar potential
+and consists of a free fermionic and bosonic piece, combined with a marginal osp(2|2) current-current per-
+turbation. The bosonic part is the result of rewriting the fermion partition function as a path integral over
+complex bosonic variables. This pairs the fermions and bosons thus making the action “supersymmetric”.
+The model is integrable with factorized scattering and Yangian symmetry. By introducing an anisotropy,
+which allows us to flow between a relevant and marginal perturbation, we construct non-local charges for half
+the current-current operators. The remaining current-current operators are generated under renormalization
+at the marginal point. The non-local charges are shown to satisfy the Uq [osp(2|2)(1) ] quantum superalge-
+bra and to be conserved to lowest order in conformal perturbation theory. Requiring the theory to have
+Uq [osp(2|2)(1) ] quantum group symmetry, we calculate the S -matrix, or more appropriately the R-matrix,
+for the fundamental vector representation. The physical S -matrix is then obtained, up to CDD factors, by
+imposing the unitarity and crossing constraints. We propose that in the marginal limit this S -matrix is the
+exact S -matrix (in the fundamental representation) with Yangian symmetry for the osp(2|2) current-current
+model. The particle spectrum of the model and the corresponding S -matrix are massive. In particular, this
+means that all states are Anderson localized.
+    The quantum Hall disordered system discussed in [28] contains three types of randomness. Though the
+generic case, with all types of randomness present, is not believed to be integrable, it is certainly possible
+that on some submainifold in the three coupling parameter space the model can be exactly solved. Various
+such subspaces have already been investigated [28–30]. An interesting subset was recently studied in [31]
+(see also [32]), where supersymmetric disorder averaging led to a gl(N |N ) current-current type model for
+which exact correlation functions were computed. Our S -matrix analysis considers the situation where there
+is only one specific type of disorder, namely a random scalar potential.
+    We present our results as follows. In section 2 we write down the models and show how the full current
+algebra is generated under renormalization. The non-local charges are constructed in section 3. From
+the quantum group structure we build the S -matrix for the fundamental representation in section 4. The
+pole structure is briefly discussed in section 5. Lastly we conclude with a summary and comment on open
+questions for further study. An appendix reviews the osp(2|2) algebras.
+
+
+2. The osp(2|2) field theory models
+2a. The osp(2|2) current-current model
+    The model introduced by Ludwig et al. in connection with the integer quantum Hall transition consists
+of a Dirac fermion (ψ± , ψ ± ) coupled to, in the most general case, three types of randomness: a random
+vector potential A, a random mass m, and a random scalar potential V . The Euclidean action takes the
+
+
+
+
+                                                      2
+form (z = t + ix)
+     Z 2                                                                                                   
+        d x                                             m(x)                        V (x)
+ S=           ψ− (∂z − iAz )ψ+ + ψ − (∂z − iAz )ψ + + i      (ψ − ψ+ − ψ− ψ + ) + i       (ψ − ψ+ + ψ− ψ + ) . (2.1)
+         2π                                              2                            2
+The model we are interested in only contains a random scalar potential (A = m = 0), which is taken to have
+a gaussian distribution with mean zero and positive variance gV
+                                                      Z 2          
+                                                    1     d x
+                                   P [V ] = exp −             V (x)2 .                                (2.2)
+                                                   4gV    2π
+
+Using the supersymmetric method and averaging over V (x) leads to the effective action [29]
+                                                      Z 2
+                                                   gV     d x
+                                     Seff = Scft +            ΦV                                              (2.3)
+                                                    4     2π
+                                Z 2
+                                  d x                                         
+                         Scft =         ψ− ∂z ψ+ + ψ − ∂z ψ + + β∂z γ + β∂z γ                                 (2.4)
+                                   2π
+                                                                   2
+                                 ΦV = ψ − ψ+ + ψ− ψ + + βγ + γβ ,                                             (2.5)
+where (β, γ, β, γ) are complex bosonic ghosts of conformal dimensions
+                                   1             1               1            1
+                            [β] = ( , 0), [γ] = ( , 0), [β] = (0, ), [γ] = (0, ),                             (2.6)
+                                   2             2               2            2
+and satisfy the operator product expansions (OPE’s)
+                                                                          1
+                                        γ(z)β(w) ∼ −β(z)γ(w) ∼               .                                (2.7)
+                                                                         z−w
+The fermions satisfy the usual OPE’s
+                                                                            1
+                                     ψ+ (z)ψ− (w) ∼ ψ− (z)ψ+ (w) ∼             .                              (2.8)
+                                                                           z−w
+The action Scft is anti-hermitian and has a central charge of zero, c = 0, since cβ,γ = −1. One can view Seff
+as a perturbed (non-unitary) conformal field theory (CFT). Note that the perturbation is marginal (ΦV has
+dimension 2). We will see below that the perturbation is actually marginally relevant.
+    As in the random bond Ising model [29, 33–36], the following supersymmetric current algebra is a sym-
+metry of the conformal action Scft
+
+                                   G± (z) = β(z)ψ± (z),         b ± (z) = γ(z)ψ± (z)
+                                                                G
+
+                                       K(z) =: β 2 (z) :,       b
+                                                                K(z) =: γ 2 (z) :
+                                  J(z) =: ψ+ (z)ψ− (z) :,        H(z) =: γ(z)β(z) :                           (2.9)
+
+                                 G± (z) = ±β(z)ψ ± (z),         b ± (z) = ∓γ(z)ψ ± (z)
+                                                                G
+                                                  2
+                                    K(z) = − : β (z) :,         b
+                                                                K(z) = − : γ 2 (z) :
+                                 J(z) =: ψ + (z)ψ − (z) :,      H(z) =: γ(z)β(z) : .                         (2.10)
+(In this paper we use the term supersymmetry merely to mean a symmetry algebra/transformation based
+on some Lie superalgebra and not space-time supersymmetry in the usual sense.) Here : . . . : denotes normal
+ordering, namely : A(w)B(w) : is the coefficient of (z − w)0 in the OPE A(z)B(w). These currents form a
+level one representation of the affine osp(2|2)(1) current algebra. The rank two osp(2|2) Lie superalgebra has
+six roots, four odd or “fermionic” and two even or “bosonic”. The G’s, being fermionic, are associated with
+the fermionic roots and the K’s with the bosonic roots. The two simple roots, (α1 , α2 ) can be chosen to
+
+                                                            3
+be both fermionic or one fermionic and one bosonic. We will choose a purely fermionic simple root system.
+                                                                                             b
+With this choice the additional affine root, α0 = −(α1 + α2 ), is associated with K(z) (or K(z)).    (The
+osp(2|2) algebras are discussed in the appendix.) The non-trivial OPE’s for the currents are
+                                               1                             −1
+                              J(z)J(w) ∼            ,        H(z)H(w) ∼
+                                           (z − w)2                       (z − w)2
+                                        ±1                       b ± (w) ∼      ±1 b
+                       J(z)G± (w) ∼           G± (w),        J(z)G                   G± (w)
+                                      (z − w)                                (z − w)
+                                         1                       b ± (w) ∼       −1 b
+                      H(z)G± (w) ∼            G± (w),        H(z)G                    G± (w)
+                                      (z − w)                                 (z − w)
+                                                2                b              −2
+                              H(z)K(w) ∼             ,       H(z)K(w) ∼
+                                             (z − w)                         (z − w)
+                            b± (z)G∓ (w) ∼       1         1
+                            G                         +         (H(w) ± J(w))
+                                             (z − w)2   (z − w)
+                                  b                  2         4
+                                  K(z)K(w) ∼              +         H(w)
+                                                 (z − w)2   (z − w)
+                                          1                  b − (z)G
+                                                                    b+ (w) ∼      1    b
+                      G− (z)G+ (w) ∼           K(w),         G                         K(w)
+                                       (z − w)                                 (z − w)
+                          b ± (w) ∼      −2                  b                  2    b ± (w),
+                      K(z)G                   G± (w),        K(z)G± (w) ∼            G                 (2.11)
+                                      (z − w)                                (z − w)
+and similarly for the anti-holomorphic currents. We want to emphasize that even though some of the anti-
+holomorphic currents (2.10) differ from their holomorphic counterparts (2.9) by signs (e.g. K =: β 2 : but
+           2
+K = − : β :), their OPE’s are nevertheless the same, i.e., the usual OPE’s obtained from (2.11) by replacing
+all operators O(z) by O(z).
+    The field ΦV can now be written as
+                                                                                          
+                                      1    b    b            b    b           b      b
+               ΦV = −2 J J − HH + (K K + KK) + G− G+ − G− G+ + G+ G− − G+ G− ,                        (2.12)
+                                      2
+
+which is of the current-current form (see appendix). The interaction is thus a current-current perturbation
+that preserves the osp(2|2) symmetry of Scft . Furthermore, this implies that Seff has Yangian symmetry [29].
+Any S -matrix we construct must respect this Yangian symmetry.
+   The operator ΦV alone forms a closed algebra. Its OPE can be calculated using (2.7) and (2.8) (or (2.11)
+and its anti-holomorphic version), and is found to be
+                                                                 8
+                                 ΦV (z, z)ΦV (w, w) ∼ −               ΦV (w, w).                       (2.13)
+                                                             |z − w|2
+
+This leads to the beta function (to lowest order)
+                                                       dg
+                                             βg =           = g2,                                      (2.14)
+                                                    d log R
+where R is a length scale (see section 2b) and henceforth we drop the V subscript on gV , writing g ≡ gV .
+We see that the perturbation is marginally relevant: g (which is positive by definition) increases at large
+distances. The theory is asymptotically free in the UV. The model Seff is thus in a massive regime and the
+S -matrix we calculate will describe scattering of massive particles. The behaviour here is opposite to that
+of the random bond Ising/random mass model. The random mass model (A = V = 0) perturbing field ΦM ,
+with coupling gM , can also be written as a current-current perturbation [29]. This requires redefining four
+of the osp(2|2) currents as
+
+                                    b → −K,
+                            K → −K, K    b G− → −G− , G
+                                                      b + → −G
+                                                             b+ ,                                      (2.15)
+
+                                                         4
+with all other currents unchanged. The operator algebra is unchanged under this transformation. One finds
+that
+                                         ΦM (z, z) = −ΦV (z, z).                                   (2.16)
+Due to the minus sign, the beta function changes sign
+                                                         2
+                                                 βgM = −gM ,                                           (2.17)
+giving a marginally irrelevant perturbation that is asymptotically free in the infra-red. In this case one
+expects to flow to a massless regime. (For a non-perturbative analysis of the random bond Ising model,
+including a discussion of the S -matrix, see [35, 36].)
+2b. The osp(2|2)(1) Toda-type model
+    One can try to construct the Yangian charges for (2.3) and then use these to build the S -matrix. However
+we will follow an alternative approach along the lines of [37], which though being less direct, is easier to
+apply.
+    In [37] it is shown that the Yangian symmetry associated with a current-current perturbation of the WZW
+model (based on a simply laced Lie algebra) can be extracted (as a marginal limit) from a “smaller” model.
+This smaller model, which is simply a Toda system with imaginary coupling, contains only current-current
+operators corresponding to the affine simple roots. The reason for working with this smaller model is that
+one can construct an affine quantum group (q-deformed) structure, using the method of non-local charges,
+only for the Toda system. The full current-current perturbation is recovered through renormalization of
+the Toda model (see below). From the affine quantum group symmetry the S -matrix can be constructed.
+The marginal limit of the Toda S -matrix then leads to the Yangian symmetric S -matrix for the original
+current-current model.
+    We now apply the same reasoning to the osp(2|2) model. As in the Lie algebra case, quantum group
+charges cannot be constructed for the full model (2.3). A smaller model which does have quantum group
+symmetry, as we will show in the next section, consists of taking only half the terms in (2.12). Its action
+takes the form                                            Z 2
+                                                        g   d x
+                                            S̃ = Scft +         Φ̃V ,                                   (2.18)
+                                                        4   2π
+with Scft as in (2.4) and                                              
+                                                 1b         b         b
+                                     Φ̃V = −2 KK + G− G+ + G+ G− .                                      (2.19)
+                                                 2
+The current terms retained correspond to the affine simple roots of osp(2|2)(1) . We have also dropped the
+Cartan terms JJ and HH. Thus (2.18) is the supersymmetric analog of the Toda system used in [37] to
+study current-current perturbations of the WZW model. (In order to construct the quantum charges one
+needs to introduce an additional parameter β̂ in (2.19), which serves to make the perturbation relevant.
+The model (2.18) is then understood as the marginal limit β̂ → 1 of the deformed model. This will become
+clearer in the next section.)
+    Unlike the full model, S̃ is not renormalizable. The reason being that the operators in (2.19) do not form
+a closed algebra by themselves. More generally, consider a marginal perturbation of a CFT by some set of
+operators {Oi (z, z)}
+                                                    XZ
+                                         S = Scft +       d2 x gi Oi (z, z).                            (2.20)
+                                                    i
+
+For (2.20) to be renormalizable, the operator algebra for the set {Oi } must close onto itself. That is to say
+the OPE’s must be of the form
+                                                               1
+                                 Oi (z, z)Oj (w, w) ∼ Ckij          Ok (w, w),                          (2.21)
+                                                           |z − w|2
+for some structure constants Ckij , with any operators appearing in (2.21) already being present in the action
+(2.20). In this case Zamolodchikov [38] has shown that the beta functions to lowest order (1 loop) are
+                                                  dgi
+                                        βgi =           = −πCijk gj gk .                               (2.22)
+                                                d log R
+
+                                                        5
+Specializing to (2.18), the action can be written as
+                                                        3
+                                                        X            Z
+                                          S̃ = Scft +           gi        d2 x Oi ,                      (2.23)
+                                                        i=1
+
+where
+                                         b+ ,
+                                 O1 = G− G                 b− ,
+                                                   O2 = G+ G                           b
+                                                                                  O3 = KK,               (2.24)
+and we have allowed the couplings to be independent. Running the renormalization procedure, one finds
+that after the first iteration the following operators are generated
+
+                                       b+ G− ,
+                                  O4 = G                 b− G+ ,
+                                                    O5 = G                               b
+                                                                                  O6 = K K.              (2.25)
+
+These correspond to the negative simple roots. However, the operator algebra for {Oi }1≤i≤6 still does not
+close. A second run generates the Cartan operators
+
+                       O7 = (H + J)(H + J),         O8 = (H − J)(H − J),                  O9 = HH.       (2.26)
+
+The operator algebra for {Oi }1≤i≤9 closes, and the resulting action is
+                                                        Z            9
+                                                                     X
+                                          S̃ = Scft +       d2 x               gi O i .                  (2.27)
+                                                                         i=1
+
+The beta functions are found using (2.22) to be
+
+                     βg1 = 2πg1 (4g8 + g9 ) + 8πg5 g6 ,          βg2 = 2πg2 (4g7 + g9 ) + 8πg4 g6
+
+                                      βg3 = 8πg3 (g7 + g8 + g9 ) + 2πg4 g5
+                     βg4 = 2πg4 (4g8 + g9 ) + 8πg2 g3 ,          βg5 = 2πg5 (4g7 + g9 ) + 8πg1 g3
+                                      βg6 = 8πg6 (g7 + g8 + g9 ) + 2πg1 g2
+                                        βg7 = 2πg1 g4 ,          βg8 = 2πg2 g5
+                                                 βg9 = 32πg3 g6 .                                        (2.28)
+We can easily verify that a solution to (2.28) exists which gives the original model (2.3) and its beta function
+                                                                                      1
+(2.14). Since (2.3) contains only one coupling, we should try the ansatz gi = − 4π      αi g, where αi are some
+numerical constants. (We remark that the αi ’s do not spoil the quantum group symmetry and one can work
+with (2.23) using this ansatz instead of (2.18).) It is straight-forward to check that the set
+                                        1                     1           1
+                   {α1 = α2 = 1, α3 =     , α4 = α5 = −1, α6 = , α7 = α8 = , α9 = −2},                   (2.29)
+                                        2                     2           2
+reproduces (2.3) and reduces (2.28) to the single beta function (2.14) for g. Thus under renormalization
+(2.18) leads to the osp(2|2) current-current model. We will therefore construct the S -matrix for the Toda-type
+system (2.18) and argue that it gives the required S -matrix for (2.3) in the marginal limit.
+
+
+3. Quantum group symmetry in the osp(2|2) models
+3a. Non-local charges and conformal perturbation theory
+   Quantum group symmetry is realized by non-local charges [37, 39–41] constructed using conformal per-
+turbation theory. We outline the main points of the construction below. (For more details see [37].)
+   Suppose we have a CFT perturbed by a relevant spin-zero field
+
+                                        Φpert. (z, z) = φpert. (z)φpert. (z),                              (3.1)
+
+
+                                                            6
+with the Euclidean action                                  Z
+                                                                d2 x
+                                            S = Scft + g             Φpert.(z, z),                              (3.2)
+                                                                2π
+                           a
+and some currents {J a , J } which are chiral when g = 0
+                                                a                                a           a
+                                 ∂z J a = ∂z J = 0 =⇒ J a = J a (z), J = J (z).                                 (3.3)
+
+In the perturbed theory (3.2) these currents are no longer chiral, but to lowest order in g satisfy the following
+equations of motion [42]                             I 2
+                                                        d w
+                                   ∂z J a (z, z) = g        Φpert. (w, z)J a (z)
+                                                      z 2πi
+                                                     I 2
+                                       a                d w               a
+                                   ∂z J (z, z) = g          Φpert. (z, w)J (z).                              (3.4)
+                                                      z 2πi
+If the residues of the OPE’s on the righthand side are total derivatives
+                                                                                                 a   a
+                   Resz=w (φpert. (w)J a (z)) = ∂z ha (z),          Resz=w (φpert. (w)J (z)) = ∂z h (z),        (3.5)
+
+then (3.4) becomes
+                                                                          a                  a
+                               ∂z J a (z, z) = ∂z H a (z, z),       ∂z J (z, z) = ∂z H (z, z),                  (3.6)
+where
+                                                                      a              a
+                            H a (z, z) = gha (z)φpert. (z),         H (z, z) = gh (z)φpert. (z).                (3.7)
+The equations of motion (3.6) imply that to lowest order in g we have the conserved charges
+                                              Z           Z         
+                                      a     1           a          a
+                                    Q =            dz J + dz H
+                                          2πi
+                                              Z           Z        
+                                     a     1           a          a
+                                   Q =            dz J + dz H .                                                 (3.8)
+                                          2πi
+                                     a     a                                             a
+   The currents {J a , H a } and {J , H }, and hence the charges {Qa , Q }, are non-local. To see this consider
+the specific case where Scft is a sum of free bosons
+                                                  Z       X
+                                                1
+                                        Scft =       d2 x   ∂µ Φi ∂µ Φi .                                 (3.9)
+                                               8π         i
+
+In the limit g = 0, Φi can be expanded into its chiral components, Φi (z, z) = φi (z) + φi (z), with
+
+                      hφi (z)φj (w)i = −δij log(z − w),             hφi (z)φj (w)i = −δij log(z − w).          (3.10)
+
+If g 6= 0, Φi can again be written as Φi (x, t) = φi (x, t) + φi (x, t), but now φi (x, t) and φi (x, t) are no longer
+chiral. For arbitrary g, φi (x, t) and φi (x, t) can be written in the non-local way
+                                                         Z x               
+                                          1                                   g=0
+                              φi (x, t) =     Φi (x, t) +     dy∂t Φi (y, t) = φi (z)
+                                          2                −∞
+                                                         Z x               
+                                          1                                   g=0
+                              φi (x, t) =     Φi (x, t) −     dy∂t Φi (y, t) = φi (z).                          (3.11)
+                                          2                −∞
+
+Since the currents are in general functions of φi and φi , they are non-local due to (3.11). This non-locality
+leads to non-trivial braiding relations for the currents
+                                                    a                     b
+                                         J a (x, t)J (y, t) = Rbb
+                                                               aa
+                                                                  J (y, t)J b (x, t),                          (3.12)
+
+
+                                                                7
+        aa
+where Rbb  is a braiding matrix which will depend on the couplings and the parities of the currents, i.e.
+whether the currents are even (bosonic) or odd (fermionic). The corresponding result for the charges is
+                                                    a                b
+                                              Qa Q − Rbb
+                                                      aa
+                                                         Q Qb = T aa ,                                    (3.13)
+
+where T aa is a topological charge
+                                                    Z
+                                               g                                    a
+                                     T aa =                 (dz∂z + dz∂z )ha (z)h (z).                    (3.14)
+                                              2πi       t
+
+
+3b. Bosonization and the β̂ parameters
+    The above formalism is valid for a relevant perturbation. However, the perturbing field (2.19) is marginal.
+By making the currents depend on a parameter β̂, the perturbation can be made relevant, with the marginal
+limit being β̂ → 1. In order to introduce this additional parameter the action (2.18) has to be (partially)
+bosonized.
+    The fermions can be bosonized in the standard way
+
+                                     ψ± (z) = e±iφ1 (z) ,            ψ ± (z) = e∓iφ1 (z) .                (3.15)
+
+The bosonic ghosts can be written as [43, 44]
+
+                                     γ(z) = eφ2 (z) η(z),            γ(z) = e−φ2 (z) η(z)
+
+                                  β(z) = e−φ2 (z) ∂ξ(z),                             ¯
+                                                                      β(z) = eφ2 (z) ∂ξ(z).               (3.16)
+The chiral bosons {φi (z), φi (z)} satisfy (3.10), and {η(z), ξ(z)} and {η(z), ξ(z)} are fermionic ghost systems
+with conformal dimensions and OPE’s
+
+                              [η] = (1, 0), [ξ] = (0, 0), [η] = (0, 1), [ξ] = (0, 0)                      (3.17)
+                                                    1                                            1
+                     η(z)ξ(w) ∼ ξ(z)η(w) ∼               ,           η(z)ξ(w) ∼ ξ(z)η(w) ∼            .   (3.18)
+                                                 (z − w)                                      (z − w)
+The central charge for the ghost system, cη,ξ , is −2. The osp(2|2)(1) currents expressed in terms of the new
+fields become
+                                          J = i∂φ1 , J = −i∂φ  ¯
+                                                                  1
+
+                                         H = ∂φ2 , H = −∂φ  ¯
+                                                              2
+                                                                         
+                                           ~ ∂ξ, G± = ± exp −iα1,2 · ~φ ∂ξ
+                          G± = exp iα1,2 · φ                                  ¯
+                                                                         
+                           b± = exp −iα2,1 · φ
+                           G                   ~ η, G  b± = ∓ exp iα2,1 · ~φ η
+                                                                     
+                                      ~ : ∂ 2 ξ ∂ξ :, K = − exp iα0 · ~φ : ∂¯2 ξ ∂ξ
+                       K = exp −iα0 · φ                                          ¯ :
+                                                                     
+                                      ~ : ∂η η :, K
+                        b = exp iα0 · φ
+                        K                            b = − exp −iα0 · ~φ : ∂η
+                                                                            ¯ η :,                        (3.19)
+where
+                                 ~ = (φ1 , φ2 ), ~φ = (φ , φ ), Φ
+                                 φ                              ~ = (Φ1 , Φ2 ),                           (3.20)
+                                                        1   2
+
+and we have introduced the simple roots for osp(2|2)(1) (see appendix)
+
+                                  α1 = (1, i), α2 = (−1, i), α0 = (0, −2i).                               (3.21)
+
+                                         b we have made use of
+In deriving the expressions for H, K and K,
+
+                            e±φ2 (z) e∓φ2 (w) = (z − w)(1 ± ∂w φ2 (w)(z − w) + . . .)                     (3.22)
+
+                                                                 8
+                                                            1
+                                   e±φ2 (z) e±φ2 (w) =           e±2φ2 (w) + . . .                       (3.23)
+                                                         (z − w)
+                                  η(z)η(w) = (z − w)(: ∂w η(w)η(w) : + . . .)                            (3.24)
+                                                          2
+                              ∂z ξ(z)∂w ξ(w) = (z − w)(: ∂w ξ(w)∂w ξ(w) : + . . .)                       (3.25)
+                                     : η(w)η(w) : = : ∂w ξ(w)∂w ξ(w) : = 0,                              (3.26)
+and similarly for the anti-holomorphic parts. One can check that (3.19) satisfy the required OPE’s (2.11).
+    Now we can write the perturbed CFT which renormalizes to (2.3) at the marginal point. The required
+action takes the form
+                                                 S̃ d = Scft + Spert.
+                                                                   d
+                                                                                                          (3.27)
+                                      Z                                                
+                                    1            1               1            ¯ + ξ∂η
+                           Scft =        d2 x      (∂µ Φ1 )2 + (∂µ Φ2 )2 + η ∂ξ                           (3.28)
+                                   4π            2               2
+                           Z                                                                          
+                d        g                   ~ ¯                ~ ¯    1         ~   ¯ η : : ∂ 2 ξ ∂ξ : .
+              Spert. =−        d2 x e−iβ̂α1 ·Φ ∂ξη   − e−iβ̂α2 ·Φ ∂ξη − e−iβ̂α0 ·Φ : ∂η                   (3.29)
+                         4                                             2
+At the marginal point, β̂ = 1, S̃ d gives the bosonized version of S̃. The beta parameter is analogous to the
+β (or β̂) parameter in the sine-Gordon model [7, 37], and can be thought of as arising due to an anisotropy
+in the current-current perturbation. If we add to (2.18) the term
+                             Z                           Z
+                          1     2
+                                                      1                                
+                               d x ρ JJ − HH =              d2 x ρ(∂µ Φ1 )2 + ρ(∂µ Φ2 )2 ,              (3.30)
+                         8π                           8π
+                        √                                            √
+and rescale Φi → Φi / 1 + ρ, one arrives at (3.27) with β̂ = 1/ 1 + ρ. In view of this one can interpret
+S̃ d as a deformation of (2.18). Indeed we will show that the beta parameter is related to the quantum
+group deformation parameter. The Toda-type structure is clearly seen in the bosonized form (3.29). In
+comparison with the Lie algebraic Toda models, the main difference here is the inclusion of fermionic fields
+due to supersymmetry.
+                                                                d
+     For arbitrary positive values of β̂, the three terms in Spert. do not have the same dimensions. The first
+two terms are marginal for all values of β̂, whereas the remaining KK     b term is relevant for β̂ > 1. This
+                 d
+suggests that Spert. should be rewritten with two couplings, g1 and g2 , with one of them being dimensionless,
+which in turn seems to imply that conformal perturbation theory cannot be used to construct the non-local
+charges. However, these problems can be resolved by introducing a background charge Q coupled to the field
+Φ2 [44]. The conformal dimensions of exp(iαφ2 ) and exp(iαφ2 ) are then changed from α2 /2 to α(α − Q)/2.
+One finds that for a purely imaginary charge of
+
+                                                         4 β̂ 2 − 1
+                                                Q=i                 ,                                    (3.31)
+                                                         3 β̂
+
+all three terms take of the same conformal dimensions and giving
+                                                               2 2
+                                          ∆(g) = ∆(g) =          (β̂ − 1).                               (3.32)
+                                                               3
+Therefore the perturbation as it is written in (3.29), with one coupling g, is consistent and can be treated as
+being relevant for β̂ > 1. Since introducing Q does not change the OPE’s, the construction of the non-local
+charges is identical for both cases Q = 0 and Q 6= 0. We choose to work with Q = 0. All expressions
+that follow, in particular the quantum group symmetry equations, also hold for Q =     6 0. The only difference
+between Q = 0 and Q =    6 0 is that the spins of the charges are changed. This means that in going from
+Q = 0 to Q = 6 0, the gradation of the quantum affine algebra changes from the homogeneous to the principal
+gradation (see below). Thus by taking Q = 0 we are effectively working in the homogeneous gradation.
+3c. The quantum group charges
+                                                                        a   a                     a
+   In this section we construct the currents {J a , H a } and {J , H }, and the charges {Qa , Q }, satisfying
+the conservation laws (3.6) for the theory (3.27).
+
+                                                          9
+   Taking into account (i) the Toda-type structure of (3.29) and (ii) the forms of the known currents for
+non-supersymmetric Toda [37], one expects the J a ’s to be some combinations of the vertex operators with
+the fermions
+                              J a ∼ exp (ia1 φ1 + ia2 φ2 ) × {η, ∂ξ, ∂ηη, ∂ 2 ξξ},                 (3.33)
+                        a
+and similarly for the J ’s. We find the following currents
+                                                                   
+                                           1,2           i        ~
+                                         J = exp           α1,2 · φ ∂ξ
+                                                        β̂
+                                                              
+                                          0          i       ~
+                                       J = exp          α0 · φ : ∂η η :
+                                                     β̂
+                                                                    
+                                            1,2           i        ~
+                                         J = exp            α1,2 · φ η
+                                                         β̂
+                                                            
+                                                  i
+                                                     α0 · ~φ : ∂¯2 ξ ∂ξ : .
+                                       0
+                                      J = exp                                                             (3.34)
+                                                  β̂
+                                                                              !
+                                  1,2      (0)        β̂       ~            ~   ¯
+                               H                −i α1,2 · φ − iβ̂α1,2 · φ ∂ξ
+                                        = ρ1,2 gγ̂ exp
+                                                      γ̂
+                                                                          !
+                                 0      (0)        β̂                   ~    ¯ η:
+                                                            ~ − iβ̂α0 · φ : ∂η
+                               H = ρ0 gγ̂ exp −i α0 · φ
+                                                   γ̂
+                                                                              !
+                                  1,2      (0)         β̂      ~             ~ η
+                               H = ρ1,2 gγ̂ exp −i α1,2 · φ − iβ̂α1,2 · φ
+                                                       γ̂
+                                                                        !
+                               0      (0)       β̂        ~          ~ : ∂ 2 ξ ∂ξ :,
+                              H = ρ0 gγ̂ exp −i α0 · φ − iβ̂α0 · φ                                        (3.35)
+                                                γ̂
+where
+                                                   1       1
+                                                      ≡1−      ≥ 0.                                       (3.36)
+                                                   γ̂     β̂ 2
+The ρ(0) ’s are numerical constants that depend on (i) the coefficients of the terms in (3.29) and (ii) the roots
+                                                                          (k)
+αi ’s. In the following, similar numerical factors will be denoted as ρi . These factors are normalization
+factors and their exact values are not needed in establishing quantum group symmetry and calculation of
+                                            ~ t) and ~φ(x, t) are given by the non-local expressions (3.11).
+the S -matrix. A reminder that the fields φ(x,
+These currents obey the conservation laws
+                                                           i
+                                        ¯ i = ∂H i ,
+                                        ∂J                    ¯ i
+                                                         ∂J = ∂H    (i = 1, 2, 3).                        (3.37)
+
+The corresponding conserved (to lowest order) charges are
+                                              Z          Z       
+                                           1
+                                    Qi =          dz J i + dz H i                                        (3.38a)
+                                          2πi
+                                              Z          Z      
+                                     i     1          i        i
+                                   Q =            dz J + dz H .                                          (3.38b)
+                                          2πi
+The Lorentz spins s of the charges, defined as s = ∆ − ∆, are
+                                                            1,2 
+                                                s Q1,2 = s Q       =0
+                                                          0 2
+                                                s Q0 = −s Q = .                                           (3.39)
+                                                              γ̂
+
+                                                            10
+                                                                                                i
+Note that if we included the background charge Q (3.31), then all Qi (or Q ) would take on the same Lorentz
+spin of
+                                                i   12
+                                    s Qi = −s Q =          , i = 0, 1, 2.                            (3.40)
+                                                      3 γ̂
+The charges are also assigned parities di , di ∈ {0, 1}, determined by the number of fermionic fields (i.e. the
+                                               1,2
+η’s and ξ’s) they contain. Since Q1,2 and Q contain an odd number of fermions, they are referred to as
+                                                                                       0
+being odd or fermionic with d1,2 = d1,2 = 1. The even or bosonic charges Q0 and Q , consisting of an even
+number of fermions, have d0 = d0 = 0. All the currents have the same parities as the corresponding charges.
+In general, the parity of an operator O will be denoted d(O).
+    To obtain the algebra satisfied by the charges, we need the braiding relations for the currents. These can
+be found using
+
+               ~ t)) exp(ibαj · φ(y,                            ~ t)) exp(iaαi · φ(x,
+                                ~ t)) = e±iabπαi ·αj exp(ibαj · φ(y,             ~ t)), x < y                         >
+    exp(iaαi · φ(x,                                                                                                       (3.41a)
+
+    exp(iaαi · ~φ(x, t)) exp(ibαj · ~φ(y, t)) = e∓iabπαi ·αj exp(ibαj · ~φ(y, t)) exp(iaαi · ~φ(x, t)), x < y
+                                                                                                          >
+                                                                                                                          (3.41b)
+                ~ t)) exp(ibαj · ~φ(y, t)) = eiabπαi ·αj exp(ibαj · ~φ(y, t)) exp(iaαi · φ(x,
+     exp(iaαi · φ(x,                                                                     ~ t)), ∀x, y.                    (3.41c)
+To derive (3.41) one makes use of the non-local expressions (3.11) and the canonical commutation relations
+
+                                        [Φi (x, t), ∂t Φj (y, t)] = δij 4πiδ(x − y).                                       (3.42)
+
+From (3.41) one gets
+                                                                 i π α ·αj
+                            J i (x, t)J j (y, t) = (−1)di dj e β̂2 i           J j (y, t)J i (x, t), ∀x, y                (3.43a)
+                                                                 i π2 αi ·αj
+                           H i (x, t)H j (y, t) = (−1)di dj e β̂               H j (y, t)H i (x, t), ∀x, y.               (3.43b)
+Since (3.43b) involves applying (3.41a) and (3.41b), its validity for all x and y can be shown using a limiting
+procedure. The relations (3.43), combined with (3.13) and (3.14), imply that the charges satisfy
+                                                                            "              !#
+                                                                   2 Z
+                                    i π
+                                         α  ·α           (1)   gγ̂                 β̂    ~
+                 Qi Qj − (−1)di dj e β̂2  i   j
+                                                Qj Qi = ρi δij         dx ∂x exp −i αi · Φ    .          (3.44)
+                                                               2πi t               γ̂
+
+The right-hand side of (3.44) can be written in terms of standard topological charges. We take a “soliton”
+                         ~ = ∞) = 0, and define the topological charges T i
+configuration satisfying Φ(x
+                                              Z
+                                   i  β̂                    ~ = − β̂ αi · Φ(x
+                                                                          ~ = −∞).
+                                 T =            dx ∂x (αi · Φ)                                                             (3.45)
+                                     2π       t                  2π
+The topological charge of any fundamental soliton field is always an integer. Also the topological charges
+are not all independent. In particular T 0 = −(T 1 + T 2 ), which a statement of the fact that the center is
+zero. Equation (3.44) now takes the form
+
+                                                     −αi ·αj               (1)       gγ̂ 2          i
+                             Qi Qj − (−1)di dj q1              Qj Qi = ρi δij              (1 − q12T ),                    (3.46)
+                                                                                     2πi
+where
+                                          q1 = exp(−iπ/β̂ 2 ) = − exp(iπ/γ̂).                                              (3.47)
+An equivalent expression for (3.44) is
+
+                                       −αi ·αj                  (1)                             gγ̂ 2           i
+                  Qi Qj − (−1)dj di q2            Qj Qi = −ρi δij (−1)di di q2−αi ·αi                 (1 − q2−2T ),        (3.48)
+                                                                                                2πi
+where q2 is
+                                              1
+                                       q2 =      = exp(iπ/β̂ 2 ) = − exp(−iπ/γ̂).                                          (3.49)
+                                              q1
+
+                                                                11
+Since αi · αj is always an even integer, we can take qi → −qi without changing (3.46) or (3.48). The braiding
+relations of the topological charges with the Q’s, which are simply (undeformed) commutators, are found
+using
+                     i                           
+                                    ~ + iaαj · ~φ) = β̂(a − a)(αi · αj ) exp(iaαj · φ
+                     T , exp(iaαj · φ                                               ~ + iaαj · ~φ).    (3.50)
+Equation (3.50) is most easily obtained with the complex form for T i
+                                                        Z                          Z                
+                                               i  β̂                      ~−                       ~
+                                              T =              dz αi · ∂z φ             dz αi · ∂z φ .                            (3.51)
+                                                  2π
+
+We find the commutation relations
+                                                             [T i , Qj ] = αi · αj Qj                                            (3.52a)
+                                                         [T i , Qj ] = −αi · αj Qj                                               (3.52b)
+                                                                    i        j
+                                                                 [T , T ] = 0.                                                   (3.52c)
+The topological charges are even or bosonic operators, with parities d˜i ≡ d(T i ) = 0. Note that in the above
+braiding/commutation relations, the only purpose served by the η-ξ fermion fields is to produce the correct
+graded structure, namely the (−1)di dj factors. Unlike the bosons φi and φi , the fermions are treated as
+being local and hence their braiding relations are simply of the form: ψψ = −ψψ.
+    The equations (3.46)/(3.48) and (3.52) give the symmetry algebra of the theory (3.27) to lowest order in
+perturbation theory. In fact, this algebra is the q-deformation of the the untwisted affine Lie superalgebra
+osp(2|2)(1) , denoted Uq [osp(2|2)(1) ], with zero center. The only relations missing above are the Serre relations
+for Uq [osp(2|2)(1) ]. A review of the quantum algebra Uq [osp(2|2)(1) ], or quantum group as it is often called,
+is presented in the appendix. Let ei , fi , hi , i = 0, 1, 2, be the Chevalley generators of Uq [osp(2|2)(1) ]. Using
+the defining relations (A.9) and (A.10), one can show that the generators satisfy
+                                                                                       qq −aii /2          
+            ei q hi /2        fj q hj /2 − (−1)d(ei )d(fj ) q −aij fj q hj /2 ei q hi /2 = δij         2
+                                                                                                          1 − q 2hi ,             (3.53)
+                                                                                               (1 − q )
+
+where aij ≡ αi · αj is the generalized osp(2|2)(1) Cartan matrix. Comparing (3.53) with (3.46) or (3.48), and
+the commutation relations (A.9a),(A.9b) with (3.52), we can relate the non-local charges to the quantum
+group generators in two different ways. The first set of relations, which follow from considering (3.46) and
+taking q = q1 , are
+
+                Qi = ci ei q hi /2 (di = d(ei )),        Qi = ci fi q hi /2 (di = d(fi )),            T i = hi (d˜i = d(hi )),    (3.54)
+
+where the ci ’s satisfy
+                                                                        2
+                                                              (1) gγ̂
+                                                    c2i = ρi
+                                                   q −1 q aii /2 (1 − q 2 ).                                                      (3.55)
+                                               2πi
+The second set, obtained from (3.48) and setting q = q2 , gives
+
+         Qi = ci ei q hi /2 (di = d(ei )),           Qi = ci fi q hi /2 (di = d(fi )),           T i = −hi (d˜i = d(hi )),        (3.56)
+
+with
+                                                       (1)                  gγ̂ 2 −1 −aii /2
+                                              c2i = −ρi (−1)di di                q q         (1 − q 2 ).                          (3.57)
+                                                                            2πi
+(We have not yet shown (Q1,2 )2 = (Q1,2 )2 = 0, corresponding to the defining relation (A.9d). That this
+holds can be verified from the explicit expressions in the fundamental representation discussed below.) From
+now on we will work with the second set (3.56) and take the deformation parameter q to be
+
+                                                   q = exp(iπ/β̂ 2 ) = − exp(−iπ/γ̂).                                             (3.58)
+
+Equation (3.58) gives the relationship between the beta parameter β̂ and the quantum group deformation
+parameter q mentioned earlier. The marginal point (β̂ = 1) corresponds to q = −1.
+
+                                                                            12
+    Some important remarks regarding the relationship between the models (2.18) and (3.27) and the quan-
+tum group symmetry need to be made. For β̂ > 1, the model (3.27) has quantum group symmetry. At the
+marginal point (3.27) becomes (2.18) which, when fully renormalized, has Yangian symmetry rather than
+quantum group symmetry. This means that by carefully taking the marginal limit β̂ → 1 of the algebra
+(3.48), the Yangian symmetry algebra can be extracted. Or at the level of S -matrices, an S -matrix that
+is symmetric under (3.38) and (3.45) (or (3.56)) should in the marginal limit give the Yangian symmetric
+                                                          i
+S -matrix of (2.3). So we can consider the charges {Qi , Q , T i } as generating a symmetry of (3.27) for β̂ > 1,
+with the understanding that for the system (2.3) the limit β̂ → 1 needs to be taken. The symmetry structure
+here is similar to that of the affine sl(n) Toda√ model, and specifically to that of the sine-Gordon√model,
+                    (1)
+which has Uq (sl(2) ) symmetry for any β̂ < 2 and this reduces to a Yangian symmetry as β̂ → 2 [37].
+We have obtained this symmetry algebra as a lowest order result. Showing that the algebra is exact to all
+orders in perturbation theory amounts to giving a scaling argument that forbids any higher order terms
+in g on the right side of (3.44) [37, 42]. We do not discuss exactness here since the lowest order result is
+sufficient to obtain the S -matrix. This is because the constraints on S placed by (i) the lowest order quan-
+tum group/Yangian symmetry and (ii) the scattering constraints of Yang-Baxter, unitarity and crossing,
+are restrictive enough so that higher order contributions (if any) should only be of the CDD type. In this
+sense the S -matrix we calculate is a “minimal” S -matrix. Lastly, in the marginal limit it may seem that the
+charges (3.56) blow up since γ̂ → +∞. To resolve this one can regularize the limit by also taking g → 0
+such that limβ̂→1 (gγ̂) is finite. The sine-Gordon charges also need to be regularized in the marginal limit.
+Another model which displays this behavior is the multi-cosine model (see [45] and references therein).
+3d. The fundamental fields and the comultiplication
+    In this section we construct the quantum fields that create the particles in the fundamental vector
+representation. We also determine the comultiplication of the quantum charges, that is, the action of the
+charges on asymptotic multiparticle states. For completeness, we begin with a brief review of the fundamental
+vector representation (see [46–50] for further details).
+    The fundamental vector representation V of osp(2|2) (denoted (0, 1/2) in [46]) is four dimensional with a
+basis {|1i, |2i, |3i, |4i}. (We will use the same symbol for the representation and the associated vector space.)
+Since we are dealing with a Lie superalgebra, the vector space is Z2 -graded and the states can be assigned
+parities, d(i), in two different ways: (i) |1i and |4i are even, d(1) = d(4) = 0, and |2i and |3i are odd,
+d(2) = d(3) = 1; or (ii) |1i and |4i are odd, d(1) = d(4) = 1, and |2i and |3i are even, d(2) = d(3) = 0. We
+take a simple root system {α1 , α2 } that is purely fermionic. Then the Chevalley generators {eVi , fiV , hVi }i=1,2
+(satisfying (A.1)) in the representation V are given by
+                                                                               
+                           0 1 0 0                                  0 0 0 0
+                         0 0 0 0                               −1 0 0 0 
+                eV1 =                                    V    
+                         0 0 0 1  = E12 + E34 , f1 =  0 0 0 0  = −E21 + E43
+                                                                                  
+
+                           0 0 0 0                                  0 0 1 0
+                                                                     
+                     0     0   1 0                          0 0 0 0
+                    0     0   0 1                                    
+              e2 = 
+               V                    = E13 + E24 , f2V =  0 0 0 0  = −E31 + E42
+                    0     0   0 0                       −1 0 0 0 
+                     0     0   0 0                          0 1 0 0
+                                                 
+                                   −1 0 0 0
+                                  0 −1 0 0 
+                           h1 = 
+                             V
+                                  0
+                                                   = −E11 − E22 + E33 + E44
+                                        0 1 0 
+                                    0   0 0 1
+                                                 
+                                   −1 0 0 0
+                                  0 1 0 0 
+                           hV2 =                 
+                                  0 0 −1 0  = −E11 + E22 − E33 + E44 .                                     (3.59)
+                                    0 0 0 1
+
+
+
+                                                        13
+Here the Eij ’s are matrices with the only non-zero elements in the ith row and jth column, (Eij )kl = δik δjl .
+The states |ii can be labeled by the eigenvalues of the hVi ’s
+
+                          |1i = (−1, −1),     |2i = (−1, 1),      |3i = (1, −1),     |4i = (1, 1).                  (3.60)
+
+This representation can be affinized [51], meaning that we can define additional generators {eV0 , f0V , hV0 } in
+V such that {eVi , fiV , hVi }i=1,2 ∪{xeV0 , x−1 f0V , hV0 } satisfy the affine relations for osp(2|2)(1) on the loop space
+V ⊗ C[x, x−1 ] (with zero center). The even simple root of the affine extension is α0 = −(α1 + α2 ) and the
+even generators are
+                                 1                √                     1               √
+                          eV0 = √ {f1V , f2V } = − 2E41 ,         f0V = √ {eV1 , eV2 } = 2E14                     (3.61a)
+                                  2                                      2
+
+                                         hV0 = −(hV1 + hV2 ) = 2E11 − 2E44 ,                                      (3.61b)
+where {·, ·} denotes the anticommutator. With an abuse of notation, the affinized representation on the loop
+space V ⊗ C[x, x−1 ] will also be denoted by V .
+   Considering next the quantum algebras, the osp(2|2) fundamental vector representation V is undeformed
+as a representation of Uq [osp(2|2)]. The generators of Uq [osp(2|2)] satisfying the relations (A.9) have the
+same matrix representations as above. As in the classical case, V is also affinizable at the quantum level.
+However for the quantum affine algebra, the even non-Cartan generators are not given by (3.61a) but are
+deformed to                                  q                q
+                                     eV0q = − [2]q E41 , f0q
+                                                          V
+                                                             = [2]q E14 ,                              (3.62)
+where we have used the notation
+                                                             q x − q −x
+                                                    [x]q =              .                                           (3.63)
+                                                              q − q −1
+The set {eVi , fiV , hVi }i=1,2 ∪ {xeV0q , x−1 f0q
+                                                V
+                                                   , hV0 }, forms a representation of Uq [osp(2|2)(1) ] on the loop space
+V ⊗ C[x, x ]. In the limit q → ±1, we recover osp(2|2)(1) (or osp(2|2) from Uq [osp(2|2)]). Note that for
+           −1
+
+q → −1 we have
+                                        eV0q → ieV0 , f0q   V
+                                                              → if0V , [h0 ]q → −h0 ,                              (3.64)
+and the relation (A.9c) becomes
+                                                          q→−1
+                                      [eV0q , f0q
+                                               V
+                                                  ] = [h0 ]q −→ [ieV0 , if0V ] = −h0 ,                              (3.65)
+
+thus recovering the classical affine relation. Henceforth we drop the q subscript from (3.62) since it will be
+either clear from the context or explicitly stated whether we are dealing with the quantum or classical case.
+    The Uq [osp(2|2)] representation (3.59) is referred to as being “typical” and type 1 or 2 grade star. An
+irreducible representation V is said to be typical if any reducible representation W that contains V can
+always be written as the direct sum W = W̃ ⊕ V , for some other representation W̃ . A representation
+that is not typical is said to be “atypical”. An atypical representation will occur in the decomposition of
+V ⊗ V below. The label type 1 or type 2 grade star indicates how the representation matrices behave under
+hermitian conjugation [49]. A type 1 grade star representation has it generators satisfying
+                                                                  V
+                                            (eVi )αβ = (−1)d(fi )d(α) (fiV )βα
+                                                                  V
+                                            (fiV )αβ = (−1)d(ei )d(β) (eVi )βα
+                                                   (hVi )αβ = (hVi )βα ,                                            (3.66)
+where the overbar means complex conjugation and the subscripts α, β denote matrix elements. For a type 2
+grade star representation we have
+                                                      V
+                                    (eVi )αβ = (−1)d(fi )d(β) (fiV )βα
+                                                                  V
+                                            (fiV )αβ = (−1)d(ei )d(α) (eVi )βα
+
+
+                                                             14
+                                                (hVi )αβ = (hVi )βα .                                        (3.67)
+If the parities are chosen to be d(1) = d(4) = 0 and d(2) = d(3) = 0, then (3.59) is of type 2 grade star,
+whereas for the second choice d(1) = d(4) = 1 and d(2) = d(3) = 0, (3.59) becomes type 1 grade star.
+    We now want to construct the fields which will asymptotically create the states/particles for the funda-
+mental vector representation. The topological charges of these fields must agree with (3.60). Recall that the
+independent topological charges are (T 1 , T 2 ) = −(h1 , h2 ). Furthermore, under the action of the charges the
+fields must transform in a manner consistent with (3.59),(3.61b) and (3.62). This ensures that the states
+will form a representation of the algebra (A.9). Specifically the charges should take the form
+
+                                               Qi ∝ eVi ,            Qi ∝ fiV                               (3.68a)
+
+                                                    T i = −hi ,                                             (3.68b)
+when acting on the fields.
+   In general, the fields will consist of vertex operators multiplied by some functions {fi , f i } of the fermions
+                                                                           
+                                    i       ~                          i    ~        ¯
+                       Ψi = exp        ωi · φ fi (η, ∂ξ), Ψi = exp − ωi · φ f i (η, ∂ξ),                      (3.69)
+                                    β̂                                 β̂
+
+where the ωi ’s are the weights of the representation. Both sets {Ψi } and {Ψi } have the same topological
+charges. Any set of fields differing from (3.69) by some local operators, such as
+                                                                          ~
+                                                    χ = eiα·Φ ,                                              (3.70)
+
+will have the same topological charges. This means that (3.68) should be viewed as modulo any local
+fields. Thus knowing the topological charges, we can look for two sets of fields, which will generate all other
+“topologically equivalent” families. We find the following fundamental fields giving the correct charges
+                                                                       
+                                                          i      ~ t) η(z)
+                                     Ψ1 (x, t) = exp        ω1 · φ(x,
+                                                         β̂
+                                                                          
+                                                             i      ~ t)
+                                        Ψ2 (x, t) = exp        ω2 · φ(x,
+                                                            β̂
+                                                                          
+                                                             i      ~
+                                        Ψ3 (x, t) = exp        ω3 · φ(x, t)
+                                                            β̂
+                                                                     
+                                                      i        ~
+                                    Ψ4 (x, t) = exp      ω4 · φ(x, t) ∂z ξ(z),                           (3.71)
+                                                      β̂
+and                                                                             
+                                                                i
+                                       Ψ1 (x, t) = exp              ω1 · ~φ(x, t) η(z)
+                                                                β̂
+                                                                                      
+                                                                     i
+                                         Ψ2 (x, t) = exp                  ω2 · ~φ(x, t)
+                                                                     β̂
+                                                                                     
+                                                                     i         ~
+                                         Ψ3 (x, t) = exp                  ω3 · φ(x, t)
+                                                                     β̂
+                                                                           
+                                                           i         ~
+                                     Ψ4 (x, t) = exp            ω4 · φ(x, t) ∂z ξ(z).                        (3.72)
+                                                           β̂
+The weights for the fundamental representation are given by
+                                                          1
+                                          ω1 = (0, −i) = − (α1 + α2 )
+                                                          2
+                                                                     1
+                                            ω2 = (1, 0) =              (α1 − α2 )
+                                                                     2
+
+                                                            15
+                                                            1
+                                       ω3 = (−1, 0) = − (α1 − α2 )
+                                                            2
+                                                          1
+                                         ω4 = (0, i) = (α1 + α2 ).                                 (3.73)
+                                                          2
+The topological charges can be found using (3.50) and agree with (3.60). Therefore the fields (3.71) and
+(3.72) can be taken to produce the states |iii=1,...,4 asymptotically (t → ±∞)
+
+                                         |i, θi = Ψi |0i,           |i, θi = Ψi |0i,                       (3.74)
+
+where θ is the rapidity parameterizing the energy-momentum (m is the mass)
+
+                                         E = m cosh θ,              P = m sinh θ.                          (3.75)
+
+Since the theory (3.27) is in a massive phase, the states (3.74) are massive particle states with the dispersion
+relation E 2 = P 2 +m2 . One needs to check that the fields transform according to (3.68). That the topological
+charges are correct confirms (3.68b). Using the same procedure as in the previous section, we obtain for the
+non-local charges acting on the fields
+                                         (2)
+                                                 X                       X
+                             Qi (Ψj ) = ρi gγ̂ :    (eVi )kj Ψk χi : ≡ g   (eVi )kj Ψ̂ki
+                                                      k                            k
+
+                                         (2)
+                                                   X                              X             ˆ ,
+                             Qi (Ψj ) = ρi gγ̂ :          (fiV )kj Ψk χi : ≡ g         (fiV )kj Ψki        (3.76)
+                                                     k                            k
+
+where the χi ’s are local fields                                  !
+                                                          β̂    ~ ,
+                                               χi = exp −i αi · Φ                                          (3.77)
+                                                          γ̂
+
+and {eVi , fiV }i=0,1,2
+                    p are given by (3.59) and (3.61). From (3.76) we see that (3.68) holds. Note that the
+deformed factors [2]q are not obtained for the action of Q0 and Q0 . This is not problematic since overall
+                                                       ˆ } without changing their particle creation properties.
+factors can be adjusted by redefining the fields {Ψ̂ , Ψ  ki   ki
+Lastly, all the fields have a non-trivial Lorentz spin. The equations (3.76) should have a consistent spin
+structure, namely if (eVi )kj or (fiV )kj is non-zero, then the spins must satisfy
+
+                              s(Qi ) + s(Ψj ) = s(Ψ̂ki ),                               ˆ ).
+                                                                    s(Qi ) + s(Ψj ) = s(Ψ                  (3.78)
+                                                                                          ki
+
+These relations are easily verified. The Lorentz spins of the charges (3.39) are encoded by the on-shell
+operators esθ . Taking into account all the above results, the charges acting in the fundamental representation,
+with states generated asymptotically by the fields (3.71) and (3.72), are given by
+                                                         (2)   2             V
+                                               Qi = ρi eαi θ/2γ̂ eVi q hi /2
+                                                     (2)       2              V
+                                           Qi = ρi e−αi θ/2γ̂ fiV q hi /2
+                                                         T i = −hVi ,                                      (3.79)
+where {eVi , fiV , hVi }i=0,1,2 are the Uq [osp(2|2)(1) ] matrices (3.59), (3.61b) and (3.62). The Lorentz factors
+exp(±α2i θ/2γ̂) play the role of the spectral parameter x±1 . Since α21 = α22 = 0, the above representation
+corresponds to the homogeneous gradation (not to be confused with the even/odd parity gradation). For
+                                                                          i
+a non-zero background charge Q (3.31), the θ dependence for Q (Qi ), i = 0, 1, 2, becomes exp(−2θ/3γ̂)
+(exp(+2θ/3γ̂)). This corresponds to the principal gradation. The two gradations are related by an inner
+automorphism. Given an element a(θ) ∈ Uq [osp(2|2)(1) ] in the homogeneous gradation, denoted ahomo. (θ),
+the associated element in the principal gradation, aprinc.(θ), can be obtained from the transformation
+
+                                           aprinc.(θ) = σahomo. (θ)σ −1 ,                                  (3.80)
+
+
+                                                               16
+where σ = exp(−hV0 θ/3γ̂).
+    The action of the charges on multi-particle states is given by the comultiplication. A non-trivial comulti-
+plication arises due to the non-locality of the charges and fundamental fields. As in (3.43), the non-locality
+leads to non-trivial braiding between the currents and the fields. We find the braiding relations
+                                                                     i
+                             J i (x, t)Ψj (y, t) = (−1)di d(j) q −T (Ψj ) Ψj (y, t)J i (x, t)
+                                                                     i
+                             J i (x, t)Ψj (y, t) = (−1)di d(j) q −T (Ψj ) Ψj (y, t)J i (x, t)
+                                                                     i
+                            H i (x, t)Ψj (y, t) = (−1)di d(j) q −T (Ψj ) Ψj (y, t)H i (x, t)
+                                                                     i
+                            H i (x, t)Ψj (y, t) = (−1)di d(j) q −T (Ψj ) Ψj (y, t)H i (x, t).            (3.81)
+Here d(i) gives the parity of the fields Ψi and Ψi , and hence of the state |ii: d(i) = d(Ψi ) = d(Ψi ). (Since
+Ψ1,4 (or Ψ1,4 ) contain a single fermion, we could assign the parities d(1) = d(4) = 1 and d(2) = d(3) = 0.
+However we will not make any specific choice and treat both cases (i) and (ii) above consecutively.) It follows
+from (3.81) that the comultiplication is
+
+                                           ∆(Qi ) = Qi ⊗ 1 + q hi ⊗ Qi
+
+                                            ∆(Qi ) = Qi ⊗ 1 + q hi ⊗ Qi
+                                             ∆(hi ) = hi ⊗ 1 + 1 ⊗ hi .                                  (3.82)
+                                                                                i
+The expression for ∆(hi ) is a consequence of the topological charge T being additive. The comultiplication
+should be understood as being implicitly graded, via the product definition
+
+                                    (A ⊗ B)(a ⊗ b) = (−1)d(B)d(a) Aa ⊗ Bb,                               (3.83)
+
+for charges A, B and states/fields a, b. This definition will be taken to hold for all quantities with definite
+parities and where the products/actions Aa and Ba makes sense. Since the comultiplication preserves the
+algebra, it provides a representation of (3.56) on multi-particle states. By defining a counit and an antipode,
+the quantum algebra Uq [osp(2|2)(1) ] can be given the structure of a Hopf algebra [52–54]. We will only need
+the antipode (see section 4d), along with the comultiplication, to derive the S -matrix and hence avoid any
+further discussion of this additional algebraic structure.
+
+
+4. The S -matrix
+4a. Defining the S -matrix
+    Given a theory with quantum affine symmetry Uq (ĝ) [55], the one-particle states can be arranged into sets,
+or multiplets, transforming according to the irreducible representations of Uq (ĝ). Each typical representation
+can be uniquely labeled by the eigenvalues of the various Casimir operators in the theory. Specifically, all
+particles in a given multiplet have the same mass. Quantum group (or Yangian) symmetry ensures that
+there exists an infinite set of conserved higher-spin charges in involution, implying quantum integrability
+of the system. Any scattering process is strongly constrained by these conservation laws. A general multi-
+particle scattering event factorizes into a series of two-particle processes, with the set of incoming momenta
+and masses being equal to the set of outgoing momenta and masses. This means that the rapidities cannot
+change and that only particles belonging to the same representation can transform into one another.
+    Consider two multiplets, {|iiα }i=1,...,m and {|jiβ }j=1,...,n , forming a basis for two representations of
+Uq (ĝ), Vα and Vβ respectively. An asymptotic incoming two-particle state, with rapidities θ1 and θ2 , can be
+represented as
+                                                |i, θ1 iα ⊗ |j, θ2 iβ ,                                    (4.1)
+where we take θ1 > θ2 and the notation implies a spacial ordering, i.e., the particles appear in space arranged
+from left to right with decreasing rapidities. The state (4.1) will scatter into some asymptotic outgoing state
+which, due to the above restrictions, will be of the form
+
+                                                  |k, θ2 iβ ⊗ |l, θ1 iα .                                  (4.2)
+
+                                                           17
+The outgoing states will necessarily be spacially arranged from left to right with increasing rapidities. The
+two-particle S -matrix is an operator, depending on the rapidities and the deformation parameter q (or β̂),
+which relates the incoming state (4.1) to the outgoing state (4.2)
+
+                                          S αβ (θ1 , θ2 ; q) : Vα ⊗ Vβ −→ Vβ ⊗ Vα                                           (4.3)
+                                                      X
+                             |i, θ1 iα ⊗ |j, θ2 iβ =       [S αβ (θ1 , θ2 ; q)]kl
+                                                                               ij |k, θ2 iβ ⊗ |l, θ1 iα .                   (4.4)
+                                                          k,l
+
+The matrix element [S αβ (θ1 , θ2 ; q)]kl
+                                       ij gives the two particle scattering amplitude for the process
+
+                                        |i, θ1 iα ⊗ |j, θ2 iβ −→ |k, θ2 iβ ⊗ |l, θ1 iα .                                    (4.5)
+
+Lorentz invariance requires that S αβ (θ1 , θ2 ; q) only depends on the combination θ ≡ θ1 − θ2
+
+                                                 S αβ (θ1 , θ2 ; q) = S αβ (θ; q).                                          (4.6)
+
+Since we are interested in the fundamental vector representation, Vα = Vβ = V , and we will drop the α, β
+indices.
+    The S -matrix has to satisfy certain constraints. Factorized scattering requires that S (θ; q) be a solution of
+the Yang-Baxter equation [1–3, 7, 56]. This fixes S (θ; q) up to an overall scalar constant, which can be found
+by imposing the crossing and unitarity conditions [7, 56]. The resulting S -matrix, known as the minimal
+S -matrix, is ambiguous only up to CDD factors. Lastly, applying the bootstrap program fixes the CDD
+factors thus giving the complete S -matrix [56–58]. We will calculate the beta dependent minimal S -matrix
+for the fundamental vector representation, leaving the bootstrap analysis for a future problem. The marginal
+S -matrix will then be obtained in the limit β̂ → 1.
+4b.The Yang-Baxter equation and R-matrices
+   The quantum charges (3.56) generate a symmetry of the theory. Therefore the action of the S -matrix
+must commute with the action, or comultiplication, of the charges
+
+                                       [S, ∆(Qi )] = [S, ∆(Qi )] = [S, ∆(hi )] = 0.                                         (4.7)
+
+For the fundamental representation (3.79), these commutation relations take the explicit form
+                      V             V              V
+                                                                    V             V              V
+                                                                                                       
+    S(θ; q) x1i eVi q hi /2 ⊗ 1 + q hi ⊗ x2i eVi q hi /2 = x2i eVi q hi /2 ⊗ 1 + q hi ⊗ x1i eVi q hi /2 S(θ; q)            (4.8a)
+                                                                                                   
+                V hV              V              V
+                    i /2 ⊗ 1 + q hi ⊗ x−1 f V q hi /2      −1 V hV                V              V
+                                                                    i /2 ⊗ 1 + q hi ⊗ x−1 f V q hi /2
+  S(θ; q) x−1
+           1i f i q                    2i  i           =  x2i f i q                    1i  i            S(θ; q) (4.8b)
+                                                                              
+                            S(θ; q) hVi ⊗ 1 + 1 ⊗ hVi = hVi ⊗ 1 + 1 ⊗ hVi S(θ; q),                              (4.8c)
+where                                                 2
+                                           xji = eαi θj /2γ̂ , i = 0, 1, 2; j = 1, 2.                                       (4.9)
+For the fermionic roots we simply have xj1 = xj2 = 1.                   Since hV0     = −(hV1     + hV2 ), the equation involving
+                                                                                                        −hV       −hV
+∆(hV0 ) need not be considered independently. Multiplying both sides of (4.8) by q                         i /2
+                                                                                                              ⊗q    i /2from the
+right, and making use of
+                                    V          V
+                                                         V          V
+                                                                          
+                         S(θ; q) q −hi /2 ⊗ q −hi /2 = q −hi /2 ⊗ q −hi /2 S(θ; q),                                        (4.10)
+
+which follows from (4.8c), the expressions (4.8) can be rewritten as
+
+                                                     [S(x; q), ∆(eV1,2 )] = 0                                            (4.11a)
+
+                                                     [S(x; q), ∆(eV0 )] = 0                                              (4.11b)
+                                                                  V
+                                                     [S(x; q), ∆(f1,2 )] = 0                                             (4.11c)
+
+                                                                 18
+                                                  [S(x; q), ∆(f0V )] = 0                                      (4.11d)
+                                                 [S(x; q), ∆(hV1,2 )] = 0,                                    (4.11e)
+where ∆(hV1,2 ) is as in (3.82) and
+                                                               V          V
+                                      ∆(eV1,2 ) = eV1,2 ⊗ q −h1,2 /2 + q h1,2 /2 ⊗ eV1,2
+                                                               V          V
+                                    ∆(eV0 ) = x10 eV0 ⊗ q −h0 /2 + q h0 /2 ⊗ x20 eV0
+                                                               V          V
+                                         V        V
+                                      ∆(f1,2 ) = f1,2 ⊗ q −h1,2 /2 + q h1,2 /2 ⊗ f1,2
+                                                                                  V
+
+                                                               V          V
+                                   ∆(f0V ) = x−1  V
+                                              10 f0 ⊗ q
+                                                        −h0 /2
+                                                               + q h0 /2 ⊗ x−1  V
+                                                                            20 f0 .                            (4.12)
+The comultiplication (4.12) is the standard comultiplication for the Chevalley generators of Uq [osp(2|2)(1) ].
+For the affine generators, e0 and f0 , the comultiplication corresponds to the representation e0 = xi0 eV0 and
+f0 = x−1   V
+      i0 f0 over the loop algebra. We have also defined the spectral parameter
+
+                                               x10
+                                         x=        = e−2(θ1 −θ2 )/γ̂ = e−2θ/γ̂ ,                               (4.13)
+                                               x20
+and indicated the dependence of S on θ implicitly via x.
+   Equation (4.11) is precisely one of the defining relations for the Uq [osp(2|2)(1) ] R-matrix Ř(x; q) in the
+homogeneous gradation. More generally, for affinizable representations Vα and Vβ , Řαβ (x) acts as S(x)
+
+                                           Ř(x; q) : Vα ⊗ Vβ −→ Vβ ⊗ Vα ,                                     (4.14)
+
+and satisfies the intertwining property [54]
+
+                           Řαβ (x, q)∆αβ (a) = ∆βα (a)Řαβ (x, q), ∀a ∈ Uq [osp(2|2)]
+                                                                                           
+                                   −hβ          α        β       β     −hα         β
+              Řαβ (x; q) xeα
+                            0  ⊗ q    0 /2 + q h0 /2 ⊗ e
+                                                         0  =  e 0 ⊗ q   0 /2 + q h0 /2 ⊗ xeα
+                                                                                            i   Řαβ (x; q)
+                                β         α
+                                                                   α         β
+                                                                                              
+       Řαβ (x; q) x−1 f0α ⊗ q −h0 /2 + q h0 /2 ⊗ f0β = f0β ⊗ q −h0 /2 + q h0 /2 ⊗ x−1 fiα Řαβ (x; q),        (4.15)
+
+where all quantities are evaluated in the appropriate representation as indicated by the α, β indices. One can
+also view Řαβ (x) as the spectral parameter dependent R-matrix of Uq [osp(2|2)]. This equivalence follows
+from the fact that for affinizable representations, both the Uq [osp(2|2)(1) ] R-matrix (in the homogeneous
+gradation) and the spectral parameter dependent R-matrix of Uq [osp(2|2)] satisfy the same defining relation
+(4.15). Another R-matrix R(x; q), commonly referred to as the universal R-matrix, can be obtained from
+Ř(x; q) by applying a permutation operation. Define the graded permutation operator P satisfying
+
+                                        P (|ui ⊗ |vi) = (−1)d(u)d(v) |vi ⊗ |ui,                                (4.16)
+
+for any states |ui and |vi in V with definite parity. The universal R-matrix is related to Ř(x; q) by
+
+                                                  R(x; q) = P Ř(x; q).                                        (4.17)
+
+The universal R-matrix is known for various quantum affine superalgebras (see [54] and references therein).
+    For bosonic quantum groups, Jimbo [4] showed that a solution to (4.15) is unique up to an overall
+scalar function, and that any solution automatically satisfies the Yang-Baxter equation. These results were
+extended to quantum supergroups by Bracken et al. [53]. These authors showed that a non-trivial solution
+of (4.11a) and (4.11b) must be even and is unique up to scalar factors. Furthermore, this solution satisfies
+(i) equations (4.11c)–(4.11e) and (ii) the Yang-Baxter equation. The uniqueness of the solution implies that
+S(x; q) takes the form
+                                           S(x; q) = v(x; q)Ř(x; q),                                 (4.18)
+
+
+
+                                                             19
+where the scalar function v(x; q) is fixed by imposing the unitarity and crossing constraints (see section
+4e) and by applying the bootstrap principle. Thus for a theory with quantum group symmetry, the Yang-
+Baxter equation need not be independently solved. Rather factorization is a consequence of the intertwining
+property (4.15) of the R-matrix.
+   The Yang-Baxter equations satisfied by the two R-matrices are
+
+                              R12 (x; q)R13 (xy; q)R23 (y; q) = R23 (y; q)R13 (xy; q)R12 (x; q)                                         (4.19)
+
+                       Ř23 (x; q)Ř12 (xy; q)Ř23 (y; q) = Ř12 (y; q)Ř23 (xy; q)Ř12 (x; q).                                         (4.20)
+                                                                P
+Both equations act on V ⊗ V ⊗ V and for a solution R = i ai ⊗ bi , the notation Rij means
+                         X                            X                           X
+                   R12 =      ai ⊗ bi ⊗ 1, R13 =          ai ⊗ 1 ⊗ bi , R23 =         1 ⊗ ai ⊗ b i ,                                    (4.21)
+                                 i                                 i                                i
+
+and similarly for Řij . The Yang-Baxter equation for R(x; q) is implicitly graded due to the multiplication
+rule (3.83). In components (4.19) takes the form (summing over repeated indices)
+
+            R(x; q)bc11 bc22 R(xy; q)ca11bc33 R(y; q)ca22ca33 (−1)d(b1 )d(b2 )+d(c1 )d(b3 )+d(c2 )d(c3 ) =
+                                     R(y; q)bc22 bc33 R(xy; q)bc11 ca33 R(x; q)ca11ca22 (−1)d(b2 )d(b3 )+d(b1 )d(c3 )+d(c1 )d(c2 ) .    (4.22)
+
+The R-matrix R̃(x; q)ba11ba22 ≡ R(x; q)ba11ba22 (−1)d(b1 )d(b2 ) satisfies the ordinary Yang-Baxter equation. The com-
+ponent form of (4.20) can be obtained from (4.22) by setting
+
+                                           Ř(x; q)ba11ba22 = R(x; q)ba21ba12 (−1)d(b1 )d(b2 ) ,                                        (4.23)
+
+which does not contain any parity factors. Of course the S -matrix also satisfies (4.20).
+4c. The Uq [osp(2|2)(1) ] R-matrix Ř(x; q)
+    A solution to (4.11)/(4.15) has been previously computed in [59, 60] and [61]. In [59] Ř(x; q) was con-
+structed for a set of four-dimensional typical representations characterized by a continuous parameter b.
+This set includes the fundamental vector representation. We will re-derive Ř(x; q) using the method of [60]
+and including some of the details omitted in these references. Our conventions are also slightly different. We
+hope a more explicit construction of Ř(x; q), showing the various steps involved, will be useful.
+    As discussed above, it is sufficient to solve the following reduced set of equations
+
+                                                [Ř(x; q), ∆(eV1,2 )] = 0
+                                   V
+                                                                        V
+                                                                                          
+                Ř(x; q) xeV0 ⊗ q −h0 /2 + q h0 /2 ⊗ eV0 = eV0 ⊗ q −h0 /2 + q h0 /2 ⊗ xeV0 Ř(x; q).                                    (4.24)
+However it is equally as manageable, and perhaps more illustrative, to work with the set
+
+                                      [Ř(x; q), ∆(a)] = 0, ∀a ∈ Uq [osp(2|2)]                                                         (4.25a)
+                                   V
+                                                                     V
+                                                                                          
+                Ř(x; q) xeV0 ⊗ q −h0 /2 + q h0 /2 ⊗ eV0 = eV0 ⊗ q −h0 /2 + q h0 /2 ⊗ xeV0 Ř(x; q),                                   (4.25b)
+
+which obviously includes (4.24). Thus we will seek a solution to (4.25).
+   Consider for a moment the general case (4.15), with (4.25) being evaluated in Vα ⊗ Vβ for affinizable
+representations Vα and Vβ . Suppose Vα ⊗ Vβ has the multiplicity-free tensor product decomposition
+                                                       M
+                                           Vα ⊗ Vβ =        Vµ ,                                   (4.26)
+                                                                            µ
+
+into Uq [osp(2|2)] invariant spaces Vµ . Since Ř(x; q) commutes with the Uq [osp(2|2)] comultiplication, a
+solution of (4.25a) can be written as
+                                                   X
+                                        Ř(x; q) =    ρµ (x; q)Pµαβ (q),                             (4.27)
+                                                                  µ
+
+
+                                                                       20
+where Pµαβ (q) are projectors onto Vµ and ρµ (x; q) are arbitrary functions. If the decomposition (4.26) is
+completely reducible, then (4.27) is the most general solution of (4.25a). If instead the decomposition is not
+fully reducible, then (4.27) need not be the most general solution, though it certainly is one solution.
+    Returning to the fundamental representation, we look for a decomposition of V ⊗ V into Uq [osp(2|2)]
+invariant spaces. In the classical case, the tensor product is not completely reducible. One finds a decompo-
+sition into two eight-dimensional invariant spaces [46]
+                                               V ⊗ V = W ⊕ W̃ ,                                             (4.28)
+
+where W is an irreducible osp(2|2) representation spanned by
+
+                                      |χ±
+                                        1 i = |1i ⊗ |1i
+                                                1
+                                      |χ±
+                                        2i =  √ (|1i ⊗ |2i ± |2i ⊗ |1i)
+                                                 2
+                                        ±       1
+                                      |χ3 i = √ (|1i ⊗ |3i ± |3i ⊗ |1i)
+                                                 2
+                                                1
+                                      |χ±
+                                        4i =  √ (|2i ⊗ |3i − |3i ⊗ |2i)
+                                                 2
+                                                1
+                                      |χ±
+                                        5i =  √ (|1i ⊗ |4i + |4i ⊗ |1i)
+                                                 2
+                                        ±       1
+                                      |χ6 i = √ (|2i ⊗ |4i ± |4i ⊗ |2i)
+                                                 2
+                                                1
+                                      |χ±
+                                        7i =  √ (|3i ⊗ |4i ± |4i ⊗ |3i)
+                                                 2
+                                      |χ±
+                                        8 i = |4i ⊗ |4i,                                                    (4.29)
+
+and W̃ is an atypical representation spanned by
+
+                            |χ±
+                              9i =     |2i ⊗ |2i
+                                        1
+                           |χ±
+                             10 i =    √ (|1i ⊗ |2i ∓ |2i ⊗ |1i)
+                                          2
+                                         1
+                           |χ±
+                             11 i =    √ (|1i ⊗ |3i ∓ |3i ⊗ |1i)
+                                          2
+                                       1
+                           |χ±
+                             12 i =      (|1i ⊗ |4i − |4i ⊗ |1i ∓ |2i ⊗ |3i ∓ |3i ⊗ |2i)
+                                       2
+                                       1
+                           |χ±
+                             13 i =      (|1i ⊗ |4i − |4i ⊗ |1i ± |2i ⊗ |3i ± |3i ⊗ |2i)
+                                       2
+                                        1
+                           |χ±
+                             14 i =    √ (|2i ⊗ |4i ∓ |4i ⊗ |2i)
+                                          2
+                                         1
+                           |χ±
+                             15 i =    √ (|3i ⊗ |4i ∓ |4i ⊗ |3i)
+                                          2
+                           |χ±
+                             16 i =    |3i ⊗ |3i.                                                           (4.30)
+Here and henceforth the upper (lower) sign is to be taken if the parities are chosen to be even (odd) for |1i,
+|4i and odd (even) for |2i, |3i, and the associated states will be labeled by a + (−) superscript. The two
+sets of states
+                     {|χ±       ±       ±       ±
+                         9 i, |χ10 i, |χ11 i, |χ12 i} and   {|χ±        ±       ±       ±
+                                                                12 i, |χ14 i, |χ15 i, |χ16 i},         (4.31)
+form four-dimensional atypical representations, with |χ±   12 i being invariant, i.e., is mapped to zero by all the
+generators. The state |χ±
+                        13 i is a cyclic vector for W̃ . In the quantum case these states will be deformed, yet
+one expects that the basic structure of the decomposition will be the same, namely the tensor product is not
+completely reducible and has the form [59, 60]
+
+                                              V ⊗ V = Wq ⊕ W̃q ,                                            (4.32)
+
+                                                        21
+where Wq is an irreducible invariant space going over to W as q → 1, and W̃q is not irreducible, but contains
+an invariant singlet state and goes over to W̃ as q → 1. A mechanical way to determine a basis for, say Wq ,
+is to start with one of the states |χ± i i ∈ W , or some deformed version of it. Acting on this state with the
+Uq [osp(2|2)] generators will result in some new deformed states. One keeps repeating the process, acting on
+every new state with ∆(a) until an invariant set with the required properties is obtained. The success of this
+procedure depends on the choice of the initial state. Starting with the undeformed states |1i ⊗ |1i, |2i ⊗ |2i
+and |3i ⊗ |3i, almost all the basis states of Wq and W̃q can be obtained this way. The exception is the cyclic
+state of W̃q which has to be independently constructed. We find the following set spanning Wq
+
+               |ψ1± i   = |1i ⊗ |1i
+                               1                                        
+               |ψ2± i   = p            q −1/2 |1i ⊗ |2i ± q 1/2 |2i ⊗ |1i
+                             q + q −1
+                               1                                        
+               |ψ3± i   = p            q −1/2 |1i ⊗ |3i ± q 1/2 |3i ⊗ |1i
+                             q + q −1
+                                 1                                                                  
+               |ψ4± i   = p                q −1 |1i ⊗ |4i + q|4i ⊗ |1i ± q|2i ⊗ |3i ∓ q −1 |3i ⊗ |2i
+                                2
+                             2(q + q )−2
+
+                                 1                                                                  
+               |ψ5± i   = p                q −1 |1i ⊗ |4i + q|4i ⊗ |1i ∓ q −1 |2i ⊗ |3i ± q|3i ⊗ |2i
+                                2
+                             2(q + q )−2
+
+                               1                                        
+               |ψ6± i   = p            q −1/2 |2i ⊗ |4i ± q 1/2 |4i ⊗ |2i
+                             q + q −1
+                               1                                        
+               |ψ7± i   = p            q −1/2 |3i ⊗ |4i ± q 1/2 |4i ⊗ |3i
+                             q + q −1
+               |ψ8± i   = |4i ⊗ |4i,                                                                               (4.33)
+
+and for W̃q a basis is given by
+
+                             |ψ9± i =      |2i ⊗ |2i
+                                                1                                         
+                              ±
+                            |ψ10 i =       p             q 1/2 |1i ⊗ |2i ∓ q −1/2 |2i ⊗ |1i
+                                              q + q −1
+                                                1                                         
+                              ±
+                            |ψ11 i =       p             q 1/2 |1i ⊗ |3i ∓ q −1/2 |3i ⊗ |1i
+                                              q + q −1
+                              ±            1
+                            |ψ12 i =         (|1i ⊗ |4i − |4i ⊗ |1i ∓ |2i ⊗ |3i ∓ |3i ⊗ |2i)
+                                           2
+                              ±                  1                                     
+                            |ψ13 i =       p              q|1i ⊗ |4i − q −1 |4i ⊗ |1i
+                                               2
+                                              q +q   −2
+
+                                                1                                         
+                              ±
+                            |ψ14 i =       p             q 1/2 |2i ⊗ |4i ∓ q −1/2 |4i ⊗ |2i
+                                              q + q −1
+                                                1                                         
+                              ±
+                            |ψ15 i =       p             q 1/2 |3i ⊗ |4i ∓ q −1/2 |4i ⊗ |3i
+                                              q + q −1
+                              ±
+                            |ψ16 i =       |3i ⊗ |3i.                                                              (4.34)
+
+One can check that:
+(i)
+
+    lim Wq = lim span{|ψi± i; i = 1, . . . , 8} = W,        lim W̃q = lim span{|ψi± i; i = 9, . . . , 16} = W̃ ;   (4.35)
+   q→1        q→1                                           q→1        q→1
+
+
+(ii) the set (4.33) forms a typical representation of Uq [osp(2|2)]; (iii) the space W̃q is composed of two atypical
+Uq [osp(2|2)] representations spanned by
+
+                        {|ψ9± i, |ψ10
+                                   ±       ±
+                                      i, |ψ11      ±
+                                              i, |ψ12 i}   and        ±
+                                                                   {|ψ12      ±
+                                                                         i, |ψ14      ±
+                                                                                 i, |ψ15      ±
+                                                                                         i, |ψ16 i};               (4.36)
+
+                                                            22
+                    ±
+(iv) the state |ψ12   i is a singlet state which cannot be separated from the atypical representations; and (v)
+   ±
+|ψ13 i is a cyclic vector for W̃q which cannot be obtained by acting on any basis state by any of the generators.
+The adjoint states hψi± | are given by (note we do not take q → q for the adjoint states)
+                                                                     †
+                                                      hψi± | = |ψi± i ,                                             (4.37)
+
+where
+                                                           †
+                                           (|ii ⊗ |ji) = (−1)d(i)d(j) hi| ⊗ hj|                                     (4.38)
+                                                      †
+                                                  (|ii) = hi|, i = 1, 2, 3, 4.                                      (4.39)
+The parity factor in (4.38) is introduced to cancel that of (3.83), so that the norm is positive
+                                                      †
+                                         (|ii ⊗ |ji) (|ii ⊗ |ji) = hi|iihj|ji = 1.                                  (4.40)
+
+    To determine Ř(x; q) we need to know the projectors for Wq and W̃q , denoted P1 (q)P      and P0 (q) respectively.
+If the states were all orthonormal, then P1 (q) and P0 (q) would have the usual form: i |ψi± ihψi± |. However
+the four states {|ψ4± i, |ψ5± i, |ψ12
+                                   ±       ±
+                                      i, |ψ13 i} are not orthonormal. Following [60], we define the dual states {hψ̂i± |}
+satisfying
+                                                        hψ̂i± |ψj± i = δij .                                     (4.41)
+Let gij be the metric
+                                                          gij = hψi± |ψj± i,                                        (4.42)
+then the dual states are given by                              X
+                                                  hψ̂i± | =        (g −1 )ij hψj± |.                                (4.43)
+                                                               j
+
+For i ∈
+      / {4, 5, 12, 13}, we simply have
+                                                           hψ̂i± | = hψi± |.                                        (4.44)
+Using the dual states the projectors can be written as
+                                                                8
+                                                                X
+                                                   P1 (q) =             |ψi± ihψ̂i± |                               (4.45)
+                                                                i=1
+
+                                                                16
+                                                                X
+                                                   P0 (q) =             |ψi± ihψ̂i± |.                              (4.46)
+                                                                i=9
+
+It is easily shown that (4.45) and (4.46) obey
+
+        P1 (q)2 = P1 (q),     P0 (q)2 = P0 (q),     P1 (q)P0 (q) = P0 (q)P1 (q) = 0,         P1 (q) + P0 (q) = 1.   (4.47)
+
+A particular solution for Ř(x; q) satisfying (4.25a) is now given by
+
+                                       Ř0 (x; q) = ρ1 (x; q)P1 (q) + ρ0 (x; q)P0 (q).                              (4.48)
+
+   Recalling our previous comments, since the decomposition (4.32) is not completely reducible, (4.48) is
+not necessarily the most general solution. In particular, the operator
+                                                               ±      ±
+                                                    PN (q) = |ψ12 ihψ̂13 |,                                         (4.49)
+
+mapping the cyclic vector onto the singlet state, can be added to (4.48). That this does not spoil (4.25a)
+follows from (iv) and (v) above, which imply
+
+                                     ∆(a)PN (q)|ψi± i = PN (q)∆(a)|ψi± i = 0, ∀i.                                   (4.50)
+
+Some useful properties of PN (q) are
+
+         PN (q)2 = 0,       P1 (q)PN (q) = PN (q)P1 (q) = 0,              P0 (q)PN (q) = PN (q)P0 (q) = PN (q),     (4.51)
+
+                                                                   23
+with the first expressing the order 2 nilpotency of PN (q). Thus the most general solution of (4.25a) is
+
+                            Ř(x; q) = ρ1 (x; q)P1 (q) + ρ0 (x; q)P0 (q) + ρN (x; q)PN (q),                              (4.52)
+
+where the ρi (x; q)’s are at present arbitrary functions soon to be fixed by imposing (4.25b).
+    Before calculating these functions, we give the explicit expressions for the projectors and PN (q) in the
+original basis {|ii ⊗ |ji; i, j = 1, . . . , 4}. We choose to order the basis as
+
+                     (v11 , v22 , v33 , v44 , v12 , v21 , v13 , v31 , v24 , v42 , v34 , v43 , v14 , v23 , v32 , v41 ),   (4.53)
+
+where
+                                                           vij ≡ |ii ⊗ |ji.                                              (4.54)
+Define v̂ as the column vector associated with (4.53), i.e., v̂1 = v11 , v̂2 = v22 , . . .. The basis states can be
+written as                                           X
+                                            |ψi± i =    Mij v̂j ,                                             (4.55)
+                                                                     j
+
+where the matrix Mij can be obtained from (4.33) and (4.34). The metric and the inverse metric take the
+form (T denotes transpose)
+                                 g = MMT,        g −1 = (M −1 )T M −1 .                          (4.56)
+This gives the single “projectors”
+                                                        Pkl (q) ≡ |ψk± ihψ̂l± |
+                                                  (Pkl (q))ij = Mki (M −1 )jl ,                                          (4.57)
+and hence for the required matrix components
+                                                                    8
+                                                                    X
+                                               (P1 (x; q))ij =            Mki (M −1 )jk                                  (4.58)
+                                                                    k=1
+
+                                                                    16
+                                                                    X
+                                               (P0 (x; q))ij =            Mki (M −1 )jk                                  (4.59)
+                                                                    k=9
+
+                                               (PN (x; q))ij = M12i (M −1 )j13 .                                         (4.60)
+These expressions are easily evaluated. We find the following block diagonal form for all the operators
+(O = P1,0,N (x; q))
+                                                                                      
+                        O1×1
+                               O1×1                                                   
+                                                                                      
+                                      O                                               
+                                       1×1                                            
+                                             O                                        
+                                              1×1                                     
+            O16×16 = 
+                                                   O 2×2
+                                                                                       ,
+                                                                                                (4.61)
+                                                           O                          
+                                                             2×2                      
+                                                                  O2×2                
+                                                                                      
+                                                                         O2×2         
+                                                                                 O4×4
+
+with the individual blocks being:
+(i) One-dimensional blocks:
+                                              P1 (q) = 1, P0 (q) = PN (q) = 0,                                           (4.62)
+for |1i ⊗ |1i and |4i ⊗ |4i; and
+                                              P0 (q) = 1, P1 (q) = PN (q) = 0,                                           (4.63)
+
+
+
+
+                                                                    24
+for |2i ⊗ |2i and |3i ⊗ |3i.
+(ii) Two-dimensional blocks:
+                                                                                   
+                            1         1    ±q                    1          q2   ∓q
+                 P1 (q) = 2                         , P0 (q) = 2                          , PN (q) = 0,       (4.64)
+                         q +1         ±q   q2                 q +1          ∓q   1
+
+for the four pairs of states
+
+            (|1i ⊗ |2i, |2i ⊗ |1i), (|1i ⊗ |3i, |3i ⊗ |1i), (|2i ⊗ |4i, |4i ⊗ |2i), (|3i ⊗ |4i, |4i ⊗ |3i).
+
+(ii) Four-dimensional blocks:
+                                                                                                
+                                              2       ∓(q 2 − 1) ∓(q 2 − 1)           2q 2
+                               1      ±(q 2 − 1)        2q 2        −q 4 − 1      ±(q 4 − q 2 ) 
+                  P1 (q) = 2                                                                    ,           (4.65)
+                            (q + 1)2  ±(q − 1)
+                                             2             4
+                                                       −q − 1          2q 2
+                                                                                   ±(q 4 − q 2 ) 
+                                            2q 2      ∓(q 4 − q 2 ) ∓(q 4 − q 2 )     2q 4
+                                   4                                                              
+                                     q + 2q 2 − 1 ±(q 2 − 1) ±(q 2 − 1)                −2q 2
+                             1     ∓(q 2 − 1)         q4 + 1        q4 + 1         ∓(q 4 − q 2 ) 
+               P0 (q) = 2                                                                         ,         (4.66)
+                         (q + 1)2        2
+                                      ∓(q − 1)          4
+                                                       q +1           4
+                                                                     q +1           ∓(q 4 − q 2 ) 
+                                        −2q 2        ±(q 4 − q 2 ) ±(q 4 − q 2 ) −q 4 + 2q 2 + 1
+                                                                                
+                                           p               1 ±1 ±1 −1
+                                               q4 + 1 
+                                                       ∓1 −1 −1 ±1  ,
+                                                                                 
+                                 PN (q) =                                                                    (4.67)
+                                                2
+                                          2(q + 1)       ∓1 −1 −1 ±1 
+                                                         −1 ∓1 ∓1 1
+for the basis states
+                                      (|1i ⊗ |4i, |2i ⊗ |3i, |3i ⊗ |2i, |4i ⊗ |1i).
+The projectors for the two different parity assignments, denote them Pi+ (q) and Pi− (q), are related by a
+similarity transformation
+                                     Pi+ (q) = GPi− (q)G,    G2 = 1,                                 (4.68)
+where G is the diagonal matrix
+
+                            G = diag(1, 1, 1, 1, 1, −1, 1, −1, 1, −1, 1, −1, 1, −1, −1, 1).                   (4.69)
+
+Obviously, the corresponding R-matrices are also related by (4.68).
+  Lastly, the ρi (x; q)’s are determined from (4.25b), which we rewrite below
+                                                                              V       V
+                                                                                                   
+            ρ1 (x; q)P1 (q) + ρ0 (x; q)P0 (q) + ρN (x; q)PN (q) xeV0 ⊗ q −h0 /2 + q h0 /2 ⊗ eV0
+                             V         V
+                                                                                                        
+                = eV0 ⊗ q −h0 /2 + q h0 /2 ⊗ xeV0      ρ1 (x; q)P1 (q) + ρ0 (x; q)P0 (q) + ρN (x; q)PN (q)    (4.70)
+
+Multiplying this equation by P1 (q) on the left and by PN (q) on the right, and with the help of (4.47) and
+(4.51), gives
+                                              V         V
+                                                                   
+                    ρ1 (x; q)P1 (q) xeV0 ⊗ q −h0 /2 + q h0 /2 ⊗ eV0 PN (q)
+                                                         V        V
+                                                                           
+                                   = P1 (q) xeV0 ⊗ q −h0 /2 + q h0 /2 ⊗ eV0 ρ0 (x; q)PN (q).          (4.71)
+
+Evaluating (4.71) using the explicit expressions for the states (4.33) and (4.34), and the generators (3.61b)
+and (3.62), leads to the result                              
+                                                      x − q2
+                                       ρ1 (x; q) =              ρ0 (x; q).                             (4.72)
+                                                     1 − xq 2
+
+
+
+                                                           25
+To solve for ρN (x; q) we multiply (4.70) on the left by P1 (q) and on the right by P0 (q) to get
+                                       V         V
+                                                            
+             ρ1 (x; q)P1 (q) xeV0 ⊗ q −h0 /2 + q h0 /2 ⊗ eV0 P0 (q)
+                                              V         V
+                                                                  
+                          = P1 (q) xeV0 ⊗ q −h0 /2 + q h0 /2 ⊗ eV0 (ρ0 (x; q)P0 (q) + ρ0 (x; q)PN (q)) ,   (4.73)
+
+from which it follows that
+                                                 q2 − 1        1 − x2
+                                ρN (x; q) = 2q 2 p                              ρ0 (x; q).                 (4.74)
+                                                  1 + q 4 (x − q 2 )(1 − xq 2 )
+
+Note that in calculating ρ1,N (x; q), the normalization of eV0 is irrelevant, and only the fact that eV0 ∝ E41 is
+needed. The complete R-matrix satisfying (4.25) is therefore (setting ρ0 (x; q) = 1)
+                                               
+                                        x − q2                    2
+                                                               2 q −1          1 − x2
+                Ř(x; q) = P0 (q) +               P 1 (q) + 2q  p                               PN (q),    (4.75)
+                                       1 − xq 2                   1 + q 4 (x − q 2 )(1 − xq 2 )
+and is unique up to multiplication by a scalar factor. One can easily show that
+
+                                      Ř(1; q) = 1,       Ř(x; q)Ř(x−1 ; q) = 1,                         (4.76)
+
+where the latter relation is the unitarity requirement. As stated above, the R-matrix for Uq [osp(2|2)(1) ]
+has been previously computed in [59, 60] and [61]. Our solution agrees with that of [59], where the same
+Uq [osp(2|2)] simple root system is used. To obtain (4.75) from the more general result presented in [59] (in
+the limit b → 0), one needs to take x → x−1 and q → q −1 due to the different conventions used.
+4d. Crossing symmetry
+    To go from the R-matrix (4.75) to a physical S -matrix we need to calculate the overall scalar factor
+v(x; q). This factor is necessary in order to make S(x; q) crossing symmetric.
+    As it stands, (4.75) satisfies the Yang-Baxter and unitarity requirements. We have seen that these two
+conditions follow from the intertwining property of Ř(x; q) with the comultiplication ∆. In a similar manner,
+crossing symmetry arises due to an additional “intertwining” property of the universal R-matrix R(x; q) with
+the antipode operation S. With this additional property the R-matrix also becomes crossing symmetric,
+which allows us to identify Ř(x; q) with the S -matrix. In terms of the notation (4.18), this means absorbing
+the scalar factor into Ř(x; q), v(x; q)Ř(x; q) → Ř(x; q), setting S(x; q) = Ř(x; q) = P R(x; q), and requiring
+this new R-matrix to satisfy the crossing constraint (4.92) along with (4.25). In the general discussion below,
+we will make this change taking S(x; q) = Ř(x; q). We begin by reviewing the antipode operation. From its
+relation to the universal R-matrix we will then derive the crossing symmetry constraint. (For further details
+the reader is referred to [55].)
+    The antipode is one of the defining structures of a Hopf algebra which acts to connect the multiplication
+and comultiplication operations. For a non-affine quantum supergroup Uq (g), the antipode S is defined by
+its action on the generators as follows [52] (i = 1, 2, . . . , r)
+
+                                           πV (S(ei )) = −q −αi ·αi /2 πV (ei )
+
+                                           πV (S(fi )) = −q +αi ·αi /2 πV (fi )
+                                               πV (S(hi )) = −πV (hi ),                                    (4.77)
+where the notation πV ( · ) means all quantities are taken in the representation V . (In the notation of section
+3d, πV (ei ) = eVi , etc..) For q = 1 this reduces to the classical antipode Scl
+
+                                      πV (Scl (a)) = −πV (a), a ∈ {ei , fi , hi }.                         (4.78)
+
+The antipode can be extended to a graded anti-automorphism, so that for homogeneous elements a and b
+(i.e., elements with definite parity)
+
+                                           S(ab) = (−1)d(a)d(b) S(b)S(a).                                  (4.79)
+
+                                                           26
+    To build the crossing relation a concept of charge conjugation is required, whereby a particle is trans-
+formed into its antiparticle. At the more formal level, the charge conjugation operation is expressed in terms
+of a charge conjugation matrix. If there exists a matrix C satisfying
+                                                                      st
+                                    πV (S(a)) = C −1 (πV (a)) C, a ∈ {ei , fi , hi },                                (4.80)
+
+then C is defined to be the charge conjugation matrix. In the classical case this becomes
+                                                                      st
+                                      − πV (a) = C −1 (πV (a)) C, a ∈ {ei , fi , hi }.                               (4.81)
+
+Here st denotes the supertranspose, which for homogeneous elements is given by
+
+                                        (πV (a))st
+                                                αβ = (−1)
+                                                         d(α)d(β)+d(β)
+                                                                       (πV (a))βα .                                  (4.82)
+
+For the Uq [osp(2|2)] simple root system (3.21), we have α1 · α1 = α2 · α2 = 0, and one can show that in the
+fundamental representation (3.59)                               
+                                                              ±1
+                                                        1       
+                                         C = 
+                                                                 .
+                                                                                                     (4.83)
+                                                      1
+                                                 ∓1
+The signs refer to the two different parity assignments (see section 4c).
+   For an affine quantum supergroup Uq (ĝ), the antipode is still given by (4.77). However, in order to
+correctly define a charge conjugation matrix it is necessary to shift the spectral parameter. Thus it is
+convenient to explicitly display the θ dependence (i = 0, 1, . . . , r)
+
+                                           πVθ (S(ei )) = −q −αi ·αi /2 e+θsi πV (ei )
+
+                                           πVθ (S(fi )) = −q +αi ·αi /2 e−θsi πV (fi )
+                                                      πVθ (S(hi )) = −πV (hi ).                                      (4.84)
+Here the notation πVθ ( · ) indicates the θ dependence and si is the Lorentz spin of ei , i.e.,
+
+                 πVθ (ei ) = xi πV (ei ) = xi eVi ,        πVθ (fi ) = xi−1 πV (fi ) = x−1 V
+                                                                                        i fi ,         xi = eθsi ,   (4.85)
+
+gives the affinized representation of Uq (ĝ) on a loop algebra in some gradation (s0 , s1 , . . . , sr ). The eVi , fiV
+and hVi are representation matrices, as in (3.59), (3.61b) and (3.62) for Uq [osp(2|2)(1) ]. In the homogeneous
+gradation we are working with s0 = −2/γ̂, s1 = s2 = 0, giving
+
+                                  πVθ (e1,2 ) = eV1,2 ,      πVθ (e0 ) = xeV0     (x = e−2θ/γ̂ ),                    (4.86)
+
+and so forth.
+   If (4.84) can now be written as
+                                                                   st                    st
+                          πVθ (S(ei )) = e+(iπ+θ)si C −1 (πV (ei )) C = C −1 πVθ+iπ (ei ) C
+
+                                                                  st                    st
+                         πVθ (S(fi )) = e−(iπ+θ)si C −1 (πV (fi )) C = C −1 πVθ+iπ (fi ) C
+                                                            st                    st
+                              πVθ (S(hi )) = C −1 (πV (ei )) C = C −1 πVθ+iπ (hi ) C,                                (4.87)
+for some matrix C, then this defines C to be the (affine) charge conjugation matrix. Specializing to the
+algebra Uq [osp(2|2)(1) ], we have
+                                             q = −e−iπ/γ̂                                         (4.88)
+                                 q ∓α1 ·α1 /2 = q ∓α2 ·α2 /2 = 1,          q ∓α0 ·α0 /2 = e∓2iπ/γ̂ ,                 (4.89)
+giving for (4.84)
+                                                   πVθ (S(e1,2 )) = −πV (e1,2 )
+
+                                                                 27
+                                      πVθ (S(e0 )) = −e+(θ+iπ)(−2/γ̂) πV (e0 )
+                                            πVθ (S(f1,2 )) = −πV (f1,2 )
+                                      πVθ (S(f0 )) = −e−(θ+iπ)(−2/γ̂) πV (f0 )
+                                          πVθ (S(h0,1,2 )) = −πV (h0,1,2 ).                              (4.90)
+Comparing (4.90) with (4.87), we see that C has to satisfy (4.81) for all the affine generators. One can check
+the same Uq [osp(2|2)] conjugation matrix (4.83) also satisfies (4.81) for the fundamental affine representation
+(3.59), (3.61b) and (3.62). (The fact that the charge conjugation matrix is the same for Uq [osp(2|2)] and
+Uq [osp(2|2)(1) ] is a consequence of the specific representation, gradation and root system we are working
+with. In general this is not the case.)
+    The crossing relation can now be derived from the following relation between the universal R-matrix and
+the antipode
+                                               (S ⊗ 1)R = R−1 .                                           (4.91)
+Evaluating this in the representation πVθ1 ⊗ πVθ2 , and making use of (4.87) one gets (θ = θ1 − θ2 )
+
+                                R(θ; γ̂)(C −1 ⊗ 1)(R(iπ + θ; γ̂))st1 (C ⊗ 1) = 1,                        (4.92)
+
+where st1 means taking the supertranspose in only the first space of the tensor product V ⊗V . In components
+we have                                b1 b2
+                                   Rst1 a a = (−1)d(a1 )d(b1 )+d(a1 ) Rba11ab22 .                      (4.93)
+                                             1 2
+
+We also have written (θ; γ̂) instead of (x; q) for the variable dependence of R and will freely use both
+notations. Equation (4.92) is easily derived using the general expression for R obtained via the quantum
+double construction [62, 63]                       X
+                                              R=      ai ⊗ ai .                                     (4.94)
+                                                        i
+
+Substituting S(θ; γ̂) = P R(θ; γ̂) into (4.92) gives the crossing relation for the S -matrix
+
+                               P S(θ; γ̂)(C −1 ⊗ 1)(P S(iπ + θ; γ̂))st1 (C ⊗ 1) = 1.                     (4.95)
+
+With the unitarity condition
+                                               S(θ; γ̂)S(−θ; γ̂) = 1,                                    (4.96)
+equation (4.95) can be rewritten as
+
+                                S(θ; γ̂) = (C −1 ⊗ 1)(P S(iπ − θ; γ̂))st1 (C ⊗ 1)P.                      (4.97)
+
+We have derived (4.97) rather formally, though its physical interpretation is simple: the amplitude for the
+direct-channel process
+                                 |a1 , θ1 i ⊗ |a2 , θ2 i −→ |b2 , θ2 i ⊗ |b1 , θ1 i,                 (4.98)
+is the same as the amplitude for the cross-channel process
+
+                     |a2 , θ2 + iπ/2i ⊗ |b1 , θ1 − iπ/2i −→ |a1 , θ1 − iπ/2i ⊗ |b2 , θ2 + iπ/2i,         (4.99)
+
+where the overbar denotes the conjugated state as determined by the charge conjugation matrix.
+4e. The minimal S -matrix
+    We now want to build a crossing symmetric S -matrix starting from the previously obtained result
+
+                                   S(x; q) = v(x; q)Ř(x; q) = v(x; q)P R(x; q).                        (4.100)
+
+Here we have returned to to the notation of section 4c, with Ř(x; q) being the specific solution (4.75) and not
+the crossing symmetric R-matrix satisfying (4.92). In general, a solution for v(x; q) making S(x; q) crossing
+symmetric will spoil unitarity. (Recall Ř(x; q) is unitary (4.76).) Thus the crossing and unitarity equations
+need to be considered together when determining v(x; q).
+
+                                                         28
+   The constraints (4.96) and (4.95) give the following equations for v(x; q)
+
+                                                v(x; q)v(x−1 ; q) = 1                                      (4.101)
+                                                                                    
+                         v(x; q)v(xq 2 ; q) R(x; q)(C −1 ⊗ 1)(R(xq 2 ; q))st1 (C ⊗ 1) = 1,                 (4.102)
+where we have used
+                                    x(θ) = e−2θ/γ̂ ,              x(iπ + θ) = x(θ)q 2 .                    (4.103)
+Evaluating the quantity in square brackets, [. . .], we get
+
+                                                        (x − q 2 ) (1 − xq 2 )
+                                            [. . .] =                          ,                           (4.104)
+                                                         (x − 1) (1 − xq 4 )
+
+for both parity assignments. Therefore the functional relations determining the scalar factor are
+
+                                                v(x; q)v(x−1 ; q) = 1                                     (4.105a)
+
+                                                                  (x − 1) (1 − xq 4 )
+                                      v(x; q)v(xq 2 ; q) =                              .                 (4.105b)
+                                                                 (x − q 2 ) (1 − xq 2 )
+We choose to express these equations in a slightly different form. Introduce v̂(x; q) via
+                                               1 1
+                                  v(x; q) =             (x − q 2 )(1 − xq 2 )v̂(x; q).                     (4.106)
+                                              4π 2 xq 2
+
+Then (4.105a) and (4.105b) are equivalent to
+
+                                                                   (4π 2 q 2 )2
+                                   v̂(x; q)v̂(x−1 ; q) =                                                   (4.107)
+                                                            (1 − xq 2 )2 (1 − x−1 q 2 )2
+
+                                               v̂(x−1 q 2 ; q) = v̂(x; q),                                (4.107b)
+or in terms of (θ, γ̂)
+                                                                            π4
+                             v̂(θ; γ̂)v̂(−θ; γ̂) =                                                    (4.108a)
+                                                     sin2       1
+                                                                γ̂ (π + iθ)  sin2 1
+                                                                                   γ̂ (π − iθ)
+
+                                               v̂(iπ − θ; γ̂) = v̂(θ; γ̂).                                (4.108b)
+    A solution to these equations can be constructed iteratively as discussed in [26, 37]. One begins with a
+specific solution of (4.108a), call it v̂0 . This will in general not be a solution of (4.108b). One then looks
+for a solution of (4.108b), denoted v̂1 , that is of the form v̂1 = v̂0 f1 for some function f1 . Now v̂1 will no
+longer satisfy (4.108a) and one has to re-construct a unitary solution. In order not to end up with the prior
+solution v̂0 , a new solution v̂2 , of the form v̂2 = v̂1 f2 = v̂0 f1 f2 , is Q
+                                                                              sought. The process is then repeated,
+eventually giving a solution in the form of an infinite product v̂ = v̂0 i fi (assuming everything converges).
+This recursive method will become clear as we solve (4.108). The final solution for v will depend on the
+choice of v̂0 . This reflects the fact that (4.108) does not have a unique solution. However all solutions will
+differ only by a product (possibly infinite) of CDD factors. For a certain choice of v̂0 the solution will be
+minimal, meaning that it will contain a minimum number of poles in the physical strip 0 < Im θ < π. We
+will build this minimal solution.
+    In constructing a minimal solution it is more convenient, and perhaps even necessary, to work with (4.108)
+rewritten in terms of gamma functions as
+                                                                       2
+                              1    iθ     1      iθ      1    iθ     1      iθ
+   v̂(θ; γ̂)v̂(−θ; γ̂) = Γ 1 − (1 + ) Γ      (1 + ) Γ 1 − (1 − ) Γ      (1 − )                            (4.109a)
+                              γ̂   π      γ̂     π       γ̂   π      γ̂     π
+
+                                               v̂(iπ − θ; γ̂) = v̂(θ; γ̂).                                (4.109b)
+
+
+
+                                                                29
+For an initial solution of (4.109a) we take
+                                                                     2
+                                                   1    iθ     1      iθ
+                              v̂0 (θ; γ̂) = − Γ 1 − (1 + ) Γ      (1 − )     .                                (4.110)
+                                                   γ̂   π      γ̂     π
+
+However, this does not solve (4.109b). So we adjust (4.110) as follows
+
+                                                v̂1 (θ; γ̂) = v̂0 (θ; γ̂)f1 (θ; γ̂),                          (4.111)
+
+where
+                                                    f1 (θ; γ̂) = v̂0 (iπ − θ; γ̂).                            (4.112)
+Now v̂1 (θ; γ̂) is crossing symmetric but spoils the unitarity constraint. Unitarity is restored by taking
+
+                                            v̂2 (θ; γ̂) = v̂0 (θ; γ̂)f1 (θ; γ̂)f2 (θ; γ̂)                     (4.113)
+
+where
+                                                                          1
+                                                     f2 (θ; γ̂) =                .                            (4.114)
+                                                                     f1 (−θ; γ̂)
+At the next step we have, restoring crossing symmetry,
+
+                                       v̂3 (θ; γ̂) = v̂0 (θ; γ̂)f1 (θ; γ̂)f2 (θ; γ̂)f3 (θ; γ̂)                (4.115)
+
+where
+                                                    f3 (θ; γ̂) = f2 (iπ − θ; γ̂),                             (4.116)
+and so forth, with the process never terminating. From the structure of the v̂i ’s, we see that the complete
+solution to (4.109) takes the form
+                                                    ∞
+                                                    Y v̂0 ((2n − 1) iπ − θ; γ̂) v̂0 (2n iπ + θ; γ̂)
+                          v̂(θ; γ̂) = v̂0 (θ; γ̂)                                                         .   (4.117)
+                                                    n=1
+                                                          v̂0 ((2n − 1) iπ + θ; γ̂) v̂0 (2n iπ − θ; γ̂)
+
+Explicitly we have
+                                                                         2
+                                                           Γ 1 + 1 iθ
+                                     1      iθ       1    iθ         γ̂ π
+               v̂(θ; γ̂) = −Γ2          (1 + ) Γ2 1 − (1 + )              (I(θ; γ̂))2 ,                   (4.118)
+                                     γ̂     π        γ̂   π    Γ 1−  1 iθ
+                                                                                             γ̂ π
+
+where
+                                                                                             
+             Y∞ Γ 2n 1 + 1 iθ Γ 1 + 2n 1 + 1 iθ Γ (2n − 1) 1 − 1 iθ Γ 1 + (2n − 1) 1 − 1 iθ
+                      γ̂   γ̂ π           γ̂   γ̂ π            γ̂   γ̂ π                γ̂   γ̂ π
+  I(θ; γ̂) =                                                                                  . (4.119)
+                      1    1 iθ
+             n=1 Γ 2n γ̂ − γ̂ π  Γ 1 + 2n γ̂ − γ̂ π Γ (2n − 1) γ̂ + γ̂ π Γ 1 + (2n − 1) γ̂ + γ̂1 iθ
+                                          1    1 iθ            1    1 iθ                1
+                                                                                                 π
+
+
+The factor I(θ; γ̂) is identical to the infinite product that appears in the sine-Gordon S -matrix [7]. In the
+notation of [7] (identifying 1/γ̂ = 8π/γ)
+                                                             ∞
+                                                             Y
+                                             I(θ; γ̂) =            Rn (θ)Rn (iπ − θ)                          (4.120)
+                                                             n=1
+
+This also shows that (4.119) converges. Taking into account (4.106), the final expression for v(θ; γ̂) that
+solves (4.105) is
+                                                                         2
+                               Γ 1 − γ̂1 − γ̂1 iθ
+                                               π   Γ  1
+                                                      γ̂ + 1 iθ
+                                                           γ̂ π   Γ  1 + 1 iθ
+                                                                         γ̂ π
+                     v(θ; γ̂) =                                           (I(θ; γ̂))2 .               (4.121)
+                                     1     1 iθ       1    1 iθ          1 iθ
+                               Γ 1 − γ̂ + γ̂ π Γ γ̂ − γ̂ π        Γ 1 − γ̂ π
+
+
+                                                                   30
+Therefore, the minimal S -matrix for the Toda model (3.27) is
+
+                                               S(θ; γ̂) = v(θ; γ̂)Ř(θ; γ̂),                             (4.122)
+
+with Ř(θ; γ̂) given by (4.75) and v(θ; γ̂) as above. The S -matrix is unique up to an arbitrariness only of
+the CDD type. As previously stated, the CDD factors are determined by applying the bootstrap procedure.
+In general this is a complicated task and requires knowing all the particle multiplets of the theory. The
+bootstrap equation constrains the poles and zeros of the various S -matrices associated with the different
+multiplets. The final result is that the complete S -matrix (for the vector representation) takes the form
+
+                                    Scomplete (θ; γ̂) = X(θ; γ̂)v(θ; γ̂)Ř(θ; γ̂),                       (4.123)
+
+where X(θ; γ̂) is a product of CDD type factors.
+   We give alternative expressions for the ρi (θ; γ̂) factors (4.72) and (4.74) in terms of gamma functions
+                                                                            
+                                             Γ 1 − γ̂1 + γ̂1 iθ
+                                                             π   Γ   1
+                                                                     γ̂ − 1 iθ
+                                                                          γ̂ π
+                                 ρ1 (θ; γ̂) =                                                      (4.124)
+                                             Γ 1 − γ̂ − γ̂ π Γ γ̂ + γ̂1 iθ
+                                                       1   1 iθ      1
+                                                                             π
+
+                                                                                    
+                          2q    Γ 1 − γ̂1 − γ̂1 iθ     1 1 iθ         1   1 iθ      1 1 iθ
+                                                π Γ γ̂ + γ̂ π Γ 1 − γ̂ + γ̂ π Γ γ̂ − γ̂ π
+         ρN (θ; γ̂) = − p                                                            .           (4.125)
+                         1 + q4            Γ 1 − γ̂1 Γ γ̂1 Γ 1 − γ̂2 iθ  Γ   2 iθ
+                                                                     π       γ̂ π
+
+These expressions are useful for analyzing the pole structure of S(θ; γ̂) (see section 5).
+4f. The Yangian limit and the osp(2|2) current-current S -matrix
+    In this section we compute the Yangian symmetric S -matrix, SY (θ), for the original osp(2|2) current-
+current model (2.3). As explained in section 2, SY (θ) can be obtained from (4.122) by taking the marginal
+limit β̂ → 1+ , or ǫ → 0+ where ǫ ≡ 1/γ̂. (This limit is equivalent to the rational limit usually considered for
+R-matrices, and the resulting R-matrix being referred to as the rational R-matrix.)
+    The marginal limit is easily evaluated for the various components of S(θ; γ̂). For the projectors, which
+are well defined as ǫ → 0+ , we simply set q = −1. For the remaining factors, v(θ; γ̂) and ρ1,N (θ; γ̂), we make
+use of                                                    
+                                                     Γ(ǫA)      B
+                                              lim+           = .                                          (4.126)
+                                             ǫ→0     Γ(ǫB)      A
+One finds
+                                                           ∞                                 !2
+                                                1 − iθ     Y 2n − 1 + iθ           2n − iθ
+                                                    π                 π                 π
+                           lim v(θ; γ̂)    =                                           
+                          ǫ→0+                  1 + iθ
+                                                    π      n=1
+                                                               2n − 1 − iθ π   2n + iθπ
+                                                                                    !2
+                                                1 − iθ
+                                                    π      Γ 1 + 21 iθ
+                                                                    π   Γ 1
+                                                                           2 − 1 iθ
+                                                                               2 π
+                                           =                                                             (4.127)
+                                                1 + iθ
+                                                    π      Γ 1 − 21 iθ     1
+                                                                    π Γ 2 + 2 π
+                                                                               1 iθ
+
+
+
+                                                                     1 + iθ
+                                                                         π
+                                                 lim+ ρ1 (θ; γ̂) =                                       (4.128)
+                                                ǫ→0                  1 − iθ
+                                                                         π
+
+                                                         √               iθ
+                                                                         π
+                                      lim+ ρN (θ; γ̂) = 2 2                         .                    (4.129)
+                                     ǫ→0                         (1 + iθ      iθ
+                                                                      π )(1 − π )
+
+These results could have been obtained directly from (4.72) and (4.74), and by taking the marginal limit
+before calculating v(θ). Combining everything, SY (θ) takes the block diagonal form as in (4.61) with the
+individual blocks being:
+(i) One-dimensional blocks:
+                                            SY (θ) = IY2 (θ),                                    (4.130a)
+
+
+                                                            31
+for |1i ⊗ |1i and |4i ⊗ |4i; and
+                                                          iπ + θ 2
+                                               SY (θ) =         I (θ),                                        (4.130b)
+                                                          iπ − θ Y
+for |2i ⊗ |2i and |3i ⊗ |3i.
+(ii) Two-dimensional blocks:                                            
+                                                    1          iπ   ±θ
+                                      SY (θ) =                               IY2 (θ),                         (4.130c)
+                                                 iπ − θ        ±θ   iπ
+for the four pairs of states
+
+            (|1i ⊗ |2i, |2i ⊗ |1i), (|1i ⊗ |3i, |3i ⊗ |1i), (|2i ⊗ |4i, |4i ⊗ |2i), (|3i ⊗ |4i, |4i ⊗ |3i).
+
+(ii) Four-dimensional block:
+                                                                           
+                                π(π + 2iθ)   ±iπθ       ±iπθ        −θ2
+                        1        ∓iπθ         π2     θ(θ − 2iπ)   ±iπθ      2
+         SY (θ) = −                                                         I (θ),                          (4.130d)
+                    (iπ − θ)2    ∓iπθ     θ(θ − 2iθ)     π2       ±iπθ      Y
+                                      2
+                                   −θ        ∓iπθ       ∓iπθ     π(π + 2iθ)
+
+for the basis states
+                                      (|1i ⊗ |4i, |2i ⊗ |3i, |3i ⊗ |2i, |4i ⊗ |1i).
+The factor IY (θ) is the ǫ → 0+ limit of I(θ; γ̂):
+                                                        iθ
+                                                                    1   iθ
+                                                                              
+                                                  Γ 1 + 2π   Γ       2 − 2π
+                                         IY (θ) =       iθ
+                                                                    1   iθ
+                                                                            .                                 (4.131)
+                                                  Γ 1 − 2π Γ         2 + 2π
+
+This completes our calculation of the S -matrix for the osp(2|2) current-current model (2.3).
+     We have not yet proven that (4.130) is Yangian symmetric. This means showing SY (θ) commutes
+with the comultiplication of the Yangian generators. Unfortunately the general theory of super Yangians
+associated with Lie superalgebras is not as fully developed as that of quantum supergroups. (See [64, 65]
+and references therein for a discussion of super Yangians.) For ordinary Lie algebras, one can realize a
+Yangian structure in terms of non-local charges arising from curvature-free currents [39]. This construction
+is particularly useful is studying Yangian symmetric field theories and S -matrices. However we are unaware
+of a similar characterization of the Yangians for Lie superalgebras. Thus we do not strictly show (4.130) to
+be Yangian symmetric but give some supporting evidence. Our discussion is based on a comparison with
+bosonic Yangian symmetric systems. Examples of such systems include Gross-Neveu type models and the
+sine-Gordon model. At the marginal point, these models consist of current-current type perturbations of a
+free field theory. Furthermore, their Yangian symmetric S -matrices can be obtained by taking the marginal
+limit of a S -matrix with affine quantum group symmetry [37]. (For the Gross-Neveu model this quantum
+group symmetric S -matrix corresponds to an affine Toda theory.) The Yangian symmetry of the S -matrix,
+i.e., the vanishing commutator of S with the Yangian comultiplication, follows from the marginal limit of
+the quantum affine symmetry relations. Here we are dealing with a supersymmetric analog of the bosonic
+Gross-Neveu model. The current-current model (2.3) is a Gross-Neveu type model based on osp(2|2), and
+(2.18) is an osp(2|2)(1) Toda-type system. As for the bosonic case, we expect that the marginal S -matrix is
+Yangian symmetric and the corresponding symmetry relations can be extracted from (4.11).
+     Let us first recall the bosonic situation. The Yangian Y (g) based on a semi-simple Lie algebra g of rank
+                                           (0)  (1)
+r is generated by the set of charges {Qa , Qa }a=1,...,r satisfying, among others, the relations [39, 63, 66, 67]
+                                                        (0)
+                                               [Q(0)              (0)
+                                                 a , Qb ] = fabc Qc
+
+                                                        (1)
+                                              [Q(0)              (0)
+                                                a , Qb ] = fabc Qc ,                                           (4.132)
+where the fabc ’s are structure constants of g. Y (g) can be made into a Hopf algebra with the comultiplication
+
+                                          ∆(Q(0)    (0)          (0)
+                                             a ) = Qa ⊗ 1 + 1 ⊗ Qa
+
+
+                                                              32
+                                                            1      (0)
+                            ∆(Q(1)       (1)           (1)
+                                a ) = Qa ⊗ 1 + 1 ⊗ Qa − fabc Qb ⊗ Qc .
+                                                                          (0)
+                                                                                                                  (4.133)
+                                                            2
+The charges have non-trivial Lorentz spin and under a Lorentz boost by θ, denoted Tθ , behave as
+
+                                                      Tθ (Q(0)    (0)
+                                                           a ) = Qa
+
+                                             Tθ (Q(1)    (1)    (0)
+                                                  a ) = Qa + cθQa ,                                               (4.134)
+where c is a normalization constant independent of the index a. The Yangian symmetric S -matrix then
+commutes with (4.133) evaluated in the “gradation” given by Tθ
+
+                       S(θ1 − θ2 )(Tθ1 ⊗ Tθ2 )∆(Q(0,1)
+                                                 a     ) = (Tθ2 ⊗ Tθ1 )∆(Q(0,1)
+                                                                          a     )S(θ1 − θ2 ),                     (4.135)
+
+or explicitly                                                       
+                    S(θ1 − θ2 ) Q(0)          (0)
+                                 a ⊗ 1 + 1 ⊗ Qa    = Q(0)          (0)
+                                                      a ⊗ 1 + 1 ⊗ Qa     S(θ1 − θ2 ),                            (4.136a)
+
+                                                                                                    
+                                                                               1        (0)
+            S(θ1 − θ2 ) (Q(1)
+                          a   + cθ 1 Q (0)
+                                       a   ) ⊗ 1 + 1 ⊗ (Q (1)
+                                                          a   + cθ 2 Q (0)
+                                                                       a   ) −   f    Q
+                                                                                   abc b    ⊗ Q  (0)
+                                                                                                 c
+                                                                               2
+                                                                                               
+                                                                           1        (0)
+                = (Q(1)          (0)                  (1)        (0)
+                        a + cθ2 Qa ) ⊗ 1 + 1 ⊗ (Qa + cθ1 Qa ) − fabc Qb ⊗ Qc
+                                                                                            (0)
+                                                                                                  S(θ1 − θ2 ).    (4.136)
+                                                                           2
+
+For the bosonic su(N ) Gross-Neveu model, it was shown in [37] that (4.136) can be recovered by expanding
+the affine quantum group symmetry relations in ǫ, with ǫ → 0+ being the marginal limit. The zeroth order
+term gives the constraint (4.136a) and the first order term leads to (4.136b).
+    Now we show that relations similar to (4.136) can also be obtained from (4.11) as ǫ → 0+ (ǫ = 1/γ̂).
+(Note that in writing (4.11) we had canceled the non-zero factors ci (3.57) from both sides. However as
+ǫ → 0+ , ci seems to blow up. As explained earlier to make sense of (4.11) we need to regularize the charges
+by taking g → 0 such that gγ̂ is finite.) We will only display the relations for the ei ’s, with those for the other
+generators treated similarly. The Uq [osp(2|2)(1) ] generators will be denoted as eiq , hiq and the ǫ-independent
+osp(2|2)(1) generators as ei , hi . (We also drop the V superscript.) From (3.59), (3.61b) and (3.62) we have
+to lowest order in ǫ
+                                             e1,2q = e1,2 ,  hiq = hi                                        (4.137)
+                                                           π2
+                                                 e0q = ie0 − ǫ2
+                                                              ie0 .                                   (4.138)
+                                                           4
+Of course (4.137) is exact since these generators are not deformed. The i factor in (4.138) is a result of the
+Yangian point being q = −1 instead of q = 1. Also the spectral parameters are
+
+                                               xi0 = e−2θi ǫ ≈ 1 − 2θi ǫ.                                         (4.139)
+
+Substituting these expressions into (4.11a) and (4.11b) we find to zeroth order in ǫ
+                                                                               
+    SY (θ) ei ⊗ (−1)−hi /2 + (−1)−hi /2 ⊗ ei = ei ⊗ (−1)−hi /2 + (−1)−hi /2 ⊗ ei SY (θ), (i = 0, 1, 2).
+                                                                                                    (4.140)
+To first order in ǫ we have
+                                     SY (θ)∆θ1 θ2 (ei ) = ∆θ2 θ1 (ei )SY (θ),                       (4.141)
+where
+                          ∆θ1 θ2 (e1,2 ) = e1,2 ⊗ (−1)−h1,2 /2 h1,2 − (−1)−h1,2 /2 h1,2 ⊗ e1,2           (4.142)
+                4θ1                                   4θ2                                            
+ ∆θ1 θ2 (e0 ) =     e0 ⊗ (−1)−h0 /2 + (−1)−h0 /2 ⊗        e0 − e0 ⊗ (−1)−h0 /2 h0 − (−1)−h0 /2 h0 ⊗ e0 . (4.143)
+                iπ                                     iπ
+We see that these equations agree with (4.136) if we identify
+                                                (0)                  (0)
+                                               ei     = ei ,        hi     = hi                                   (4.144)
+
+                                                               33
+                                                      (1)
+                                                     ei     = 0,                                              (4.145)
+and define the automorphism Tθ as
+                                               (1)        (1)       2θ (0)
+                                           Tθ (ei ) = ei        −     si e ,                                  (4.146)
+                                                                    iπ i
+                                                                                  (1)
+where si /γ̂ is the Lorentz spin of the charge Qi . Even though the charges ei are identically zero in this
+                                                                                                          (1)
+representation, there is non-trivial structure due to the comultiplication (4.142) and (4.143). That the ei ’s
+                                           (1)
+vanish is not surprising since Uq [osp(2|2) ] is not deformed to order ǫ. Unlike (4.134), the θ dependence of
+     (1)
+Tθ (ei ) is not the same for all generators, which reflects the choice of gradation (homogeneous) and the root
+structure of osp(2|2)(1) . The twisting factors (−1)±hi /2 are again a consequence of the q → −1 limit rather
+than q → 1. Off shell, these factors correspond to a choice of statistical Klein factors and are not expected
+to be dynamical [63]. (Taking q → 1 gives an equivalent crossing symmetric S -matrix, with the same charge
+conjugation properties and differing from (4.130) only by a similarity transformation.) The S -matrix (4.130)
+therefore satisfies symmetry relations analogous to those of (bosonic) Yangian symmetric S -matrices, which
+supports the claim that SY (θ) has super Yangian symmetry.
+
+
+5. The analytic structure of S(θ; γ̂)
+We have argued that in the marginal limit the Toda S -matrix S(θ; γ̂) gives the minimal S -matrix for the
+osp(2|2) current-current model (2.3) (in the fundamental vector representation). As β̂ → 1, the Toda theory
+renormalizes to the current-current model and S(θ; γ̂) reduces to SY (θ). We now study the pole structure
+of S(θ; γ̂).
+    In the above calculation of S(θ; γ̂) we have taken β̂ to lie in the range 1 ≤ β̂ < ∞, which restricts 1/γ̂ to
+                                                          1
+                                                     0≤      < 1.                                               (5.1)
+                                                          γ̂
+For these values the S -matrix does not have any poles in the physical strip 0 < Im θ < π. In particular,
+the physical S -matrix SY (θ) does not √ contain any bound states. This structure is identical to that of the
+sine-Gordon S -matrix for the range 8π ≤ β < ∞ or −1 < 8π/γ ≤ 0, with 8π/γ = 0 being the Yangian
+point (though in this range the sine-Gordon model is not well-defined [7]). Of course S(θ; γ̂) satisfies the
+scattering constraints for all values of 1/γ̂ and we made no direct use of (5.1) in deriving S(θ; γ̂). For the
+sine-Gordon model the physically relevant parameter range is 8π/γ > 0. Analogously, we will consider
+the range 1/γ̂ > 1. This necessarily means ignoring the relation (3.36) and treating γ̂ as an independent
+free parameter. Thus we are now viewing S(θ; γ̂) as the fundamental S -matrix for some theory. (Since
+the quantum group symmetry used to derive S(θ; γ̂) is valid only for the range (5.1), we cannot consider
+S(θ; γ̂) to be the S -matrix for the Toda theory (3.27) for 1/γ̂ > 1. Also if 1/γ̂ > 1, then (3.36) implies β̂ is
+purely imaginary, which leads to ∆(g) = ∆(g) < 0, i.e., the perturbation becomes irrelevant. Even so, it is
+interesting to study the pole structure of S(θ; γ̂) independent of any Lagrangian formulation.) For simplicity
+we will restrict our analysis to generic values of γ̂ such that q 6= ±1, ±i, i.e., we take 1/γ̂ > 1 with 1/γ̂ not
+an integer or half-integer.
+    The θ-dependence is contained in the factors v(θ; γ̂), ρ1 (θ; γ̂) and ρN (θ; γ̂). From (4.119) one can check
+that the infinite product I(θ; γ̂) contains no zeros or poles in the physical strip. In the remaining finite
+number of gamma functions, there are only two with zeros or poles in the physical strip
+                            
+                        1 iθ                                                                 1
+                Γ 1+           :     has simple poles at θ = iπγ̂(m + 1); m = 0, 1, . . . , < − 1           (5.2)
+                        γ̂ π                                                                 γ̂
+
+and                  
+              1  1 iθ                                                                               1
+          Γ 1− −        :           has simple poles at θ = iπ − iπγ̂(m + 1); m = 0, 1, . . . , <      − 1.     (5.3)
+              γ̂ γ̂ π                                                                               γ̂
+Combining this with (4.121), (4.124) and (4.125), we find the following pole structure for the non-zero
+amplitudes (in all cases m = 0, 1, . . . , < 1/γ̂ − 1):
+
+
+                                                          34
+                11     44
+(i) amplitudes S11 = S44  :
+(a) double poles at θ = iπγ̂(m + 1) with (omitting the indices)
+
+                                                     (πγ̂)2 I0m (γ̂)   1
+                                     S(θ; γ̂) ∼ −                            ,                    (5.4)
+                                                    (m!(m + 1)!) (θ − θ0m )2
+                                                                     2
+
+
+where
+                                θ0m = iπγ̂(m + 1),          I0m (γ̂) = I(θ = θ0m ; γ̂),           (5.5)
+(b) no poles at θ = iπ − iπγ̂(m + 1).
+                  22    33
+(ii) amplitudes S22  = S33 :
+(a) double poles at θ = iπγ̂(m + 1) with
+
+                                                     (πγ̂)2 I0m (γ̂)  1
+                                     S(θ; γ̂) ∼ −                             ,                  (5.6a)
+                                                    (m!(m + 1)!)2 (θ − θ0m )2
+
+(b) single poles at θ = iπ − iπγ̂(m + 1) with
+                                                                 2
+                                                    Γ 2 − γ̂1 + m                1
+                       S(θ; γ̂) ∼ −iγ̂ sin(2π/γ̂)               I1m (γ̂)            ,        (5.6b)
+                                                         1
+                                                     Γ γ̂ − m                (θ − θ1m )
+
+where
+                             θ1m = iπ − iπγ̂(m + 1),           I1m (γ̂) = I(θ = θ1m ; γ̂).        (5.7)
+Using
+                                                                                     2
+                                                    Γ 1 + γ̂1 + γ̂1 iθ
+                                                                    π   Γ  1
+                                                                           γ̂  +   1 iθ
+                                                                                   γ̂ π
+                         I(iπ − θ; γ̂) = I(θ; γ̂)                                     ,     (5.8)
+                                                               1 iθ           1 iθ
+                                                      Γ 1 − γ̂ π Γ − γ̂ π
+
+expression (5.6b) can be rewritten as
+
+                                                2iπ 2 γ̂I0m (γ̂)               1
+                                S(θ; γ̂) ∼ −                     cot(π/γ̂)            .          (5.6c)
+                                               (m!(m + 1)!)2               (θ − θ1m )
+                  12    13     24    34
+(iii) amplitudes S12 = S13 = S24  = S34 :
+(a) double poles at θ = iπγ̂(m + 1) with
+
+                                                     (πγ̂)2 I0m (γ̂)  1
+                                     S(θ; γ̂) ∼ −                             ,                  (5.9a)
+                                                    (m!(m + 1)!)2 (θ − θ0m )2
+
+(b) single poles at θ = iπ − iπγ̂(m + 1) with
+
+                                             iπ 2 γ̂I0m (γ̂)                     1
+                             S(θ; γ̂) ∼ −                    (cot(π/γ̂) − i)            .        (5.9b)
+                                            (m!(m + 1)!)2                    (θ − θ1m )
+                  21    31     42    43
+(iv) amplitudes S21  = S31 = S42  = S43 :
+(a) double poles at θ = iπγ̂(m + 1) with
+
+                                                     (πγ̂)2 I0m (γ̂)   1
+                                     S(θ; γ̂) ∼ −                            ,                  (5.10a)
+                                                    (m!(m + 1)!) (θ − θ0m )2
+                                                                     2
+
+
+(b) single poles at θ = iπ − iπγ̂(m + 1) with
+
+                                             iπ 2 γ̂I0m (γ̂)                       1
+                             S(θ; γ̂) ∼ −                      (cot(π/γ̂) + i)            .     (5.10b)
+                                            (m!(m + 1)!)     2                 (θ − θ1m )
+
+
+                                                          35
+                  12     21    13    31    24    42    34    43
+(v) amplitudes S21   = S12  = S31 = S13 = S42 = S24 = S43 = S34 :
+(a) single poles at θ = iπγ̂(m + 1) with
+                                                iπ 2 γ̂I0m (γ̂)               1
+                               S(θ; γ̂) ∼ ±                     csc(π/γ̂)            ,        (5.11a)
+                                               (m!(m + 1)!)2              (θ − θ0m )
+(b) single poles at θ = iπ − iπγ̂(m + 1) with
+                                                iπ 2 γ̂I0m (γ̂)               1
+                               S(θ; γ̂) ∼ ∓                     csc(π/γ̂)            .        (5.11b)
+                                               (m!(m + 1)!)2              (θ − θ1m )
+                 14
+(vi) amplitude S14  :
+(a) double poles at θ = iπγ̂(m + 1) with
+                                                    (πγ̂)2 I0m (γ̂)   1
+                                   S(θ; γ̂) ∼ −                             ,                 (5.12a)
+                                                   (m!(m + 1)!) (θ − θ0m )2
+                                                                    2
+
+
+(b) double poles at θ = iπ − iπγ̂(m + 1) with
+                                                   (πγ̂)2 I0m (γ̂)   1
+                                    S(θ; γ̂) ∼                             .                  (5.12b)
+                                                  (m!(m + 1)!) (θ − θ1m )2
+                                                                   2
+
+                 41
+(vii) amplitude S41 :
+(a) double poles at θ = iπγ̂(m + 1) with
+                                                    (πγ̂)2 I0m (γ̂)  1
+                                   S(θ; γ̂) ∼ −                              ,                (5.13a)
+                                                   (m!(m + 1)!)2 (θ − θ0m )2
+(b) double poles at θ = iπ − iπγ̂(m + 1) with
+                                                   (πγ̂)2 I0m (γ̂)  1
+                                    S(θ; γ̂) ∼                              .                 (5.13b)
+                                                  (m!(m + 1)!)2 (θ − θ1m )2
+                   23     32
+(viii) amplitudes S23 = S32  :
+(a) double poles at θ = iπγ̂(m + 1) with
+                                                    (πγ̂)2 I0m (γ̂)  1
+                                   S(θ; γ̂) ∼ −                              ,                (5.14a)
+                                                   (m!(m + 1)!)2 (θ − θ0m )2
+(b) double poles at θ = iπ − iπγ̂(m + 1) with
+                                                    (πγ̂)2 I0m (γ̂)   1
+                                   S(θ; γ̂) ∼ −                             .                 (5.14b)
+                                                   (m!(m + 1)!) (θ − θ1m )2
+                                                                    2
+
+                   14    14      23       32
+(ix) amplitudes S23   = S32 = −S14  = −S14   :
+                                                    14
+(a) single poles at θ = iπγ̂(m + 1) with (here S = S23 )
+                                             iπ 2 γ̂I0m (γ̂)                       1
+                             S(θ; γ̂) ∼ ∓                      (cot(π/γ̂) + i)            ,   (5.15a)
+                                            (m!(m + 1)!)     2                 (θ − θ0m )
+(b) double poles at θ = iπ − iπγ̂(m + 1) with
+                                                      (πγ̂)2 I0m (γ̂)  1
+                                   S(θ; γ̂) =∼ ±                               .              (5.15b)
+                                                     (m!(m + 1)!)2 (θ − θ1m )2
+                  41     41      23      32
+(x) amplitudes S23   = S32  = −S41  = −S41  :
+                                                    41
+(a) single poles at θ = iπγ̂(m + 1) with (here S = S23 )
+                                             iπ 2 γ̂I0m (γ̂)                     1
+                             S(θ; γ̂) ∼ ±                    (cot(π/γ̂) − i)            ,     (5.16a)
+                                            (m!(m + 1)!)2                    (θ − θ0m )
+
+                                                          36
+(b) double poles at θ = iπ − iπγ̂(m + 1) with
+
+                                                           (πγ̂)2 I0m (γ̂)   1
+                                        S(θ; γ̂) =∼ ∓                              .                                 (5.16b)
+                                                          (m!(m + 1)!) (θ − θ1m )2
+                                                                           2
+
+                   23    32
+(xi) amplitudes S32   = S23 :
+(a) single poles at θ = iπγ̂(m + 1):
+
+                                                    2iπ 2 γ̂I0m (γ̂)                 1
+                                      S(θ; γ̂) ∼                       cot(π/γ̂)            ,                        (5.17a)
+                                                   (m!(m + 1)!)      2           (θ − θ0m )
+
+(b) double poles at θ = iπ − iπγ̂(m + 1) with
+
+                                                          (πγ̂)2 I0m (γ̂)   1
+                                          S(θ; γ̂) ∼ −                            .                                  (5.17b)
+                                                         (m!(m + 1)!) (θ − θ1m )2
+                                                                          2
+
+                   14    41
+(xii) amplitudes S41  = S14 :
+(a) no poles at θ = iπγ̂(m + 1),
+(b) double poles at θ = iπ − iπγ̂(m + 1) with
+
+                                                          (πγ̂)2 I0m (γ̂)   1
+                                          S(θ; γ̂) ∼ −                            .                                   (5.18)
+                                                         (m!(m + 1)!) (θ − θ1m )2
+                                                                          2
+
+
+These poles and expansions for S(θ; γ̂) agree with the crossing constraint, which in components takes the
+form
+              Sab21 ba12 (θ; γ̂) = (−1)δa1 4 +δb1 4 Saā21b̄b12 (iπ − θ; γ̂), if 1, 4 are even and 2, 3 are odd (5.19a)
+
+                 Sab21ba12 (θ; γ̂) = (−1)δa1 1 +δb1 1 Saā21b̄b12 (iπ − θ; γ̂), if 1, 4 are odd and 2, 3 are even.   (5.19b)
+
+The (−1)δ factor is due to the negative sign in the charge conjugation matrix and the bar denotes the
+conjugated state (1̄ = 4, etc.). Equation (5.19) implies that for every pole at θ in the direct-channel there is
+a corresponding pole in the cross-channel.
+    The amplitudes (vi)-(xii) correspond to transitions between states with zero topological charge, (T 1 , T 2 ) =
+(0, 0). Simple poles in these amplitudes at θ = iπγ̂(m + 1) can be interpreted as charge neutral bound states
+in the direct-channel. These are the “breathers” of the theory. The associated cross-channel poles occur
+at θ = iπ − iπγ̂(m + 1) in (ii) - (iv). There are also bound states of charge (+2, 0), (−2, 0), (0, +2) and
+(0, −2). These “breathing solitons” appear as simple poles in both the direct- and cross-channels in (v).
+Lastly, there are various double poles which probably have an explanation in terms of a Coleman-Thun type
+mechanism [68].
+
+
+6. Conclusions
+We have computed the S -matrix for a certain disordered system. After disorder averaging, the theory can be
+written as a current-current perturbation of an osp(2|2) supersymmetric CFT. This current-current model
+is known to be Yangian symmetric. Instead of directly constructing the Yangian symmetric S -matrix, we
+followed the approach of [37]. This approach consisted of working with a Toda-type theory which renormalizes
+to the osp(2|2) current-current model at the marginal point. For the Toda theory we built quantum group
+charges satisfying the Uq [osp(2|2)(1) ] algebra. The Hopf algebraic structure of Uq [osp(2|2)(1) ] was then used
+to construct the exact S -matrix S(θ; γ̂) (up to CDD factors) for the fundamental vector representation. We
+argued that in the marginal limit this Uq [osp(2|2)(1) ] S -matrix reduces to the exact physical S -matrix SY (θ)
+for the fundamental particles of the osp(2|2) current-current model. We did not prove that the quantum
+group symmetry used to determine S(θ; γ̂) and SY (θ) is exact to all orders in g. Nevertheless, the fact that
+we were able to construct a S -matrix satisfying the scattering constraints and having a symmetry algebra
+agreeing with the Yangian is strong support for the validity of (4.130). As mentioned above, one can try to
+construct the Yangian charges and in turn determine SY (θ) from the Yangian symmetry. However, whereas
+
+                                                                37
+the procedure for computing S using quantum group symmetry is, in principle, well established, this is
+not the case for the Yangian symmetric situation. We hope to address this issue for the specific model
+(2.3) in the future. Another independent check of (4.130) will be to do a thermodynamic Bethe ansatz
+analysis [16, 18, 69, 70]. This is complicated by the fact that SY (θ) is not diagonal.
+    The β̂-dependent S -matrix S(θ; γ̂) is itself an interesting result. For 0 < 1/γ̂ < 1, S(θ; γ̂) is the S -matrix
+for the supersymmetric Toda system (3.27), and reduces to the rational result SY (θ) at 1/γ̂ = 0. Yet S(θ; γ̂)
+satisfies all the scattering constraints for any 1/γ̂ > 0, which suggests that it is the fundamental “soliton”
+S -matrix for some other theory (recall that for 1/γ̂ > 1 the Toda perturbation (3.29) becomes irrelevant).
+In the marginal limit this theory also flows to the osp(2|2) current-current model. It is an open question to
+determine the theory, in the sense of an action, corresponding to (4.122) for all β̂ (or γ̂). This theory will
+be some perturbation of the c = 0 CFT (2.4). Since S(θ; γ̂) has a non-trivial pole structure, the complete
+S -matrix must include the scattering amplitudes for the neutral and charged bound states. These amplitudes
+can be found by applying the bootstrap principle.
+
+
+Acknowledgments
+We would like to thank B. Gerganov for useful discussions. This work is supported in part by the National
+Science Foundation, in part through the National Young Investigator Program. Z.S.B. also acknowledges
+support from the Olin foundation.
+
+
+Appendix A
+In this appendix we review the osp(2|2) superalgebras and give the relationship between the osp(2|2)(1)
+generators and the currents (2.9),(2.10). Our discussion omits the Serre relations as they are not needed
+in this paper. For the same reason, we will also define the affine algebras without the derivation. Further
+details on general (affine) Lie superalgebras and quantum supergroups, including osp(2|2), may be found
+in [54, 71–74]. We will follow most closely the notations and conventions of [54] and [72] (though unlike [54]
+and [72], we take a simple root system for osp(2|2) that is purely fermionic).
+(1) The superalgebras osp(2|2) and osp(2|2)(1)
+    The simple Lie superalgebra osp(2|2) is a Z2 -graded algebra with two simple roots, {α1 , α2 }, and Cheval-
+ley generators {ei , fi , hi ; i = 1, 2} satisfying
+                                                    [hi , hj ] = 0                                       (A.1a)
+                                      [hi , ej ] = aij ej ,        [hi , fj ] = −aij fj                     (A.1b)
+                                                     [ei , fj ] = δij hi                                     (A.1c)
+                                              e2i = fi2 = 0,       if aii = 0.                              (A.1d)
+Here (i) [· , ·] denotes the graded Lie bracket
+
+                                            [a, b] = ab − (−1)d(a)d(b) ba,                                    (A.2)
+
+where d(x) is the parity of x: d(x) = 0 if x is even or bosonic and d(x) = 1 if x is odd or fermionic (all
+Cartan generators hi are even); and (ii) aij is the symmetric generalized Cartan matrix defined as
+
+                                                     aij = (αi , αj ),                                        (A.3)
+
+where (· , ·) is a fixed invariant bilinear form on the root space. In contrast with (bosonic) Lie algebras,
+superalgebras allow several inequivalent simple root systems. A common choice is the distinguished root
+system, where all simple roots except one are taken to be bosonic. We will instead work with a purely
+fermionic osp(2|2) simple root system with the parities
+
+                              d1,2 ≡ d(e1,2 ) = d(f1,2 ) = 1,              d˜1,2 ≡ d(h1,2 ) = 0.              (A.4)
+
+
+                                                              38
+For the osp(2|2) Cartan matrix we take
+                                                                             
+                                                                0        −2
+                                                  aij =                           .                             (A.5)
+                                                               −2        0
+
+A specific realization of the root system is given by
+
+                                            α1 = (1, i),            α2 = (−1, i).                               (A.6)
+
+The Dynkin diagram associated with (A.5) is
+
+                                                      ❅♥                    ❅♥
+   The untwisted affine Lie superalgebra osp(2|2)(1) contains an additional root α0 = −ψ, where ψ is the
+highest root of osp(2|2). Explicitly we have
+
+                                             α0 = −(α1 + α2 ) = (0, −2i).                                       (A.7)
+
+This additional root is necessarily even, with d0 ≡ d(e0 ) = d(f0 ) = 0. The affine generators {ei , fi , hi ; i =
+0, 1, 2} satisfy the same relations (A.1) as for osp(2|2). (If we included the derivation, α0 would be given by
+δ − ψ, where δ is the minimal imaginary root of osp(2|2)(1) . However, since δ satisfies (δ, δ) = (δ, α1,2 ) = 0,
+the defining relations (A.1) are unchanged.) The affine Cartan matrix is
+                                                                   
+                                                     −4 2        2
+                                           aij =  2       0 −2  .                                         (A.8)
+                                                      2 −2 0
+
+Note that in section 3 we find h0 = −(h1 + h2 ), thus there h0 is not an independent generator. This implies
+that the central extension is zero. For a non-zero central extension all the Cartan generators {h0 , h1 , h2 }
+satisfying (A.1) are independent.
+(2) The quantum superalgebras Uq [osp(2|2)] and Uq [osp(2|2)(1) ]
+    The quantum superalgebras (or supergroups) Uq [osp(2|2)] and Uq [osp(2|2)(1) ] are deformations of the
+universal enveloping algebras for osp(2|2) and osp(2|2)(1) . As such they are (unital) Z2 -graded associative
+algebras generated by {ei , fi , hi }, where i = 1, 2 for Uq [osp(2|2)] and i = 0, 1, 2 for Uq [osp(2|2)(1) ], modulo
+the relations
+                                                     [hi , hj ] = 0                                             (A.9a)
+                                       [hi , ej ] = aij ej ,           [hi , fj ] = −aij fj                   (A.9b)
+                                                                       hi     −hi
+                                                                   q     −q
+                                                [ei , fj ] = δij                                               (A.9c)
+                                                                       q − q −1
+                                               e2i = fi2 = 0, if aii = 0.                                     (A.9d)
+Here q is an arbitrary non-zero complex number. In the limit q → 1, (A.9) reduces to (A.1). The expressions
+q ±hi are understood as infinite power series in hi . We can alternatively write (A.9a) and (A.9b) as
+                                                 ′        ′
+                                           qh qh = qh qh ,          h, h′ ∈ {±hi }                           (A.10a)
+
+                                                 q hi q −hi = q −hi q hi = 1                                 (A.10b)
+                                  q hi ej q −hi = q aij ej ,        q hi fj q −hi = q −aij fj .              (A.10c)
+These quantum algebras can be endowed with a Hopf algebraic structure. The comultiplication ∆ is defined
+as
+                                      ∆(hi ) = hi ⊗ 1 + 1 ⊗ hi                                  (A.11a)
+                                          ∆(ei ) = ei ⊗ q −hi /2 + q hi /2 ⊗ ei                              (A.11b)
+                                          ∆(fi ) = fi ⊗ q −hi /2 + q hi /2 ⊗ fi ,                            (A.11c)
+
+                                                               39
+or equivalently in place of (A.11a)
+                                               ∆(q ±hi ) = q ±hi ⊗ q ±hi .                                   (A.12)
+The antipode S and counit ε are
+                                                               S(hi ) = −hi
+                                                   S(ei ) = −q −(αi ,αi )/2 ei
+                                                       S(fi ) = −q (αi ,αi )/2 fi                            (A.13)
+                                     ε(hi ) = ε(ei ) = ε(fi ) = 0,                        ε(1) = 1.          (A.14)
+      A thorough discussion of the representation theory for the osp(2|2) algebras can be found in [46–50, 52].
+(3) The osp(2|2)(1) currents
+    The super-currents (2.9) have Laurent expansions of the form (concentrating only on the holomorphic
+sector)                                          X
+                                          O(z) =     z −n−1 On .                                 (A.15)
+                                                                    n
+The algebra satisfied by the modes {On } can be obtained using the OPE’s (2.11) and the formula
+                                              I     I
+                                     [A, B] = dω       dz a(z)b(ω),                                          (A.16)
+                                                                0        ω
+
+for                                            I                                  I
+                                        A=             dz a(z),              B=           dz b(z).           (A.17)
+                                                   0                                  0
+For the modes Om and On′ , the (graded) commutator is
+                                            I       I
+                                                  n
+                                       ′
+                                [Om , On ] = dω ω     dz z m O(z)O′ (ω).                                     (A.18)
+                                                           0             ω
+
+To prove the equivalence between the current algebra and the level one osp(2|2)(1) algebra, we need to
+show that (A.18) agrees with (A.1). This amounts to correctly identifying the modes with the generators
+{ei , fi , hi ; i = 0, 1, 2}. We find the following relations (here (O)m ≡ Om )
+                                     1 b                        1
+                               e0 = √ K  −1 ,              f0 = √ K+1 ,                     h0 = 1 + 2H0
+                                      2                          2
+                              e1 = i(G− )0 ,                   b + )0 ,
+                                                        f1 = i(G                      h1 = −(H0 + J0 )
+                              e2 = i(G+ )0 ,                   b − )0 ,
+                                                        f1 = i(G                      h2 = −(H0 − J0 ).      (A.19)
+Note that h0 6= −(h1 + h2 ), but rather h0 = k − (h1 + h2 ) where k = 1 is the level. This differs from the
+quantum group charges (3.56) where the level, or central extension, is zero and T 0 = −(T 1 + T 2 ). One can
+check that (A.19) is consistent with (2.11) and (A.1).
+   In the Cartan-Weyl basis, the conserved currents for the conformal field theory (2.4) are
+               1 b                                1          b − ) + f2 (iGb+ ) + 1 (h2 − h1 )J − 1 (h2 + h1 )H
+   J (z) = e0 √ K   + e1 (iG− ) + e2 (iG+ ) + f0 √ K + f1 (iG
+                2                                  2                               2                2
+            1 b                                  1             b + ) + f2 (−iGb − ) + 1 (h2 − h1 )J − 1 (h2 + h1 )H.
+J (z) = e0 √ K   + e1 (−iG− ) + e2 (−iG+ ) + f0 √ K + f1 (−iG
+             2                                     2                                  2               2
+                                                                                                             (A.20)
+A current-current interaction Φccint is given by
+                                                               
+                                                Φcc
+                                                 int ∝ str J J ,                                             (A.21)
+where the constant of proportionality depends on the particular representation. Evaluating (A.21) using the
+representation matrices (3.59) and (3.61) we get
+                                                                                         
+                                     1    b    b          b     b
+        str J J = −2 JJ − HH + (K K + KK) + G− G+ − G− G+ + G+ G− − G+ G− .   b     b                (A.22)
+                                      2
+This is identical to (2.12) hence confirming that ΦV is indeed a current-current perturbation.
+
+                                                                    40
+References
+ [1] C. N. Yang, Phys. Rev. Lett. 19 (1967) 1312.
+
+ [2] R. J. Baxter, Ann. Phys. 70 (1972) 193.
+ [3] M. Jimbo, Int. J. Mod. Phys. A 4 (1989) 3759.
+ [4] M. Jimbo, Commun. Math. Phys. 102 (1986) 537; Lett. Math. Phys. 11 (1986) 247; Lett. Math. Phys.
+     10 (1985) 63.
+ [5] P. P Kulish, N. Yu Reshetikhin and E. K. Sklyanin, Lett. Math. Phys. 5 (1981) 393.
+ [6] P. P. Kulish and E. K. Sklyanin, J. Sov. Math. 19 (1982) 1596.
+ [7] A. B. Zamolodchikov and Al. B. Zamolodchikov, Ann. Phys. 120 (1979) 253.
+ [8] A. B. Zamolodchikov, JETP Lett. 25 (1977) 468.
+ [9] M. Karowski and H. J. Thun, Nucl. Phys. B 130 (1977) 295.
+
+[10] M. Karowski and H. J. Thun, Nucl. Phys. B 190 (1981) 61.
+[11] N. Andrei and J. H Lowenstein, Phys. Lett. B 91 (1980) 401.
+[12] A. B. Zamolodchikov and Al. B. Zamolodchikov, Phys. Lett. B 72 (1978) 481.
+[13] P. Wiegmann, Phys. Lett. B 142 (1984) 173.
+[14] E. Ogievetsky and P. Wiegmann, Phys. Lett. B 168 (1986) 360.
+[15] E. Ogievetsky, N. Reshetikhin and P. Wiegmann, Nucl. Phys. B 280 (1987) 45.
+[16] A. B. Zamolodchikov and Al. B. Zamolodchikov, Nucl. Phys. B 379 (1992) 602.
+[17] G. E. Andrews, R. J. Baxter and P. J. Forrester, J. Stat. Phys. 35 (1984) 193.
+[18] Al. B. Zamolodchikov, Nucl. Phys. B 358 (1991) 497.
+[19] H. W. Braden, E. Corrigan, P. E. Dorey and R. Sasaki, Phys. Lett. B 227 (1989) 441; Nucl. Phys. B
+     338 (1990) 689, Nucl. Phys. B 356 (1991) 469.
+[20] P. Christe and G. Mussardo, Int. J. Mod. Phys. A 5 (1990) 4581; Nucl. Phys. B 330 (1990) 465.
+[21] G. W. Delius, M. T. Grisaru and D. Zanon, Nucl. Phys. B 382 (1992) 365.
+[22] T. J. Hollowood, Int. J. Mod. Phys. A 8 (1993) 947.
+[23] G. M. Gandenberger, Int. J. Mod. Phys. A 13 (1998) 4553.
+[24] T. Nakatsu, Nucl. Phys. B 356 (1991) 499.
+[25] A. Fring and D. I. Olive, Nucl. Phys. B 379 (1992) 429.
+[26] G. W. Delius, M. T. Grisaru, S. Penati and D. Zanon, Phys. Lett. B 256 (1991) 164; Nucl. Phys. B
+     359 (1991) 125.
+
+[27] J. Evans and T. J. Hollowood, Phys. Lett. B 293 (1992) 100.
+[28] A. W. W. Ludwig, M. P. A. Fisher, R. Shankar and G. Grinstein, Phys. Rev. B 50 (1994) 7526.
+[29] D. Bernard, (Perturbed) Conformal Field Theory Applied To 2D Disordered Systems: An Introduction,
+     preprint hep-th/9509137.
+
+
+                                                     41
+[30] C. Mudry, C. Chamon and X.-G. Wen, Nucl. Phys. B 466 (1996) 383.
+[31] S. Guruswamy, A. LeClair and A. W. W. Ludwig, gl(N |N ) Super-Current Algebra for Disordered Dirac
+     Fermions in Two Dimensions, preprint cond-mat/9909143.
+[32] A. LeClair, On the Relevance of Disorder for Dirac Fermions with Imaginary Vector Potentials, preprint
+     cond-mat/9905222.
+[33] R. Shankar, Phys. Rev. Lett. 58 (1987) 2466.
+[34] V. S. Dotsenko and Vl. S. Dotsenko, Adv. Phys. 32 (1983) 129.
+[35] G. Mussardo and P. Simonetti, Phys. Lett. B 351 (1995) 515.
+[36] D. C. Cabra, A. Honecker, G. Mussardo and P. Pujol, J. Phys. A 30 (1997) 8415.
+[37] D. Bernard and A. LeClair, Commun. Math. Phys. 142 (1991) 99.
+[38] A. B. Zamolodchikov, Sov. J. Nucl. Phys. 46 (1987) 1090.
+[39] D. Bernard, Commun. Math. Phys. 137 (1991) 191.
+[40] M. Lüscher, Nucl. Phys. B 135 (1978) 1.
+[41] H. J. de Vega, H. Eichenherr and J. M. Maillet, Commun. Math. Phys. 92 (1984) 507; Nucl. Phys. B
+     240 (1984) 377.
+[42] A. B. Zamolodchikov, Adv. Studies Pure Math. 19 (1989) 641.
+[43] D. Friedan, E. Martinec and S. Shenker, Nucl. Phys. B 271 (1986) 93.
+[44] S. V. Ketov, Conformal Field Theory (World Scientific, Singapore, 1995).
+[45] B. Gerganov, Integrable Marginal Points in the N-Cosine Model, preprint hep-th/9905214 (CLNS
+     99/1622).
+[46] M. Scheunert, W. Nahm and V. Rittenberg, J. Math. Phys. 18 (1977) 146; J. Math. Phys. 18 (1977)
+     155.
+
+[47] R. B. Zhang and M. D. Gould, J. Math. Phys. 31 (1990) 1889.
+[48] R. B. Zhang, J. Phys. A 26 (1993) 7041.
+[49] J. R. Links and M. D. Gould, J. Math. Phys. 36 (1995) 531.
+[50] V. G. Kac, “Representations of classical Lie superalgebras”, in Lecture Notes in Mathematics 676
+     (1978) 597; Springer-Verlag, Berlin.
+[51] R. B. Zhang, M. D. Gould and A. J. Bracken, Nucl. Phys. B 354 (1991) 625.
+[52] R. B. Zhang, A. J. Bracken and M. D. Gould, Phys. Lett. B 257 (1991) 133.
+[53] A. J. Bracken, M. D. Gould and R. B. Zhang, Mod. Phys. Lett. A 5 (1990) 831.
+[54] G. W. Delius, M. D. Gould, J. R. Links and Y.-Z. Zhang, Int. J. Mod. Phys. A 10 (1995) 3259.
+
+[55] G. W. Delius, Nucl. Phys. B 451 (1995) 445.
+[56] S. Ghoshal and A. B. Zamolodchikov, Int. J. Mod. Phys. A 9 (1994) 3841.
+[57] T. J. Hollowood, Nucl. Phys. B 414 (1994) 379.
+[58] T. J. Hollowood and E. Mavrikis, Nucl. Phys. B 484 (1997) 631.
+
+
+                                                    42
+[59] Z. Maassarani, J. Phys. A 28 (1995) 1305.
+[60] M. D. Gould, J. R. Links, Y.-Z. Zhang and I. Tsohantjis, J. Phys. A 30 (1997) 4313.
+[61] T. Deguchi, A. Fujii and K. Ito, Phys. Lett. B 238 (1990) 242.
+[62] V. G. Drinfel’d, “Quantum Groups”, in Proceedings of the International Congress of Mathematicians,
+     Berkeley (1986) 798.
+[63] D. Bernard and A. LeClair, Nucl. Phys. B 399 (1993) 709.
+[64] M. L. Nazarov, Lett. Math. Phys. 21 (1991) 123.
+
+[65] R. B. Zhang, Lett. Math. Phys. 33 (1995) 263; Lett. Math. Phys. 37 (1996) 419.
+[66] V. G. Drinfel’d, Sov. Math. Dokl. 32 (1985) 254.
+[67] D. Bernard, Int. J. Mod. Phys. B 7 (1993) 3517.
+[68] S. Coleman and H. J. Thun, Commun. Math. Phys. 61 (1978) 31.
+[69] T. R. Klassen and E. Melzer, Nucl. Phys. B 338 (1990) 485.
+[70] Al. B. Zamolodchikov, Nucl. Phys. B 342 (1990) 695.
+[71] V. G. Kac, Commun. Math. Phys. 53 (1977) 31.
+[72] L. Frappat, A. Sciarrino and P. Sorba, Commun. Math. Phys. 121 (1989) 457.
+[73] L. Frappat, A. Sciarrino and P. Sorba, Dictionary on Lie Superalgebras, preprint hep-th/9607161.
+[74] J. F. Cornwell, Group Theory in Physics Volume III: Supersymmetries and Infinite-Dimensional Alge-
+     bras (Academic Press, London, 1989).
+
+
+
+
+                                                    43
+

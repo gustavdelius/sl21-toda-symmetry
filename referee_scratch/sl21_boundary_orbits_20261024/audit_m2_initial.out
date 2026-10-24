@@ -1,0 +1,7 @@
+PASS screening Gram matrix
+PASS pair-dual products
+PASS screening-first node-zero residue vanishes
+PASS screening-first node-two residue is -t(d+a2)
+PASS full Yukawa fusion sign includes i squared and one crossing
+PASS fermion current level agrees with i partial h
+FAIL all three potential poles give the response

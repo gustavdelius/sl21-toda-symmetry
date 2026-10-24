@@ -1,0 +1,8 @@
+kappa 0.47140452079103173 crossing-gradation vv singular values [1.33074415 1.10809263 1.09585495 1.         1.         1.
+ 0.91252953 0.90245163 0.75145925]
+kappa 0.8660254037844386 crossing-gradation vv singular values [1.40086907 1.16890633 1.02442101 1.         1.         1.
+ 0.97616116 0.85550054 0.71384259]
+kappa 1.4142135623730951 crossing-gradation vv singular values [1.57360771 1.30360119 1.08067665 1.         1.         1.
+ 0.92534617 0.76710578 0.6354824 ]
+PASS all 4 crossed channels and braiding unitarity, 3 generic kappas; crossing max residual 1.6127518066630593e-15
+Chosen generator spins (e0,e1,e2)=(1/2,-kappa,-1/2), not a coupling dictionary.

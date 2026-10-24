@@ -1,0 +1,11 @@
+PASS differentiated regulator divisible by h-t: 1 0 quotient= 1
+PASS differentiated regulator divisible by h-t: 2 0 quotient= h - t - 1
+PASS differentiated regulator divisible by h-t: 0 1 quotient= 1
+PASS differentiated regulator divisible by h-t: 0 2 quotient= h - t - 1
+PASS differentiated regulator divisible by h-t: 1 1 quotient= h - t
+PASS action CT transport
+PASS tail CT transport
+PASS endpoint scalar CT transport
+PASS endpoint descendant CT transport
+PASS arbitrary-mask second derivative defect is only differentiated regulator
+Scope: distribution product rule in initial integrable domain; no assertion of full associativity.

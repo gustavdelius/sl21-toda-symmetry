@@ -1,0 +1,77 @@
+PASS bosonized screening Gram data
+PASS dual momentum and linear relation
+PASS working z is 2i times source anti-z
+PASS Wick rotation makes working z=x-t_M
+PASS minus anchored split selects the holomorphic free wave
+PASS previous plus split selects the antiholomorphic free wave
+PASS corrected holomorphic canonical commutator
+PASS corrected cross-chiral canonical commutator
+PASS corrected Weyl rephasing produces the local cocycle
+PASS all corrected current/tail exchange phases match
+PASS cross-current braid exponent is -2/t
+PASS J/bar-K and K/bar-J have opposite radial signs
+PASS current/Y0 simple-pole vector
+PASS fixed-current Ward coefficient for Y0
+PASS current/Y2 simple-pole vector
+PASS fixed-current Ward coefficient for Y2
+PASS BB delta-prime terms cancel
+PASS BB holomorphic derivative endpoint coefficient
+PASS BB antiholomorphic derivative endpoint coefficient
+PASS AA holomorphic endpoint coefficient
+PASS AA antiholomorphic endpoint coefficient
+PASS A/Yukawa mixed-tail OPE has no pole
+PASS B/even mixed-tail OPE has no pole
+PASS K2/bar-K2 same-node product has zero contraction exponent
+PASS finite time-split Plemelj integral delta=0.002
+  relative error = 0.005228537701
+PASS finite time-split Plemelj integral delta=0.001
+  relative error = 0.002617860476
+PASS Plemelj coefficient from extrapolated exact kernel
+PASS finite strip face I(c), c=0.2828427
+PASS finite derivative-strip face J1(c), c=0.2828427
+PASS finite derivative-strip face Jw(c), c=0.2828427
+  I,J1,Jw = 1.116099503, (-0.5735131044 + 0.0j), (-1.658685902 + 0.0j)
+PASS finite strip face I(c), c=0.7071068
+PASS finite derivative-strip face J1(c), c=0.7071068
+PASS finite derivative-strip face Jw(c), c=0.7071068
+  I,J1,Jw = 2.570796327, (-1.570796327 + 0.0j), (-3.570796327 + 0.0j)
+PASS finite strip face I(c), c=1.414214
+PASS finite derivative-strip face J1(c), c=1.414214
+PASS finite derivative-strip face Jw(c), c=1.414214
+  I,J1,Jw = 3.141592654, (-3.141592654 + 0.0j), (-3.141592654 + 0.0j)
+PASS BB bare-J/action contact left coefficient for c>1
+PASS BB bare-J/action contact right coefficient for c>1
+PASS radial BB contact plus tails has coefficient t
+PASS Y0 fixed-current product contact cancels for c>1
+PASS AA bare-J/action contact is minus perturbation momentum
+PASS radial AA contact plus tails has coefficient gamma^2/t
+PASS charge-first and interaction-first limits of I(c) differ
+PASS full endpoint/Y0 Wick contraction is positive
+PASS fermionic regular term gives +j in endpoint Taylor coefficient
+PASS Y2 angularly selected mixing power
+PASS Y2 annular subtraction denominator
+PASS K2 angularly selected mixing power
+PASS K2 annular subtraction denominator
+PASS U angularly selected mixing power
+PASS U annular subtraction denominator
+PASS U descendant angularly selected mixing power
+PASS U descendant annular subtraction denominator
+PASS K2 leading angular harmonic is nonzero and integrates to zero
+PASS single-current collision faces obey N-RP/t=partial L
+PASS collision power: J bar-J Y0 Y2
+PASS collision power: J bar-K2 Y0
+PASS collision power: action P contact
+PASS collision power: current L contact
+PASS collision power: Y0 Y2 subcollision
+PASS collision power: one current and two Yukawas
+PASS collision power: same-node two Yukawa joint corner
+PASS collision power: K2 bar-K2 contact
+PASS full joint-corner kernel scaling t=1.4142136
+  joint-corner power = 0.8284271247
+PASS full joint-corner kernel scaling t=1.7320508
+  joint-corner power = 1.464101615
+PASS full joint-corner kernel scaling t=-0.28284271
+  joint-corner power = -2.565685425
+PASS continued endpoint equals cutoff finite part t=1.4142136
+PASS continued endpoint equals cutoff finite part t=-0.28284271
+68/68 checks passed

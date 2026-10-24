@@ -1,0 +1,128 @@
+PASS fresh root norm a0
+PASS fresh root norm a2
+PASS fresh unlike screening dot product
+PASS fresh dual-current norm
+PASS fresh dual/source pairing
+PASS unlike double-source count (0,1)
+PASS equal double-source count (0,1)
+PASS even-root count (0,1)
+PASS potential with cutoff count (0,1)
+PASS tail/unlike-source count (0,1)
+PASS tail/equal-source count (0,1)
+PASS current counterterm count (0,1)
+PASS unlike double-source count (0,2)
+PASS equal double-source count (0,2)
+PASS even-root count (0,2)
+PASS potential with cutoff count (0,2)
+PASS tail/unlike-source count (0,2)
+PASS tail/equal-source count (0,2)
+PASS current counterterm count (0,2)
+PASS two-tail count (0,2)
+PASS unlike double-source count (0,3)
+PASS equal double-source count (0,3)
+PASS even-root count (0,3)
+PASS potential with cutoff count (0,3)
+PASS tail/unlike-source count (0,3)
+PASS tail/equal-source count (0,3)
+PASS current counterterm count (0,3)
+PASS two-tail count (0,3)
+PASS unlike double-source count (1,0)
+PASS equal double-source count (1,0)
+PASS even-root count (1,0)
+PASS potential with cutoff count (1,0)
+PASS even-root tail count (1,0)
+PASS unlike double-source count (1,1)
+PASS equal double-source count (1,1)
+PASS even-root count (1,1)
+PASS potential with cutoff count (1,1)
+PASS tail/unlike-source count (1,1)
+PASS tail/equal-source count (1,1)
+PASS current counterterm count (1,1)
+PASS even-root tail count (1,1)
+PASS unlike double-source count (1,2)
+PASS equal double-source count (1,2)
+PASS even-root count (1,2)
+PASS potential with cutoff count (1,2)
+PASS tail/unlike-source count (1,2)
+PASS tail/equal-source count (1,2)
+PASS current counterterm count (1,2)
+PASS two-tail count (1,2)
+PASS even-root tail count (1,2)
+PASS unlike double-source count (1,3)
+PASS equal double-source count (1,3)
+PASS even-root count (1,3)
+PASS potential with cutoff count (1,3)
+PASS tail/unlike-source count (1,3)
+PASS tail/equal-source count (1,3)
+PASS current counterterm count (1,3)
+PASS two-tail count (1,3)
+PASS even-root tail count (1,3)
+PASS unlike double-source count (2,0)
+PASS equal double-source count (2,0)
+PASS even-root count (2,0)
+PASS potential with cutoff count (2,0)
+PASS even-root tail count (2,0)
+PASS unlike double-source count (2,1)
+PASS equal double-source count (2,1)
+PASS even-root count (2,1)
+PASS potential with cutoff count (2,1)
+PASS tail/unlike-source count (2,1)
+PASS tail/equal-source count (2,1)
+PASS current counterterm count (2,1)
+PASS even-root tail count (2,1)
+PASS unlike double-source count (3,0)
+PASS equal double-source count (3,0)
+PASS even-root count (3,0)
+PASS potential with cutoff count (3,0)
+PASS even-root tail count (3,0)
+PASS unlike double-source count (3,1)
+PASS equal double-source count (3,1)
+PASS even-root count (3,1)
+PASS potential with cutoff count (3,1)
+PASS tail/unlike-source count (3,1)
+PASS tail/equal-source count (3,1)
+PASS current counterterm count (3,1)
+PASS even-root tail count (3,1)
+PASS unlike source pair without a current
+PASS equal source pair without a current
+PASS positive new unlike face (0,1) for 2<t<3
+PASS positive new equal face (0,1) for 2<t<3
+PASS positive other even-root face (0,1) for 2<t<3
+PASS positive new unlike face (0,2) for 2<t<3
+PASS positive new equal face (0,2) for 2<t<3
+PASS positive other even-root face (0,2) for 2<t<3
+PASS positive new unlike face (0,3) for 2<t<3
+PASS positive new equal face (0,3) for 2<t<3
+PASS positive other even-root face (0,3) for 2<t<3
+PASS positive new unlike face (1,0) for 2<t<3
+PASS positive new equal face (1,0) for 2<t<3
+PASS single A/even-root is its fixed Cauchy pole
+PASS positive new unlike face (1,1) for 2<t<3
+PASS positive new equal face (1,1) for 2<t<3
+PASS positive other even-root face (1,1) for 2<t<3
+PASS positive new unlike face (1,2) for 2<t<3
+PASS positive new equal face (1,2) for 2<t<3
+PASS positive other even-root face (1,2) for 2<t<3
+PASS positive new unlike face (1,3) for 2<t<3
+PASS positive new equal face (1,3) for 2<t<3
+PASS positive other even-root face (1,3) for 2<t<3
+PASS positive new unlike face (2,0) for 2<t<3
+PASS positive new equal face (2,0) for 2<t<3
+PASS new AA/even-root pair subtraction exponent
+PASS positive new unlike face (2,1) for 2<t<3
+PASS positive new equal face (2,1) for 2<t<3
+PASS positive other even-root face (2,1) for 2<t<3
+PASS positive new unlike face (3,0) for 2<t<3
+PASS positive new equal face (3,0) for 2<t<3
+PASS positive other even-root face (3,0) for 2<t<3
+PASS positive new unlike face (3,1) for 2<t<3
+PASS positive new equal face (3,1) for 2<t<3
+PASS new marginal full AAAB/even-root face
+PASS nested first-order face has the full unlike joint degree
+PASS equal-source nested face has positive joint degree
+PASS finite P would have a marginal SECOND jet in BBBA
+PASS fresh exact two-exponent shuffle row 0
+PASS fresh exact two-exponent shuffle row 1
+PASS fresh exact two-exponent shuffle row 2
+PASS fresh exact two-exponent shuffle row 3
+RESULT 127 PASS, 0 FAIL

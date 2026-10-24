@@ -1,0 +1,7 @@
+PASS mixed difference extracts joint jump
+PASS two-extreme shortcut has quarter-joint-jump error
+PASS independent face balancing removes both odd jumps and joint jump
+PASS full-jet nonzero test forbids setting joint jump to zero
+COUNTEREXAMPLE R++=R--=1/4, R+-=R-+=-1/4: global=1/4, independent=0
+PASS explicit joint test distinguishes prescriptions
+SUMMARY 5 PASS 0 FAIL

@@ -1,0 +1,4 @@
+PASS even-root BL residue is -gamma*d_z exp(i(1/b-b)*alpha1.phi), gamma=b^2/(1-b^2)
+PASS even-root vertex has regular OPE with both Yukawa holomorphic vertices and the composite bosonic exponential
+PASS no nonzero bare linear-fermion prefactor solves both odd-node tests with plain-vertex counterterms
+CAUTION derivative prefactors, additional disorder dressing and other UV realizations remain untested; no no-go theorem follows

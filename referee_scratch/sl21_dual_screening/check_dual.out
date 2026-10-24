@@ -1,0 +1,10 @@
+PASS bosonization gives fermionic screening norms -1 and pair product 1-b^2
+PASS pair-dual momentum is -i*alpha1/b, opposite to the even-node BL current
+PASS node-0 residue vanishes; node-2 residue = -b^2*d_z exp((d+a2).X)
+PASS even-root perturbation has regular OPE with the dressed dual current
+PASS J+ residue reproduces -gamma*d_z exp((c+a1).X), other first-order OPEs regular
+PASS exponential momentum Gram matrix is (-1/b^2)*A1^(1) Cartan matrix; both currents are even
+PASS an orthogonal free-field direction exists in the formal bosonized perturbation system
+PASS composite-potential residue modulo derivatives has explicit nonzero representative 1/2*(T.dX)*((a0-a2).dX)*exp((d+T).X)
+CAUTION a double-Yukawa contribution occurs at the same mass order; cancellation is NOT established
+PASS free-UV charge spins are 1/b^2-1 and 1/b^2; not fixed physical spins before renormalization

@@ -1,0 +1,12 @@
+PASS full Gaussian disjoint diamond with arbitrary source-dependent coefficients
+PASS complete double contact formula including both Wick crossmatchings
+PASS source derivative of second coefficient retained
+PASS source derivative of first coefficient retained
+PASS holomorphic crossmatching coefficient
+PASS antiholomorphic crossmatching coefficient
+PASS mixed second source jet coefficient
+PASS full constituent cocycle sign associative
+PASS full constituent cocycle phase associative
+PASS extreme average misses quarter of disjoint double crossing
+SUMMARY 10 PASS, 0 FAIL
+FULL MOMENT: q1**2*q2**2*Derivative(psi(x, y), x, y) - q1**2*q2*((C2(x, y) + D2(x, y))*Derivative(psi(x, y), x) + (Derivative(C2(x, y), x) + Derivative(D2(x, y), x))*psi(x, y)) - q1*q2**2*((C1(x, y) + D1(x, y))*Derivative(psi(x, y), y) + (Derivative(C1(x, y), y) + Derivative(D1(x, y), y))*psi(x, y)) + q1*q2*((C1(x, y) + D1(x, y))*(C2(x, y) + D2(x, y)) + H(x, y) + Hb(x, y))*psi(x, y)

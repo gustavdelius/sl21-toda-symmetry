@@ -1,0 +1,16 @@
+PASS fermionic kernel has A(p)=-A(-p)^T
+PASS mass pole from determinant
+PASS covariance normalizes the free chiral OPE
+PASS chi2-bar chi2 massive propagator
+PASS i chi2 bar chi2 has negative momentum kernel
+PASS momentum radial primitive
+PASS subtracted finite part
+PASS Fourier transform at r=0.3
+PASS bilinear Bessel coefficient at r=0.3
+PASS Fourier transform at r=0.7
+PASS bilinear Bessel coefficient at r=0.7
+PASS Fourier transform at r=1.732051
+PASS bilinear Bessel coefficient at r=1.732051
+PASS coordinate finite part contains the stated scheme constant
+Coordinate finite-part errors: 6.956186699e-6, 9.04254419e-8, 1.112890258e-9
+14 PASS, 0 FAIL

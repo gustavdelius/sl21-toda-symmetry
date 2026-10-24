@@ -1,0 +1,79 @@
+PASS a0 norm
+PASS a2 norm
+PASS mixed screening product
+PASS d norm
+PASS a0 d
+PASS a2 d
+PASS A Y2 zero
+PASS B Y2 exponential pole
+PASS AB exponential power
+PASS AU endpoint power
+PASS Ward derivative vector component 0
+PASS Ward derivative vector component 1
+PASS Ward derivative vector component 2
+PASS source double pole
+PASS source simple pole is spectator derivative
+PASS background first jet
+PASS unexpanded zero-jet decomposition
+PASS collision degree AB
+PASS degree positive at negative irrational rho AB
+PASS collision degree ABY2
+PASS degree positive at negative irrational rho ABY2
+PASS collision degree ABbarB_source_far
+PASS degree positive at negative irrational rho ABbarB_source_far
+PASS collision degree full_interior
+PASS degree positive at negative irrational rho full_interior
+PASS collision degree full_endpoint
+PASS degree positive at negative irrational rho full_endpoint
+PASS collision degree tail_cluster
+PASS degree positive at negative irrational rho tail_cluster
+PASS collision degree AU
+PASS degree positive at negative irrational rho AU
+PASS nested remainder quadrature rho=-1.41421 eps=0.001
+PASS nested remainder bounded by constant times epsilon
+PASS nested remainder quadrature rho=-1.41421 eps=0.00001
+PASS nested remainder bounded by constant times epsilon
+PASS nested remainder quadrature rho=-0.57735 eps=0.001
+PASS nested remainder bounded by constant times epsilon
+PASS nested remainder quadrature rho=-0.57735 eps=0.00001
+PASS nested remainder bounded by constant times epsilon
+PASS AU cocycle ratio
+PASS A right of U exchange
+PASS A left of U exchange
+PASS AU cocycle ratio
+PASS A right of U exchange
+PASS A left of U exchange
+PASS right endpoint cancels in four-word projection
+PASS left endpoint coefficient
+PASS raw radial coefficient
+PASS canonical matched coefficient
+PASS finite contact propagated in projection
+PASS physical Gaussian Z0
+PASS physical Gaussian Z2
+PASS physical Gaussian Z1
+PASS physical Gaussian ZA
+PASS physical Gaussian ZU
+PASS physical Gaussian Zd
+PASS AA transported endpoint factor
+PASS BB transported endpoint factor
+PASS UY0 fusion coefficient
+PASS Y0Y2 fusion coefficient
+PASS GA covariance at fixed new couplings
+PASS GU covariance at fixed new couplings
+PASS AA fixed-action amplitude scale
+PASS BB fixed-action amplitude scale
+PASS reflection simple-zero slope
+PASS zero times identity pole
+PASS gamma product identity
+PASS conditional endpoint ratio
+PASS compensating path GU character
+PASS compensating path GA character
+PASS reflection simple-zero slope
+PASS zero times identity pole
+PASS gamma product identity
+PASS conditional endpoint ratio
+PASS compensating path GU character
+PASS compensating path GA character
+PASS translated cycle uses positive coupling exponents
+PASS compensating coupling path has negative exponents
+TOTAL 78 PASS, 0 FAIL

@@ -1,0 +1,18 @@
+DATA seed=1729 epsilon=0.04 sum=-1.38545971518e-05+0.256127741961j abs=0.25612774
+DATA seed=1729 epsilon=0.02 sum=-9.18126971762e-05+0.181560017981j abs=0.18156004
+DATA seed=1729 epsilon=0.01 sum=-0.000178230734206+0.098189588745j abs=0.098189751
+DATA seed=1729 epsilon=0.005 sum=-8.04999123761e-05+0.0498002741396j abs=0.049800339
+DATA seed=1729 epsilon=0.0025 sum=-0.000224144122906+0.0248544295959j abs=0.02485544
+DATA seed=9323 epsilon=0.04 sum=6.35530311086e-05+0.256179018864j abs=0.25617903
+DATA seed=9323 epsilon=0.02 sum=7.26714043215e-05+0.181687093342j abs=0.18168711
+DATA seed=9323 epsilon=0.01 sum=0.000140441560601+0.0985417097228j abs=0.09854181
+DATA seed=9323 epsilon=0.005 sum=0.000429582442658+0.0512338925883j abs=0.051235694
+DATA seed=9323 epsilon=0.0025 sum=0.00043423615417+0.0265235461963j abs=0.026527101
+PASS endpoint phase polynomial at s
+PASS endpoint phase polynomial at inverse s
+PASS finite-height/hole boundary sum decreases, seed 1729
+PASS last two cutoff values decrease, seed 1729
+PASS finite-height/hole boundary sum decreases, seed 9323
+PASS last two cutoff values decrease, seed 9323
+PASS independent QMC agreement at smallest cutoff: spread=0.00179427
+RESULT 7 PASS, 0 FAIL

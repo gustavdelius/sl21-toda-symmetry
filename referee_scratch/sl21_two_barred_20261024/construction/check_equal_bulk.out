@@ -1,0 +1,4 @@
+PASS complete equal-source current-integral residue polynomial
+PASS equal-source current-integral coefficient q(g-1)(qg-2)
+PASS physical equal-source coefficient (1-g)(2-g)
+PASS total 3

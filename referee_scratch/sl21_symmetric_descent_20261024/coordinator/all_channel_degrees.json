@@ -1,0 +1,206 @@
+[
+  {
+    "quartet": "A1B3",
+    "bar": "barA",
+    "sources": [
+      "0"
+    ],
+    "full_degree": "(3*g*t + 2*t - 6)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barA",
+    "sources": [
+      "2"
+    ],
+    "full_degree": "(3*g*t + 2*t - 6)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barA",
+    "sources": [
+      "V"
+    ],
+    "full_degree": "(3*g*t + 5*t - 6)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barA",
+    "sources": [
+      "0",
+      "0"
+    ],
+    "full_degree": "(3*g*t + 5*t - 6)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barA",
+    "sources": [
+      "2",
+      "2"
+    ],
+    "full_degree": "(3*g*t + 5*t - 6)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barA",
+    "sources": [
+      "0",
+      "2"
+    ],
+    "full_degree": "(3*g*t + 2*h*t + t - 6)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barB",
+    "sources": [
+      "0"
+    ],
+    "full_degree": "(3*g*t - t - 6)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barB",
+    "sources": [
+      "2"
+    ],
+    "full_degree": "(3*g*t - t - 6)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barB",
+    "sources": [
+      "V"
+    ],
+    "full_degree": "(3*g*t + 8*t - 6)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barB",
+    "sources": [
+      "0",
+      "0"
+    ],
+    "full_degree": "3*(g*t - 2)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barB",
+    "sources": [
+      "2",
+      "2"
+    ],
+    "full_degree": "3*(g*t - 2)/t"
+  },
+  {
+    "quartet": "A1B3",
+    "bar": "barB",
+    "sources": [
+      "0",
+      "2"
+    ],
+    "full_degree": "(3*g*t + 2*h*t - 4*t - 6)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barA",
+    "sources": [
+      "0"
+    ],
+    "full_degree": "(3*g*t + 8*t - 6)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barA",
+    "sources": [
+      "2"
+    ],
+    "full_degree": "(3*g*t + 8*t - 6)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barA",
+    "sources": [
+      "V"
+    ],
+    "full_degree": "(3*g*t - t - 6)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barA",
+    "sources": [
+      "0",
+      "0"
+    ],
+    "full_degree": "3*(g*t + 5*t - 2)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barA",
+    "sources": [
+      "2",
+      "2"
+    ],
+    "full_degree": "3*(g*t + 5*t - 2)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barA",
+    "sources": [
+      "0",
+      "2"
+    ],
+    "full_degree": "(3*g*t + 2*h*t + 11*t - 6)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barB",
+    "sources": [
+      "0"
+    ],
+    "full_degree": "(3*g*t + 5*t - 6)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barB",
+    "sources": [
+      "2"
+    ],
+    "full_degree": "(3*g*t + 5*t - 6)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barB",
+    "sources": [
+      "V"
+    ],
+    "full_degree": "(3*g*t + 2*t - 6)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barB",
+    "sources": [
+      "0",
+      "0"
+    ],
+    "full_degree": "(3*g*t + 10*t - 6)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barB",
+    "sources": [
+      "2",
+      "2"
+    ],
+    "full_degree": "(3*g*t + 10*t - 6)/t"
+  },
+  {
+    "quartet": "A3B1",
+    "bar": "barB",
+    "sources": [
+      "0",
+      "2"
+    ],
+    "full_degree": "(3*g*t + 2*h*t + 6*t - 6)/t"
+  }
+]

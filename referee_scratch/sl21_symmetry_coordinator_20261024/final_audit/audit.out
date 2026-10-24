@@ -1,0 +1,29 @@
+PASS primary vector norms
+PASS current contractions
+PASS node2 vector first jet
+PASS A-dressed node0 Laurent remainder
+PASS A-dressed node2 Laurent remainder
+PASS all eight new faces reconstructed
+INFO face 02 2*h
+INFO face A02 2*h + 4
+INFO face B02 2*h - 1
+INFO face D02 2*h - 1
+INFO face AB02 2*h + 2 - 2/t
+INFO face AD02 2*h + 2
+INFO face BD02 2*h - 3
+INFO face ABD02 2*h - 2/t
+PASS common new-face convergence region
+PASS no new Mellin divisor contains physical diagonal
+PASS single regulator derivative divisible by eta
+PASS two same-chirality regulator derivatives divisible by eta
+PASS mixed regulator derivatives divisible by eta
+PASS overlap nonuniform coefficient reconstructed
+INFO omitted-disk degree at z,v proportional to epsilon: 2*h-6
+INFO adding B,D positions and source-pair centre transverse integrations: 2*h-3
+PASS ordinary local anomaly candidates
+INFO local anomaly candidates {'A': [(0, 0, 1, 1, 0)], 'B': [(0, 1, 0, 1, 0), (1, 0, 0, 1, 0)]}
+PASS negative Serre common K factor for -1
+PASS negative Serre common K factor for 1
+PASS negative exponential defeats quadratic gradient
+INFO anchor BCH exponent: (-q*d/2) dot ((l+r)/2) times (-4*pi*i) = i*pi*q*d dot (l+r)
+INFO all checks use primary formulas; no earlier research code imported

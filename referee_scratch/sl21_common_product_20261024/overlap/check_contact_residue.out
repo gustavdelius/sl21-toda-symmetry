@@ -1,0 +1,36 @@
+PASS actual two-C endpoint kernel is minority derivative
+PASS insertionwise vs whole derivative difference
+PASS actual difference first jet gives delta/(3delta)
+PASS middle-chamber angular integral converges and is nonzero
+DIAGNOSTIC rho -0.282842712474619 angular I 0.28038157816939063 normalized radial residue I/3 0.09346052605646354
+DIAGNOSTIC delta 0.04 delta times radial integral times angular 0.08566074672981512
+DIAGNOSTIC delta 0.02 delta times radial integral times angular 0.08945381163475273
+DIAGNOSTIC delta 0.01 delta times radial integral times angular 0.09142946567475653
+DIAGNOSTIC delta 0.005 delta times radial integral times angular 0.09243793988695885
+DIAGNOSTIC delta 0.0025 delta times radial integral times angular 0.09294745233942102
+PASS DAG properness 0123
+PASS DAG properness 0132
+PASS DAG properness 0213
+PASS DAG properness 0231
+PASS DAG properness 0312
+PASS DAG properness 0321
+PASS DAG properness 1023
+PASS DAG properness 1032
+PASS DAG properness 1203
+PASS DAG properness 1230
+PASS DAG properness 1302
+PASS DAG properness 1320
+PASS DAG properness 2013
+PASS DAG properness 2031
+PASS DAG properness 2103
+PASS DAG properness 2130
+PASS DAG properness 2301
+PASS DAG properness 2310
+PASS DAG properness 3012
+PASS DAG properness 3021
+PASS DAG properness 3102
+PASS DAG properness 3120
+PASS DAG properness 3201
+PASS DAG properness 3210
+PASS opposite i0 factors permit positive circulation
+SUMMARY 29 PASS 0 FAIL

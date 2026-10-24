@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-10-24T13:50:35.091220+00:00",
+  "baseline_count": 4005,
+  "unchanged_count": 4005,
+  "changed_or_missing": [],
+  "commit": "ae19df62aaa82879da0f4600b74982d700d481b5",
+  "branch": "main",
+  "tracked_diff": "",
+  "staged_diff": "",
+  "scope": "Only three new referee reports and the fresh assigned scratch tree written. No book or earlier evidence edits."
+}

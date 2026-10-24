@@ -1,0 +1,49 @@
+PASS two-exponent permutation defect row 0
+PASS two-exponent permutation defect row 1
+PASS two-exponent permutation defect row 2
+PASS two-exponent permutation defect row 3
+PASS generic diagonal null vector
+DATA defect D = (s - 1)*(s + 1)*(s - u)*(s**2 - u)*(u + 1)/s**4
+PASS embedded BB subtraction with arbitrary chamber jet 0
+PASS embedded BB subtraction vanishes on diagonal, jet 0
+PASS embedded BB subtraction with arbitrary chamber jet 1
+PASS embedded BB subtraction vanishes on diagonal, jet 1
+PASS embedded BBB subtraction with arbitrary chamber jet 0
+PASS embedded BBB subtraction vanishes on diagonal, jet 0
+PASS embedded BBB subtraction with arbitrary chamber jet 1
+PASS embedded BBB subtraction vanishes on diagonal, jet 1
+PASS embedded BBB subtraction with arbitrary chamber jet 2
+PASS embedded BBB subtraction vanishes on diagonal, jet 2
+PASS embedded AB subtraction with arbitrary chamber jet 0
+PASS embedded AB subtraction vanishes on diagonal, jet 0
+PASS embedded ABB subtraction with arbitrary chamber jet 0
+PASS embedded ABB subtraction vanishes on diagonal, jet 0
+PASS embedded ABB subtraction with arbitrary chamber jet 1
+PASS embedded ABB subtraction vanishes on diagonal, jet 1
+PASS complete Wick/cocycle covariance B^3, node 0, action, set 0: max scaled error=8.19e-16
+PASS full nonconstant-background word sum B^3, node 0, action, set 0: scaled error=1.02e-14
+PASS complete Wick/cocycle covariance B^3, node 2, action, set 0: max scaled error=9.92e-16
+PASS full nonconstant-background word sum B^3, node 2, action, set 0: scaled error=5.31e-15
+PASS complete Wick/cocycle covariance B^3, node 2, tail, set 0: max scaled error=1.03e-15
+PASS full nonconstant-background word sum B^3, node 2, tail, set 0: scaled error=7.76e-15
+PASS complete Wick/cocycle covariance A^3, node 0, action, set 0: max scaled error=5.11e-16
+PASS full nonconstant-background word sum A^3, node 0, action, set 0: scaled error=1.85e-15
+PASS complete Wick/cocycle covariance A^3, node 2, action, set 0: max scaled error=5.52e-16
+PASS full nonconstant-background word sum A^3, node 2, action, set 0: scaled error=2.28e-15
+PASS complete Wick/cocycle covariance A^3, node 2, tail, set 0: max scaled error=1.97e-15
+PASS full nonconstant-background word sum A^3, node 2, tail, set 0: scaled error=1.54e-15
+PASS complete Wick/cocycle covariance B^3, node 0, action, set 1: max scaled error=9.19e-16
+PASS full nonconstant-background word sum B^3, node 0, action, set 1: scaled error=1.32e-14
+PASS complete Wick/cocycle covariance B^3, node 2, action, set 1: max scaled error=1.27e-15
+PASS full nonconstant-background word sum B^3, node 2, action, set 1: scaled error=9.53e-15
+PASS complete Wick/cocycle covariance B^3, node 2, tail, set 1: max scaled error=1.24e-15
+PASS full nonconstant-background word sum B^3, node 2, tail, set 1: scaled error=3.45e-14
+PASS complete Wick/cocycle covariance A^3, node 0, action, set 1: max scaled error=7.88e-16
+PASS full nonconstant-background word sum A^3, node 0, action, set 1: scaled error=8.55e-15
+PASS complete Wick/cocycle covariance A^3, node 2, action, set 1: max scaled error=1.09e-15
+PASS full nonconstant-background word sum A^3, node 2, action, set 1: scaled error=1.61e-14
+PASS complete Wick/cocycle covariance A^3, node 2, tail, set 1: max scaled error=1.27e-15
+PASS full nonconstant-background word sum A^3, node 2, tail, set 1: scaled error=2.57e-14
+PASS independent scalar source exact derivative
+PASS node 0 primitive scalar zero
+RESULT 47 PASS, 0 FAIL

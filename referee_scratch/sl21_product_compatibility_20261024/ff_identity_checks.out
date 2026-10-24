@@ -1,0 +1,38 @@
+PASS exact Laurent zero identity n=1
+PASS exact Laurent zero FA n=1
+PASS exact Laurent zero U n=1
+PASS exact Laurent zero identity n=2
+PASS exact Laurent zero FA n=2
+PASS exact Laurent zero U n=2
+PASS exact Laurent zero identity n=3
+PASS exact Laurent zero FA n=3
+PASS exact Laurent zero U n=3
+PASS exact Laurent zero identity n=4
+PASS exact Laurent zero FA n=4
+PASS exact Laurent zero U n=4
+PASS induction-family zero K=0 L=1
+PASS induction-family zero K=0 L=2
+PASS induction-family zero K=0 L=4
+PASS induction-family zero K=1 L=2
+PASS induction-family zero K=1 L=3
+PASS induction-family zero K=2 L=3
+PASS induction-family zero K=2 L=4
+PASS rational recursion vs sign sum K=0 L=0
+PASS rational recursion vs sign sum K=0 L=1
+PASS rational recursion vs sign sum K=0 L=3
+PASS rational recursion vs sign sum K=1 L=0
+PASS rational recursion vs sign sum K=1 L=1
+PASS rational recursion vs sign sum K=1 L=2
+PASS rational recursion vs sign sum K=2 L=1
+PASS rational recursion vs sign sum K=2 L=2
+PASS rational recursion vs sign sum K=2 L=3
+PASS rational recursion vs sign sum K=3 L=3
+PASS f inversion e=-1
+PASS g inversion e=-1
+PASS f inversion e=1
+PASS g inversion e=1
+PASS generic-rapidity J11 identity
+PASS exceptional J00 residue
+PASS nonzero generic sign sum
+PASS zero-particle normalization
+SUMMARY 37 PASS, 0 FAIL

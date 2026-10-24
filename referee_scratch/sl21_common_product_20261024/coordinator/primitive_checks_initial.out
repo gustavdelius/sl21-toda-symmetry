@@ -1,0 +1,25 @@
+PASS three B Gaussian Wick polynomial is minority derivative
+PASS barB scalar factor is an independent derivative
+PASS five-current scalar double derivative coefficient
+PASS even-root holomorphic minority derivative
+PASS barA even-root pole is a derivative
+PASS BBbarB source degree
+PASS five-current source degree
+PASS double-primitive degree gain
+INFO subset ('A',) relative degree 3
+INFO subset ('B',) relative degree 0
+INFO subset ('D',) relative degree 0
+INFO subset ('A', 'D') relative degree 2
+INFO subset ('B', 'A') relative degree 2 - rho
+INFO subset ('B', 'B') relative degree g - 1
+INFO subset ('B', 'D') relative degree -1
+INFO subset ('B', 'A', 'D') relative degree 1 - rho
+INFO subset ('B', 'B', 'A') relative degree g - 2*rho + 1
+INFO subset ('B', 'B', 'B') relative degree 3*g - 2
+INFO subset ('B', 'B', 'D') relative degree g - 2
+INFO subset ('B', 'B', 'A', 'D') relative degree g - 2*rho
+INFO subset ('B', 'B', 'B', 'A') relative degree 3*g - 3*rho
+INFO subset ('B', 'B', 'B', 'D') relative degree 3*g - 3
+INFO subset ('B', 'B', 'B', 'A', 'D') relative degree 3*g - 3*rho - 1
+PASS finite-part operation is not an algebra homomorphism (explicit counterexample)
+INFO Scalar double derivatives require extension through mixed/like proper faces; no associativity conclusion here.

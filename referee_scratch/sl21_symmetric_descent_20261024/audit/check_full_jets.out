@@ -1,0 +1,6 @@
+PASS full independent pair jet residual=0
+PASS outer test derivative residual=0
+PASS node0 switching contact survives residual=0
+PASS node2 switching coefficient residual=0
+EXPECTED NONZERO constant-spectator shortcut residual=-I*pi*sig*(t - 1)**2
+TOTAL 4 PASS; one explicit counterexample retained

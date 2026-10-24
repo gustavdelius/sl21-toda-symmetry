@@ -1,0 +1,15 @@
+PASS companion double pole actual vertex
+PASS companion simple pole eta derivative
+PASS companion vector jet eta k=d
+PASS action coefficient gamma
+PASS tails gamma squared
+PASS canonical finite addition
+PASS Cartan A bracket
+PASS Cartan B bracket
+PASS cross A barB K cancels
+PASS cross B barA K^-1 cancels
+DIAGNOSTIC barred quartic K factors ['aaab', 'aaba', 'abaa', 'baaa'] [0, 0, 0, 0]
+PASS negative Serre common factor a
+DIAGNOSTIC barred quartic K factors ['bbba', 'bbab', 'babb', 'abbb'] [0, 0, 0, 0]
+PASS negative Serre common factor b
+All checks passed; no field-theory algebra inferred.

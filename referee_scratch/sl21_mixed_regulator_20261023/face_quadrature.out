@@ -1,0 +1,9 @@
+PASS unexpanded finite face eps=0.005
+  value=-0.0457060291678 expected=-0.049435886132 relative_error=0.0754484
+PASS unexpanded finite face eps=0.0025
+  value=-0.0475490866055 expected=-0.049435886132 relative_error=0.0381666
+PASS unexpanded finite face eps=0.00125
+  value=-0.048486982025 expected=-0.049435886132 relative_error=0.0191946
+PASS unexpanded face converges to the calculated finite contact
+PASS raw errors decrease with the cutoff
+5/5 checks passed

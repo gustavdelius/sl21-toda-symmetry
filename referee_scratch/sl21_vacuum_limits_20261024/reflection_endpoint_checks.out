@@ -1,0 +1,39 @@
+PASS SL reflection partner
+PASS opposite screening contraction
+PASS resonant radial antiderivative
+PASS resonant source simple-pole residue
+PASS U-Y0 contraction exponent
+PASS leading angular radial primitive
+PASS descendant angular radial primitive
+PASS canonical BB is t squared lambda2 times minimally subtracted U
+PASS reflected resonance constant coefficient
+PASS only identity resonance and no-insertion solution in scan
+PASS FA Liouville coefficient against rank-one source -0.471405
+PASS SL reflection has simple zero epsilon=1e-4 t=-0.471405
+PASS zero times identity pole gives GU epsilon=1e-4 t=-0.471405
+PASS SL reflection has simple zero epsilon=1e-6 t=-0.471405
+PASS zero times identity pole gives GU epsilon=1e-6 t=-0.471405
+PASS SL reflection has simple zero epsilon=1e-8 t=-0.471405
+PASS zero times identity pole gives GU epsilon=1e-8 t=-0.471405
+PASS candidate GU finite nonzero generic -0.471405
+PASS candidate GA finite nonzero generic -0.471405
+PASS FA coupling-branch monodromy -0.471405
+PASS U coupling-branch monodromy -0.471405
+DATA t=-0.471404520791032 R_SL/epsilon=0.100392488390039376 GA=0.92487547930832931 GU=-0.130274643920954326
+PASS FA Liouville coefficient against rank-one source -0.433013
+PASS SL reflection has simple zero epsilon=1e-4 t=-0.433013
+PASS zero times identity pole gives GU epsilon=1e-4 t=-0.433013
+PASS SL reflection has simple zero epsilon=1e-6 t=-0.433013
+PASS zero times identity pole gives GU epsilon=1e-6 t=-0.433013
+PASS SL reflection has simple zero epsilon=1e-8 t=-0.433013
+PASS zero times identity pole gives GU epsilon=1e-8 t=-0.433013
+PASS candidate GU finite nonzero generic -0.433013
+PASS candidate GA finite nonzero generic -0.433013
+PASS FA coupling-branch monodromy -0.433013
+PASS U coupling-branch monodromy -0.433013
+DATA t=-0.433012701892219 R_SL/epsilon=0.173427316283633029 GA=1.87068433915915609 GU=-0.234813322088406665
+PASS candidate FA dimensions
+PASS candidate U dimensions
+PASS candidate AA endpoint dimension
+PASS candidate BB endpoint dimension
+Completed 36 independent checks.

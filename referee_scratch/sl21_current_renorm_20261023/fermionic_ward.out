@@ -1,0 +1,66 @@
+PASS isotropic bosonic Yukawa momenta
+PASS mixed bosonic contraction
+PASS current momentum pairs once with each Yukawa
+PASS j(z) chi0(w) simple pole
+PASS j(z) chi2(w) simple pole
+PASS j(z) chi0(w) regular term is derivative
+PASS j(z) chi2(w) regular term is minus derivative
+PASS fermionic current/Yukawa 0 double pole
+PASS fermionic current/Yukawa 0 residue is signed derivative
+PASS fermionic current/Yukawa 2 double pole
+PASS fermionic current/Yukawa 2 residue is signed derivative
+PASS full Yukawa mixed OPE leading sign +1
+PASS opposite ordering also has leading sign +1
+PASS chi0--chi2 pair first descendant -j
+PASS chi2--chi0 pair first descendant +j
+PASS chi0--chi2 pair second descendant -chi0 dchi2
+PASS chi2--chi0 pair second descendant dchi0 chi2
+PASS composite residue nonderivative class
+PASS fermionic difference of collision endpoints gives N
+PASS full local Ward identity N - RP/t = derivative L
+PASS distributional node-0 cutoff derivative
+PASS distributional node-2 cutoff derivative
+PASS full separated-current double insertion divergence
+PASS composite triple pole
+PASS delta, delta-prime and delta-second give composite RP
+PASS H1 insertion divergence is -eps^(2t)*L
+PASS same local counterterm makes H finite
+PASS old contact primitive is not the current subtraction
+PASS chosen local cocycle is associative
+PASS current/Yukawa sign minus; current/composite sign plus
+FORMULA Hren = sigma*t*lambda2*K2 + lambda0*lambda2*epsilon^(2t)*L
+FORMULA kappa = -lambda0*lambda2*epsilon^(2t)/t; N-RP/t = partial L
+ORDER3 n0=3 n2=0 ne=0: descendant_levels=(-2, -5)
+ORDER3 n0=2 n2=1 ne=0: descendant_levels=(2 - 2*b**2, -2*b**2 - 1)
+ORDER3 n0=1 n2=2 ne=0: descendant_levels=(2 - 2*b**2, -2*b**2 - 1)
+ORDER3 n0=0 n2=3 ne=0: descendant_levels=(-2, -5)
+ORDER3 n0=1 n2=0 ne=1: descendant_levels=(b**2 - 2, b**2 - 1)
+ORDER3 n0=0 n2=1 ne=1: descendant_levels=(b**2 - 2, b**2 - 1)
+NUMERICAL t=0.471404520791032 eps=0.08 relative_error=0.00168336
+NUMERICAL t=0.471404520791032 eps=0.04 relative_error=0.000420852
+NUMERICAL t=0.471404520791032 eps=0.02 relative_error=0.000105214
+NUMERICAL t=0.471404520791032 eps=0.01 relative_error=2.63035e-05
+PASS fermionic spectator collision circles at t=0.471404520791032
+NUMERICAL t=-0.471404520791032 eps=0.08 relative_error=0.000998352
+NUMERICAL t=-0.471404520791032 eps=0.04 relative_error=0.00024955
+NUMERICAL t=-0.471404520791032 eps=0.02 relative_error=6.2385e-05
+NUMERICAL t=-0.471404520791032 eps=0.01 relative_error=1.55961e-05
+PASS fermionic spectator collision circles at t=-0.471404520791032
+MIXING t=0.471404520791032 eps=0.08 bare_abs=0.35463 renormalized_error=1.666e-16
+PASS spectator correlator subtraction t=0.471404520791032 eps=0.08
+MIXING t=0.471404520791032 eps=0.04 bare_abs=0.423321 renormalized_error=9.541e-18
+PASS spectator correlator subtraction t=0.471404520791032 eps=0.04
+MIXING t=0.471404520791032 eps=0.02 bare_abs=0.459055 renormalized_error=6.206e-17
+PASS spectator correlator subtraction t=0.471404520791032 eps=0.02
+MIXING t=0.471404520791032 eps=0.01 bare_abs=0.477644 renormalized_error=2.776e-16
+PASS spectator correlator subtraction t=0.471404520791032 eps=0.01
+PASS old primitive misses nonzero fermion mixing at t=0.471404520791032
+MIXING t=-0.471404520791032 eps=0.08 bare_abs=11.9379 renormalized_error=8.885e-15
+PASS spectator correlator subtraction t=-0.471404520791032 eps=0.08
+MIXING t=-0.471404520791032 eps=0.04 bare_abs=27.3927 renormalized_error=7.467e-15
+PASS spectator correlator subtraction t=-0.471404520791032 eps=0.04
+MIXING t=-0.471404520791032 eps=0.02 bare_abs=57.101 renormalized_error=7.484e-14
+PASS spectator correlator subtraction t=-0.471404520791032 eps=0.02
+MIXING t=-0.471404520791032 eps=0.01 bare_abs=114.208 renormalized_error=1.466e-13
+PASS spectator correlator subtraction t=-0.471404520791032 eps=0.01
+PASS old primitive misses nonzero fermion mixing at t=-0.471404520791032

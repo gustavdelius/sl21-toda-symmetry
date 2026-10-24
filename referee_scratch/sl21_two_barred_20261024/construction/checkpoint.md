@@ -1,0 +1,6 @@
+2026-10-24: Identified reflected 1+2 triple as old sector and genuine 2+2 quartet. Derived complete H2 times barred H2 kernels for one/two sources.
+2026-10-24: Derived full unlike chiral current-integral coefficient 4pi² beta(g−1)(g+beta−3), and independently checked it with the E=a0+d/rho orthogonal-current decomposition. This is bulk only, not a full forest residue.
+2026-10-24: Enumerated candidate resonance omega=gL+gR+2h−7, physical t*=(7+sqrt17)/4. Full residue remains to be tested including unary, balanced, physical input-tail and P/L terms.
+2026-10-24: Complete Gaussian generating coefficient proves the unequal-source disjoint crossing diamond with all crossmatchings/second jets. Retained failure of global two-extreme averaging: excess delta02/4.
+2026-10-24: Independently computed equal-source complete-current bulk integral J=4pi²q(g−1)(qg−2)r^(g−3); physical coefficient4pi²(1−g)(2−g) nonzero, bulk radialdegree2g−3 divergent. Three fresh checks PASS. This does not include full physical-current forest cancellation.
+2026-10-24: Independent auditor reviewed draft and found no formula correction in shared kernel, diamond, pole degrees or generic continuation. Report finalized with meromorphic grouping equality off t* and unresolved full resonant residue. All construction outputs frozen.

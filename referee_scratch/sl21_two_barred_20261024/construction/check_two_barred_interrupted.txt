@@ -1,0 +1,1 @@
+The first check_two_barred.py run was interrupted during SymPy's initial unreduced rational simplification before producing a result. Its source and empty output are retained. The separate check_two_barred_reduced.py fixes translation coordinates and uses rational cancellation; it completes the same relevant kernel identities without importing or rerunning previous task scripts.

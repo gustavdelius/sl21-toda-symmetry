@@ -1,0 +1,4 @@
+PASS explicit supertrace-zero Cartan embedding reproduces the full root Gram matrix
+PASS all nine curvature entries vanish for arbitrary fields, first jets and all four independent Grassmann fermions
+PASS zero vacuum time connection at z=1; spatial vacuum eigenvalues are mu,-mu,0
+PASS zero-curvature connection uses all nonlinear source terms, not just the bosonic truncation

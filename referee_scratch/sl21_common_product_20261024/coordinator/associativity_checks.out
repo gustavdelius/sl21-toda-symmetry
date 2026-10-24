@@ -1,0 +1,7 @@
+PASS all 216 generator triples obey additive regulator cocycle identity
+PASS separate block interaction dressings double count the first source; one common state is required
+PASS fixed-generator coboundary has zero leading braided-defect change
+PASS common sqrt(t) generator scaling converts both raw diagonal contact coefficients
+PASS barred-tail scalar partial fractions and zero total residue
+PASS barred-tail scalar has a homogeneous logarithmic u primitive
+INFO This last primitive is scalar and off diagonals; branch and proper-face extension must still be checked.

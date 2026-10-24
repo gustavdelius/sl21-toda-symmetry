@@ -1,0 +1,16 @@
+PASS B B A U scalar is minority-coordinate derivative
+PASS resolved three-coordinate Jacobian
+PASS primitive total degree
+PASS radial degree after first test jet
+PASS angular u exponent
+PASS JB barHB simple-pole vector
+PASS HB barJB antiholomorphic simple-pole vector
+PASS BB tail holomorphic coefficient
+PASS AA tail coefficient
+PASS K2 barK2 oscillator exponent left
+PASS K2 barK2 oscillator exponent right
+PASS U U physical squared momentum
+PASS U U inherited one-chirality exponent
+PASS five-current two-equal-source degree
+PASS opposite-orientation triangle realized by heights (+1,0,-1)
+TOTAL 15 PASS

@@ -1,0 +1,71 @@
+PASS null odd roots, node 0
+PASS null odd roots, node 2
+PASS odd root pairing
+PASS bosonized a0 square
+PASS bosonized a2 square
+PASS bosonized mixed pairing
+PASS dual length
+PASS dual screening pairing 0
+PASS dual screening pairing 2
+PASS four fermions agree with local exponential bosonization
+PASS current pole vector node 0
+PASS distributional tail coefficient node 0
+PASS current pole vector node 2
+PASS distributional tail coefficient node 2
+PASS endpoint--Y0 holomorphic exponent
+PASS endpoint--Y2 holomorphic exponent
+PASS endpoint fused momentum is k
+PASS endpoint annulus derivative, jet level 0
+PASS endpoint annulus derivative, jet level 1
+PASS independent endpoint-jet Ward polynomial
+PASS three potential poles reproduce fixed-current response
+PASS smooth double pole is differentiated Cauchy kernel
+DATA smooth contour eta=0.08 I=3.13333165674 J1=-3.12760865496 Jw=-3.13905465851 contact/i=-0.369500803605 error=0.00144
+DATA smooth contour eta=0.04 I=3.13951483874 J1=-3.13805318567 Jw=-3.14097649181 contact/i=-0.368430959154 error=0.0003705
+DATA smooth contour eta=0.02 I=3.1410724038 J1=-3.1407050086 Jw=-3.14143979901 contact/i=-0.368153762967 error=9.329e-05
+DATA smooth contour eta=0.01 I=3.14146254122 J1=-3.14137056773 Jw=-3.1415545147 contact/i=-0.368083838118 error=2.336e-05
+PASS original smooth contour contact converges
+PASS original smooth contour matches -2*pi*t*(t-1)*(KL+KR): target=-0.368060473804
+PASS independent smooth-kernel face limit c=0.70710678: [ 2.57068442 -1.57088636 -3.57048248]
+PASS independent smooth-kernel face limit c=1.4142136: [ 3.14158094 -3.14157266 -3.14158922]
+PASS tail Plemelj simple-pole difference
+PASS radial coefficient after bare-action contact
+PASS AA contact from contour first jet
+PASS AA radial coefficient
+PASS canonical finite BB addition
+PASS finite BB contact leading endpoint subtraction
+PASS finite BB contact descendant endpoint subtraction
+PASS joint chiral Wick kernel partial fractions
+PASS joint chiral kernel is odd under simultaneous inversion
+PASS joint chiral kernel homogeneity
+PASS primitive sector is nonempty and kernel nonzero: n=2991, mean abs=0.06033108
+PASS constant fused-field defect is reflection odd
+PASS fixed-inner relative measure gives power 2t-3, scale=0.5
+PASS first Taylor jet gives power 2t-2, scale=0.5
+PASS fixed-inner relative measure gives power 2t-3, scale=0.25
+PASS first Taylor jet gives power 2t-2, scale=0.25
+DATA raw interior exponent=-0.392319038; first-jet exponent=0.607680962; full endpoint dimension adds one measure
+PASS relative collision count JbarJ Y0Y2
+PASS safe convergence at Re(t)>2: JbarJ Y0Y2
+PASS relative collision count JbarK Y0
+PASS safe convergence at Re(t)>2: JbarK Y0
+PASS relative collision count JbarJ P
+PASS safe convergence at Re(t)>2: JbarJ P
+PASS relative collision count JbarL
+PASS safe convergence at Re(t)>2: JbarL
+PASS relative collision count Y0Y2
+PASS safe convergence at Re(t)>2: Y0Y2
+PASS relative collision count one current Y0Y2
+PASS safe convergence at Re(t)>2: one current Y0Y2
+PASS relative collision count JbarJ equal Yukawas
+PASS safe convergence at Re(t)>2: JbarJ equal Yukawas
+PASS relative collision count KbarK
+PASS safe convergence at Re(t)>2: KbarK
+PASS relative collision count endpoint U Y0
+PASS safe convergence at Re(t)>2: endpoint U Y0
+PASS A with either Yukawa starts at a positive power
+PASS B with even-root potential remains regular after derivative contraction
+PASS A with the composite potential is regular
+PASS nonconstant endpoint spectator continuation t=1.414214: errors=[5.78785090965539e-08, 2.0369244069229353e-09, 7.169020932451531e-11]
+PASS nonconstant endpoint spectator continuation t=-0.2828427: errors=[0.010824852363541027, 0.004005217323950205, 0.001482000515139248]
+RESULT 65 PASS, 0 FAIL

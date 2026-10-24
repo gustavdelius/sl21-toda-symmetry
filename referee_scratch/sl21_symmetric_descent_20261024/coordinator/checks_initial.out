@@ -1,0 +1,70 @@
+PASS primary Gram entries
+PASS full three-C polynomial includes every derivative pairing
+FAIL arbitrary moving-test double coefficient
+PASS arbitrary moving-test simple coefficient
+PASS regulator derivative coefficient beta+1
+PASS one-source union degree (False, 0, 0, 1)
+PASS one-source union degree (False, 0, 1, 0)
+PASS one-source union degree (False, 0, 1, 1)
+PASS one-source union degree (False, 0, 2, 0)
+PASS new one-source union vanishes in common domain (False, 0, 2, 0)
+PASS one-source union degree (False, 0, 2, 1)
+PASS new one-source union vanishes in common domain (False, 0, 2, 1)
+PASS one-source union degree (False, 0, 3, 0)
+PASS new one-source union vanishes in common domain (False, 0, 3, 0)
+PASS one-source union degree (False, 0, 3, 1)
+PASS new one-source union vanishes in common domain (False, 0, 3, 1)
+PASS one-source union degree (False, 1, 0, 0)
+PASS new one-source union vanishes in common domain (False, 1, 0, 0)
+PASS one-source union degree (False, 1, 0, 1)
+PASS new one-source union vanishes in common domain (False, 1, 0, 1)
+PASS one-source union degree (False, 1, 1, 0)
+PASS new one-source union vanishes in common domain (False, 1, 1, 0)
+PASS one-source union degree (False, 1, 1, 1)
+PASS new one-source union vanishes in common domain (False, 1, 1, 1)
+PASS one-source union degree (False, 1, 2, 0)
+PASS new one-source union vanishes in common domain (False, 1, 2, 0)
+PASS one-source union degree (False, 1, 2, 1)
+PASS new one-source union vanishes in common domain (False, 1, 2, 1)
+PASS one-source union degree (False, 1, 3, 0)
+PASS new one-source union vanishes in common domain (False, 1, 3, 0)
+PASS one-source union degree (False, 1, 3, 1)
+PASS new one-source union vanishes in common domain (False, 1, 3, 1)
+PASS one-source union degree (True, 0, 0, 1)
+PASS one-source union degree (True, 0, 1, 0)
+PASS one-source union degree (True, 0, 1, 1)
+PASS one-source union degree (True, 0, 2, 0)
+PASS new one-source union vanishes in common domain (True, 0, 2, 0)
+PASS one-source union degree (True, 0, 2, 1)
+PASS new one-source union vanishes in common domain (True, 0, 2, 1)
+PASS one-source union degree (True, 0, 3, 0)
+PASS new one-source union vanishes in common domain (True, 0, 3, 0)
+PASS one-source union degree (True, 0, 3, 1)
+PASS new one-source union vanishes in common domain (True, 0, 3, 1)
+PASS one-source union degree (True, 1, 0, 0)
+PASS new one-source union vanishes in common domain (True, 1, 0, 0)
+PASS one-source union degree (True, 1, 0, 1)
+PASS new one-source union vanishes in common domain (True, 1, 0, 1)
+PASS one-source union degree (True, 1, 1, 0)
+PASS new one-source union vanishes in common domain (True, 1, 1, 0)
+PASS one-source union degree (True, 1, 1, 1)
+PASS new one-source union vanishes in common domain (True, 1, 1, 1)
+PASS one-source union degree (True, 1, 2, 0)
+PASS new one-source union vanishes in common domain (True, 1, 2, 0)
+PASS one-source union degree (True, 1, 2, 1)
+PASS new one-source union vanishes in common domain (True, 1, 2, 1)
+PASS one-source union degree (True, 1, 3, 0)
+PASS new one-source union vanishes in common domain (True, 1, 3, 0)
+PASS one-source union degree (True, 1, 3, 1)
+PASS new one-source union vanishes in common domain (True, 1, 3, 1)
+PASS moving-mask first product derivative keeps both boundaries
+PASS moving-mask second derivative keeps mask intersection
+PASS hard-scale radial mask derivative has correct epsilon cost
+PASS unlike triangle reduction includes Cbar and both double poles
+PASS source multipliers smooth enough after finite derivative loss
+PASS mixed-tail holomorphic exponent
+PASS mixed-tail antiholomorphic exponent
+PASS mixed-tail phase loses h dependence by even integer shift
+PASS full mixed-unary quartet positive degree
+PASS two labelled unary directions give cross coefficient exactly once
+SUMMARY 68 PASS 1 FAIL

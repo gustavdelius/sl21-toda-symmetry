@@ -1,0 +1,1932 @@
+Commun. Math. Phys. 142, 99-138 (1991)                                         Communicationsin
+                                                                                Mathematical
+                                                                                    Physics
+                                                                               9 Springer-Verlag1991
+
+
+
+
+Quantum Group Symmetries
+and Non-Local Currents in 2D QFT
+Denis Bernard 1 and Andr6 LeClair 2
+
+1 Service de Physique Th~orique de Saclay, F-91191 Gif-sur-Yvette, France
+2 Newman Laboratory of Nuclear Studies, Cornell University, Ithaca, NY 14853, USA
+Received November 13, 1990
+
+
+Abstract. We construct and study the implications of some new non-local
+conserved currents that exist is a wide variety of massive integrable quantum field
+theories in 2 dimensions, including the sine-Gordon theory and its generalization
+to affine Toda theory. These non-local currents provide a non-perturbative
+formulation of the theories. The symmetry algebras correspond to the quantum
+affine K a c - M o o d y algebras:. The S-matrices are completely characterized by these
+symmetries. Formal S-matrices for the imaginary-coupling affine Toda theories
+are thereby derived. The application of these S-matrices to perturbed coset
+conformal field theory is studied. Non-local charges generating the finite
+dimensional Quantum Group in the Liouville theory are briefly presented. The
+formalism based on non-local charges we describe provides an algernative to the
+quantum inverse scattering method for solving integrable quantum field theories
+in 2d.
+
+
+
+Table of Contents
+
+1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            100
+2. Non-Local Charges in 2D Q F T . . . . . . . . . . . . . . . . . . . . . . . .                 102
+   2a. General Theory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              102
+   2b. The Algebra of Charges in Perturbed C F T . . . . . . . . . . . . . . .                   105
+3. Non-Local Charges in the Sine-Gordon Theory . . . . . . . . . . . . . .                       106
+   3a. A Review of the Sine-Gordon Theory . . . . . . . . . . . . . . . . . .                    107
+   3b. The Non-Local Conserved Charges . . . . . . . . . . . . . . . . . . .                     108
+   3c. The Algebra of the Non-Local Charges . . . . . . . . . . . . . . . . .                    110
+   3d. The Fundamental Soliton Fields . . . . . . . . . . . . . . . . . . . . .                  111
+   3e. The Representation of the Non-Local Charges
+       on Asymptotic Multi-Soliton States . . . . . . . . . . . . . . . . . . .                  113
+   3f. The S-Matrix from the Non-Local Charges . . . . . . . . . . . . . .                       115
+100                                                              D. Bernard and A. LeClair
+
+   3g. Alternative Descriptions: The Deformed Gross-Neveu Models . . . t 16
+   3h. The Restricted Sine-Gordon Theory Revisited . . . . . . . . . . . . .             118
+   3i. Additional Remarks . . . . . . . . . . . . . . . . . . . . . . . . . . . .        120
+4. Introducing the Center: The Central Sine-Gordon Models . . . . . . . .                121
+5. Generalization to Other Groups . . . . . . . . . . . . . . . . . . . . . . .          122
+   5a. Non-Local Charges for the Affine Toda Theories . . . . . . . . . . .              122
+   5b. The Soliton Fields and the S-Matrices . . . . . . . . . . . . . . . . .           124
+   5c. The Gross-Neveu Limit . . . . . . . . . . . . . . . . . . . . . . . . . .         127
+   5d. Application to Perturbed Coset Conformal Field Theories . . . . .                 129
+6. Conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     130
+Appendix A: Quantum Affine Algebras . . . . . . . . . . . . . . . . . . .            . . 131
+Appendix B: Details on the Sine-Gordon S-Matrix . . . . . . . . . . . . . .              132
+Appendix C: The Yangian Limit . . . . . . . . . . . . . . . . . . . . . . . . .          133
+Appendix D: Generalized Parafermions and Their Braidings . . . . . . . .                 136
+
+
+1. Introduction
+
+Symmetry in quantum field theory is widely recognized as being of fundamental
+importance. In 3 + 1 spacetime dimensions, the likely symmetries of the S-matrix
+are subject to the severe limitations of the Coleman-Mandula theorem [1]. The
+theorem states that any symmetry group is necessarily locally isomorphic to the
+direct product of an internal symmetry group and the Poincar6 group. These
+possible symmetries are normally not restrictive enough to allow a non-perturbative
+solution of the theory.
+    In lower-dimensional quantum field theory, some of the postulates of the
+Coleman-Mandula theorem may be relaxed in a non-trivial way. Apart from the
+structure of the Poincar6 group itself, one of the main assumptions of the theorem
+is that the symmetry group acts on multi-particle states as if they were tensor
+products of one-particle states. More specifically, let Q be a generator of the
+symmetry group and V denote the Hilbert space of one-particle states. The
+multi-particle states are spanned by V |      | V. The action of the generator on a
+multi-particle state is an operator from V @... | V into itself, and will be referred
+to as the comultiplication A(Q). The proof of the Coleman-Mandula theorem
+assumed the trivial comultiplication:
+           A(Q)=QQ1Q...|174174                              +...+ I|174                (1.1)
+Supersymmetry in any number of dimensions is of course a well known example
+of how the hypothesis (1.1) can be circumvented.
+    This paper is primarily devoted to the construction of some new quantum
+symmetries that exist is a wide variety of integrable quantum field theories in 1 + 1
+dimensions. The conserved currents that generate the symmetries are non-local
+and further characterized by non-trivial equal-time commutation, or braiding,
+relations. These exceptional properties of the currents are responsible for the
+non-trivial comultiplication of the charges when acting on multi-particle states.
+That is, the assumption (1.1) of the Coleman-Mandula theorem is violated.
+    The existence of a non-trivial comultiplication for the non-local conserved
+charges implies that they belong to the algebraic framework of Hopf algebras,
+Quantum Group Symmetries and Non-Local Currents 2D QFT                             101
+
+notably the Quantum Groups and the Yangian symmetries [2-4]. Our work thus
+provides explicit currents that generate the Quantum Group Symmetries. The
+non-local charges for the Yangian symmetry were studied in [5-7]. For the case
+of the sine-Gordon (SG) theory, the symmetry algebra is the quantum s/(2) loop
+algebra, which is an infinite dimensional symmetry. This algebra can be thought
+of as a generalization of N = 2 supersymmetry, and is in fact equivalent to it for
+a special value of the SG coupling constant, as we will see.
+    The sine-Gordon theory can be completely reformulated using the non-local
+conserved charges. This leads to a new, remarkably simple derivation of the soliton
+S-matrix, Though the final result is known [8], the steps leading to it provide
+interesting non-perturbative information. Specifically, the derivation of the
+S-matrix allows us to determine which fields create the SG solitons within our
+framework. Our conclusions are somewhat unexpected in that the fundamental
+soliton fields can only be identified with the Thirring fermion fields at the point
+where the Thirring model is free (see [9, 10]).
+    The framework we develop for the sine-Gordon theory is readily generalized
+to incorporate the affine Toda theories over a simply-laced group G. Though the
+action of the affine Toda theories is ill-defined, the non-local charges provide a
+formal non-perturbative definition of the models. In particular we are able to
+derive the formal S-matrices for these theories at imaginary coupling constant.
+This result can then be applied to massive perturbations of the coset conformal
+field theories, with the aim of establishing the conjectured form [11, 12] of the
+S-matrices.
+     The subject of integrable quantum field theory has a long history, with many
+impressive results. The Leningrad school developed the quantum inverse scattering
+method (QISM) to quantize integrable systems, including the SG model [13, 14].
+It was this investigation that led to the theory of the Quantum Group. In quantum
+field theory the QISM was developed as a way to quantize the theory in a manner
+that preserves the infinite number of commuting integrals of motion which exist
+in the classical theory. It is of interest to compare the QISM to the framework
+advocated in this paper. Contrary to the QISM, the non-local charge framework
+deals with conserved charges that are not in involution. The strength of the method
+resides in the non-abelian nature of the algebras generated by the non-local charges.
+Though the same algebraic structure of the Quantum Group appears in both the
+QISM and the theory of non-local charges, their physical content is different. One
+of the primary distinctions of the non-local charges approach is that these charges
+have no apparent classical formulation. This is due to the fact that their very
+existence relies on quantum anomalous dimensions of all the fundamental fields1.
+     The QISM is an algebraization of the Bethe-ansatz methods. Though the
+Bethe-ansatz has had many successes, many of its features (such as the introduction
+of a pseudo-vacuum and the entailed complicated filling of the Dirac sea) are
+rather unpleasant for the typical quantum field theorist. In this respect the methods
+based on non-local charges are more in the usual spirit of quantum field theory.
+
+
+
+1 The currents that generate the Yangian symmetry have classical analogs, however their
+comultiplication is a quantum effect [6]
+ 102                                                                 D. Bernard and A. LeClair
+
+Furthermore, these methods are rather general and self-contained, and are
+well-suited to the clarification of more recent results 2.
+   A preliminary version of some of the following results on the SG theory
+appeared in [15].
+
+
+2. Non-Local Charges in 2D QFT
+
+2a. General Theory. In this section we review the general framework for dealing
+ with non-local charges in two-dimensional quantum field theory. Part of this
+ framework was used in [6].
+     Due to the possibility of fields with non-trivial braiding relations, quantum
+ field theories in two spacetime dimensions may have non-local conserved currents.
+ The currents, which we denote by Ja(x,   /z t), are localized at the space-time points
+(x, t). Their precise definition (e.g. from a lattice construction or directly in the
+ continuum) requires attaching to the currents a one-dimensional curve going from
+  - ~ to the point (x, t). The precise location of the string attached to the currents
+ is irrelevant except when topological obstructions are encountered. One way to
+ think about this string is in analogy to the disorder line defining disorder fields
+ [ 16, 17]. This analogy will be clarified in the sequel. The non-locality of the currents
+ is encoded in their equal-time braiding relations:
+                     ja(x,t)jbv(y,t )__ RdcabcJv(y,t)Ja#(x,t); for   x >y.                  (2.1)
+The above equation is implicitly time-ordered to the left, e.g. Ju(x,      a   t)Jv(y,
+                                                                                  b t) =
+Ja~(x, t + e)Jbv(y,t), for e small and positive. The braiding relations (2.1) originate in
+the topological obstructions encountered while moving the string attached to the
+currents, and are displayed in Fig. 1. In this figure, time increases upward, and
+the positions of the strings are dictated by the time-ordering. Associativity of the
+operator algebra requires the matrix Rc~ to be a solution of the Yang-Baxter
+equation. A more complete discussion of braiding relations in 2D quantum field
+theories can be found in [18, 19].
+    For conserved currents, OuJ~(x, t)= 0, the global conserved charges Qa acting
+                                                1
+on the physical Hilbert space are Qa_-~i~i ! dxJ~(x, t). The charges ~a acting on
+
+
+
+
+                                               -
+
+
+
+
+                                                 -09
+                         Fig. 1. Graphical representation of braiding
+
+
+2 We refer the reader to [11] for a unified description ofintegrable quantum field theories based
+on symmetries
+Quantum Group Symmetries and Non-Local Currents 2D QFT                                                  103
+
+fields ~k(y) are not defined by integrating the currents along an equal-time slice
+but along a path ~(y) from - oo to - oo surrounding the point y:
+
+                            ga(fl)k(y)) = 1        ~ dzveV, j~(z ) ~k(y).                              (2.2)
+                                             2~zi ~(y)
+The contour 7(y) is drawn in Fig. 2. There we have drawn the string attached to
+the currents in the position specified by the order of the fields in (2.2). The exact
+shape of the contour 7(y) is irrelevant due to the conservation of the currents.
+    The action of the charges on the fields (2.2) can be expressed in terms of
+generalized commutators, as we now describe. The fields of the theory can be
+classified into multiplets according to their braiding relations with the currents.
+We suppose the following braiding relations
+                   j~(x,t)~k(y,t)= 19bt,k (y,t)jb,(X,t);                  for     x >y.                (2.3)
+As in (2.1) these braiding relations arise from the obstructions for moving the
+string attached to the fields. To express (2.2) as generalized braided commutators,
+let us decompose the contour of integration 7(Y) into the difference of two contours
+~+ and ~_, )'(Y) = 7+ - 7-, as in Fig. 3. Integrating the fight-hand side of (2.2)
+along the contour F + gives the product Qa~k(y). When the currents are localized
+on the curve ~_, the braiding relations (2.3) can be used to move the string through
+the point y, giving the product O~k~l(y)Qb. We gather everything into the result:
+                            ga( cI)k(y) ) = Qa(i)k(y) -    O~ ~t(y)Q b.                                (2.4)
+
+
+
+
+                                                                 Cz
+
+
+                     -~                         ~ y
+
+                                     "Y(Y)                     Z E T(y)
+
+Fig. 2. The contour of integration for the action of non-local charges on fields. The curve C=
+denotes the string
+
+
+
+
+                                      C                                           Cz
+
+                                 y                  _     -~                    "Y:    z          +~
+
+                   7(y)
+
+
+                                                          -~               ~           ..,) * ~
+                                                                      y-               z
+                          Fig. 3. Decomposition of the contour of Fig. 2
+104                                                                      D. Bernard and A. LeClair
+
+    In particular if we consider ~(y) as the time-component of the currents, (2.4)
+shows that the global conserved charges Qa satisfying braided commutation
+relations:
+                             Qa Qb _ RdcQ
+                                      ab c Qd = (~a(Qb).                     (2.5)
+    Next we consider the action of the charges on a product of fields. This will
+define for us the comultiplication A(Q~) of the charges. For simplicity, consider
+the action on a product of two fields. This is defined as
+                                              1
+                 Qa(~k(yl)~n(y2))=          ~i~i ; dzveV~Ja~(z)(i)k(yl)(I)n(y2).             (2.6)
+                                                  "~12
+
+
+The contour ~)12encloses both space-time points Yl and Y2. See Fig. 4. The contour
+]/12 can be decomposed into the sum of two contours, ~)12 ~)1 @ ~2, as in Fig. 4.
+                                                                          =
+
+
+The integration over the contour 71 gives the action of the charges on @k(yl).
+After having taken into account the braiding relations between the currents and
+the fields ~k(yl), the integration over the contour "~2gives the action of the charges
+on ~n(y2). Thus we obtain:
+          Qa(~k(yl)~n(y2) ) = Qa(fi)k(yl))fi)n(y2) jr. ((9~k~Z(yl))Qb(~n(y2)).               (2/])
+    Let us arrange the quantum numbers of the fields ~(Yl) (~(Y2)) into a vector
+space VI(V2). The action of the charges Oa o n t h e product of two fields is then an
+operator on V1 | V2, which is denoted by A(Q~), and defines the comultiplication.
+In this compact notation (2.7) becomes
+                                  A(Q a) = Q a ~ ) l --I- O ~ |   b,                         (2.8)
+
+where ~9~,is the braiding operator and is a matrix acting on the vector space V1.
+More specifically, (lIO~lk) = O~k. The same comultiplication holds for the global
+charges Qa.
+    A lattice formulation can also be developed for the above continuum results.
+The lattice approach reveals that non-local conserved currents are consequences
+of quantum group invariance of the local hamiltonian. On the lattice, the non-local
+
+
+
+
+                                                          C ~             z
+         .•--•--•z
+          -GO        ~! "
+                                                                              Z
+
+          -CO                 .]z                   = -CO Yl
+          "                 Y2:                                          Y2 9
+
+
+
+                                                           _CO         Yt:_(~
+
+                                                           _co y2~"~..~/
+   Fig. 4. The contour defining the action of non-local charges on a product of two fields
+Quantum Group Symmetries and Non-Local Currents 2D QFT                                               105
+
+currents act as quantum Lie derivatives. This shows that non-commutative
+differential calculus [20-22] is the geometrical tool appropriate for describing
+non-local symmetries in two-dimensional quantum field theories. The lattice
+formulation will be described elsewhere [23].
+2b. The Algebra of Charges in Perturbed CFT. In this section we describe the
+commutation relations of non-local conserved charges in perturbed conformally
+invariant field theory (CFT).
+   Consider a conformal field theory perturbed by a relevant operator with zero
+Lorentz spin. The perturbing field can be represented by (~pert.(Z, Z) ~- ~pert.(Z)(J~pert.(Z).
+The Euclidean action is taken to be
+                                                      2
+                                  S = SCFX+ ~ Sd2zq~pert.(z,e),                                     (2.9)
+
+where 2 is a generally dimensionful parameter that measures the strength of the
+perturbation away from the conformal limit. Here z and f denote Euclidean
+coordinates 3. Chiral fields F(z,~),ff(z,~) satisfy deF(z,~)=d,ff(z,f)=O in the
+conformal limit. Equations of motion for the perturbed chiral fields which are
+local with respect to the perturbing field can be deduced to first order in
+perturbation theory using Zamolodchikov's approach [24]:
+
+                               OeF(z, e) = 2 ! 2rcidwl~pert.(W' e)F(z),
+
+                                                       d~v
+                                O z g ( Z , Z) =   )~ ! ~    ~pert.(Z, W)ff(Z).                   (2.10)
+
+Equations of motion to first order can be exact to all orders in perturbation theory,
+as we will see.
+   Let us now suppose that there are currents conserved to first order in
+perturbation theory:
+                                         d e Ja(Z, Z) = O,H"(z, ~),                              (2.11 a)
+                                         Ojn(z, ~) = OeBn(z, ~).                                (2.1 lb)
+We assume that in the conformal theory these currents are chiral fields; i.e. when
+2 = 0 they satisfy OeJa = 0 j n = 0. We also suppose that they are local with respect
+to the perturbing field. The condition for the currents to be conserved to first
+order in perturbation theory is then a condition on the residue of the operator
+product expansion (OPE) between them and the perturbing field. Namely, the
+conservation laws (2.11) hold if the residues of these OPE's are total derivatives:
+                                 Res z= w(gapert.(w)Ja(z)) = O~h"(z),                            (2.12a)
+                                Res~ = r (t~pert.(I,~)J~i(e)) = 0ehtJ(e).                       (2.12b)
+
+
+
+3 We will always denote Euclidean light-cone coordinates as z and ~, whereas x , t and
+x +- = ( x +_ 0 / 2 will signify Minkowski coordinates. Their relation is z = i x + = (t ~ + ix)~2,
+  = - i x - = ( t E - ix)~2, where t E = it. We follow the convention d Z z = i d z d ~ = - d x d t r / 2
+106                                                                    D. Bernard and A. LeClair
+
+The conditions (2.12) follow from Zamolodchikov's equation of motion (2.10). In
+(2.11) the fields H a are then
+                                Ha(z, 7,) = ~,ha(z)~pert.(7,),                            (2.13)
+and similarly for Ha(z,~). From the conserved currents (2.11) we define the
+conserved charges,
+
+                               Qa = ~__~ii(Sdzja + Sd~,na),
+
+                               0 = ~--~ii(~dgJ-~+ ~dzBa).                                 (2.14)
+
+   Since the currents ja and ~/a can be non-local, we allow for non-trivial braiding
+between them:
+                     Ja(x, t)J~(y, t) = R~J-~(y, t)Jbfx, t); Vx, y.                       (2.15)
+There is no contradiction in having the above braiding relations defined for all
+x, y; we will give explicit examples in the sequel. The above relations allow one to
+defined a time-ordered product T that facilitates the string manipulations of the
+previous section:
+                r(Ja(x, t + ~)ja(y, t)) = Ja(x, t -Jr-~)ja(y, t)          ~> 0
+                                        = R~(y,            t)Jb(x, t +-~) ~ < 0.          (2.16)
+We suppose that the same braiding relations hold if the ja (ja) component of the
+current is replaced by the corresponding H a (~a) component. To find the com-
+mutation relations between the charges Qa and Qa associated to these currents,
+we apply the general fra_mework explained in the previous section. Using (2.12) it
+is easy to compute Qa(Qa) to lowest non-trivial order in perturbation theory. The
+result is:
+                                QaO~ _ Ra~_~nb _ Tan,
+                                          ~'bb   ~   "~   --
+                                                                                         (2.17)
+
+where T a~ is always a topological charge,
+
+                                 2~i (dzd~ + de~e)ha(z)-h~(e).                           (2.18)
+
+Equation (2.18) may be understood as a generalization of the topological extensions
+of super-symmetry in two-dimensions [25]. In the following section we will show
+that in the case of the sine-Gordon theory the relations (2.18) are those of the
+quantum sl(2) loop algebra.
+
+
+3. Non-Local Charges in the Sine-Gordon Theory
+
+In this section we describe the non-local charges that characterize the sine-Gordon
+theory. We will show that these charges generate the quantum sl(2) loop algebra.
+Our analysis provides a new derivation of the soliton S-matrix.
+Quantum Group Symmetries and Non-Local Currents 2D QFT                             107
+
+3a. A Review of the Sine-Gordon Theory. The quantum sine-Gordon theory is
+described by the Euclidean action
+
+                      S = 1 ~ d 2 z d z @ O ~ + 2 ~d2z:cos(fi~):.                 (3.1)
+                          4rt                   rc
+The parameter fi is a coupling constant; it is related to the conventionally
+normalized coupling by fi = B/x//~ (see ref. [9]). The values of the coupling fi = 1
+and fi= x/~ are known to correspond to a free Dirac fermion and to the SU(2)
+Gross-Neveu model respectively. The parameter 2 defines the mass scale of the
+model; in the deep ultra-violet it is zero. For fi < x/~ the action can be renormalized
+by normal-ordering the cos(fi~) interaction and absorbing the infinities into 2;
+the coupling constant /3 is thereby unrenormalized [9]. With the above
+normalization of the kinetic term the Euclidean propagator is:
+                             < ~(z, e)q~(0, 0)> = - log (ze).                     (3.2)
+    We will treat the action (3.1) as a perturbation of a conformal theory in the
+sense developed by Zamolodchikov [24]. Namely, we treat the 2 cos(Bq~) term as
+a perturbation of the conformal field theory corresponding to asingle free boson.
+Recognizing that the cos(fiq~) potential imposes the periodicity Bq~ = flfl~+ 2~, one
+sees that the free boson is compactified on a circle of radius R = 1//3, where the
+                1
+duality is R ~ - - (see e.g. [26]). For fi < x/2, the perturbing field is relevant: its
+                 2R
+(holomorphic, anti-holomorphic) anomalous dimensions are less than one. This
+implies that in the deep ultraviolet, the theory is conformal. Following
+Zamolodchikov [24], this allows us to assume that the space of fields has not
+been drastically modified by the perturbation. In particular it allows us to suppose
+that all the operators (9(x, t) of the sine-Gordon theory have a smooth ultra-violet
+limit and that they are in correspondence with the fields of the ultra-violet CFT.
+We can thus label in a unique way the fields of the sine-Gordon theory by the
+corresponding fields in the ultra-violet limit. In the massless limit, the free boson
+can be expanded as q~(z,~) = ~b(z) + ~(~) with <~b(w)~b(z)>= - l o g ( w - z ) and
+similarly for ~. The fields of the ultra-violet CFT are products of the chiral vertex
+operators exp(i~b(z)) and exp(i,~(~)) and of their Virasoro descendents. The
+anomalous (holomorphic, antiholomorphic) dimensions (A, z~) of these exponential
+operators are:
+                                                           ~2
+                        A(exp(i, dp(z)) = z~(exp(i~(~))) = --.                    (3.3)
+                                                            2
+The perturbing operator cos(fiq~) is thus relevant for fi < x/~ as indicated above.
+    In the deep ultra-violet limit the (anti)-chiral components ~b(x,t) and ~(x, t)
+can be expressed in a non-local way in terms of the sine-Gordon field q~(x, t). The
+relations are:
+
+                        ~b(x, t) =   cI)(x, t) +    dy c3~cl)(y, t   ,
+
+
+                        ~(x, t) =    ~(x, t) --     dy O, q)(y, t) .               (3.4)
+108                                                                          D. Bernard and A. LeClair
+
+Equations (3.4) are proved by integrating the following equality, (t3=+ 0~)~=
+(ax + 0t)~b = 2dx~b, which holds in the massless limit, because there we have
+( a x - dt)~b- (0x + dt)~ = 0. A similar computation yields the expression for the
+anti-holomorphic component. Though the above non-local expressions (3.4) were
+derived in the massless limit, we can take them to define the chiral components
+~b and qS in exponential operators in the massive theory also, because of the
+correspondence mentioned above.
+      Let us illustrate the perturbative approach by deriving the equation of motion
+for the sine-Gordon field. The Zamolodchikov equations of motion (2.10) for the
+chiral fields idz(O and i d ~ , together with the operator product expansion (OPE),
+                                                        0c
+                       id=dp(z)exp(ict~(w)) --,               exp(ictq~(w))+ . . .               (3.5)
+                                                       Z--W
+
+give to first order in 2:
+                             ~       ~(z, e) = - 22fi sin (fi~(z, ~)).                           (3.6)
+Therefore, for the sine-Gordon field ~, the equation of motion is exact to first
+order in perturbation. For relevant perturbations, because the coupling constant
+2 has positive dimension, local equations of motion are exact to a finite order in
+perturbation theory. In. the case of the sine-Gordon theory, for the field ia~q~ it is
+easy to see by scaling arguments that only the first order appears in the equation
+of motion.
+   The sine-Gordon theory has a well known topological current:
+                                                   A
+
+
+
+                                     J"(x, t) = ~fl e ~ v ~ ( x , t),                             (3.7)
+                                                2re
+where e"v = - eTM. We take the convention eo~ = 1. The topological charge is:
+
+                 9-"    2zt I d x t 3 ~ =          (~(x = o o ) - ~(x = - m)).                    (3.8)
+                            --o0
+
+
+
+The normalization of the topological current is fixed by the periodicity of the
+cos(fi~) potential. More specifically, the topological solitons that correspond to
+single particles in the quantum theory are described classically by field
+configurations with ~ - = + 1. These solitons are kinks that connect two neigh-
+boring vacua in the cos(fi~) potential. In the quantum theory the topological
+charge ~((9) of an operator (9 is defined by the commutation relation
+[Y, (9] = Y-((9) (9. The topological charge of the vertex operators is thus:
+                                   J-(exp(i~q~ + i~(~)) = fi(ct - ~).                             (3.9)
+3b. The Non-Local Conserved Charges. In this section we derive the existence of
+conserved currents generated by fields of the form J~ = exp(i~b) or J~ = exp(ict~).
+    As explained in Sect. 2b, the existence of a conserved current in the perturbed
+theory is the requirement (2.i2) on the OPE of the current J~ ( ~ J~) with the
+perturbing field. The perturbing field is ~pr = exp(ifi~) + e x p ( - ifl~). Using the
+OPE
+              exp(i~q~(z)) exp(ifi49(w)) ,,, (z -- w)~ exp(i(~ + fi)c~(w)) +...                 (3.10)
+Quantum Group Symmetriesand Non-Local Currents 2D QFT                                   109
+
+(and similarly for the anti-holomorphic sector) we see that the condition (2.12) for
+a conservation law for J~ amounts to a condition on ~; namely ~ = + 2/ft. Therefore
+we find the following conserved currents:
+                               O~J+_= OzH•     OzJ_+=t3e/~_+,                        (3.11)
+where
+
+                                                                        s       )   (3.12a)
+
+                         /12                                  ~--
+
+
+
+                   _-~exp[            + i(~- /1)+(=,=)+ ~ 3 aye,+I ,                (3 12b)
+                                                     i              i
+                                                                            +,~ )   <3=.,
+
+                         /12                              + i/1~b(x,t)]
+
+                   =2~_~exp           +, ~ - f l   @(x,t)+~_coi dyO/ll .            (3.12d)
+
+By simple scaling arguments, it easy to check that for 1i2 irrational, the equations
+of motion for J_+ and J+_ are exact to first order in perturbation theory. Therefore
+the currents (3.12) are conserved to all orders. From these conserved currents we
+define four conserved charges:
+
+                                Q+ = 2~i(~dzJ+ + ~ISH+),
+
+                                i_+ = 2~i(IdiY+- + ~dzi+_).                          (3.13)
+
+
+The Lorentz spin s of the currents J• j •          is s =/12 \      /12j this follows from
+
+their anomalous scaling dimensions and the relation s -- ,4 - z~. The Lorentz spin
+of the conserved charges is thus:
+                        1 - spin(Q_+) = - spin((~+) = ~,
+                                                      2
+                                                         - 1.                        (3.14)
+                        7
+     The conserved charges (3.13) are non-local due to the fact that the (anti)-chiral
+components, q~ and ~, of the sine-Gordon field 9 are non-local. This non-locality
+is reflected in the relations (3.4). The non-local expressions (3.4) manifest the strings
+attached to the currents that were referred to in Sect. 2. The braiding relations
+arising from the non-locality are independent of the scale; thus they can be described
+in the ultra-violet limit without loss of information.
+110                                                                          D. Bernard and A. LeClair
+
+3c. The Algebra of Non-Local Charges. We now use the results of Sect. 2 to
+determine the algebra obeyed by the non-local charges (3.13). This requires
+knowledge of the braiding properties of the non-local currents (3.12). These follow
+from the expressions (3.4) for the chiral components ~b and q5 of the sine-Gordon
+field ~, and from the canonical commutation relations of q~:
+                                      [q~(x, t), ~,q)(x, t)] = 4ni~(x-y).                          (3.15)
+Using the fact that each= eta'BJeneA for [A, B] a c-number, we deduce:
+      exp( iadp(x, t) ) exp( ibdp(y, t) ) = e +i~abexp( ibc~(y, t) ) exp( ia4)(x, t)); for x ~ y ,
+                                                                                                 (3.16a)
+      exp(ia~(x, t) ) exp(ib@y, t) ) = e ~"igab exp(ib@y, t) ) exp(ia~(x, t)); for x ~ y ,
+                                                                                                 (3.16b)
+      exp(ia(o(x, t)) exp(ib(o(y, t)) = e i"b exp(ibq~(y, t)) exp(iadp(x, t)); Vx, y.             (3.16c)
+    These relations (3.16) are the braiding relations for generalized parafermions
+1-16, 17] for the group c~Z. In making this analogy, the disorder fields are identified
+with p,(x,t)=exp
+                       \      --at)
+                                      dyO,~(y,t)   )   in the ultra-violet limit, and exhibit the
+strings. This connection is further clarified in Appendix D.
+    For the currents of interest (3.12), the braiding relations (3.16) imply:
+                           J+(x,t)f~(y,t)=q-2f_v(y,t)J+_(x,t);              Vx, y,
+                           J+(x,t)J+(y,t)=q2y+(y,t)J++(x,t);                Vx, y,                 (3.17)
+
+where
+                                 q = exp ( - 2ni/fl 2) = - exp ( - in/y).                          (3.18)
+The same braiding relations hold if we replace any of the fields J+ (J_+) by the
+corresponding field He (H_+).
+   Using the above braiding relations Eqs. (2.17) and (2.18) become:
+             Q + ~ + _ q2~+ Q _+= O,                                                             (3.19a)
+
+           Q+_Q_~-q-20:.Q+_=~i~i72!dxa x exp _+i                            -fl      q~(x, 0   . (3.19b)
+
+The topological charges on the right-hand side of (3.19) can be expressed in terms
+of the usual topological charge 5- in (3.8). A soliton configuration can be taken
+to satisfy ~(x = oe)= 0; the classical soliton solutions do in fact satisfy this.
+Integrating (3.19) we obtain the algebra to lowest non-trivial order in perturbation
+theory:
+                                      Q+O+_q2O+Q+=O,                                             (3.20a)
+                                 Q-Q.- _ q 2 ~ _ Q _ =0,                                         (3.20b)
+                                Q+O_ _ q - 2 ~ _ Q + = a ( 1 - q 2 : ) ,                          (3.20c)
+                                Q_ ~+ _ q- 2(~+ Q_ = a(1 - q- 2:),                               (3.20d)
+Quantum Group Symmetriesand Non-Local Currents 2D QFT                                     111
+
+                                         [~--, Q _+] = 4- 2Q •                         (3.20e)
+                                         [3-, ~+3 = + 2~•                              (3.20f)
+where a --- 272/2~i. In deriving the last equations we have used (3.9).
+    It is possible to show by scaling arguments that the algebra (3.20) is exact to
+all orders in perturbation theory. Thus the algebra (3.20) can be taken as a
+non-perturbative definition of the theory. The scaling argument goes as follows.
+The scaling dimension of an operator 60 is dim(O) = A((9) + z~((9). The most general
+possibility for the right-hand side of (3.19b) is ~ 2"(Sdz(9 . + ~d~6.). From the fact
+                                                           /I
+
+that the dimension of the left-hand side of (3.19b) is 2/7, and dim(2) = 2 -/~2, one
+finds that dim(O.) - 1 = 4//~2 + n/~2 - 2(1 + n). This equation can only be satisfied
+if (_9,= 0zH., (9-,= 0ell,. The field H. must be a product of exp(4- 2At0) with the
+                                                                           k   fl /
+                                                                           2     ^
+perturbingfieldraisedtosomepowerk.                 ThereforeH.,,~exp(+(~+kfl)~),keZ,
+
+and dim((9,) - 1 =   (;   + kfl      Assuming that fl is irrational, one thus finds that
+k 2 = n and 2k = - 1 - n. The only solution is n = 1.
+     The algebra (3.20) is a known infinite dimensional algebra, namely the
+q-deformation of the sl(2) attine K a c - M o o d y algebra, denoted ~ ) , with zero
+center [2, 3]. Only the Serre relations for s/q(2) are missing in (3.20). This algebra
+is reviewed in Appendix A. Let Ei, Fi, Hi, i = 0, 1, denote the Chevaley basis for
+the centerless sly(2) algebra in the principal gradation (see Appendix A for
+definitions). They satisfy the following defining relations:
+                                  [ H i, E j] = a o E j,
+                                  [Hi, F j] = - ai~F ~,
+                                                qn, _ q - m
+                                  [Ei, F~] = 6ij q - q - 1 '                            (3.21)
+
+with air the Cartan matrix of the affine K a c - M o o d y algebra s ~ ) . The relations
+between the non-local charges Q_+ and ()_+ and these generators are:
+                            Q+ = c E , q m / 2 ;     Q_ = cEoq"O/2;
+                            Q - = cFlq"~/2;          Q,+ = cFoq"~                       (3.22)
+                             ~-- = H 1 = _ Ho,
+
+where c is a constant c 2 = ~ / 7 (q- - 1) . The last equation in (3.14) reflects the
+fact that the center of @ ) is zero.
+    Note that when q = - i, (fl = 2/x/~), the algebra (3.20) is a topological extension
+of the N = 2 supersymmetry algebra. This fact was recently used in the study of
+perturbations of the N = 2 superconformal series [15].
+3d. T h e Fundamental  Soliton Fields. We will now construct the fundamental
+quantum fields that create sine-Gordon solitons out of the vacuum. These fields
+112                                                                 D. Bernard and A. LeClair
+
+must satisfy a number of requirements: (i) they must have topological charge _ 1;
+(ii) they must transform in a well defined way with respect to the non-local charges.
+It turns out that these requirements are not independent. The condition (ii) is
+fundamental for consistency of our approach based on non-local charges. More-
+over, as we will see, these requirements imply that the soliton fields have well
+defined equations of motions.
+     There are large families of operators with topological charge + 1. These
+operators differ by a product with local fields, and in general differ in Lorentz
+spin. Among them, there are four fields which generate these families. These fields,
+which we call the fundamental soliton fields, are defined by:
+                                                     i
+                              ~•                   +__~qb(x,t)),
+
+                              CP•    t) = exp ( T-' ~-( x), t) .                       (3.23)
+
+They have topological charges _+ 1 as can be seen from (3.9). They are chosen for
+the special properties of their OPE's with the currents (3.19). Namely,
+                                                1
+                        J +(z) U _ ( w ) ~ (z - w) ~/~2 ~'+(w) + ...,
+
+                                               1
+                        J_ (z) ~+ (w) ,,. (z - w)z/~2 ~- (w) +.... "                   (3.24)
+
+The relations (3.24) imply that the non-local charges will transform solitons into
+anti-so!itons and vise versa. Thereby, the soliton states will form a representation
+of the algebra of non-local charges. The solitons fields in (3.20) are also characterized
+by non-trivial Loretnz spin:
+
+                            spin(~U• = ' spin(~•           = 1                         (3.25)
+                                                            2/~2"
+    It is interesting to display explicitly the braiding relations satisfied by the soliton
+fields (3.23). They can be derived from the relations (3.16). Let ~P: = • 1 and ~a-= • 1
+represent the soliton fields. Then,
+
+             ~:(X,t)~:,(y,t)=q-Z'::'/2~:,(y,t)~:(X,t);                  for   x~y,
+             ~:(x,t)~:,(y,t)=q•                                         for   x~y,
+             ~:(x, t) ~:,(y, t) = q::'/2 ~, (y, t) ~:(x, t);            V x, y.        (3.26)
+These relations are the braiding relations for the parafermions considered by
+Smirnov [27]. However his approach is different from ours in that his starting
+point is the construction of form factors from the knowledge of the sine-Gordon
+S-matrix, whereas we obtain these relations from (3.4) and (3.23), and will derive
+the S-matrix in the following section.
+    Let us now study the equations of motion for the soliton fields. The soliton
+fields are chiral or anti-chiral in the ultra-violet limit. They are local with respect
+to the perturbing field. This relative locality is a consequence of the fact that the
+Quantum Group Symmetriesand Non-Local Currents 2D QFT                             113
+
+soliton fields have topological charge + 1. Therefore their equations of motion
+can be analyzed using (2.10). One finds:
+
+
+
+
+The equations of motion for the soliton fields cannot be expressed solely in terms
+of the soliton fields themselves. This leads us to define some auxiliary chiral and
+anti-chiral fields,
+
+
+
+
+                                                           0.
+The equations of motion now become:
+                               ~ ~• -- 2:0~_ ~•177 :,
+                               t~z~'• = 2:(X~- ~_+)~• :,                        (3.29)
+where the normal ordering is defined by a point-splitting procedure. The fields.
+( ~ • ~'• and (Z• ~• are sufficient to describe all the fundamental fields in the
+theory. The interaction term can be written as
+                  :cos(/~):=:(X_ ~+)(~+ ~'-):+:0(+ ~'-)(~- ~'+):.               (3.30)
+This equation shows the connection between the sine-Gordon model and a
+deformation of the SU(2) Gross-Neveu models. This connection will be explored
+in Sect. 3g. The non-local conserved currents (3.19) can also be written in terms
+of these elementary fields. All these facts attest to the strong internal consistency
+of the framework based on non-local charges.
+3e. The Representation of the Non-Local Charges on Asymptotic Multi-Soliton
+States. In this section we determine the manner in which the non-local charges
+(3.13) are represented on asymptotic (in the sense of scattering theory) multi-soliton
+states.
+     Let lce= + 89      denote a single-soliton state with topological charge
+9-- = 2ce = _ 1 and rapidity 0, where 0 parametrizes the on-shell energy-momentum,
+                           E = mcosh0;      P = msinh0.                         (3.31)
+We will henceforth set the mass m of the solitons to 1. An N-soliton state is
+denoted as,
+                      Ice1,01> | Ice2,o2 > | | Ice=,0=>.               (3.32)
+The vector space of single soliton states of fixed rapidity will be referred to as
+V=vect.{I 1 _ 1 ) }.
+   Consider first the action on single-soliton states. The action of the charges on
+such states must form a representation of the algebra (3.20). This representation
+114                                                                     D. Bernard and A. LeClair
+
+can be deduced as follows. We suppose that the fields (3.23) create the solitons.
+Taking into account the topological charges of the soliton fields, we have the
+following non-vanishing matrix elements,
+                                 <01 ~u_+(x,t)l T 1/2,0) # 0,
+                                 (01 ~'_+(x, t)l-T- 1/2,0) # 0,                            (3.33)
+as t ~ + oo. Analogous non-vanishing matrix elements exist for any operator
+having topological charge _ 1 and which differs from the soliton fields by
+multiplication with a local operator. Thus we can take either fields of the family
+generated by the soliton fields ~u• or ~_+ to create the soliton state I---89 0)
+asymptotically. From the OPE's in (3.24) (and similarly for the anti-holomorphic
+fields) one infers that the charges Q + and Q + will transform anti-solitons to solitons
+and vise versa for the charges Q_ and Q_. More precisely, using the same technique
+as in Sects. 2b and 3c, we derive the exact action of the non-local charges on the
+soliton fields:
+                           Q•177
+                           Q_+(~%) = ,t: q'•177 ~ ) : - 2 ~_+,
+                           0+(~'+_) = o,
+                           Q_+(~-v-) = 2: ~'_+(~_+X_v_):= 2 @_+.                           (3.34)
+The fields ~'_+ (or @• implicitly defined in (3.34), have topological charge _ 1.
+They differ from the fields ~_+ (or ~'_+) by the local operators Z_+s (or Z•
+and thus also create solitons asymptotically. An easy computation shows that
+spin(~'• = spin (~'T_) + 1. Therefore the action (3.34) is consistent with the Lorentz
+       1                   7
+spin ___- of the non-local charges, as it must be. In rapidity space, a Lorentz boost
+        7
+is represented as a shift of 0 : 0 ~ 0 - ~ . The on-shell operators e x p ( _ 0/7) have
+Lorentz spin +-.1 Taking all these facts together, we find the following
+                  Y
+representation of the charges on the asymptotic solitons,
+                                   Q • = ceO/~E • q • mz,
+                                   Q• = ce-O/rE•
+                                  Y- = H,                                          (3.35)
+where c is a constant, H = diag(+ 1, - 1) and E • are the Pauli spin matrices tr •
+    The comultiplication of the charges defines their action on multi-soliton states.
+As explained in Sect. 2a, this comultiplication follows from the braiding of the
+currents with the soliton fields. The required braiding relations are computed from
+(3.16) using the expressions (3.12) and (3.23). The result is:
+                   J + (x, t) ~'~-(y, t) = q • 3- ~ , ( y , t)J +(x, t); V x, y,
+                   J• (x, t) ~ - ( y , t) = q-V~- ~u~_(y,t)J+ (x, t); V x, y.              (3.36)
+The same braiding relations hold if the field J• or J• is replaced by the cor-
+responding field H e o r / t • Therefore, the comultiplication is:
+                               A(Q +_)= Q• | 1 + q •        | Q•                          (3.37a)
+Quantum Group Symmetries and Non-Local Currents 2D QFT                            115
+
+                            d((~_+) = (~_+| 1 + q~n@O,•                        (3.37b)
+                             A(H) = H |       1 + H|   1.                      (3.37c)
+The last relation follows from the additivity of the topological charge 5_.
+    It is instructive to compare the above results with the known structure of the
+s/q@) loop algebra. (The reader is referred to Appendix A for definitions of the
+terminology in what follows.) The isomorphism of the representation (3.35) to the
+s/q~) representation (3.22) is made explicit by identifying the spectral parameter
+x in the principal gradation with exp(0/7). The comultiplication (3.37) that we
+derived in the~quantum field theory can be compared with the known comulti-
+plication of s/q(2) using (3.22); they are equivalent as they must be. In particular
+this implies that the comultiplication provides a representation of the algebra (3.20)
+on asymptotic states with an arbitrary number of particles. This fact is important
+in establishing the non-local charges as true symmetries of the theory.
+3f. The S-Matrix from the Non-Local Charges. We will now demonstrate how
+one can use the non-local charges to obtain non-perturbative information about
+the sine-Gordon theory by providing a derivation of the soliton S-matrix.
+    The integrability of the sine-Gordon theory implies that the set of in-coming
+and out-going momenta are the same. Let I:1 @ V2 denote the Hilbert space of
+two-soliton states of fixed rapidities, i.e. V1@ V2 is spanned by the states
+[el = + i2,0 ;1)| le2 = ___89    The two-particle to two-particle S-matrix is an
+operator, S:VI@ V2~ V2| 1:1. By Lorentz invariance S depends only on the
+combination 01 - 0 2 . Apart from the rapidity dependence, S depends on the
+coupling ft. In order to keep this dependence in mind we denote the two-body
+               /       x
+S-matrix by g{Xl;q} with xi=exp(OJT)and q = - exp(-iz/7).
+               \X 2    /I
+   The S-matrix must commute with the action of the non-local charges since
+they are symmetries of the theory:
+                       IS, A(H)] = IS, A(Q+)] = IS, A(Q•          = 0.          (3.38)
+Let us rewrite (3.38) in a slightly different form. Representing the charges as in
+(3.35) and multiplying both sides of (3.38) by q~/2|            or q-J/2|
+wherever appropriate, we find:
+
+                                                                               (3.39a)
+                      kX2
+
+
+                   S~(xl.
+                      ~,q ) (x~E,_|           + q+n/2
+                                                 - |177
+
+                      =(x2E•174174                                 ,q ,        (3.39b)
+
+                   -(Xx. ) _
+                   S ~2,q (xllE+_ |       -     +qZ'n/2|            )
+
+                      =(x21E+_ |          + qZ-n/2|                            (3.39c)
+                                                            - -   \ X2    ,]
+116                                                         D. Bernard and A. LeClair
+
+    Jimbo has proven that the solution S(x; q) to the above equations is unique up
+to an overall scalar function v(012-01-02). He showed that the solution
+automatically satisfies the Yang-Baxter equation, which is required for factoriza-
+tion of the multiparticle S-matrix. Constraints on v(012) can be found by imposing
+crossing and unitarity. The minimal solution is the known sine-Gordon S-matrix
+[8]. For completeness we have provided the details in Appendix B.
+3g. Alternative Descriptions: The Deformed Gross-Neveu Models. In this section
+we will describe some of the above results from a different point of view with the
+objective of further clarifying our construction. As we will see the sine-Gordon
+theory can be formulated as a deformation of the Gross-Neveu model, or
+alternatively a deformation of a current-current perturbation of the SU(2) Wess-
+Zumino-Witten (WZW) model [28].
+    (i) First consider the above reformulation of the sine-Gordon theory when the
+coupling/~ = 1. This point is known to correspond to a free Dirac fermion theory.
+This is easily seen from the equations of motion (3.27), or from the interaction
+term, if we write it as in (3.30). When ~ = 1, the )~_+fields become the identity and
+we recover the action and equations of motion for the Dirac theory. Note that
+the soliton fields (3.23) have spin 89at this point and are the components of the
+Dirac fermion. It is interesting to consider what happens to the conserved charges
+in this limit. The currents (3.12) have Lorentz spin _+2 when ~ = 1. They are easily
+seen to correspond to the energy momentum densities. Namely, J_+ corresponds
+to the Tzz component of the energy-momentum tensor for the topological charge
+sector _+ 1. The fields H • correspond to the trace of the energy-momentum tensor.
+The deformation parameter q becomes one in this limit and the algebra (3.19) is
+abelian; it is just the translation algebra.
+    (ii) Now consider the theory at the coupling/~ = x/~, which corresponds to
+the point where the perturbation is just becoming marginal. The currents (3.12)
+have dimension one and are nothing other than the vertex operator representation
+of the level one K a c - M o o d y currents [29, 30]. Of course the usual infinite-
+dimensional K a c - M o o d y symmetry in the conformal theory is broken in the
+perturbed theory. What remains is a global SU(2) invariance. In this limit the
+fields H• and H• become J• and J+ respectively. Therefore there are only two
+conserved currents that results from the above construction (in addition to the
+topological current) satisfying t?eJ+ + OzJ+ = 0. The deformation parameter is
+q = - 1 when/~ = w/2. In the limit q = - lira e" the algebra (3.20) of the non-local
+                                           e~0
+
+ charges becomes the global SU(2) algebra.
+    The limit / ~ x / ~ in Eqs. (3.39) that characterize the S-matrix yields more
+dynamical information than simply the sl(2)-invariance of the S-matrix. Define
+  = 1/7, and consider the limit e ~ 0. Keeping terms to order e, one finds that the
+equations (3.39) express the Yangian invariance of S [2]. The reader is referred to
+Appendix C for clarification of this point. In particular the Yangian symmetry
+implies the S-matrix at this particular coupling is a rational solution of the
+Yang-Baxter equation.
+    When 3 = x/~ the sine-Gordon theory can be described as a current-current
+perturbation of the level one SU(2) WZW model. This fact is the origin of the
+Yangian symmetry of the S-matrix at this point, as shown in Appendix C. After
+Quantum Group Symmetries and Non-Local Currents 2D QFT                              117
+
+bosonizing the currents through a vertex operator representation the current-
+current perturbation becomes the cos(x/~#) perturbation. The SU(2) WZW model
+at level one is known to contain a single primary chiral field transforming in the
+fundamental representation [31]. Its scaling dimension is 88 The chiral primary
+fields correspond precisely to the soliton fields we proposed in (3.23) at/~ = x/~.
+     A deformation of the current-current perturbation is provided by coupling the
+different components, J +, J - and jo of the Kac-Moody current in an anisotropic
+way,
+                   SDss = Swzw + ~ S d2z(j+ j - + j - j + + 9jojo).              (3.40)
+
+For 9 = 1, the action (3.40) describes the current-current perturbation of the SU(2)
+WZW model, which is of course SU(2) invariant. After bosonization of the level
+one SU(2) currents, the j o j o term which breaks the isotropy amounts to a rescaling
+of the action of the boson|c fields. This rescaling breaks the SU(2) invariance and
+re-introduces the coupling constant fl into the sine-Gordon action.
+    (iii) Finally let us make contact between the sine-Gordon model and a
+deformation of the SU(2) Gross-Neveu model. It is well known that at/~ = x/~
+the sine-Gordon theory is equivalent to the chiral SU(2) Gross-Neveu model
+[30,32]. Let us deform the SU(2) Gross-Neveu model such that the SU(2)
+symmetry is broken. The action we choose is,
+
+
+  SD~N=     47rL                                 - ,
+                                                                              (3.41)
+where gJ, are Dirac fermions. The parameter a in (3.41) measures the deformation
+away from the SU(2) symmetric_point which corresponds to (7 = 1. Bosonizing
+according to the standard rules, T, T, = cos(q~.) and ~',Ys T, = isin(q~,), we find,
+
+           SD~N =    1 id2z[~zq)lt~.~o 1 -F (7~z~02~(p2 "~ 20 cos((01 - q)2)].   (3.42)
+
+Onlythe difference of the fields tpl and (~ interact. We define two new fields
+and 9 by the linear combinations,
+
+                   ~)=   &,      ~Ol -- q)2);   ~-"    &   ((~1 "~- (7(tP2) 9    (3.43)
+
+The kinetic term in (3.42) is the sum of the kinetic terms for the fields (P and (~.
+Therefore, the field (~ decouples, and we are left with a sine-Gordon action with
+coupling constant/~ = / 1   +a
+                            (7
+    What happens to the Gross-Neveu fermions through this deformation? At the
+SU(2) invariant point, the standard bosonization formula expresses the fermions
+as exponentials of the bosonic fields. Namely the components of the Dirac fermions
+~1 are ~k1 = exp(i~bl) and ~b~ = exp(-i~bl) , where ~b1 is the chiral component of
+(ol (and similarly for 7~2). Once the deformation parameter (7 is turned on,
+expressing everything in terms of the sine-Gordon fields 9 (and setting the
+118                                                                    D. Bernard and A. LeClair
+
+                                                      / ; \                 1 1 1 \ \
+
+                                                                            \ \     ~ ' / /
+
+similarly for the complex conjugate fields. In other words, we have the following
+correspondence between the deformation of the Gross-Neveu fermions and the
+soliton fields (3.23)~ (3.28),
+                        01 (x, t) = tF+ (x, t); ~bz(x,t) = Z- (x, t);
+                        O*(x,t) = ~_(x,t); O*(x,t) = X§                                       (3.44)
+Hence we see that introducing the parameter a in the DGN-action (3.41) breaks
+the SU(2) symmetry to s/q(2) with q = e x p ( - i2na/(1 + a)).
+3h. The Restricted Sine-Gordon Theory Revisited. In the works [33-37] it was
+shown how at special values of the coupling fi one could use the quantum group
+symmetry of the sine-Gordon S-matrix to restrict the theory to obtain perturbations
+of the c < 1 minimial conformal series [38, 39]. It is of value to re-examine the
+restricted sine-Gordon (RSG) theory from the vantage of the non-local charges
+developed above.
+    As emphasized by Reshetikhin and Smirnov [36], the energy momentum tensor
+is only quantum group invariant if it has a background charge contribution. Now
+that the charges generating the quantum group symmetry are available, one can
+see this fact in an ex/~licit way. Let T(x,t) be the Tz~ component of the
+energy-momentum tensor. Quantum group invariance of T(x, t) means,
+                                    [O +, T(x, t)] = 0.                                       (3.45)
+
+Consider the above equation in the massless limit, when Q § = S d27ri
+                                                                  z J § with J+
+
+given in (3.12a). Equation (3.45) is equivalent to the condition that Q+ be a
+dimension zero operator. This is accomplished if T(x,t) has an additional
+background charge,
+                          T(z, e) = - 89           + ix/~aod2dp.                              (3.46)
+That Q + has dimension zero is a relation between the background charge ao and
+the coupling constant fi,
+                                    1- 2      2~//2
+                                              - - ~o-                                         (3.47)
+
+                                                        6
+When fi2/2 = p/(p + 1), ao is such that c = 1
+                                                   t,(p + i)
+    In the Feigin-Fuchs description of the minimal models [40,41], Eq. (3.45)
+defines Q§ to be a screening operator. Similarly for Q_. These two screening
+operators generate the finite dimensional quantum group slq(2). The other non-local
+charges Q _ and (~+ become identified with integrals of the operators 03; 1 and ~3;1.
+(See [38] for a definition of these fields.) The spin of these charges is twice the value
+of when the background charge is zero,
+                                                          2    2
+                           spin (Q _) = - spin((~ +) . . . .       .                          (3.48)
+                                                          7    p
+Quantum Group Symmetriesand Non-Local Currents 2D QFT                                 119
+
+In particular this new value of the spin explains why it is necessary to first transform
+the soliton S-matrix from the principal to the homogeneous gradation (see
+Appendix A) before restricting it. In other words, introducing the background
+charge in the stress-tensor (3.46) changes the gradation of s/q(2) from the principal
+to the homogeneous one. The action of the residual conserved charges Q_ and
+(~§ on the kink states of the RSG theory were described in 1-35].
+    The soliton fields (3.23) are still expected to create particles in the soliton sector
+of the restricted theory. Let ~r-/at=+l/2(X) denote the soliton fields T•               A
+multisoliton state is described by
+                               ~'r      ~'/~2(X2)"" ~eN(XN)[0).                    (3.49)
+Due to the slq(2) symmetry, this Hilbert space may be decomposed into irreducible
+representations
+                                r|    | V = y~ r I~,                        (3.50)
+                                                     J
+where Vtj) is the 2j + 1 dimensional spin(j) representation of sly(2), by using the
+q-analog of the Clebsch-Gordon coefficients. We have the following definition of
+the kink fields Kj~j2(x ) for J2 = Js + 1/2:
+
+     Kioj,(Xl)Kj,j2(x2)...
+
+        =      )"1
+            .... 2,m,   ([ o1 IF
+                             ~ Jl    Js  -~ J2  ..
+                             ~1 ms q ms ct2 . q- (~,(xl)~P~2(x2)..-),              (3.51)
+
+where the brackets are the q-Clebsch-Gordon coefficients. The restriction relies
+on special properties of the representation theory of slq(2) when q is a root Of unity,
+and amounts to a restriction on the allowed spins of irreducible representations
+1-42-44]. This yields kinks Kj~j~(x), where Jl, j2e{0, 1/2..... 2 - 1 } .
+   It is natural to ask where these kink fields are in the minimal models. Including
+the background charge, the dimensions of the fields ~_, ~P+ become p + 3 and
+p- 1                                                                   4p
+ 4p respectively. The dimension of the field ~_ corresponds to that of the 02. s
+primary field, whereas the field ~+ is not in the spectrum of primaries.
+   The minimal unitary models are equivalent to the coset theories
+SU(2h | SU(2)~. for p = L + 2, where SU(2)L denotes the SU(2) WZW model at
+    SU(2)1 +L
+level L [45]. Denote the primary fields of the SU(2)L theory by (L; j), where
+j = 0, 1/2..... L/2. In coset notation the ~2,s field is
+                                        [ ( 1; 1/2) | (L; 1/2) 1 "z"
+                              q~2 (z)                         _1                   (3.52)
+where dot refers to the scalar representation. Thus we see that the O2,s field is
+associated with the fundamental representation, as expected. The kink fields Kj,j~(x)
+correspond to the intertwiners in the decomposition of O2,s into chiral vertex
+operators. More specifically, they are associated with the decomposition of the
+120                                                              D. Bernard and A. LeClair
+
+factor (L; 1/2). The kink fields thus satisfy the same non-abelian braiding relations
+as these chiral vertex operators [46-49].
+    The ultra-violet limit of the RSG theory can be considered as a Liouville theory.
+We remark that the Liouville theory is also characterized by non-local charges.
+The Liouville theory has the action
+
+                   SLi~    --   anl   ~d2zOz@Oeqg+
+                                                 ~n~d2zexp(- i/~@).                (3.53)
+
+Following the analysis of Sect. 3b, one discovers only two non-local charges Q +
+and Q_ again defined by, (3.12) and (3.13). As described above, requiring these
+charges to commute with the energy momentum tensor endows it with a
+background charge, and the charges Q+ and (~_ have spin zero. Together with
+the topological charge they satisfy the finite dimensional algebra s/q(2), where q is
+still given by q = exp(-2rri//~2). These charges may be useful in describing the
+quantum group symmetry of the Liouville theory and its associated minimal con-
+formal models that has been studied in [50-53-1.
+3i. AdditionalRemarks.The study of the sine-Gordon theory as a quantum field
+theory has a long history. It is of interest to compare the above results with the
+existing literature. Interest in the quantum theory began with Coleman's work,
+where it was shown that the sine-Gordon theory is equivalent to the massive
+Thirring model [9]. Coleman further conjectured that the Thirring fermions are
+the sine-Gordon solitons. Subsequently, Mandelstam constructed quantum
+operators in the sine-Gordon theory that correspond to the Thirring fermions
+[10]. On the other hand, Zamolodchikov and Zamolodchikov determined the
+exact S-matrix using a minimal number of assumptions, such as U(1) symmetry,
+crossing symmetry, the Yang-Baxter equation, and the requirement that it agree
+with the perturbative expansion [8]. Korepin was able to derive the known
+S-matrix starting from the Thirring theory, but the Thirring fermions had to be
+treated as pseudo-particles [54]. The true solitons were obtained by filling the
+Dirac-sea of pseudo-particles in a well-prescribed way.
+    Within our framework, the fundamental quantum fields that create the solitons
+                            1
+have fractional spin _ 2/~2, they can only be identified with the Thirring fermions
+when/~ = 1, i.e. when the theory is free. Taking into account the expressions for
+the (anti)-chiral bosonic fields, the soliton fields we consider are of Mandelstam-
+type. One distinction between our fundamental soliton operators and Mandelstam's
+fermionic operators is that ours are chiral in the massless limit. Indeed the fermions
+in the massless Thirring model satisfy 0e q~ = j~u, 0z ~' = J ~, where J, J-are the
+U(1) currents. In our notation, the Mandelstam operators are:
+
+               +    tX ,
+                                               +~)ck(x,t)-T-~(l~-~)O(x,t)),
+            CpM,na.t t)         exp(-T-~(1/~   +fi)~)(x,t)-~~(~- fi)dp(x,t)).       (3.54)
+
+Note that these operators also have topological charge _ 1, and are therefore in
+the family of fields generated by our fundamental soliton fields. The Mandelstam
+operators are primarily characterized by their Lorentz s p i n _ 1/2. Thus the
+Quantum Group Symmetriesand Non-Local Currents 2D QFT                                121
+
+Mandelstam fermions are not the unique operators that create the solitons. This
+non-uniqueness can be attributed to the fact that the Lorentz spin of an asymptotic
+state is not a measurable quantity in 1 + 1 dimensions.
+
+
+
+4. Introducing the Center: The Central Sine-Gordon Model
+
+As we have seen, the algebra of non-local charges in the sine-Gordon theory is
+s/q~ with zero center. The fact that the center is zero is what allowed us to find
+the finite dimensional representations (3.35)i These finite dimensional representa-
+tions were sufficient to deduce the S-matrix. One of the lessons learned in the
+conformal field theories [-38] is that it is important for solving the model that the
+symmetry algebra possess infinite dimensional representations. In the case of the
+K a c - M o o d y algebra, it is necessary for the center to be non-zero in order to have
+only such infinite-dimensional representations. This leads us tO believe that one
+must introduce the center into the algebra s ~ ) in order, for example, to constrain
+the correlation functions.
+     The vanishing of the center is traced to the fact there is only one topological
+charge, which leads to H1 = - Ho as in (3.22). This suggests that one should introduce
+new fields into the theory with additional topological charges. It is well-known
+that the sine-Gordon theory is a Toda theory over the K a c - M o o d y algebra s ~
+without center. Namely, introduce a field D valued in the Cartan subalgebra of
+s ~ , ~l(x, t)= ~Hi cbi(x,t), where Hi form a basis of the Cartan subalgebra. The
+                    i
+duality relation between the simple roots ~j of s ~ ) and the Cartan generators Hi
+is defined through the Cartan matrix: aii= H~.%. Consider the Toda action,
+
+              SToda   =   L d2zloz~'O~,,~( + ~2 ~ d2z Y exp - - ~ j ' D   .         (4.1)
+                          4n      2              2n        j       x/~
+Setting D = H1~1 + Ho~o, where Ho = - H 1 , we find that the action (4.1) is the
+sine-Gordon action for the field ~a - ~o. If we do not impose the zero center
+condition, but take instead Ho = K - H1, with K the center, then the resulting
+action is unaffected since K'~j = O.
+    The correct thing to do is to recognize that the full algebra s ~ ) contains an
+additional element, the derivation, which we denote by d. The derivation measures
+the order of the grading. [-d,J~] = nJ",. With the derivation included, the Killing
+form is non-degenerate on the Cartan subalgebra. In particular the important
+non-zero inner product is <d, K> = 2. Following Babelon and Bonora [55], we
+introduce an additional field q for the derivation,
+                           D(x, t) = HcI)(x, t) + drl(x,t) + K~(x, t).              (4.2)
+The affine Toda action (4.1) becomes:
+
+   ScsG = l [d2z( C3z~C3~cI)+ ~(c3zrlCOe~-k-O~tlaz~))+ ~--~[d2z(ei~'~-t-e-i~+i#n).
+                                                                                    (4.3)
+Setting t/to zero, one recovers the sine-Gordon theory.
+122                                                                                                D. Bernard and A. LeClair
+
+    Let us now see the implication for the non-local charges. A simple computation,
+that we leave to the reader, shows that four non-local currents are still conserved.
+The currents de,J_+ and H _ , H § are defined as before, (3.12). Only the currents
+H+ and I-7_ are changed according to:
+
+              H +(x, t) = - y2 exp l i( ~ - fl ) q~(x,t ) - ifl~(x, t) + iflq(x, t) 1,
+
+              /4_(x, t ) = - , 2 e x p [ i ( ~ - f i ) ~ ( x , t ) - i f i e ~ ( x , t ) + i f i t l ( x , t )      1.
+                                                                                                                         (4.4)
+The non-local charges now satisfy the following algebra:
+                                  Q+_O+_-q2Q+_Q+_=0,
+                                 Q +Q- - q- 20- Q + = a(1 - q2: +2:~),                                                   (4.5)
+                                 Q-Q+ - q-2Q+ Q- = a(1 - q- 2:),
+
+ a- ~     7      where 5". is the topological charge of the ~ field,
+
+                                                  5".-           ~IdxOxtl.                                               (4.6)
+
+This is the centered s / ~ ) algebra with Ho = - f ; Ha = 5 - + 5-..
+    We conclude that the central sine-Gordon models are invariant under the
+quantum affine K a c - M o o d y algebra s/q~), and the center of s / ~ ) i s the topological
+charge of the additional field r/. This suggests that it could be possible to formulate
+the central sine-Gordon model as a theory of interacting s ~ ) modules.
+
+
+5. Generalization to Other Groups
+
+In this section we will generalize the above results to other groups. Namely, we
+will construct the non-local charges for the affine Toda theories based on a simply
+laced Lie algebra G. These results will then be applied to perturbations of conformal
+field theories. We skip some of the details, having provided them for the sl(2) case.
+5a. Non-Local Chargesfor the Affine Toda Theories. Let G be a simply-laced finite
+dimensional Lie algebra of rank r, and G its affine extension. In this section,
+and its q-deformation (~q will always refer to the zero-center algebras. A basis of
+simple roots for G will be denoted by ~ , i = 0, 1,..., r, where -~i= 1...... are the
+simple roots of G and ~'o is the extended root, i.e. the horizontal projection of -~o
+is the negative of the highest root of G. For simply-laced algebras, the roots all
+have the same length ~ ' : - ~ Z 2. Let ~ be a vector of fields valued in the Cartan
+subalgebra of the algebra G, i.e. ~ = (~1, ~2 .... , ~r). The affine Toda theory is
+defined by the action
+
+               S=~Sd2zc~zt])f~.(I)+L~ d2Z Z                                        exp(-i            fi a f t ) ,        (5.1)
+                                                         2n            ~jsimple
+Quantum Group Symmetries and Non-Local Currents 2D QFT                                      123
+
+where/~ is a real coupling in the range 0 </~ < x/~. For convenience of notation
+we define/~ = ]~/x//2. In the above equation, the sum is over the simple roots of
+(~. The propagator for the fields are
+                             < ~(z, ~)~ ~(0)> = - 6 ij log (z~).                           (5.2)
+The sine-Gordon theory is equivalent to the s ~ ) case. As described for the
+sine-Gordon theory, we treat the action (5.1) as a perturbation of the free boson
+theory. The chiral and anti-chiral components ~b~ and ~ of the Toda fields are
+defined as in (3.4).
+    The action (5.1) is not hermitian unless the algebra is sl(2). It is also not
+renormalizable [-56]. These problems will be addressed in Sect. 5c. Our aim is to
+identify non-local conserved charges in this model and to show how they provide
+a non-perturbative scheme for quantizing the Toda theory (5.1). In other words,
+our approach consists in defining the theory by implementing the non-local
+symmetry.
+    Following the analysis in Sect. 3b, we find the following non-local conserved
+charges to first order in perturbation:
+                            ~J~j = ~zH~j; ~zJ-~j = ~eH-~j,                                 (5.3)
+with,
+
+
+
+
+                                      (-,(,-                                   ),
+                                           ),
+                                                                               ).
+In the above equation, aj is any simple root of (~. The above currents define r + 1
+conserved charges
+
+
+
+
+                            Q_~j = 2~ii(S d~J_aj + ~dzH_~,~).                              (5.5)
+
+                                                                                1      1
+As before, the spin of these charges is + 1/7, where 7 is defined in (3.14): . . . .          =
+
+
+ 2
+---     1. We define the topological charges
+
+
+                                H i =--Ha, = ~ [.dxai'c3x@.                                (5.6)
+                                                 t
+124                                                                      D. Bernard and A. LeClair
+
+Due to the fact that there are only r independent fields, the above r + 1 topological
+charges are not all linearly independent.
+   The conserved charges satisfy the following algebra:
+                                       [H~,, a,j] = aijQ,~,
+                                     [n~,, Q _ j = aijQ_~ ,
+                                                        -                                    (5.7)
+
+
+       "~ 2
+(a    ~i~iT )whereqisasin(3.18),q=exp(-in/~2),andao=~i.ctjisthegeneralized
+Cartan matrix of (~. These equations are the defining relations of the G~ loop
+algebra. Only the Serre relations are missing:, (See Appendix A for definitions.)
+The relation with the generators E~, F~, H~ of G~ is
+                           Q,, = cEiqlt'/2; Q_~,= cf iqH~I2                                  (5.8)
+for some constant c.
+5b. The Soliton Fields and the S-Matrices. Let us first consider the SU(N) case.
+The soliton fields are characterized by their locality with respect to the perturbation;
+this ensures they have well-defined equations of motion. These soliton fields are
+in one-to-one correspondence with the N - 1 fundamental representations of
+SU(N). For SU(N), all the fundamental representations are integrable (highest
+weight) representations of(~ at level one. We therefore have a simple vertex operator
+representation of these soliton fields. The soliton fields associated to the n th
+fundamental representation are:
+
+                           ~..(x, t) = exp        #.'q~(x, t) ,
+
+
+                           q'..(x, t)-- exp
+                                              (i)
+                                              -                 t) ,                        (5.9)
+
+with #. any weight of the nth fundamental representation of SU(N). The topological
+charge of ~ . or ~'.. is the weight #.. As for SU(2), all the fields which differ from
+the soliton fields (5.9) by local operators have the same topological charge. They
+also create the solitons asymptotically.
+    We denote by p. the nth fundamental representation, by IT. its representation
+vector space, by o~. its highest weight (satisfying r     = 6.j), and by [~.] the set
+of weights of p..
+    The fields whose topological charges are weights in [~o.] are stable under the
+action of the non-local charges (5.5). More precisely, we have:
+                      Q~(~'~.) = 0                if (#. + aj)r
+                      Q.s(~'u.)=2~u.+,~           if (#.+aj)e[o~.],
+                     Q_.~(~u.) = 0                if (#,-aj)r
+                     Q_.j(7-',.)=2~P,_~j          if # , - ~ j e [ o ~ . ] ,               (5.10)
+where ~ . (or ~'..) are fields which differ from ~u. (or ~,.) by local operators.
+Note that (5.10) is compatible with the weight structure of SU(N).
+Quantum Group Symmetries and Non-Local Currents 2D QFT                                125
+
+    Thus we conclude there are N - 1 families of solitons, where each family
+transforms under a fundamental representation of S'Uq(N). We will refer to these
+representations as k., and to the vector spaces of these representations as Wn. The
+solitons in a given family are all degenerate in mass. We define Mn to be the mass
+of the solitons in the representation t).. These masses will be specified below.
+    The action of the non-local charges on the asymptotic solitons can be deduced
+fromj~(5.10), from the fact that they must form a representation of the algebra
+SUq(N), and from the Lorentz spin of the charges. As can be seen from (5.10). the
+vector space W. of the representation p. of SUq(J-~) is isomorphic to the vector
+space V. of the representation p. of SU(N): W,, = In. The action of the non-local
+chargers on asymptotic states in t~. are given by (5.8), where the generators E~, F,, Hi
+of SUq(N) are in the principal gradation of the representation ~.. More specifically,
+                       Q~, = ce~ ~iqn'/2;         9_.-~, = ce-~ f iqth/2,          (5.11)
+where ~ , f i , H i form a spectral parameter independent representation of the
+quantum algebra SUq(N) on the vector space V. --- W..
+    Let Sin, denote the S-matrix for the scattering of two incoming (and outgoing)
+particles in the representations /~,.,~.. It is an operator SI.:Vm| V , ~ V n | Vm.
+This S-matrix is required to commute with the action of the non-local charges.
+This is equivalent to the equations
+  [gmn, (Pro| Pn)A(Ei)] = [Smn, (Pro| pn)A(Fi)] : [gmn, (Pro| ~n)A(ni)] : O, (5.12)
+where A is the standard comultiplication for SU~(N).
+    It has been shown that the solutions S.,. to (5.12) are unique up to an overall
+scalar function. Standard techniques have been developed for finding the solutions.
+We refer the reader to a recent review of Jimbo [57]. We take the following ansatz
+for Sin.:
+                            Stun(O) = Xmn(O)Yran(O•        q)l~rnn(O,q),           (5.13)
+(see the analysis in Appendix B for the SU(2) case). Above, /~,.. is a crossing
+symmetric solution to (5.12). The scalar function v,.. is defined to be the minimal
+solution to the constraints of crossing and unitarity for the product v,.n-~r... The
+unitarity constraint reads
+                    (vm,,(O, q)v,,,,,( - O, q))- i = l~m,,(O, q)1~,,m( __ O, q).   (5.14)
+The crossing symmetry condition on v,.n is
+                                     v,,,,,(O) = vz,,( irc -- 0),                  (5.15)
+where ri is the charge-conjugate representation to n.
+    The additional factor X,~(O) is a CDD ambiguity factor that is by itself a
+solution to the unitarity and crossing conditions. The mass M~ and the CDD
+factors will be fixed below (see Sect. 5c) by examining t h e / ~ x/~ limit. They will
+turn out to be the same as for the SU(N) Gross-Neveu models [58, 59]. To clarify,
+we first give the result; the masses are determined to be:
+
+                        M,=M       sin(mz/N)" n = 1 , . . . , N - 1,               (5.16)
+                                    sin(n/N) '
+126                                                                  D. Bernard and A. LeClair
+
+and the CDD factors X,,. are:
+            Xr,.(O) = f ( m + n)f(m + n - 2)2/(m + n - 4)2... f ( l m - n I),          (5.17)
+
+where
+
+                                        sinh(+2N,
+                               f(x)-            _i~x~"                                  (5.18)
+                                        sinh ( ~ 2 N ]
+
+The S-matrix (5.13) was conjectured in [11, 12]. That it satisfies all the necessary
+requirements has been checked in [12].
+    Let us now turn to the other simply laced algebras G. We use the same
+convention for denoting the representations of G and G~. New subtleties arise due
+to the fact that not all the soliton fields admit a vertex operator representation
+as in (5.9). Only the solitons which belong to the fundamental representations
+of G that are integrable for G at level one have such simple soliton fields. Let
+-0 = ~ m j i , where O is the highest root, and m~ is a positive integer. The funda-
+      i=1
+mental representations that are integrable at level one are pi for which rn~ = 1.
+Such representations exist for all the algebras except Es. For this class of represent-
+ations, all the computations described above can be similarly done. This implies
+that for these specific fundamental representations we still have the isomorphism
+between the spaces IV, and V.: IV, - V,. For the other representations, the situation
+is more complicated. The spaces IV. and V, are no longer isomorphic; IV, is the
+direct sum of a finite number of spaces Vk. This can be seen in a variety of ways.
+For the approach we are developing, this fact is best thought of as a property of
+the representation theory for the algebra Gq. Namely, the representations of Gq
+are not isomorphic to that of Gq|                   where C(x,x -1) is an arbitrary
+function of the spectral parameter x. The difference between the spaces IV, and
+ V. finds it origin in the Serre relations for the quantum loop algebr~ Gq. This
+can be explicitly seen by examining the fusion procedure [60] for the Gq R matrices.
+Alternatively, this fusion procedure may be viewed as nothing other than the
+requirement of closure of the bootstrap for factorizable scattering. In all cases the
+S-matrix will still be as in (5.13) but now it acts on the spaces W,,| IV.:
+
+                          Sm.. W~,N W.--" W. N Wr.,
+                                                                                        (5.19)
+                          ~ . ( 0 ) = X,.,(O)vm.(O,
+                                        ~      ~    q) ~ m,(O, q),
+
+w h e r e / ~ , are the Gq/~-matrices in the representation W,. | IV,.
+    Let us be more specific by specializing to the DN = SO(2N) case. The fundamental
+representations which are integrable at level one are the vector and the spinor
+representations. We denote by (Ps, V~) and (p~, V~) the spinor representations and
+their vector spaces, and by (p,, V.), n = 1..... N - 2, the tensorial representations
+ordered in the usual way; p~ is the vector representation. To illustrate how the
+difference between the spaces V. and W. manifests itself, consider the SOq(2N) R
+matrix in the vector representation and its fusion. In the homogeneous gradation
+Quantum Group Symmetries and Non-Local Currents 2D QFT                                    127
+
+(for simplicity) this R matrix is [57]:
+      /~v,|      = (q2N- 2x - 1)(qx - q-1)P2,o, - (q2N- 2x - l ) ( q - i x - q)P~,2
+                    + (X -- q2/V-2)(q- 1x __ q)P,oo,                                (5.20)
+where P~, are the projectors onto the irreducible representations of SOq(2N) of
+highest weight co.
+   To apply the fusion procedure [60], we first have to find a value of x for which
+Rv~|     projects onto a proper subspace of V I @ V 1. For x q 2 N - 2 = 1, Rvt|
+projects onto the trivial representation. However for xq 2 = 1, we have
+                 ~V1|       2) ~ (qN-2 __ qZ-/V)p~2 -I- (qN _ q-N)po~o.                 (5.21)
+This implies there is no way to disentangle the space V2 from the space Vo.
+Therefore the fusion procedure shows that W2 = V2 + Vo and that
+              Rv,|       -= (1 @Rv~|174                             1)lvl|              (5.22)
+This method goes through for the other fundamental representations by fusing
+recursively. The decomposition of the spaces I4:. on the spaces V, and the masses are:
+
+         I4".= @V._2k;      M.=2Msin                        for   n = l ..... N - 2 ;
+               k=O                                --
+
+         W s = Is;           M s = M;
+         W~= V~;             M~ = M.                                                    (5.23)
+    In all cases the decompositions of the spaces IV. coincide with those of the
+representations of the Yangians. This is because the S-matrix (5.19) is Yangian
+invariant in the limit/~ = x/~. This will be explained in the next section, but could
+have been foreseen from the idea the spaces I4:, are expected to be stable when/~
+is varying. The depositions of the spaces I4:, and the masses M . are all known
+and can be found in [61, 59].
+    Though we have fixed some of the properties of the S-matrix by appealing to
+known results on the Gross-Neveu-like models, this is not a necessary feature of
+our construction; these results could have been found by closing the bootstrap
+directly.
+5c. The Gross-Neveu Limit. As shown in [56], the theory (5.1) is not renormalizable.
+Let us demonstrate this fact by a different analysis than the one used in [56] that
+is more suited to our purpose. Consider the action (5.1) when /~= x/~. At this
+point the perturbing operators are marginal. More generally, consider a conformal
+field theory perturbed by some marginal operators (gi(z, ~),
+
+                           S = SCFT + 1 ~d2z y, 2,(0i(z' ~).                            (5.24)
+                                      2rr
+Introducing an cutoff l, Zamolodchikov has shown [62] that the beta-functions
+to second order are
+
+                                d2i _       cik~,j,~k + ' " ,                           (5.25)
+                              dlog(l)
+128                                                                D. Bernard and A. LeClair
+
+where C~k are the structure constants of the operator algebra:
+                                              ..   ~k(0)
+                            d~(z, ~)(gJ(0)    "--          +....                        (5.26)
+                                          ~ C k    1212
+
+Returning to the action (5.1), the perturbing operator is                 ~      J j_,, where
+                                                                      gsimple
+J, = exp(i~'tk) is the bosonized expression for the level one K a c - M o o d y current
+[29, 30]. The main point is that the operators J , for ~t a simple root obviously do
+not form a closed algebra by themselves; a closed set of operators is given by J + ,
+for any positive root ~ (along with H,). From (5.26) and (5.24) we thus infer that
+operators corresponding to the non-simple roots will be generated under renormal-
+ization. We are thus led to the current-current perturbation of the level one W Z W
+model:
+
+                             S = Swzw + 2 ~dZzZ jaja,                                   (5.27)
+                                        2re   a
+where ja, ja are the K a c - M o o d y currents. This action is now renormalizable.
+From the bosonized form of the K a c - M o o d y currents, one sees that the above
+action (5.27) is of Gross-Neveu type:
+
+            s=l~-~d2zt3zq)'c3edP+~-Sd2z • cos(fla't~);             with       fl=l,     (5.28)
+                4~z                  7C      a>O
+
+where the sum extends over all positive roots. For example, the bosonization of
+the SU(N) Gross-Neveu models yields the above action [30, 32]. (See Sect. 3g for
+the case of SU(2)).
+    The S-matrices for the G-invariant Gross-Neveu-like models (5.28) are known
+explicitly for the classical Lie algebras [58, 59]. The structure of these S-matrices
+is expected to be the same for all Lie algebras. We now argue that t h e / ~ x / ~
+limit of the S-matrices in (5.13) are precisely these S-matrices. Note that the non-
+local currents in (5.4) are the bosonized expressions for the K a c - M o o d y currents
+in this limit. Furthermore, in this limit q ~ - 1, and the symmetry algebra is
+isomorphic to the Lie algebra G. Thus the S-matrix must be G-invariant. The fact
+that the theory can be formulated as a current-current perturbation of the WZW
+model further implies that the theory has Yangian symmetry (see Appendix C).
+This symmetry can be seen explicitly by taking the limit / ~ x / ~ carefully in
+Eqs. (5.12), as is shown in Appendix C for the SU(2) case.
+    For other values of the coupling /~ near x/~, the arguments based on the
+beta-functions (5.25) are not significantly modified, and one therefore expects the
+action to still be unrenormalizable. However, at this stage of development we are
+unable to conclude that the S-matrices that are solutions to (5.12) correspond to
+the theory with the action (5.28), except at/~ = x/~. The reason is that the non-
+local charges (5.5) are not symmetries of (5.28), but are symmetries of (5.1).
+    To summarize this section, we have found that for /~< x/~, the S-matrices
+(5.13) can only be formally associated with the action (5.1) due to the-non-
+renormalizability and non-hermiticity of the action. At/~ = x/~, the S-matrix (5.13)
+is the physical S-matrix for the renormalizable action (5.28). However, as we will
+Quantum Group Symmetriesand Non-Local Currents 2D QFT                                129
+
+see in the next section, the S-matrices (5.13) are just what one requires in order
+to solve certain perturbations of the coset conformal field theories.
+5d. Applications to Perturbed Coset Conformal Field Theories. Let GK denote the
+G-invariant WZW model at level K. In [11] factorizable S-matrices for the full
+series of coset conformal field theories Gr | GL/GK +L were conjectured. The main
+difficulty in proving these conjectures is establishing the form of the "unrestricted"
+S-matrix (for SU(2) this is just the sine-Gordon soliton S-matrix). In this section
+the non-local charge formalism will be used to determine these S-matrices.
+    We consider the coset conformal field theories GI|                   with central
+charge [45]
+                               c = c(G1) + c(GL) -- c(G1 +D.                       (5.29)
+It is well-known that the coset CFT has a generalized Feigin-Fuchs construction
+consisting of r bosonic fields ~ valued in the Cartan sub-algebra of G [63, 64].
+The energy momentum tensor takes the form
+                           T(z) = - 89                  + i~o~~ 3,                 (5.30)
+where ~ is the Weyl vector of G, and ao is a background charge
+                                                   1
+                                    =                                 .            (5.31)
+                               ~o       x/(L + h* + 1)(L + h*)
+(h* equals the dual coxeter number of G). The Feigin-Fuchs construction can be
+formulated as the quantization of the simple Toda theory over the Lie algebra G
+[63]. The simple Toda action is as in (5.1), but without the extended affine root
+in the sum. To formulate the Feigin-Fuchs construction in this way, one chooses
+the coupling ~      to be a screening charge: ~              = - cr       i.e.
+              ,/2                                      ,/2
+                                        fi-X /    L+h*
+                                                                                   (5.32)
+                                    x/2          L+h*+l"
+    As recognized in [65, 66], if one treats the additional extended root term in
+the affine Toda theory as a perturbation of the CFT of the simple Toda theory,
+then it formally amounts to a perturbation by the coset field
+
+                           9              =
+                                              1-(1;1|            z                 (5.33)
+
+
+where (L; A) is an integrable representation of highest weight A for GK, and ', Adj
+refer to the scalar and adjoint representations respectively.
+    It is important to bear in mind that the Feigin-Fuchs construction entails a
+restriction of the operator algebra, i.e. the null states must be projected out [40, 41].
+Upon this restriction the unitary, rational CFT of the coset is obtained. This
+implies that the action in (5.1) is not to be taken literally for the applications we
+have in mind. It is precisely this kind of restriction of the operator algebra that
+is needed to render invalid the argument of Sect. 5b that led us to conclude that
+the action is not renormalizable. Therefore we conclude that when L is finite, no
+130                                                                       D. Bernard and A. LeClair
+
+additional terms are generated in the action (5.1) under renormalization, due to
+the above restriction of the operator algebra. In particular this implies that the
+non-local charges (5.5) can be used to solve the model. Note that when L ~ ~ ,
+there is no restriction of the operator algebra and we are back to the Gross-Neveu
+action (5.28).
+    As for the s/(2) case [33, 35, 36], the S-matrices (5.19) must be restricted to the
+RSOS form in order to describe the perturbed coset theories. (See also [67] for
+the case of restriction of the twisted At22) theory.) This restriction is a massive
+analog of the Feigin-Fuchs construction. The restriction procedure relies on special
+properties of quantum group representations for q, which now is exp( - irc/(L + h*))
+from Eqs. (3.18) and (5.32), equal to a root of unity. Standard techniques have
+been developed for performing this computation 1-68,69]. More specifically, the
+S-matrix for the Lth theory in the coset series was conjectured to be [11]
+                           ~[L]
+                            ran(0) "~--Sran(O)Vmn(O , q)rtmn
+                                                       , T~tL]( 0., q),                     (5.34)
+
+where Rmn
+        "tL] is the crossing symmetric RSOS restriction of/~m," (We have dropped
+the superscript G in (5.19).)
+    The spectrum consists ofr families of kinks, which we denote as (K,), n = 1,..., r,
+and all kinks in the n th family have the same mass M~. For concreteness we now
+specialize to S U(N). The kinks in (K~) are labelled by two highest weights of SU(N).
+A kink of rapidity 0 is K~[a-*b](0), where a, b denote highest weight representations
+of the SU(N) WZW model at level L. A pair of weights [a ~ b] is said to be
+n-admissible iff the representation b appears in the tensorial product a | p,. Only
+n-admissible pairs of [a ~ b] appear in the kinks of the family (K~).
+    When L = 1, as in the SU(2) case the RSOS quantum numbers are frozen, and
+the S-matrix reduces to the CDD factors:
+                                       ~[11(0) = Xm~(O).
+                                      Stun                                                  (5.35)
+This is the result conjectured in [70]. In this context, the CDD factors are referred
+to as the minimal solutions to the bootstrap for the spectrum of masses Mn.
+They also appear in the study of real coupling affine Toda theory and can be
+found in 1-71]4.
+
+
+6. Conclusions
+
+To summarize, we have demonstrated that quantum non-local conserved charges
+characterize many integrable quantum field theories. These non-local conserved
+currents provide a quantum field theoretic basis for understanding the structure
+of Quantum Groups.
+    Though our discussion in Sect. 5 has focused on the integrable quantum field
+theories related to perturbations of the cosets where one of the levels is one, the
+methods extend to the theories underlying an arbitrary coset of the form
+GK | GL/GK § For the case of S U(2), these field theories are the (fractional) super
+
+
+4 We recently received the preprints [72,73], where RSOS S-matrices for cosets of the form
+G~| GL/Ga§ were also considered, and appear to be in agreement with the S-matrices in this
+section
+Quantum Group Symmetriesand Non-Local Currents 2D QFT                                      131
+
+sine-Gordon theories and their restrictions [15]. The S-matrices (5.19), (5.34) and
+the Yangian (rational) limit of (5.19) are the basic building blocks for the S-matrices
+for the full series of cosets, the fractional super Toda theories, and for the current-
+current perturbation of the WZW models at any level. The S-matrices for the
+cosets are a tensor product of two RSOS factors; they are obtained from a restriction
+of the fractional super Toda theories whose S-matrices are the tensor product of
+an RSOS factor and a trigonometric factor (5.19). The S-matrix for the massive
+WZW model is the tensor product of an RSOS factor and a Yangian invariant
+factor, where the RSOS factor is not present at level one. The arguments leading
+to these conclusions are based on the residual symmetries of the restricted models
+and their appropriate limits. The reader is referred to [11] for the details of the
+arguments.
+    Since the non-local currents completely characterize the S-matrices, we expect
+that they may also be used to constrain correlation functions. We believe that
+introducing the center into the symmetry algebra as was done in Sect. 4 is a
+promising new approach to this problem.
+
+
+Appendix A. Quantum Affine Algebras
+
+We review a few basic facts about quantum affine algebras.
+      Let El, F1, H1 denote a Chevalley basis for s/(2). The algebra s ~ ) has an
+additional simple root with generators Eo, Fo, Ho. The affine K a c - M o o d y algebra
+s ~ i s defined by the following relations:
+                                      [H i, E j] = aijEi,
+                                      EH i, Fj] =   -   aijFj,
+                                                                                         (A.1)
+                                      CE,, F j] = ~ i j H j ,
+                             (Ad El) 1 -"'J(Ej) = O,
+
+where Ad is the adjoint action and a ij = ( - 2         22)      The last relation in (A.1) is
+referred to as the Serre relation. The algebra has a central element K = H o + Hx
+called the level. When the center K is zero the algebra is called the loop algebra
+and is isomorphic to s/(2)| C(x, x-1), where C(x, x - 1 ) is an arbitrary function of
+a formal parameter x, referred to as the spectral parameter. Choosing x", n e Z as
+a basis for C(x, x - 1), a zero-center representation of sl(2) is provided by J~ = Jax"
+with ja forming a representation of s ~ ) . In this representation, the Chevalley
+generators are,
+                             El=xE+;         FI=x-IE-;
+                             Eo=xE_;         Fo=x-lE+;                                   (A.2)
+                             H 1 = H;        H o = - H,
+with E + and H a Chevalley basis for the simple Lie algebra s/(2),
+                                  [ H , E + ] = _+2E+,
+                                 [E+, E_] = H.                                           (A.3)
+ 132                                                                 D. Bernard and A. LeClair
+
+    The representation (A.2) is in the so-called principal gradation. The gradation
+is only meaningful up to inner automorphisms of the Lie algebra s/(2). Another
+useful gradation is the homogeneous gradation with,
+                              E 1 =E+;          F 1=E_;
+                              Eo=x2E_;          Fo=x-ZE+;
+                             H 1 = H;           H o = - H.                              (A.4)
+The relation between the two gradings for an element a s s ~             is,
+
+                              aprine.(X) = O'ah . . . . (X2)O.- 1,                      (A.5)
+where a = x HI2.
+   The algebra s/q(2) has the defining relations,
+                                    [Hi, E j] = aijE ~,
+                                    [Hi, Fj] = - aijFj,
+                                                    qn~ _ q- ~,                         (A.6)
+                                    [E i, F j] = 61j q _ q - 1
+
+                           (Adq E~)~-a'~(Ej) = 0,
+
+where Adq is a q-deformation of the adjoint action, first defined in [74]. The algebra
+s/~'2) is a Hopf algebra with comultiplication A,
+
+                           A(Hi) = H i | 1 + 1 | Hi,
+                           A(Ei ) = Ei | q-Hi~2 + qnd2 | Ei '
+                           d(Fi) = F~ | q-ni/2 + qH,/2 | Fi '                           (A.7)
+       A
+
+
+The ~q(~ loop algebra in the principal or homogeneous gradation can be
+represented as in (A.2) or (A.4) where now E+ and H generate the sly(2)
+algebra:
+                                 [ H , E + ] = +_2E+,
+                                               qH _ q - n
+                                [E +, E_ ] - q _ q - 1                                  (A.8)
+
+    The above structure is straightforwardly extended to the untwisted quantum
+affine algebras Gq with G any simple Lie algebra. In this case the extended roots
+in the principle gradation are E o = xE_ o', Fo = x - 1 E o, where O is the highest
+root.
+
+
+Appendix B. Details on the Sine-Gordon S-Matrix
+
+Jimbo has shown that the solution S(x; q) of Eqs. (3.39) can be written as follows,
+
+                               S(x; q) = a21S(x; q)a~-z1,                               (B. 1)
+Quantum Group Symmetries and Non-Local Currents 2D QFT                                                133
+
+where x = x l / x E , a12 = x ~ 1 2 |         12, a21 = x ~ 1 2 |         12 and,
+
+                                  g(x; q) = v(x)[x           - x-          q
+                                                 /q           0           0 0
+                                         /~= 0          (q-q-l)           1 0                        (B.2)
+                                              0             1             0 0
+                                             \0            0              0 q
+with v(x) an arbitrary function of x. The matrix/~ plays a central role in the theory
+of the finite dimensional quantum group s/q(2). It satisfies the Hecke algebra,
+                                  (/~ _ q)(/~ + q- 1) = 0,
+                                          R21Ra2R21 = J ~ 3 2 R 2 1 R 3 2           .                (B.3)
+The Yang-Baxter equation for the S-matrix is a consequence of the Hecke algebra
+for R.
+    The function v(x) in (B.2) is fixed by the unitarity condition of th~ S-matrix:
+                                            S(x; q ) S ( x - 1; q) = 1.                              (B.4)
+Using the Hecke algebra relations (B.3), we have,
+                  S(x; q)S(x-1; q) = v ( x ) v ( x - 1 ) q - 2 ( 1    _ x2q2)(1 _ x-2q2).            (B.5)
+Therefore v(x) is characterized by the equation,
+                                              q2
+                                13(X)l)(X-1 ) -~.(1 - x 2 q 2 ) ( 1   -   x-2q2)"                    (B.6)
+
+Crossing symmetry further requires v(O) = v(in - 0), or
+
+                                              v(x) = v       -        .                              (B.7)
+
+There exists a minimal solution to Eqs. (B.6) and (B.7) for v(x). It is obtained
+iteratively as follows. One first tries v(x) = q/(1 - x2q2). This solves (B.6) but spoils
+the crossing symmetry. Crossing symmetry is restored by multiplying by 1/(1 - x - 2 ) .
+Now unitarity is spoiled so we start again, the process never terminating. The
+result is,
+                                             1-- x2q4-4k ~(1-- x-2q2-4k'~
+                 v(x) = (1 - - qx22q) k=
+                                       fil (1-- x-2q4-4k/]\ 1 ~ ~       ,]"                          (B.8)
+
+Putting all these pieces together one verifies that (B.1) is the known S-matrix for
+sine-Gordon solitons.
+
+
+Appendix C. The Yangian Limit
+
+In this appendix we describe the connection between the q ~ -                               1 limit of the
+quantum loop algebra and the Yangian symmetry.
+134                                                                                     D. Bernard and A. LeClair
+
+    We first show how Yangian symmetry is generic to current-current perturba-
+tions of the G-invariant WZW models. Consider the action (5.27) in the instance
+that the WZW model is at level one. The currents satisfy the O P E
+
+
+                                                (~ab          fab JC(w)                                    (C. 1)
+                          J~(z)Jb(w) -                      I- c        +"',
+                                          (z -    w) 2                    z -       w
+
+
+and similarly for J. Using this O P E in the equations of motion (2.10), we
+obtain
+                                                                      a   --b   c
+                                  o ~ j a = ~ ( O z y a -t'- f bcJ J ),
+                                  Oz~a = 2 ( ~ j a + f ~ j b j c ) .                                       (C.2)
+
+Define the gauge fields
+                                                       - 22
+                                           A~ =           2J,
+                                                       1+
+                                                       -   22     -
+                                           Ae    =              2 J'                                       .(C.3)
+                                                       1+
+
+where J = ~ t~J a, f = S" t a r a, with t a a representation of the Lie algebra of G. The
+             a
+
+equations of motion (C.2) can be written as
+
+                                          O~Az + OzA~ = 0,
+                                    [a~ + A z, ~ + A~] = 0.                                                (C.4)
+
+The relations (C.4) are the foundation for the construction of some non-local
+charges that generate the Yangian symmetry [5, 6].
+    The on-shell realization of Yangian symmetry can be exhibited explicitly by
+taking t h e / ~ x / ~ limit of the algebraic equations characterizing the S-matrices
+(3.39), (5.12). We describe this computation for the case of sl(2). There are two
+equivalent ways to write the S-matrix for the sine-Gordon model. The first one
+has been described above (3.39), (B.1); it corresponds to the quantum group
+parameter q = - e x p ( - irc/?). In the second description, the S-matrix is still given
+by (B.1), but with the opposite sign quantum group parameter q =exp(-iTr/?).
+Both these S-matrices are crossing symmetric:
+
+                                ~a'b' .               Nab"    gt'a'
+                               S,, b (z~ - O) = xC,,~S~,b(O)C       ,                                      (C.5)
+
+where C is the charge conjugation matrix and C r = xC. However they differ in
+the definition of charge conjugation; in the first case C+ _ = C_ + = 1, whereas in
+the second case C+ _ = - C_ + = 1. Off shell, the choice of description amounts
+to a prescription for statistical Klein factors and is not dynamical; thus the two
+S-matrices describe the same theory. To take the limit / ~ V / 2 , we choose the
+second description. In this limit, x ~ 1 + e0 and q ~ 1 - ine, with e ~ 0.
+    The S-matrix in this limit becomes S ( x l / x 2 ) = f ( e ) S r ( O 1 02) -t-'", with f ( e )
+                                                                                          -   -
+Quantum Group Symmetriesand Non-Local Currents 2D QFT                                               135
+
+an irrelevant scalar function. The quantum group generators behave as follows:
+
+                                    E+-=Jo + e ~btj ~ + " "
+                                    H o = H,
+                                          in           +
+                                    H1 -- ~- [Jo, J ; ] .                                         (C.6)
+
+We have defined the generator H1 for later convenience.
+  The generators Jo" = J6,
+                        + Ho satisfy the sl(2) algebra:
+                            [Ho, S o ] = _ + 2 S o ;       [So,Jo]=Ho.                            (C.7)
+The generators J] - J ( , H1 are sl(2) intertwiners in the adjoint representation:
+                                          [J~o,J~] = f,bcj].                                      (C.8)
+   Jimbo has shown that a solution to (3.39b) automatically satisfies (3.39a, c).
+Equations (3.39a, b) to zero th order in ~just imply the s/(2) invariance of the limiting
+Sr matrix:
+                     Sy(012)(J~ ~) 1 + 1 |             -- (J~| 1 + 1 | J~)S!e(012).               (C.9)
+To first order in ~ (3.39b) reads
+                                               +                   +
+                             Sr(Olz)Ao,o2(J ;) = Ao2o,(J{ )Sr(Olz )                              (C. 10)
+with 012 = 01 - 02 and
+
+         + ( J~ +~-n
+   Ao,o2(J;)=    J~ +',) |                              ( J a + 2 0 J ~ 1/ 7- 6 1 7 6
+                                                                                                 (C.11)
+Equation (C.11) defines the comultiplication of J 1. From its definition, one derives
+the comultiplication of H 1. The result is:
+
+ Ao,o2(H1) = H i +              o]|174                 Hi+          Ho - 2 ( J + @ J o - J o |
+                                                                                                 (C.12)
+The Sr matrix is also H 1 invariant.
+   The comultiplication of the generators J~) and J~ can be written in the following
+synthesized form:
+            a   --     a              a
+    do,o~(Jo)- JoG 1 + 1 |
+
+    Aolo2(Jal)_~(ji_~_~jo)|
+                        a'                         |         "t-202Ja0~i7i#~-- ~fabCJbo| O,      (C. ]3)
+
+The exchange relations (C.9) and (C.10), and the comultiplication (C.13), are those
+of the s/(2) Yangian [2].
+    The solution to (C.9), (C. 10), for the fundamental representation, is Sr (0) oc in-OP,
+where P is the permutation operator: P.(u @ v) = v @ u.
+136                                                                      D. Bernard and A. LeClair
+
+Appendix D. Generalized Parafermions and Their Braidings
+
+ Here we make contact between the braiding relations (3.16) and those of disorder
+fields and generalized parafermions [16, 17].
+      Disorder fields and generalized parafermions are in general non-local fields
+ which reflect the group invariance of the model. We denote by (9 the group. In a
+ lattice formulation the disorder fields are defined by introducing a disorder line
+ along which the spins of the lattice model are flipped by acting with an element
+g~f#. The group invariance of the hamiltonian ensures that the exact shape of the
+ disorder line is irrelevant up to possible topological obstructions. Thus disorder
+fields, which we denote by/~g(x, t), g~fq, are labeled by group elements. On the
+contrary, the spin fields, which we denote by aP(x, t), are labeled by the representa-
+ tions p of the group, pERep((#). The spin fields are local fields, which in the lattice
+ description correspond to the insertions of the matrix representing the group.
+The generalized parafermions are the product of a disorder field with a spin field
+(the product is to be regularized in the continuum). We denote them by ~ ( x , t) =
+Ito(x, t)aP(x, t), with g~(# and p~Rep(~); it takes values in the representation p.
+The braiding relations for the generalized parafermions are well-known,
+
+           ( ~ ( x , t)| 1)(1 | ~ ( y , t)) = (1 ~P2(g~) =FPg~a~g:,(Y,t))(~'~(x, t)| 1);
+                                                                                for    x>y.   (D.1)
+
+For g = 1 or p = 1, (D.1) gives the braiding relations for the disorder fields and
+for the spin fields. Note that in general there is no natural pairing between the
+group (q and Rep((#).
+    Let us now specialize to the abelian group aZ where a is any fixed real number.
+Elements of aZ are {an}, where n is any integer. (For the application to Sect. 3d,
+     1
+a = =.) The unitary representation of aZ are one-dimensional and are labeled by
+      fl
+a real number r. We denote them by p,, reR, with pr(a)= e i~ra, for aeaZ. Hence
+for the group aZ there are natural embeddings of ~ into Rep((#) given by a ~ a Z
+[a] -= pa~Rep(aZ). This allows us to introduce a particular set of parafermions
+defined by
+
+                                    tPa(X, t) = It~(X, t)atal(x, t),
+                                    ~a(X, t) = tt-a(x, t)at~](x, t).                          (D.2)
+These two parafermions only differ by the change a ~ - a in the disorder fields.
+The braiding relations (D.1) then reduce to,
+                    ~Fa(X, t) ~Fb(y, t) = e •     I['lb(y, t) ~[ia(X, t); for x ~ y;
+                    ~'a(x, t) ~b(Y, t) = e ~ i~"b ~'b(Y, t) ~',(x, t); for x ~ y;
+                    ~=(x, t) ~b(Y, t) = e i~b ~b(Y, t) ~.(X, t); Vx, y.                       (D.3)
+These relations are the same as in (3.16). Therefore, we have,
+                      SPa(x, t) = exp(iaq~(x, t));   ~'=(x, t) = exp(ia(b(x, t)).             (D.4)
+All fields, including the disorder fields and the spin fields, are generated from these.
+Quantum Group Symmetries and Non-Local Currents 2D QFT                                       137
+
+Acknowledgements. We would like to thank A. Belavin, G. Felder, M. Olshanetsky, F. Smirnov,
+and A. Zamolodchikov for discussions. A.L. would like to thank the Saclay group and the Aspen
+Center of Physics for hospitality in the course of this work. This work is supported in part by
+the National Science Foundation.
+
+
+
+References
+
+ 1. Coleman, S., Mandula, J.: Phys. Rev. 159, 1251 (1967)
+ 2. Drinfel'd, V. G.: Sov. Math. Dokl. 32, 254 (1985); Sov. Math. Dokl. 36, 212 (1988)
+ 3. Jimbo, M.: Math. Phys. 10, 63 (1985); Lett. Math. Phys. 11, 247 (1986); Commun. Math.
+    Phys. 102, 537 (1986)
+ 4. Faddeev, L. D., Reshetikhin, N. Yu., Takhtajan, L. A.: Quantization of Lie Groups and Lie
+    Algebras 1989 preprint
+ 5. LiJseher, M.: Nucl. Phys. B135, 1 (1978)
+ 6. Bernard, D.: Commun. Math. Phys. 137, 191 (t991)
+ 7. de Vega, H. J., Eichenherr, H., Maillet, J. M.: Nuci. Phys. B240, 377 (1984); Commun. Math.
+    Phys. 92, 507 (1984)
+ 8. Zamolodchikov, A. B., Zamolodchikov, A1. B.: Ann. Phys. 120, 253 (1979)
+ 9. Coleman, S.: Phys. Rev. Dll, 2088 (1975)
+10. Mandelstam, S.: Phys. Rev. Dll, 3026 (1976)
+11. Ahn, C., Bernard, D., LeClair, A.: Nucl. Phys. B346, 409 (1990)
+12. Hollowood, T.: A Quantum Group Approach to Constructing Factorizable S-Matrices:
+    Oxford Preprint OUTP-90-15P, June 1990
+13. Sklyanin, E.'K., Takhtadzhyan, L. A., Faddeev, L. D.: Theor. Math. 40, 688 (1980)
+14. Faddeev, L.: Les Houches Lectures 1982, Elsevier Science Publishers (1984)
+15. Bernard, D., LeClair, A.: The Fractional Super Sine-Gordon Models. Phys. Lett. 13247,
+    309 (1990)
+16. Kadanoff, L. P., Ceva, H.: Phys. Rev. B3, 3918 (1971); Fradkin, E., Kadanoff, L. P.: Nucl.
+    Phys. B170, 1 (1980)
+17. Zamolodchikov, A. B., Fateev, V. A.: Sov. Phys. JETP 63, 913 (1986)
+18. Frrhlich, J.: Statistics of Fields, the Yang-Baxter Equation, and the Theory of Knots and
+    Links. Cargese Lectures 1987; 't Hooft G. et al. (eds.). New York: Plenum Press
+19. Fredenhagen, K., Rehren, K. H., Schroer, B.: Commun. Math. Phys. 125, 201 (1989)
+20. Woronowicz, S. L.: Commun. Math. Phys. 122, 125 (1989)
+21. Bernard, D.: Quantum Lie Algebras and Differential Calculus on Quantum Groups. Saclay
+    preprint SPhT-90-124; APropos du Calcul Differentiel sur les Groupes Quantiques (in
+    French), Saclay preprint SPhT-90-119
+22. Wess, J., Zumino, B.: Covariant Differential Calculus on the Quantum Hyperplane. preprint
+    CERN-TH-5697/90, April 1990
+23. Bernard, D., Felder, G., LeClair, A.: Non-local Conserved Charges: The Lattice Approach
+24. Zamolodchikov, A. B.: Int. J. Mod. Phys. A4, 4235 (i989); Adv. Studies Pure Math. 19, 641
+    (1989)
+25. Witten, E., Olive, D.: Phys. Lett. B78, 97 (1978)
+26. Ginsparg, P.: Nucl. Phys. B295, 153 (1988)
+2% Smirno v, F. A.: Commun. Math. Phys. 132, 415 (1990)
+28. Witten, E.: Commun. Math. Phys. 92, 455 (1984); Polyakov, A., Wiegmann, P. B.: Phys. Lett.
+    B141, 223 (1984); Faddeev, L. D., Reshetikhin, N. Yu.: Ann. Phys. 167, 227 (1986)
+29. Goddard, P., Nahm, W., Olive, D., Schwimmer, A.: Commun. Math. Phys. 107, 179 (1986);
+    Bernard, D., Thierry-Mieg, J.: Commun. Math. Phys. 111, 181 (1987); Goddard, P., Olive, D.:
+    Int. J. Mod. Phys. A1, 303 (1986); Frenkel, I. B., Kac, V. G.: Inv. Math. 62, 23 (1980)
+30. Halpern, M. B.: Phys. Rev. D12, 1684 (1976)
+31. Knizhnik, V. G,, Zamolodchikov, A. B.: Nucl. Phys. B297, 83 (1984)
+32. Banks, T., Horn, D., Neuberger, H.: Nucl. Phys. B108, 119 (1976)
+33. LeClair, A.: Phys. Lett. 230B, 103 (1989); Cornell preprint CLNS 89/955, Oct. 1989. Integrable
+    Restrictions of Quantum Soliton Theory and Minimal Conformal Series. To be published
+138                                                               D. Bernard and A. LeClair
+
+    in the proceedings of the 1989 Banff workshop on Physics, Geometry, and Topology. Lee,
+    H. C. (ed.). New York: Plenum Press
+34. Smirnov, F. A.: Int. J. Mod. Phys. A4, 4213 (1989)
+35. Bernard, D., LeClair, A.: Nucl. Phys. B340, 721 (1990)
+36. Reshetikhin, N. Yu., Smirnov, F.: Commun. Math. Phys. 131, 157 (1990)
+37. Eguchi, T., Yang, S.-T.: Phys. Lett. 13235, 282 (1990)
+38. Belavin, A. A., Polyakov, A. M., Zamolodchikov, A. B.: Nucl. Phys. B241, 333 (1984)
+39. Friedan, D., Qiu, Z., Shenker, S.: Phys. Rev. Lett. 52, 1575 (1984)
+40. Dotsenko, V., Fateev, V.: Nucl. Phys. B240, 312 (1984)
+41. Felder, G.: Nucl. Phys. B317, 215 (1989)
+42. Pasquier, V.: Commun. Math. Phys. 118, 355 (1988)
+43. Kirillov, A. N., Reshetikhin, N.: LOMI preprint E-9-88, published in the Proceedings of
+    Marseille Conference. Kac, V. (ed.). Singapore: World Scientific
+44. Keller, G.: Fusion Rules of Uq(sl(2, C)), qm= 1. Max-Planck-Institut preprint MPI-PAE/Pth
+    47/90, July 1990
+45. Goddar~l, P., Kent, A., Olive, D.: Phys. Lett. 152B, 88 (1985)
+46. Tsuchiya, A., Kanie, Y.: Lett. Math. B, 303 (1987)
+47. Moore, G., Seiberg, N.: Phys. Lett. B212, 451 (1988); Commun. Math. Phys. 123, 177 (1989)
+48. Alvarez-Gaum6, L., Gomez, C., Sierra, G.: Phys. Lett. B220, 142 (1989); Nucl. Phys. B330,
+    347 (1990)
+49. Felder, G., Fr6hlich, J., Keller, G.: Commun. Math. Phys. 124, 647 (1989)
+50. Babelon, O.: Phys. Lett. B215, 523 (1988)
+51. Gervais, J.-L.: Commun. Math. Phys. 130, 257 (1990)
+52. Smirnov, F., Takhtajan, L.: Towards a Quantum Liouville Theory with c > l . Colorado
+    preprint 1990
+53. Gomez, C., Sierra, G.: Phys. Lett. B240, 149 (1990); Nucl. Phys. B352, 791 (1991)
+54. Korepin, .V.E.: Teor. Mat. Fiz. 41, 169 (1979)
+55. Babelon, O., Bonora, L.: Phys. Lett. B244, 220 (1990)
+56. Grisaru, M. T., Lerda, A., Penati, S., Zanon, D.: Nucl. Phys. B346, 264 (1990)
+57. Jimbo, M.: Int. Mod. Phys. A4, 3759 (1989)
+58. Karowski, M., Thun, H. J.: Nucl. Phys. B190, 61 (1981)
+59. Ogievetsky, E., Reshetikhin, N. Yu., Wiegmann, P.: Nucl. Phys. B280 [FS18], 45 (1987)
+60. Kulish, P. P., Reshetikhin, N. Yu., Sklyanin, E. K.: Lett. Math. Phys. 5, 393 (1981)
+61. Ogievetsky, E., Wiegmann, P.: Phys. Lett. 168B, 360 (1986)
+62. Zamolodchikov, A. B.: Sov. J. Nucl. Phys. 46, 1090 (1987)
+63. Bilal, A., Gervais, J.-L.: Phys. Lett. B206, 412 (1988)
+64. Fateev, V., Lykanov, S.: Int. J. Mod. Phys. A3, 507 (1988)
+65. Eguchi, T., Yang, S.-K.: Phys. Lett. B224, 373 (1989)
+66. Hollowood, T., Mansfield, P.: Phys. Lett. B226, 73 (1989)
+67. Smirnov, F. A.: Int. J. Mod. Phys. A6, 1253 (1991)
+68. Date, E., Jimbo, M., Kuniba, A., Miwa, T., Okado, M.: Nucl. Phys. B290, 231 (1987)
+69. Jimbo, M., Kuniba, A., Miwa, T., Okado, M.: Commun. Math. Phys. 119, 543 (1988)
+70. Fateev, V. A., Zamolodchikov, A. B.: Int. J. Mod. Phys. A5, 1025 (1990); Christe, P.,
+    Mussardo, G.: Nucl. Phys. B330, 465 (1990); Sotkov, G., Zhu, C.-J.: Phys. Lett. B229, 391
+    (1989); Klassen, T. R., Melzer, E.: Nucl. Phys. B338, 485 (1990)
+71. Braden, H. W., Corrigan, E., Dorey, P. E., Sasaki, R.: Nucl. Phys. B338, 698 (1990)
+72. de Vega, H. J., Fateev, V. A.: Int. J. Mod. Phys. A6, 3221 (1991)
+73. Nakatsu, T.: Nucl. Phys. B356, 499 (1991)
+74. Bernard, D.: Lett. Math. Phys. 17, 239 (1989)
+
+
+Communicated by N. Yu. Reshetikhin
+

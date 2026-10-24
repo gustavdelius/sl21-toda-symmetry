@@ -1,0 +1,16 @@
+PASS continued angular finite part I0: error=2.242e-44
+PASS continued angular finite part J0: error=3.503e-45
+PASS continued angular finite part I1r: error=1.051e-45
+PASS continued angular finite part IS2: error=5.255e-45
+PASS continued angular finite part IM2: error=1.139e-45
+PASS triple radial coefficient from independent angular transform, level 0
+PASS triple radial coefficient from independent angular transform, level 1
+PASS triple radial coefficient from independent angular transform, level 2
+PASS triple remainder evaluation agrees with exact transform
+DATA triple epsilon=0.08 finite-part=3168.0092720514 error=21.42479
+DATA triple epsilon=0.04 finite-part=3175.0600433454 error=14.37402
+DATA triple epsilon=0.02 finite-part=3179.7901911293 error=9.643867
+DATA triple epsilon=0.01 finite-part=3182.9636647926 error=6.470394
+PASS triple including descendants and endpoints converges
+PASS triple remainder has degree 3*rho+1
+RESULT 11 PASS, 0 FAIL

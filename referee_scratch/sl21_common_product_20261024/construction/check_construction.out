@@ -1,0 +1,22 @@
+PASS auxiliary Gaussian contraction is associative
+PASS physical ordered cocycle satisfies cocycle identity
+PASS (B1 B2) U exact full Wick polynomial
+PASS B1 (B2 U) exact full Wick polynomial
+PASS retained B constituent changes BU exponent to g-1
+PASS BB fused descendant including derivative contraction
+PASS the scalar fused descendant is eta(eta-1)/R^2
+PASS second pair jet agrees in left grouping
+PASS second pair jet agrees in right grouping
+PASS arbitrary first test jet retained
+PASS arbitrary second test jet retained
+PASS BU contact differentiation retains constituent regulator
+PASS same derivative identity with arbitrary smooth outer test
+PASS coboundary cannot change leading braided defect
+PASS canonical BB coefficient requires nonzero change
+PASS common sqrt(t) charge rescaling matches BB
+PASS common sqrt(t) charge rescaling matches AA
+PASS first BBbarB one-source union degree
+PASS five-current one-source overlap degree
+PASS five-current unlike-source overlap degree
+PASS finite-part multiplication has nonzero defect one
+TOTAL 21 PASS

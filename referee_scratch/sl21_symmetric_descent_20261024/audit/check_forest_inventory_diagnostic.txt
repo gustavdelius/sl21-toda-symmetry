@@ -1,0 +1,1 @@
+Initial symbolic slot-name shorthand K2:1 was parsed by SymPy as an empty range, producing IndexError before any test. Version2 creates every slot symbol explicitly. Original diagnostic retained.

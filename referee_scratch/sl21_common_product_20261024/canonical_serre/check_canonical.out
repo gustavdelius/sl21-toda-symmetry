@@ -1,0 +1,354 @@
+PASS full Wick phase ABBB/zero t=-1.41421 g=6.71
+PASS full Wick phase ABBB/oneK1 t=-1.41421 g=6.71
+PASS full Wick phase ABBB/oneK2 t=-1.41421 g=6.71
+PASS full Wick phase ABBB/oneK3 t=-1.41421 g=6.71
+PASS full Wick phase ABBB/twoK(1, 2) t=-1.41421 g=6.71
+PASS full Wick phase ABBB/twoK(1, 3) t=-1.41421 g=6.71
+PASS full Wick phase ABBB/twoK(2, 3) t=-1.41421 g=6.71
+PASS full Wick phase ABBB/oneF0 t=-1.41421 g=6.71
+PASS full Wick phase ABBB/oneL1 t=-1.41421 g=6.71
+PASS full Wick phase ABBB/oneL2 t=-1.41421 g=6.71
+PASS full Wick phase ABBB/oneL3 t=-1.41421 g=6.71
+PASS full Wick phase BABB/zero t=-1.41421 g=6.71
+PASS full Wick phase BABB/oneK0 t=-1.41421 g=6.71
+PASS full Wick phase BABB/oneK2 t=-1.41421 g=6.71
+PASS full Wick phase BABB/oneK3 t=-1.41421 g=6.71
+PASS full Wick phase BABB/twoK(0, 2) t=-1.41421 g=6.71
+PASS full Wick phase BABB/twoK(0, 3) t=-1.41421 g=6.71
+PASS full Wick phase BABB/twoK(2, 3) t=-1.41421 g=6.71
+PASS full Wick phase BABB/oneF1 t=-1.41421 g=6.71
+PASS full Wick phase BABB/oneL0 t=-1.41421 g=6.71
+PASS full Wick phase BABB/oneL2 t=-1.41421 g=6.71
+PASS full Wick phase BABB/oneL3 t=-1.41421 g=6.71
+PASS full Wick phase BBAB/zero t=-1.41421 g=6.71
+PASS full Wick phase BBAB/oneK0 t=-1.41421 g=6.71
+PASS full Wick phase BBAB/oneK1 t=-1.41421 g=6.71
+PASS full Wick phase BBAB/oneK3 t=-1.41421 g=6.71
+PASS full Wick phase BBAB/twoK(0, 1) t=-1.41421 g=6.71
+PASS full Wick phase BBAB/twoK(0, 3) t=-1.41421 g=6.71
+PASS full Wick phase BBAB/twoK(1, 3) t=-1.41421 g=6.71
+PASS full Wick phase BBAB/oneF2 t=-1.41421 g=6.71
+PASS full Wick phase BBAB/oneL0 t=-1.41421 g=6.71
+PASS full Wick phase BBAB/oneL1 t=-1.41421 g=6.71
+PASS full Wick phase BBAB/oneL3 t=-1.41421 g=6.71
+PASS full Wick phase BBBA/zero t=-1.41421 g=6.71
+PASS full Wick phase BBBA/oneK0 t=-1.41421 g=6.71
+PASS full Wick phase BBBA/oneK1 t=-1.41421 g=6.71
+PASS full Wick phase BBBA/oneK2 t=-1.41421 g=6.71
+PASS full Wick phase BBBA/twoK(0, 1) t=-1.41421 g=6.71
+PASS full Wick phase BBBA/twoK(0, 2) t=-1.41421 g=6.71
+PASS full Wick phase BBBA/twoK(1, 2) t=-1.41421 g=6.71
+PASS full Wick phase BBBA/oneF3 t=-1.41421 g=6.71
+PASS full Wick phase BBBA/oneL0 t=-1.41421 g=6.71
+PASS full Wick phase BBBA/oneL1 t=-1.41421 g=6.71
+PASS full Wick phase BBBA/oneL2 t=-1.41421 g=6.71
+PASS full Wick phase BAAA/zero t=-1.41421 g=6.71
+PASS full Wick phase BAAA/oneK0 t=-1.41421 g=6.71
+PASS full Wick phase BAAA/oneF1 t=-1.41421 g=6.71
+PASS full Wick phase BAAA/oneF2 t=-1.41421 g=6.71
+PASS full Wick phase BAAA/oneF3 t=-1.41421 g=6.71
+PASS full Wick phase BAAA/oneL0 t=-1.41421 g=6.71
+PASS full Wick phase ABAA/zero t=-1.41421 g=6.71
+PASS full Wick phase ABAA/oneK1 t=-1.41421 g=6.71
+PASS full Wick phase ABAA/oneF0 t=-1.41421 g=6.71
+PASS full Wick phase ABAA/oneF2 t=-1.41421 g=6.71
+PASS full Wick phase ABAA/oneF3 t=-1.41421 g=6.71
+PASS full Wick phase ABAA/oneL1 t=-1.41421 g=6.71
+PASS full Wick phase AABA/zero t=-1.41421 g=6.71
+PASS full Wick phase AABA/oneK2 t=-1.41421 g=6.71
+PASS full Wick phase AABA/oneF0 t=-1.41421 g=6.71
+PASS full Wick phase AABA/oneF1 t=-1.41421 g=6.71
+PASS full Wick phase AABA/oneF3 t=-1.41421 g=6.71
+PASS full Wick phase AABA/oneL2 t=-1.41421 g=6.71
+PASS full Wick phase AAAB/zero t=-1.41421 g=6.71
+PASS full Wick phase AAAB/oneK3 t=-1.41421 g=6.71
+PASS full Wick phase AAAB/oneF0 t=-1.41421 g=6.71
+PASS full Wick phase AAAB/oneF1 t=-1.41421 g=6.71
+PASS full Wick phase AAAB/oneF2 t=-1.41421 g=6.71
+PASS full Wick phase AAAB/oneL3 t=-1.41421 g=6.71
+PASS full Wick phase ABBB/zero t=2.23607 g=1.17
+PASS full Wick phase ABBB/oneK1 t=2.23607 g=1.17
+PASS full Wick phase ABBB/oneK2 t=2.23607 g=1.17
+PASS full Wick phase ABBB/oneK3 t=2.23607 g=1.17
+PASS full Wick phase ABBB/twoK(1, 2) t=2.23607 g=1.17
+PASS full Wick phase ABBB/twoK(1, 3) t=2.23607 g=1.17
+PASS full Wick phase ABBB/twoK(2, 3) t=2.23607 g=1.17
+PASS full Wick phase ABBB/oneF0 t=2.23607 g=1.17
+PASS full Wick phase ABBB/oneL1 t=2.23607 g=1.17
+PASS full Wick phase ABBB/oneL2 t=2.23607 g=1.17
+PASS full Wick phase ABBB/oneL3 t=2.23607 g=1.17
+PASS full Wick phase BABB/zero t=2.23607 g=1.17
+PASS full Wick phase BABB/oneK0 t=2.23607 g=1.17
+PASS full Wick phase BABB/oneK2 t=2.23607 g=1.17
+PASS full Wick phase BABB/oneK3 t=2.23607 g=1.17
+PASS full Wick phase BABB/twoK(0, 2) t=2.23607 g=1.17
+PASS full Wick phase BABB/twoK(0, 3) t=2.23607 g=1.17
+PASS full Wick phase BABB/twoK(2, 3) t=2.23607 g=1.17
+PASS full Wick phase BABB/oneF1 t=2.23607 g=1.17
+PASS full Wick phase BABB/oneL0 t=2.23607 g=1.17
+PASS full Wick phase BABB/oneL2 t=2.23607 g=1.17
+PASS full Wick phase BABB/oneL3 t=2.23607 g=1.17
+PASS full Wick phase BBAB/zero t=2.23607 g=1.17
+PASS full Wick phase BBAB/oneK0 t=2.23607 g=1.17
+PASS full Wick phase BBAB/oneK1 t=2.23607 g=1.17
+PASS full Wick phase BBAB/oneK3 t=2.23607 g=1.17
+PASS full Wick phase BBAB/twoK(0, 1) t=2.23607 g=1.17
+PASS full Wick phase BBAB/twoK(0, 3) t=2.23607 g=1.17
+PASS full Wick phase BBAB/twoK(1, 3) t=2.23607 g=1.17
+PASS full Wick phase BBAB/oneF2 t=2.23607 g=1.17
+PASS full Wick phase BBAB/oneL0 t=2.23607 g=1.17
+PASS full Wick phase BBAB/oneL1 t=2.23607 g=1.17
+PASS full Wick phase BBAB/oneL3 t=2.23607 g=1.17
+PASS full Wick phase BBBA/zero t=2.23607 g=1.17
+PASS full Wick phase BBBA/oneK0 t=2.23607 g=1.17
+PASS full Wick phase BBBA/oneK1 t=2.23607 g=1.17
+PASS full Wick phase BBBA/oneK2 t=2.23607 g=1.17
+PASS full Wick phase BBBA/twoK(0, 1) t=2.23607 g=1.17
+PASS full Wick phase BBBA/twoK(0, 2) t=2.23607 g=1.17
+PASS full Wick phase BBBA/twoK(1, 2) t=2.23607 g=1.17
+PASS full Wick phase BBBA/oneF3 t=2.23607 g=1.17
+PASS full Wick phase BBBA/oneL0 t=2.23607 g=1.17
+PASS full Wick phase BBBA/oneL1 t=2.23607 g=1.17
+PASS full Wick phase BBBA/oneL2 t=2.23607 g=1.17
+PASS full Wick phase BAAA/zero t=2.23607 g=1.17
+PASS full Wick phase BAAA/oneK0 t=2.23607 g=1.17
+PASS full Wick phase BAAA/oneF1 t=2.23607 g=1.17
+PASS full Wick phase BAAA/oneF2 t=2.23607 g=1.17
+PASS full Wick phase BAAA/oneF3 t=2.23607 g=1.17
+PASS full Wick phase BAAA/oneL0 t=2.23607 g=1.17
+PASS full Wick phase ABAA/zero t=2.23607 g=1.17
+PASS full Wick phase ABAA/oneK1 t=2.23607 g=1.17
+PASS full Wick phase ABAA/oneF0 t=2.23607 g=1.17
+PASS full Wick phase ABAA/oneF2 t=2.23607 g=1.17
+PASS full Wick phase ABAA/oneF3 t=2.23607 g=1.17
+PASS full Wick phase ABAA/oneL1 t=2.23607 g=1.17
+PASS full Wick phase AABA/zero t=2.23607 g=1.17
+PASS full Wick phase AABA/oneK2 t=2.23607 g=1.17
+PASS full Wick phase AABA/oneF0 t=2.23607 g=1.17
+PASS full Wick phase AABA/oneF1 t=2.23607 g=1.17
+PASS full Wick phase AABA/oneF3 t=2.23607 g=1.17
+PASS full Wick phase AABA/oneL2 t=2.23607 g=1.17
+PASS full Wick phase AAAB/zero t=2.23607 g=1.17
+PASS full Wick phase AAAB/oneK3 t=2.23607 g=1.17
+PASS full Wick phase AAAB/oneF0 t=2.23607 g=1.17
+PASS full Wick phase AAAB/oneF1 t=2.23607 g=1.17
+PASS full Wick phase AAAB/oneF2 t=2.23607 g=1.17
+PASS full Wick phase AAAB/oneL3 t=2.23607 g=1.17
+PASS full Wick phase ABBB/zero t=2.23607 g=0.89443
+PASS full Wick phase ABBB/oneK1 t=2.23607 g=0.89443
+PASS full Wick phase ABBB/oneK2 t=2.23607 g=0.89443
+PASS full Wick phase ABBB/oneK3 t=2.23607 g=0.89443
+PASS full Wick phase ABBB/twoK(1, 2) t=2.23607 g=0.89443
+PASS full Wick phase ABBB/twoK(1, 3) t=2.23607 g=0.89443
+PASS full Wick phase ABBB/twoK(2, 3) t=2.23607 g=0.89443
+PASS full Wick phase ABBB/oneF0 t=2.23607 g=0.89443
+PASS full Wick phase ABBB/oneL1 t=2.23607 g=0.89443
+PASS full Wick phase ABBB/oneL2 t=2.23607 g=0.89443
+PASS full Wick phase ABBB/oneL3 t=2.23607 g=0.89443
+PASS full Wick phase BABB/zero t=2.23607 g=0.89443
+PASS full Wick phase BABB/oneK0 t=2.23607 g=0.89443
+PASS full Wick phase BABB/oneK2 t=2.23607 g=0.89443
+PASS full Wick phase BABB/oneK3 t=2.23607 g=0.89443
+PASS full Wick phase BABB/twoK(0, 2) t=2.23607 g=0.89443
+PASS full Wick phase BABB/twoK(0, 3) t=2.23607 g=0.89443
+PASS full Wick phase BABB/twoK(2, 3) t=2.23607 g=0.89443
+PASS full Wick phase BABB/oneF1 t=2.23607 g=0.89443
+PASS full Wick phase BABB/oneL0 t=2.23607 g=0.89443
+PASS full Wick phase BABB/oneL2 t=2.23607 g=0.89443
+PASS full Wick phase BABB/oneL3 t=2.23607 g=0.89443
+PASS full Wick phase BBAB/zero t=2.23607 g=0.89443
+PASS full Wick phase BBAB/oneK0 t=2.23607 g=0.89443
+PASS full Wick phase BBAB/oneK1 t=2.23607 g=0.89443
+PASS full Wick phase BBAB/oneK3 t=2.23607 g=0.89443
+PASS full Wick phase BBAB/twoK(0, 1) t=2.23607 g=0.89443
+PASS full Wick phase BBAB/twoK(0, 3) t=2.23607 g=0.89443
+PASS full Wick phase BBAB/twoK(1, 3) t=2.23607 g=0.89443
+PASS full Wick phase BBAB/oneF2 t=2.23607 g=0.89443
+PASS full Wick phase BBAB/oneL0 t=2.23607 g=0.89443
+PASS full Wick phase BBAB/oneL1 t=2.23607 g=0.89443
+PASS full Wick phase BBAB/oneL3 t=2.23607 g=0.89443
+PASS full Wick phase BBBA/zero t=2.23607 g=0.89443
+PASS full Wick phase BBBA/oneK0 t=2.23607 g=0.89443
+PASS full Wick phase BBBA/oneK1 t=2.23607 g=0.89443
+PASS full Wick phase BBBA/oneK2 t=2.23607 g=0.89443
+PASS full Wick phase BBBA/twoK(0, 1) t=2.23607 g=0.89443
+PASS full Wick phase BBBA/twoK(0, 2) t=2.23607 g=0.89443
+PASS full Wick phase BBBA/twoK(1, 2) t=2.23607 g=0.89443
+PASS full Wick phase BBBA/oneF3 t=2.23607 g=0.89443
+PASS full Wick phase BBBA/oneL0 t=2.23607 g=0.89443
+PASS full Wick phase BBBA/oneL1 t=2.23607 g=0.89443
+PASS full Wick phase BBBA/oneL2 t=2.23607 g=0.89443
+PASS full Wick phase BAAA/zero t=2.23607 g=0.89443
+PASS full Wick phase BAAA/oneK0 t=2.23607 g=0.89443
+PASS full Wick phase BAAA/oneF1 t=2.23607 g=0.89443
+PASS full Wick phase BAAA/oneF2 t=2.23607 g=0.89443
+PASS full Wick phase BAAA/oneF3 t=2.23607 g=0.89443
+PASS full Wick phase BAAA/oneL0 t=2.23607 g=0.89443
+PASS full Wick phase ABAA/zero t=2.23607 g=0.89443
+PASS full Wick phase ABAA/oneK1 t=2.23607 g=0.89443
+PASS full Wick phase ABAA/oneF0 t=2.23607 g=0.89443
+PASS full Wick phase ABAA/oneF2 t=2.23607 g=0.89443
+PASS full Wick phase ABAA/oneF3 t=2.23607 g=0.89443
+PASS full Wick phase ABAA/oneL1 t=2.23607 g=0.89443
+PASS full Wick phase AABA/zero t=2.23607 g=0.89443
+PASS full Wick phase AABA/oneK2 t=2.23607 g=0.89443
+PASS full Wick phase AABA/oneF0 t=2.23607 g=0.89443
+PASS full Wick phase AABA/oneF1 t=2.23607 g=0.89443
+PASS full Wick phase AABA/oneF3 t=2.23607 g=0.89443
+PASS full Wick phase AABA/oneL2 t=2.23607 g=0.89443
+PASS full Wick phase AAAB/zero t=2.23607 g=0.89443
+PASS full Wick phase AAAB/oneK3 t=2.23607 g=0.89443
+PASS full Wick phase AAAB/oneF0 t=2.23607 g=0.89443
+PASS full Wick phase AAAB/oneF1 t=2.23607 g=0.89443
+PASS full Wick phase AAAB/oneF2 t=2.23607 g=0.89443
+PASS full Wick phase AAAB/oneL3 t=2.23607 g=0.89443
+PASS exact shuffle coefficient BBBA
+PASS exact shuffle coefficient BBAB
+PASS exact shuffle coefficient BABB
+PASS exact shuffle coefficient ABBB
+PASS bare B3A scalar cancellation [-2, 1/3, 3]
+PASS bare B3A constant-C cancellation [-2, 1/3, 3]
+PASS oneK scalar individual derivative 0 [-2, 1/3, 3]
+PASS oneF scalar individual derivative 0 [-2, 1/3, 3]
+PASS oneK scalar individual derivative 1 [-2, 1/3, 3]
+PASS oneF scalar individual derivative 1 [-2, 1/3, 3]
+PASS oneK scalar individual derivative 2 [-2, 1/3, 3]
+PASS oneF scalar individual derivative 2 [-2, 1/3, 3]
+PASS bare B3A scalar cancellation [-5/3, 1/2, 11/4]
+PASS bare B3A constant-C cancellation [-5/3, 1/2, 11/4]
+PASS oneK scalar individual derivative 0 [-5/3, 1/2, 11/4]
+PASS oneF scalar individual derivative 0 [-5/3, 1/2, 11/4]
+PASS oneK scalar individual derivative 1 [-5/3, 1/2, 11/4]
+PASS oneF scalar individual derivative 1 [-5/3, 1/2, 11/4]
+PASS oneK scalar individual derivative 2 [-5/3, 1/2, 11/4]
+PASS oneF scalar individual derivative 2 [-5/3, 1/2, 11/4]
+PASS full degree BBBA/oneK0
+PASS full degree BBBA/oneK1
+PASS full degree BBBA/oneK2
+PASS full degree BBBA/twoK(0, 1)
+PASS full degree BBBA/twoK(0, 2)
+PASS full degree BBBA/twoK(1, 2)
+PASS full degree BBBA/oneF3
+PASS full degree BBBA/oneL0
+PASS full degree BBBA/oneL1
+PASS full degree BBBA/oneL2
+PASS full degree AAAB/oneK3
+PASS full degree AAAB/oneF0
+PASS full degree AAAB/oneF1
+PASS full degree AAAB/oneF2
+PASS full degree AAAB/oneL3
+PASS proper degree not identically zero BBBA/oneK0/(0, 1)
+PASS proper degree not identically zero BBBA/oneK0/(0, 2)
+PASS proper degree not identically zero BBBA/oneK0/(0, 3)
+PASS proper degree not identically zero BBBA/oneK0/(0, 1, 2)
+PASS proper degree not identically zero BBBA/oneK0/(0, 1, 3)
+PASS proper degree not identically zero BBBA/oneK0/(0, 2, 3)
+DIAGNOSTIC proper degrees BBBA oneK0 ['1 - rho', '2 - rho', '3*rho - 2', 'rho - 1']
+PASS proper degree not identically zero BBBA/oneK1/(0, 1)
+PASS proper degree not identically zero BBBA/oneK1/(1, 2)
+PASS proper degree not identically zero BBBA/oneK1/(1, 3)
+PASS proper degree not identically zero BBBA/oneK1/(0, 1, 2)
+PASS proper degree not identically zero BBBA/oneK1/(0, 1, 3)
+PASS proper degree not identically zero BBBA/oneK1/(1, 2, 3)
+DIAGNOSTIC proper degrees BBBA oneK1 ['1 - rho', '2 - rho', '3*rho - 2', 'rho - 1']
+PASS proper degree not identically zero BBBA/oneK2/(0, 2)
+PASS proper degree not identically zero BBBA/oneK2/(1, 2)
+PASS proper degree not identically zero BBBA/oneK2/(2, 3)
+PASS proper degree not identically zero BBBA/oneK2/(0, 1, 2)
+PASS proper degree not identically zero BBBA/oneK2/(0, 2, 3)
+PASS proper degree not identically zero BBBA/oneK2/(1, 2, 3)
+DIAGNOSTIC proper degrees BBBA oneK2 ['1 - rho', '2 - rho', '3*rho - 2', 'rho - 1']
+PASS proper degree not identically zero BBBA/twoK(0, 1)/(0, 1)
+PASS proper degree not identically zero BBBA/twoK(0, 1)/(0, 2)
+PASS proper degree not identically zero BBBA/twoK(0, 1)/(0, 3)
+PASS proper degree not identically zero BBBA/twoK(0, 1)/(1, 2)
+PASS proper degree not identically zero BBBA/twoK(0, 1)/(1, 3)
+PASS proper degree not identically zero BBBA/twoK(0, 1)/(0, 1, 2)
+PASS proper degree not identically zero BBBA/twoK(0, 1)/(0, 1, 3)
+PASS proper degree not identically zero BBBA/twoK(0, 1)/(0, 2, 3)
+PASS proper degree not identically zero BBBA/twoK(0, 1)/(1, 2, 3)
+DIAGNOSTIC proper degrees BBBA twoK(0, 1) ['1 - rho', '2 - rho', '3*rho - 1', '4 - rho', 'rho + 1', 'rho - 1']
+PASS proper degree not identically zero BBBA/twoK(0, 2)/(0, 1)
+PASS proper degree not identically zero BBBA/twoK(0, 2)/(0, 2)
+PASS proper degree not identically zero BBBA/twoK(0, 2)/(0, 3)
+PASS proper degree not identically zero BBBA/twoK(0, 2)/(1, 2)
+PASS proper degree not identically zero BBBA/twoK(0, 2)/(2, 3)
+PASS proper degree not identically zero BBBA/twoK(0, 2)/(0, 1, 2)
+PASS proper degree not identically zero BBBA/twoK(0, 2)/(0, 1, 3)
+PASS proper degree not identically zero BBBA/twoK(0, 2)/(0, 2, 3)
+PASS proper degree not identically zero BBBA/twoK(0, 2)/(1, 2, 3)
+DIAGNOSTIC proper degrees BBBA twoK(0, 2) ['1 - rho', '2 - rho', '3*rho - 1', '4 - rho', 'rho + 1', 'rho - 1']
+PASS proper degree not identically zero BBBA/twoK(1, 2)/(0, 1)
+PASS proper degree not identically zero BBBA/twoK(1, 2)/(0, 2)
+PASS proper degree not identically zero BBBA/twoK(1, 2)/(1, 2)
+PASS proper degree not identically zero BBBA/twoK(1, 2)/(1, 3)
+PASS proper degree not identically zero BBBA/twoK(1, 2)/(2, 3)
+PASS proper degree not identically zero BBBA/twoK(1, 2)/(0, 1, 2)
+PASS proper degree not identically zero BBBA/twoK(1, 2)/(0, 1, 3)
+PASS proper degree not identically zero BBBA/twoK(1, 2)/(0, 2, 3)
+PASS proper degree not identically zero BBBA/twoK(1, 2)/(1, 2, 3)
+DIAGNOSTIC proper degrees BBBA twoK(1, 2) ['1 - rho', '2 - rho', '3*rho - 1', '4 - rho', 'rho + 1', 'rho - 1']
+PASS proper degree not identically zero BBBA/oneF3/(0, 3)
+PASS proper degree not identically zero BBBA/oneF3/(1, 3)
+PASS proper degree not identically zero BBBA/oneF3/(2, 3)
+PASS proper degree not identically zero BBBA/oneF3/(0, 1, 3)
+PASS proper degree not identically zero BBBA/oneF3/(0, 2, 3)
+PASS proper degree not identically zero BBBA/oneF3/(1, 2, 3)
+DIAGNOSTIC proper degrees BBBA oneF3 ['2 - rho', '4 - rho']
+PASS proper degree not identically zero AAAB/oneK3/(0, 3)
+PASS proper degree not identically zero AAAB/oneK3/(1, 3)
+PASS proper degree not identically zero AAAB/oneK3/(2, 3)
+PASS proper degree not identically zero AAAB/oneK3/(0, 1, 3)
+PASS proper degree not identically zero AAAB/oneK3/(0, 2, 3)
+PASS proper degree not identically zero AAAB/oneK3/(1, 2, 3)
+DIAGNOSTIC proper degrees AAAB oneK3 ['2 - rho', '4 - rho']
+PASS proper degree not identically zero AAAB/oneF0/(0, 1)
+PASS proper degree not identically zero AAAB/oneF0/(0, 2)
+PASS proper degree not identically zero AAAB/oneF0/(0, 3)
+PASS proper degree not identically zero AAAB/oneF0/(0, 1, 2)
+PASS proper degree not identically zero AAAB/oneF0/(0, 1, 3)
+PASS proper degree not identically zero AAAB/oneF0/(0, 2, 3)
+DIAGNOSTIC proper degrees AAAB oneF0 ['1 - rho', '2 - rho', '3*rho - 2', 'rho - 1']
+PASS proper degree not identically zero AAAB/oneF1/(0, 1)
+PASS proper degree not identically zero AAAB/oneF1/(1, 2)
+PASS proper degree not identically zero AAAB/oneF1/(1, 3)
+PASS proper degree not identically zero AAAB/oneF1/(0, 1, 2)
+PASS proper degree not identically zero AAAB/oneF1/(0, 1, 3)
+PASS proper degree not identically zero AAAB/oneF1/(1, 2, 3)
+DIAGNOSTIC proper degrees AAAB oneF1 ['1 - rho', '2 - rho', '3*rho - 2', 'rho - 1']
+PASS proper degree not identically zero AAAB/oneF2/(0, 2)
+PASS proper degree not identically zero AAAB/oneF2/(1, 2)
+PASS proper degree not identically zero AAAB/oneF2/(2, 3)
+PASS proper degree not identically zero AAAB/oneF2/(0, 1, 2)
+PASS proper degree not identically zero AAAB/oneF2/(0, 2, 3)
+PASS proper degree not identically zero AAAB/oneF2/(1, 2, 3)
+DIAGNOSTIC proper degrees AAAB oneF2 ['1 - rho', '2 - rho', '3*rho - 2', 'rho - 1']
+PASS cutoff L face vanishes BBBA/oneL0/(0, 1)
+PASS cutoff L face vanishes BBBA/oneL0/(0, 2)
+PASS cutoff L face vanishes BBBA/oneL0/(0, 3)
+PASS cutoff L face vanishes BBBA/oneL0/(0, 1, 2)
+PASS cutoff L face vanishes BBBA/oneL0/(0, 1, 3)
+PASS cutoff L face vanishes BBBA/oneL0/(0, 2, 3)
+PASS cutoff L face vanishes BBBA/oneL0/(0, 1, 2, 3)
+PASS cutoff L face vanishes BBBA/oneL1/(0, 1)
+PASS cutoff L face vanishes BBBA/oneL1/(1, 2)
+PASS cutoff L face vanishes BBBA/oneL1/(1, 3)
+PASS cutoff L face vanishes BBBA/oneL1/(0, 1, 2)
+PASS cutoff L face vanishes BBBA/oneL1/(0, 1, 3)
+PASS cutoff L face vanishes BBBA/oneL1/(1, 2, 3)
+PASS cutoff L face vanishes BBBA/oneL1/(0, 1, 2, 3)
+PASS cutoff L face vanishes BBBA/oneL2/(0, 2)
+PASS cutoff L face vanishes BBBA/oneL2/(1, 2)
+PASS cutoff L face vanishes BBBA/oneL2/(2, 3)
+PASS cutoff L face vanishes BBBA/oneL2/(0, 1, 2)
+PASS cutoff L face vanishes BBBA/oneL2/(0, 2, 3)
+PASS cutoff L face vanishes BBBA/oneL2/(1, 2, 3)
+PASS cutoff L face vanishes BBBA/oneL2/(0, 1, 2, 3)
+PASS cutoff L face vanishes AAAB/oneL3/(0, 3)
+PASS cutoff L face vanishes AAAB/oneL3/(1, 3)
+PASS cutoff L face vanishes AAAB/oneL3/(2, 3)
+PASS cutoff L face vanishes AAAB/oneL3/(0, 1, 3)
+PASS cutoff L face vanishes AAAB/oneL3/(0, 2, 3)
+PASS cutoff L face vanishes AAAB/oneL3/(1, 2, 3)
+PASS cutoff L face vanishes AAAB/oneL3/(0, 1, 2, 3)
+SUMMARY 342 PASS 0 FAIL

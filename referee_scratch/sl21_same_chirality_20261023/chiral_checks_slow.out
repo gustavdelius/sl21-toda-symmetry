@@ -1,0 +1,43 @@
+PASS a0 square
+PASS a2 square
+PASS a0 a2
+PASS a0 d
+PASS d square
+PASS permutation matrix generic rank n=2, nA=0: rank=1/1
+PASS permutation matrix generic rank n=2, nA=1: rank=2/2
+PASS permutation matrix generic rank n=2, nA=2: rank=1/1
+PASS permutation matrix generic rank n=3, nA=0: rank=1/1
+PASS permutation matrix generic rank n=3, nA=1: rank=3/3
+PASS permutation matrix generic rank n=3, nA=2: rank=3/3
+PASS permutation matrix generic rank n=3, nA=3: rank=1/1
+PASS permutation matrix generic rank n=4, nA=0: rank=1/1
+PASS permutation matrix generic rank n=4, nA=1: rank=3/4
+PASS quartic kernel B
+DATA quartic B {'BBBA': 1, 'BBAB': -s - 1 - 1/s, 'BABB': s + 1 + 1/s, 'ABBB': -1}
+PASS permutation matrix generic rank n=4, nA=2: rank=6/6
+PASS permutation matrix generic rank n=4, nA=3: rank=3/4
+PASS quartic kernel A
+DATA quartic A {'AAAB': 1, 'AABA': -s - 1 - 1/s, 'ABAA': s + 1 + 1/s, 'BAAA': -1}
+PASS permutation matrix generic rank n=4, nA=4: rank=1/1
+PASS pure B is even, no generic quadratic truncation
+PASS exact BB double pole cancels
+PASS BBB prefactor is a bounded divided-difference expression
+PASS BBBA with zero regular jets has no fully contracted term
+PASS BBBA constant regular jet starts at degree -1
+PASS BBA constant regular jet
+PASS UV convergence AA/BB pair: rho + 1
+PASS UV convergence AB pair: -rho
+PASS UV convergence AAA/BBB: 3*rho + 2
+PASS UV convergence AAB/BBA: 1 - rho
+PASS UV convergence AAAB/BBBA: 2
+PASS B K2 vertex power
+PASS B K2 derivative contraction
+PASS no common absolute domain for AB and B-tail: AB needs Re(rho)<0, B-tail needs Re(rho)>1
+PASS 2 B currents with one Yukawa, full contraction
+PASS 3 B currents with one Yukawa, full contraction
+PASS direct source area integral, hole=0.1: numeric=6.09468974796, boundary formula=6.09468974796
+PASS direct source area integral, hole=0.05: numeric=6.23606141738, boundary formula=6.23606141738
+PASS direct source area integral, hole=0.025: numeric=6.27140433473, boundary formula=6.27140433473
+PASS combined n=2 B product leading first-order coefficient
+PASS combined n=3 B product leading first-order coefficient
+PASS BB first-order leading coefficient per r^(rho-2)

@@ -1,0 +1,60 @@
+PASS null odd roots and mixed inner product
+PASS dual momentum Gram data
+PASS full Yukawa leading Wick sign is positive
+PASS fermionic four-point function equals exponential bosonization
+PASS point-split j spectator value
+PASS B/Y0 simple pole from Wick expansion
+PASS B/Y0 delta-derivative conservation coefficient
+PASS B/Y2 simple pole from Wick expansion
+PASS B/Y2 delta-derivative conservation coefficient
+PASS A/even double pole
+PASS A/even derivative residue
+PASS A/even tail coefficient
+PASS order-mass-squared local identity N-RP/t=partial L
+PASS parity leaves both i chi bar-chi monomials invariant
+PASS parity exchanges j with bar j without a sign
+PASS left/left canonical commutator
+PASS left/right canonical commutator
+PASS canonical mixed braid exponent AA
+PASS tail separated braids unchanged AA
+PASS canonical mixed braid exponent AB
+PASS tail separated braids unchanged AB
+PASS canonical mixed braid exponent BA
+PASS tail separated braids unchanged BA
+PASS canonical mixed braid exponent BB
+PASS tail separated braids unchanged BB
+PASS naively independent radial cocycle changes J/bar-H braid
+PASS radial cocycle is associative despite the global matching issue
+PASS explicit cochain matches Weyl and radial cocycles
+PASS integer sign equals parity-symmetric local cocycle
+PASS all current and tail exchange phases match the constructed cocycle
+PASS constructed cross cocycle gives the canonical mixed braid
+PASS canonical topological weight A
+PASS canonical topological weight B
+PASS endpoint U/Y0 bosonic OPE exponent
+PASS fermionic endpoint is not a bosonic exponential as a UV operator
+PASS endpoint chiral spectator expansion, including j
+PASS endpoint second chiral coefficient from independent Wick function
+PASS leading endpoint radial antiderivative
+PASS subleading endpoint radial antiderivative
+PASS fermion spectator finite-part error t=0.47140452 eps=0.01
+PASS fermion spectator finite-part error t=0.47140452 eps=0.005
+PASS fermion spectator cutoff scaling t=0.47140452
+PASS fermion spectator finite-part error t=-0.28284271 eps=0.01
+PASS fermion spectator finite-part error t=-0.28284271 eps=0.005
+PASS fermion spectator cutoff scaling t=-0.28284271
+PASS endpoint level derived from Gaussian weights A
+PASS generic endpoint integer polynomial A
+PASS endpoint level derived from Gaussian weights B
+PASS generic endpoint integer polynomial B
+PASS AA integer candidates through twelve insertions of each type
+PASS BB integer candidates through twelve insertions of each type
+PASS no AB or BA integer candidates in enumeration
+PASS sine-Liouville comparison rotation is complex orthogonal
+PASS Fateev parameters satisfy A^2-B^2=1/2
+PASS Y0 momentum in rescaled Fateev fields
+PASS Y2 momentum in rescaled Fateev fields
+PASS even and composite potentials have +/-2B exponents
+PASS A current exponent in Fateev normalization
+PASS B current exponent in Fateev normalization
+59/59 checks passed

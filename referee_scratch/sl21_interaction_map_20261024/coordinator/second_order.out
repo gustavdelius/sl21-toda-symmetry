@@ -1,0 +1,18 @@
+PASS complete unequal-source B rational partial fraction
+PASS two-source moving poles admit one spatial derivative primitive
+PASS Y0 unary collapse coefficient
+PASS Y2 unary collapse coefficient
+PASS source-pair mode n=0
+PASS source-pair mode n=1
+PASS source-pair mode n=2
+PASS source-pair mode n=3
+PASS source-pair mode n=4
+PASS source-pair descendant n=0
+PASS source-pair descendant n=1
+PASS source-pair descendant n=2
+PASS first descendant extra derivative-current contraction is indispensable
+PASS distinct-source unary pair full surviving power
+PASS distinct-source unary face vanishes on 2<t<3
+PASS one C never contracts onto both sources at once
+PASS canonical tail generates exactly the known L improvement once
+SUMMARY 17 PASS 0 FAIL

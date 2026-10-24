@@ -1,0 +1,38 @@
+PASS node0 actual residue minus derivative is −eta/q
+PASS node2 actual residue plus derivative is eta/q
+PASS fresh bosonized Ward polynomial N−RP/t=partial L
+PASS regulator-dependent cutoff coefficient is t/h
+PASS full cutoff polynomial remainder factors eta
+PASS source-pair analytic radial primitive
+PASS endpoint leading radial primitive
+PASS h-improvement specializes to original
+PASS h-P coefficient specializes to original
+PASS h-endpoint coefficient specializes to original
+PASS ordered channel cocycle ABD02
+PASS ordered channel cocycle ABQ0
+PASS ordered channel cocycle AKD0
+PASS ordered channel cocycle ABM
+PASS ordered channel cocycle ALD
+PASS ordered channel cocycle ABDP
+PASS double source shifted pair exponents
+PASS bar-tail/source asymmetric shifted powers
+PASS tail/source asymmetric shifted powers
+PASS A-fused endpoint exponent
+PASS independent Mellin finite part equals Gamma at -0.7071067811865476
+INFO eta anomaly -0.7071067811865476 0.01 -0.0424835587107414773
+PASS anomaly divided by eta tends to regular Gamma
+INFO eta anomaly -0.7071067811865476 0.001 -0.00432930569380432553
+PASS anomaly divided by eta tends to regular Gamma
+PASS independent Mellin finite part equals Gamma at -0.5773502691896257
+INFO eta anomaly -0.5773502691896257 0.01 -0.0360935462792880464
+PASS anomaly divided by eta tends to regular Gamma
+INFO eta anomaly -0.5773502691896257 0.001 -0.00362954724746189641
+PASS anomaly divided by eta tends to regular Gamma
+PASS no Mellin divisor identically contains diagonal: 02
+PASS no Mellin divisor identically contains diagonal: B02
+PASS no Mellin divisor identically contains diagonal: BD02
+PASS no Mellin divisor identically contains diagonal: A02
+PASS no Mellin divisor identically contains diagonal: AB02
+PASS no Mellin divisor identically contains diagonal: AD02
+PASS no Mellin divisor identically contains diagonal: ABD02
+INFO Pole enumeration establishes generic diagonal restriction, not absence of isolated resonance values.

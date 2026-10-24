@@ -1,0 +1,7 @@
+PASS complete independent mixed first-jet functional
+PASS arbitrary outer-slot first derivative cancels
+PASS unary doublepole jump produces exactly the source jet
+PASS unary delta-prime leading coefficient cancels
+FAIL EXPECTED constant-spectator mixed contact lift: misses i*pi^2*sigma*beta^2
+PASS complete independent AA/V1 first-jet functional
+PASS total 5; retained expected failed shortcut 1

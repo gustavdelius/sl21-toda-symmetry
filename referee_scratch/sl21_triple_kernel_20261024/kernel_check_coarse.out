@@ -1,0 +1,23 @@
+PASS exact zero-jet chiral Wick polynomial
+PASS mixed face double pole is beta V
+PASS mixed face simple residue is minus V prime
+PASS separated A preserves the full first-jet Ward identity
+PASS dressed endpoint derivative
+PASS first tail double coefficient
+PASS first tail simple coefficient
+PASS tail contour coefficient is t squared
+PASS action plus tails gives radial t
+PASS finite matching restores t squared
+DATA eps=0.02000 action=-225.105939805977 tails=129.765809124473 radial=-95.340130681505
+DATA eps=0.01000 action=-235.011628095562 tails=136.617623303610 radial=-98.394004791952
+DATA eps=0.00500 action=-239.960263269138 tails=140.041473836460 radial=-99.918789432678
+DATA eps=0.00250 action=-242.433157982442 tails=141.752246100116 radial=-100.680911882327
+DATA targets action=-244.904962996413 tails=143.462005830818 radial=-101.442957165595
+PASS unexpanded action contour converges: last error 2.47181
+FAIL unexpanded action extrapolation: error 0.0010897
+Traceback (most recent call last):
+  File "/home/gustav/Git/affine_toda/referee_scratch/sl21_triple_kernel_20261024/kernel_check.py", line 124, in <module>
+    check(f"unexpanded {label} extrapolation",abs(extrap-target)<2e-4,f"error {abs(extrap-target):.6g}")
+  File "/home/gustav/Git/affine_toda/referee_scratch/sl21_triple_kernel_20261024/kernel_check.py", line 21, in check
+    raise AssertionError(label)
+AssertionError: unexpanded action extrapolation

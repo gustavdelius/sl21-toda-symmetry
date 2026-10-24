@@ -1,0 +1,346 @@
+[
+  {
+    "left": 0,
+    "right": 1,
+    "sources": [
+      "Y0"
+    ],
+    "degree": "0"
+  },
+  {
+    "left": 0,
+    "right": 1,
+    "sources": [
+      "Y2"
+    ],
+    "degree": "0"
+  },
+  {
+    "left": 0,
+    "right": 1,
+    "sources": [
+      "Y0",
+      "Y0"
+    ],
+    "degree": "3"
+  },
+  {
+    "left": 0,
+    "right": 1,
+    "sources": [
+      "Y2",
+      "Y2"
+    ],
+    "degree": "3"
+  },
+  {
+    "left": 0,
+    "right": 1,
+    "sources": [
+      "Y0",
+      "Y2"
+    ],
+    "degree": "2*h - 1"
+  },
+  {
+    "left": 0,
+    "right": 2,
+    "sources": [
+      "Y0"
+    ],
+    "degree": "gR - 1"
+  },
+  {
+    "left": 0,
+    "right": 2,
+    "sources": [
+      "Y2"
+    ],
+    "degree": "gR - 1"
+  },
+  {
+    "left": 0,
+    "right": 2,
+    "sources": [
+      "Y0",
+      "Y0"
+    ],
+    "degree": "gR + 1"
+  },
+  {
+    "left": 0,
+    "right": 2,
+    "sources": [
+      "Y2",
+      "Y2"
+    ],
+    "degree": "gR + 1"
+  },
+  {
+    "left": 0,
+    "right": 2,
+    "sources": [
+      "Y0",
+      "Y2"
+    ],
+    "degree": "gR + 2*h - 3"
+  },
+  {
+    "left": 1,
+    "right": 0,
+    "sources": [
+      "Y0"
+    ],
+    "degree": "0"
+  },
+  {
+    "left": 1,
+    "right": 0,
+    "sources": [
+      "Y2"
+    ],
+    "degree": "0"
+  },
+  {
+    "left": 1,
+    "right": 0,
+    "sources": [
+      "Y0",
+      "Y0"
+    ],
+    "degree": "3"
+  },
+  {
+    "left": 1,
+    "right": 0,
+    "sources": [
+      "Y2",
+      "Y2"
+    ],
+    "degree": "3"
+  },
+  {
+    "left": 1,
+    "right": 0,
+    "sources": [
+      "Y0",
+      "Y2"
+    ],
+    "degree": "2*h - 1"
+  },
+  {
+    "left": 1,
+    "right": 1,
+    "sources": [
+      "Y0"
+    ],
+    "degree": "-1"
+  },
+  {
+    "left": 1,
+    "right": 1,
+    "sources": [
+      "Y2"
+    ],
+    "degree": "-1"
+  },
+  {
+    "left": 1,
+    "right": 1,
+    "sources": [
+      "Y0",
+      "Y0"
+    ],
+    "degree": "1"
+  },
+  {
+    "left": 1,
+    "right": 1,
+    "sources": [
+      "Y2",
+      "Y2"
+    ],
+    "degree": "1"
+  },
+  {
+    "left": 1,
+    "right": 1,
+    "sources": [
+      "Y0",
+      "Y2"
+    ],
+    "degree": "2*h - 3"
+  },
+  {
+    "left": 1,
+    "right": 2,
+    "sources": [
+      "Y0"
+    ],
+    "degree": "gR - 2"
+  },
+  {
+    "left": 1,
+    "right": 2,
+    "sources": [
+      "Y2"
+    ],
+    "degree": "gR - 2"
+  },
+  {
+    "left": 1,
+    "right": 2,
+    "sources": [
+      "Y0",
+      "Y0"
+    ],
+    "degree": "gR - 1"
+  },
+  {
+    "left": 1,
+    "right": 2,
+    "sources": [
+      "Y2",
+      "Y2"
+    ],
+    "degree": "gR - 1"
+  },
+  {
+    "left": 1,
+    "right": 2,
+    "sources": [
+      "Y0",
+      "Y2"
+    ],
+    "degree": "gR + 2*h - 5"
+  },
+  {
+    "left": 2,
+    "right": 0,
+    "sources": [
+      "Y0"
+    ],
+    "degree": "gL - 1"
+  },
+  {
+    "left": 2,
+    "right": 0,
+    "sources": [
+      "Y2"
+    ],
+    "degree": "gL - 1"
+  },
+  {
+    "left": 2,
+    "right": 0,
+    "sources": [
+      "Y0",
+      "Y0"
+    ],
+    "degree": "gL + 1"
+  },
+  {
+    "left": 2,
+    "right": 0,
+    "sources": [
+      "Y2",
+      "Y2"
+    ],
+    "degree": "gL + 1"
+  },
+  {
+    "left": 2,
+    "right": 0,
+    "sources": [
+      "Y0",
+      "Y2"
+    ],
+    "degree": "gL + 2*h - 3"
+  },
+  {
+    "left": 2,
+    "right": 1,
+    "sources": [
+      "Y0"
+    ],
+    "degree": "gL - 2"
+  },
+  {
+    "left": 2,
+    "right": 1,
+    "sources": [
+      "Y2"
+    ],
+    "degree": "gL - 2"
+  },
+  {
+    "left": 2,
+    "right": 1,
+    "sources": [
+      "Y0",
+      "Y0"
+    ],
+    "degree": "gL - 1"
+  },
+  {
+    "left": 2,
+    "right": 1,
+    "sources": [
+      "Y2",
+      "Y2"
+    ],
+    "degree": "gL - 1"
+  },
+  {
+    "left": 2,
+    "right": 1,
+    "sources": [
+      "Y0",
+      "Y2"
+    ],
+    "degree": "gL + 2*h - 5"
+  },
+  {
+    "left": 2,
+    "right": 2,
+    "sources": [
+      "Y0"
+    ],
+    "degree": "gL + gR - 3"
+  },
+  {
+    "left": 2,
+    "right": 2,
+    "sources": [
+      "Y2"
+    ],
+    "degree": "gL + gR - 3"
+  },
+  {
+    "left": 2,
+    "right": 2,
+    "sources": [
+      "Y0",
+      "Y0"
+    ],
+    "degree": "gL + gR - 3"
+  },
+  {
+    "left": 2,
+    "right": 2,
+    "sources": [
+      "Y2",
+      "Y2"
+    ],
+    "degree": "gL + gR - 3"
+  },
+  {
+    "left": 2,
+    "right": 2,
+    "sources": [
+      "Y0",
+      "Y2"
+    ],
+    "degree": "gL + gR + 2*h - 7"
+  }
+]

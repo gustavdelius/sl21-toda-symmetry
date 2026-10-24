@@ -1,0 +1,60 @@
+PASS a0 squared
+PASS a2 squared
+PASS source cross
+PASS d a0
+PASS d a2
+PASS d squared
+PASS Cauchy determinant sign
+PASS full H2 differential representation
+PASS divergence scalar coefficient factorization
+PASS physical scalar coefficient
+PASS nonzero normalized residual at physical g
+PASS disjoint complete first-jet operators commute
+PASS disjoint mixed source jet retained
+PASS independent balanced products coefficient
+PASS global extreme averaging gives wrong disjoint coefficient
+PASS equal face degree (0,0)
+PASS equal high-g positivity (0,0)
+PASS unlike face degree (0,0)
+PASS unlike high-domain positivity (0,0)
+PASS equal face degree (0,1)
+PASS equal high-g positivity (0,1)
+PASS unlike face degree (0,1)
+PASS unlike high-domain positivity (0,1)
+PASS equal face degree (0,2)
+PASS equal high-g positivity (0,2)
+PASS unlike face degree (0,2)
+PASS unlike high-domain positivity (0,2)
+PASS equal face degree (1,0)
+PASS equal high-g positivity (1,0)
+PASS unlike face degree (1,0)
+PASS unlike high-domain positivity (1,0)
+PASS equal face degree (1,1)
+PASS equal high-g positivity (1,1)
+PASS unlike face degree (1,1)
+PASS unlike high-domain positivity (1,1)
+PASS equal face degree (1,2)
+PASS equal high-g positivity (1,2)
+PASS unlike face degree (1,2)
+PASS unlike high-domain positivity (1,2)
+PASS equal face degree (2,0)
+PASS equal high-g positivity (2,0)
+PASS unlike face degree (2,0)
+PASS unlike high-domain positivity (2,0)
+PASS equal face degree (2,1)
+PASS equal high-g positivity (2,1)
+PASS unlike face degree (2,1)
+PASS unlike high-domain positivity (2,1)
+PASS equal face degree (2,2)
+PASS equal high-g positivity (2,2)
+PASS unlike face degree (2,2)
+PASS unlike high-domain positivity (2,2)
+PASS unlike full resonance exact location
+PASS unlike full resonance inside physical interval
+PASS unlike proper (2,1) positive throughout physical patch
+PASS unlike full derivative at resonance nonzero
+PASS double endpoint derivative degree
+PASS positive circulation on two-source matching graph
+SUMMARY 57 PASS, 0 FAIL
+DIAGNOSTIC unlike candidate t* = 2.780776406404415 degree at t=5/2 = -2/5
+DIAGNOSTIC raw bulk cycle and potential resonance are not a full-forest anomaly.

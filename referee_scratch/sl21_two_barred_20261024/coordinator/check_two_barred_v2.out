@@ -1,0 +1,57 @@
+PASS primary collision degree (0, 1, ('Y0',))
+PASS primary collision degree (0, 1, ('Y2',))
+PASS primary collision degree (0, 1, ('Y0', 'Y0'))
+PASS primary collision degree (0, 1, ('Y2', 'Y2'))
+PASS primary collision degree (0, 1, ('Y0', 'Y2'))
+PASS primary collision degree (0, 2, ('Y0',))
+PASS primary collision degree (0, 2, ('Y2',))
+PASS primary collision degree (0, 2, ('Y0', 'Y0'))
+PASS primary collision degree (0, 2, ('Y2', 'Y2'))
+PASS primary collision degree (0, 2, ('Y0', 'Y2'))
+PASS primary collision degree (1, 0, ('Y0',))
+PASS primary collision degree (1, 0, ('Y2',))
+PASS primary collision degree (1, 0, ('Y0', 'Y0'))
+PASS primary collision degree (1, 0, ('Y2', 'Y2'))
+PASS primary collision degree (1, 0, ('Y0', 'Y2'))
+PASS primary collision degree (1, 1, ('Y0',))
+PASS primary collision degree (1, 1, ('Y2',))
+PASS primary collision degree (1, 1, ('Y0', 'Y0'))
+PASS primary collision degree (1, 1, ('Y2', 'Y2'))
+PASS primary collision degree (1, 1, ('Y0', 'Y2'))
+PASS primary collision degree (1, 2, ('Y0',))
+PASS primary collision degree (1, 2, ('Y2',))
+PASS primary collision degree (1, 2, ('Y0', 'Y0'))
+PASS primary collision degree (1, 2, ('Y2', 'Y2'))
+PASS primary collision degree (1, 2, ('Y0', 'Y2'))
+PASS primary collision degree (2, 0, ('Y0',))
+PASS primary collision degree (2, 0, ('Y2',))
+PASS primary collision degree (2, 0, ('Y0', 'Y0'))
+PASS primary collision degree (2, 0, ('Y2', 'Y2'))
+PASS primary collision degree (2, 0, ('Y0', 'Y2'))
+PASS primary collision degree (2, 1, ('Y0',))
+PASS primary collision degree (2, 1, ('Y2',))
+PASS primary collision degree (2, 1, ('Y0', 'Y0'))
+PASS primary collision degree (2, 1, ('Y2', 'Y2'))
+PASS primary collision degree (2, 1, ('Y0', 'Y2'))
+PASS primary collision degree (2, 2, ('Y0',))
+PASS primary collision degree (2, 2, ('Y2',))
+PASS primary collision degree (2, 2, ('Y0', 'Y0'))
+PASS primary collision degree (2, 2, ('Y2', 'Y2'))
+PASS primary collision degree (2, 2, ('Y0', 'Y2'))
+PASS even-root four-A one-source degree
+PASS two-source full equal degree
+PASS two-source full unlike degree
+PASS unlike physical resonance candidate
+PASS resonance lies strictly in prior physical patch
+PASS unlike three-current unions positive at candidate
+PASS complete scalar H2 divergence identity
+PASS physical residual is nonzero, not pure external derivative
+PASS normalized edge shift cancels residual factors
+PASS scalar Cauchy determinant sign
+PASS double mixed endpoint base exponent
+PASS double endpoint base locally integrable physical patch
+PASS derivative endpoint degree agrees full primitive
+PASS endpoint degree lower bound at t=3
+PASS source-height integrations lower primitive loop degree by two
+PASS scaling of remaining Laplace integral
+SUMMARY 56 PASS 0 FAIL

@@ -1,0 +1,5 @@
+PASS complete unlike H2 scalar, including derivative pair
+PASS one-source H2 scalar
+PASS one-source H2 coefficient C1
+PASS one-source H2 coefficient C2
+PASS equal-source determinant

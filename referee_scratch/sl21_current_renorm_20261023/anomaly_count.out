@@ -1,0 +1,16 @@
+PASS left-right descendant difference
+PASS common coefficient of t
+PASS antiholomorphic generic-coupling integer condition
+PASS holomorphic generic-coupling integer condition
+PASS nonnegative levels require S=-1,0,1
+PASS generic integer solutions contain only vacuum and single Yukawas
+ASSUMPTIONS: analytic coupling expansion; UV Fock fields; no independent finite P coupling
+RESULT: ordinary local higher-order anomalies are kinematically excluded for generic irrational t
+ORDER3 (3, 0, 0): (-2, -5)
+ORDER3 (2, 1, 0): (2 - 2*t, -2*t - 1)
+ORDER3 (1, 2, 0): (2 - 2*t, -2*t - 1)
+ORDER3 (0, 3, 0): (-2, -5)
+ORDER3 (1, 0, 1): (t - 2, t - 1)
+ORDER3 (0, 1, 1): (t - 2, t - 1)
+PASS first triple-Yukawa resonance at t=-1/2
+PASS first mixed even/Yukawa resonance at t=2 has level (0,1)

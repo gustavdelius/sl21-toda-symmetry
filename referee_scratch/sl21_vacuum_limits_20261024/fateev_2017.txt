@@ -1,0 +1,1460 @@
+Symmetry, Integrability and Geometry: Methods and Applications               SIGMA 13 (2017), 080, 22 pages
+
+Integrable Deformations of Sine-Liouville
+Conformal Field Theory and Duality
+Vladimir A. FATEEV †‡
+† Laboratoire Charles Coulomb UMR 5221 CNRS-UM2, Université de Montpellier,
+
+    34095 Montpellier, France
+    E-mail: Vladimir.Fateev@univ-montp2.fr
+‡ Landau Institute for Theoretical Physics, 142432 Chernogolovka, Russia
+
+Received April 24, 2017, in final form October 03, 2017; Published online October 13, 2017
+https://doi.org/10.3842/SIGMA.2017.080
+
+        Abstract. We study integrable deformations of sine-Liouville conformal field theory. Eve-
+        ry integrable perturbation of this model is related to the series of quantum integrals of
+        motion (hierarchy). We construct the factorized scattering matrices for different integrable
+        perturbed conformal field theories. The perturbation theory, Bethe ansatz technique, renor-
+        malization group and methods of perturbed conformal field theory are applied to show that
+        all integrable deformations of sine-Liouville model possess non-trivial duality properties.
+        Key words: integrability; duality; Ricci flow
+
+        2010 Mathematics Subject Classification: 16T25; 17B68; 83C47
+
+
+
+1      Introduction
+Duality plays an important role in the analysis of statistical, quantum field and string theory
+systems. Usually it maps a weak coupling region of one theory to the strong coupling region
+of the other and makes it possible to use perturbative, semiclassical and renormalization group
+methods in different regions of the coupling constant. For example, the well known duality
+between sine-Gordon and massive Thirring models [7, 31] together with integrability plays an
+important role for the justification of exact scattering matrix [39] in these theories. Another
+well known example of the duality in two-dimensional integrable systems is the weak-strong cou-
+pling flow from affine Toda theories to the same theories with dual affine Lie algebra [2, 6, 9].
+The phenomenon of electric-magnetic duality in four-dimensional N = 4 supersymmetric gauge
+theories conjectured in [21, 32] and developed for N = 2 theories in [36] (and in many subse-
+quent papers) opens the possibility for the non-perturbative analysis of the spectrum and phase
+structure in supersymmetric gauge field theories. Recently discovered remarkable field/string
+duality [22, 28, 29, 38] leads to the unification of the ideas and methods for the analysis of these
+seemingly different quantum systems.
+   Known for many years the phenomenon of duality in quantum field theory still looks rather
+mysterious and needs further analysis. This analysis essentially simplifies for two-dimensional
+integrable relativistic systems. These theories besides the Lagrangian formulation possess also
+unambiguous definition in terms of factorized scattering theory, which contains all information
+about off-mass-shell data of quantum theory. These data permit one to use non-perturbative
+methods for the calculation of observables in integrable field theories. The comparison of the
+observables calculated from the scattering data and from the perturbative, semiclassical or
+renormalization group analysis based on the Lagrangian formulation makes it possible in some
+     This paper is a contribution to the Special Issue on Recent Advances in Quantum Integrable Systems. The
+full collection is available at http://www.emis.de/journals/SIGMA/RAQIS2016.html
+2                                                                                      V.A. Fateev
+
+cases to justify the existence of two different (dual) representation for the Lagrangian description
+of quantum theory.
+     Two particle factorized scattering matrix is rather rigid object. It is constrained by the
+global symmetries, factorization equation and unitarity and crossing symmetry relations. After
+resolution of these equations the scattering matrix S can contain one (or more) free parameter.
+At some value of this parameter λ = λ0 the scattering matrix S(λ0 ) becomes identity matrix
+and possesses the regular expansion at (λ − λ0 ) near this point. In many cases this expansion
+can be associated with perturbative expansion of some Lagrangian theory with parameter b
+near some free point. In some cases S(λ) contains other point λ1 where S(λ1 ) is the identity
+matrix and admits the regular expansion in (λ − λ1 ). If this expansion can be associated with
+some perturbative expansion with other local Lagrangian and small coupling γ = γ(b), then two
+different Lagrangians describe the same theory, which possesses two different (dual) perturbative
+regimes.
+     More interesting situation occurs when S(λ) has the regular expansion in (λ − λ0 ) which is in
+perfect agreement with perturbative expansion in b of some field theory with local action A(b),
+but at the point λ1 the S-matrix tends to some “rational” scattering matrix corresponding to
+the S-matrix of the nonlinear sigma model on the symmetric space. Near the point λ1 it can be
+considered as the deformation of the symmetric scattering. In this case it is natural to search
+the dual theory as sigma model with target space looking as deformed symmetric space. The
+metric of sigma model on the manifold is subject to very rigid conditions, namely nonlinear
+renormalization group (RG) equations [19]. If one has found the solution of RG equations
+which gives the observables in the sigma model theory, coinciding with that’s derived from the
+factorized S-matrix theory one can conclude that the field theory with the action A(b) is dual to
+the sigma model on the deformed symmetric space. The short distance pattern of such theory
+can be studied by RG and conformal field theory (CFT) methods. The agreement of the CFT
+data, derived from the action A(b) (considered as a perturbed CFT) with the data derived from
+RG data for sigma model gives an additional important test for the duality.
+     The CFT data play an important role in justification of the third type of the duality. In this
+case one has the sigma model with singular metric. The nice property of such sigma models is
+the validity of RG flow from the short distances up to the long ones. The RG trajectory relates
+the non-rational CFT in the ultraviolet (UV) regime with the rational CFT in the infrared (IR).
+The field theory dual to sigma model flowing to rational CFT manifests the phenomenon of
+quantization of the coupling constant.
+     The large class of two-dimensional quantum field theories can be considered as perturbed
+CFTs. In this paper we consider the integrable field theories which can be formulated as sine-
+Liouville CFT perturbed by proper fields. In Section 2 we describe sine-Liouville CFT and show
+the duality of this model with Witten’s black hole (cigar) CFT. We note that it gives the simple
+example of the field/string duality [22, 29, 28, 38].
+     In Section 3 we describe the W-algebra of S-L CFT and show that the enveloping algebra
+of this W-algebra contains three different Cartan subalgebras. These Cartan subalgebras de-
+termine three series of quantum integrals of motion. Each of them is defined by the integrable
+perturbation of the sine-Liouville CFT. The local integrals of motion are specified by their
+densities Ps which are local fields with the Lorentz spins s and satisfy the continuity equation
+∂z̄ Ps = ∂z Θs−2 with a local field Θs−2 . Here {z, z̄} are the standard light cone (or complex)
+coordinates.
+     The factorized scattering for all three types of integrable perturbations theories are con-
+structed in Section 4. The Bethe ansatz (BA) technique is applied to justify that the first two
+field theories have the dual representations, which are available for weak perturbative analysis
+in different regions of the coupling constant. The phenomenon of fermion-charged boson duality
+is studied.
+Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality                  3
+
+   To justify the duality of third integrable perturbation with sausage sigma model we study
+the RG (Ricci flow) equations for the metric of this model in Section 5. It is shown that the RG
+data are in agreement with the data derived by BA method from scattering theory. The test for
+duality of field theory with sausage sigma model, based on comparison of RG data at the finite
+space circle with the thermodynamic Bethe ansatz (TBA) data is done in Section 6. In Section 7
+we use the same approach for the analysis of sigma model with singular metric. This solution of
+Ricci flow equation describes the RG trajectory from UV to IR regime. The dual field theory
+action is conjectured. In Section 8 we describe the massless scattering theory for the RG flow
+described by singular sigma model and TBA equations following from this scattering theory.
+The TBA equations, RG data and the methods of perturbed CFTs are used to conjecture the
+duality and to prove the existence of RG flow from non-rational CFT in UV regime to rational
+in IR regime.
+   The part of the results of this paper presented in Sections 2, 4, 5 and 6 were derived and
+published in collaboration with A. Zamolodchikov, Al. Zamolodchikov and E. Onofri. Some of
+results presented in Sections 3, 7 and 8 are new and where reported in the conference dedicated
+to the memory of Vadim Knizhnik (IHES, October 2013). The author dedicates this paper to
+memory of this brilliant scientist.
+
+
+2    Sine-Liouville conformal f ield theory –
+     Witten’s black hole duality
+Witten’s two-dimensional black hole model [37] is described by the sigma model with action
+which corresponds to the metric
+     ds2 = k dr2 + tanh2 r dθ2 .
+                              
+                                                                                        (2.1)
+
+This model with the dilaton field D = log cosh2 r is described by the CFT with the central
+                                                   
+                6
+charge c = 2 + k−2 , which is also known as the coset SL(2, R)/U(1)-parafermionic theory [10].
+The spectrum of this CFT is well known and has the form
+                   1          1
+     ∆P,m,n = −       + P 2 + (m ± nk)2 ,                                                  (2.2)
+                  k−2        4k
+where P is continuous variable and m, n the are integers respectively. The numbers m and n are
+called the momentum and the winding numbers. If θ is 2π periodic coordinate the metric (2.1)
+describes a manifold with a shape of semi-infinite cigar
+
+
+
+
+                           Figure 1. Euclidean 2d black hole “cigar”.
+
+One can easily see from this picture that the momentum number m is conserved and the winding
+number n of the string moving on the cigar can change.
+   This CFT has a T -dual theory with the metric and dilaton, which can be derived from (2.1)
+by the transformation r → r + i π2
+
+     ds2 = k dr2 + coth2 r dθ̂2 .
+                               
+
+The spectrum of the T -dual CFT has the same form (2.2) with the substitution m ↔ n, i.e.,
+the momentum number transforms to the winding one. Corresponding manifold has a form of
+the trumpet [10]
+4                                                                                             V.A. Fateev
+
+
+
+
+                       Figure 2. “Trumpet” embedded in 3d Euclidean space.
+
+
+Now one can see that the winding number on this manifold is conserved and the momentum
+number can change due to the singularity of this manifold.
+  Sine-Liouville CFT is described by the action
+
+                   (∂µ ϕ)2 + (∂µ φ)2
+          Z                                      
+             2                            bϕ
+     A= d x                          + 2µe cos(aφ) ,
+                          16π
+
+where we accept the normalization of the fields ϕ, φ
+
+     hϕ(z, z̄)ϕ(0)i = −2 log(z z̄) + · · · ,        hφ(z, z̄)φ(0)i = −2 log(z z̄) + · · · ,
+
+and the parameters a and b satisfy the relation
+              1
+     a2 − b2 = .
+              2
+The stress energy tensor for this CFT is
+          1         1         1
+     T = − (∂z ϕ)2 − (∂z φ)2 + ∂z2 ϕ.
+          4         4         4b
+If we parametrize: a2 = k4 , b2 = k−2
+                                    4 the central charge of S-L model will coincide with the
+central charge of SL(2, R)/U(1) coset CFT
+               3       6
+     c=2+       2
+                  =2+     .
+              2b      k−2
+The coset SL(2, R)/U(1) CFT is a parafermionic CFT. The SL(2, R) parafermions (non-compact
+parafermions) (Ψ, Ψ∗ ) ≡ (Ψ(+) , Ψ(−) ) can be represented [33] by the chiral parts φ(z) and ϕ(z)
+of local fields φ(z, z̄), ϕ(z, z̄): φ(z, z̄) = φ(z) + φ̄(z̄),
+                   i                     i
+     Ψ(±) (u) =      (ia∂u φ ± b∂u ϕ)e± 2a φ(u) .
+                  2a
+These currents commute with the fields V± (z) = ebϕ(z)±iaφ(z) which form the potential of sine-
+Liouville (S-L) CFT, i.e.,
+     I                     I
+         dzΨ (u)V+ (z) = dzΨ(±) (u)V− (z) = 0.
+             (±)
+       u                        u
+
+It means that the W-algebra generated by the holomorphic SL(2, R)/U(1) parafermionic cur-
+rents Ψ(±) (u) as the set of local currents appearing in their operator product expansion coincides
+with the W-algebra of S-L model
+
+                                         b2
+                                                                         
+                              1                            i
+      Ψ(+) (u)Ψ(−) (0) = 2+2/k I + 2 u2 W2 (u) + u3 3 W3 (u) + · · · ,                        (2.3)
+                           u             a                2a
+Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality                        5
+
+where W2 = T (z) and all other currents Wi can be derived from OPE (2.3). For example
+
+           6b2 + 1
+                   
+                     (∂φ)3 + b2 ∂φ(∂ϕ)2 + 2b3 ∂φ∂ 2 ϕ − ∂ϕ∂ 2 φ − b∂ϕ∂ 2 φ + a2 /3∂ 3 φ.
+                                                               
+     W3 =
+               6
+All currents Wi commute with the fields V± (v) and form the symmetry algebra of sine-Liouville
+CFT. The primary fields of S-L model are the local fields (∂µ φ̂ = εµν ∂v φ)
+                                       
+                                   1
+      Φα,n,m = exp αϕ + ianφ + i mφ̂ .                                                   (2.4)
+                                  4a
+                                                   (±)       1
+                                                                    1
+The right and left dimensions of these fields are ∆α,n,m = α 2b − α + 4k (m ± nk)2 and coincide
+                                                                            1
+with the spectrum of the primary fields in SL(2, R)/U(1) CFT if we put α − 4b  = iP . Two point
+              (+)         (−)
+            2∆        2∆
+functions z12 α,n,m z̄12 α,n,m hΦα,n,m , Φα,−n,−m i (reflection amplitudes) of these primary fields in
+S-L theory (α0 = α − 4b  1
+                           ) can be easily calculated and are
+                  πµ −2α0 /b Γ(1 + 4bα0 )Γ(1 + α0 /b)
+      Rα,n,m =
+                    4b2      Γ(1 − 4bα0 )Γ(1 − α0 /b)
+                   Γ 21 − 2bα0 + |m|+nk            0 + |m|−nk
+                                         1                   
+                                         Γ   − 2bα
+                 ×                  2      2              2
+                                                              ,           k = 4a2 .            (2.5)
+                   Γ 12 + 2bα0 + |m|+nk            0 + |m|−nk
+                                         1
+                                    2    Γ 2 + 2bα        2
+
+These functions coincide with the two point functions in SL(2, R)/U(1) CFT. The same is
+valid for the three point functions. As these functions together with the symmetry algebra W
+determine completely the theory, we can conclude (as it was done in the unpublished paper by
+A. Zamolodchikov, Al. Zamolodchikov and author) that S-L theory is dual to SL(2, R)/U(1)
+CFT.
+
+
+3    Integrals of motion and integrable perturbations
+     of sine-Liouville CFT
+The starting point for the analysis of the integrable perturbations of CFT with W symmetry
+is the description of different Cartan subalgebras in the enveloping algebra of W. Every such
+Cartan subalgebra is classified by integrable perturbation and generates the hierarchy of integrals
+of motions in the perturbed CFT. These integrals can be represented by their densities Ps which
+are defined up to the total derivative ∂O. If we want that our hierarchy started with density of
+spin three the density should coincideup to derivative with W3 . It is convenient to introduce the
+notation: T1 = − 14 (∂z ϕ)2 − 12 2b + 2b
+                                      1
+                                         ∂z2 ϕ which is formally the stress-energy tensor of Liouville
+                                                                (1)
+CFT with the coupling constant −2b. Then the density P3               is
+
+            6b2 + 1
+                    
+     (1)
+    P3 =              (∂φ)3 − 4b2 ∂φT1 .
+               6
+The density of the next integral in this hierarchy has spin 4 and equals to
+             2                   4
+                                   8b + 8b2 + 1
+                                                
+      (1)      5b + 1
+     P4 =               (∂φ)4 +                    (∂ 2 φ)2 + 4b2 :T12 : + 6b2 T1 (∂φ)2 ,
+                  4                      2
+                                                                                       (1)
+here : · : denotes the regular part of the operator product. The densities Ps have all integer
+                                              (1)         (1)
+spins and transform under ∂φ → −∂φ as Ps → (−)s Ps . The integrals Is of this hierarchy
+correspond to perturbation of S-L model by the exponential term µ1 e−2bϕ .
+6                                                                                                              V.A. Fateev
+                                                                               (2)                                       (2)
+     The second hierarchy is generated by the densities Ps                           with even s. The first non-trivial P4
+is
+           (2)      (1)           2b2 − 1 2
+         P4      = P4     + 9b2           :T :.
+                                  2b2 + 3
+                        (2)
+The densities Ps are invariant under the transformation ∂φ → −∂φ. They correspond to the
+S-L CFT perturbed by the operator µ2 e−bϕ .
+                                       (3)
+   The third hierarchy of densities Ps with even spins s is invariant under ∂φ → −∂φ and
+                                   (3)
+∂ϕ → −∂ϕ. The first non-trivial P4 is
+           (3)      (1)
+         P4      = P4     + 12b2 (4b2 + 1):T 2 :.
+
+It corresponds to S-L model perturbed by fields µe−bϕ cos aφ, and µe−bϕ cos aφ̂.
+
+
+4        Scattering theory and dual representations
+1. Integrable perturbation µ1 e−2bϕ (f irst hierarchy). With the first integrable pertur-
+bation µ1 e−2bϕ we have
+                 (∂µ ϕ)2 + (∂µ φ)2
+         L1 =                      + 2µebϕ cos(aφ) + µ1 e−2bϕ .                                                       (4.1)
+                        16π
+For small b one can use the two-dimensional fermion-boson Coleman–Mandelstam correspon-
+dence [7, 31], between fields φ and ψ to rewrite L1 in the form convenient for the perturbation
+theory (PT) in b:
+                            2M 2
+                                                      
+              1         2                           bϕ
+     L1 =         (∂µ ϕ) + 2 cosh 2bϕ + 2M ψψe           + LTM ,                          (4.2)
+            16π               b
+                          2
+where the term Mb2 e2bϕ plays the role of the usual counterterm canceling the divergencies coming
+from the fermion loops and LTM is the Lagrangian of massless Thirring model
+                                b2
+                                             
+              1                            2
+     LTM =         iψγµ ∂µ ψ − 2 ψγµ ψ          .                                            (4.3)
+             8π                2a
+In the PT the spectrum of the theory has two charged particles ψ, ψ + with masses M 1 and
+                                                                                    (1)
+one unstable for b2 > 0 bosonic neutral particle with mass 2M . The integral P3 forbids the
+reflection amplitude R+− (θ) (here θ is the relative rapidity of colliding particles) in ψψ + scat-
+tering. It means that the scattering is diagonal and is a pure phase. Namely the S-matrix S (1) is
+                                             cosh 2θ + i ∆
+                                                           
+                                                         2
+      S++ (θ) = S−− (θ) = S+− (iπ − θ) = −                 .
+                                             cosh 2θ − i ∆
+                                                         2
+                        2
+The PT gives ∆ = π ab 2 + O b6 . To derive exact relation between b and ∆ we can use BA
+                                 
+
+approach. Our theory has U(1) symmetry generated by the charge
+               Z
+             1
+      Q=         ψψ + dx1 .                                                                   (4.4)
+            8π
+     1
+    The exact relation between the parameter µ1 and the physical mass M in the action (4.1) can be derived by
+the BA method [13, 40] and has the form
+                                                                               2(1+b2 )
+                 Γ(−b2 )                                              b2
+                                                         
+                                   M             1
+         µ1 = −                    √ Γ                     Γ 1+                             .
+                πΓ(1 + b2 )       4 π        2(1 + b2 )           2(1 + b2 )
+Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality                        7
+
+We add to our Hamiltonian the term −AQ where A is an external field (chemical potential) and
+                                                                                     A
+calculate the asymptotic of the specific ground state energy E(A) (GSE) in the limit M → ∞.
+In this limit we can neglect all terms that contain parameter M in the Lagrangian and derive
+the well known expression for the massless Thirring model
+
+                                  1 + 2b2 A2
+                                         
+                      a 2 A2
+      E(A → ∞) = −           =−              .
+                         π           2π
+The same value can be calculated from the Bethe ansatz (BA) equations in the external field.
+Due to the additional term AQ in the Hamiltonian every positive charged particle acquires the
+additional energy A. For A > M the ground state contains a sea of these particles ψ(θ) which
+fill all positive states inside some interval −B < θ < B. The distribution (θ) of these particles
+is determined by their scattering amplitude S++ (θ). The GSE in the field A has the form
+                           Z
+                        M
+        E(A) − E0 = −         cosh(θ)(θ)dθ,
+                        2π
+where (θ) satisfies, inside the interval −B < θ < B, the BA equation
+     Z B
+          K̂ (1) (θ − θ0 )(θ0 )dθ0 = A − M cosh θ                                            (4.5)
+       −B
+
+and B is determined by the boundary conditions (±B) = 0. The kernel K̂ (1) (θ) is related with
+the ψψ scattering phase as
+                            1 d
+     K̂ (1) (θ) = δ(θ) −          log(S++ (θ)).                                               (4.6)
+                           2πi dθ
+It has the Fourier transform
+                   2 sinh[(π − ∆)ω/2] cosh[(π + ∆)ω/2]
+     K (1) (ω) =                                       .                                      (4.7)
+                                 sinh(πω)
+
+The asymptotic E(A → ∞) can be expressed through the kernel K(ω) at ω = 0 [17]. For the
+kernel (4.7) one has
+
+                         A2         A2
+     E(A → ∞) = −             =−          ,
+                       2πK(0)    2(π − ∆)
+          2        2                                                                  2γ π      2
+or ∆ = πb
+       a2
+              2πb
+          = 1+2b                                                2  1
+                  2 . At b → ∞, ∆ → π. We introduce parameter 4γ = b2 . Then ∆ = π − 1+2γ 2
+and
+                                                   iγ 2 π 
+                                        sinh 2θ − 1+2γ   2
+     S++ (θ) = S−− (θ) = S+− (iπ − θ) =            iγ 2 π 
+                                                            .
+                                              θ
+                                        sinh 2 + 1+2γ 2
+
+In the limit b → ∞, γ → 0 we have the free theory, but contrary to b  1 case S-matrix
+tends to 1 but not to −1. Such behavior is characteristic for bosonic particles. In this limit
+K (1) (ω) → (π−∆)ω
+            tanh πω . The BA equations with this kernel can be solved and
+
+                           (A − M )2
+     E(A) − E(0) = −                 + O(1).                                                  (4.8)
+                           2(π − ∆)
+
+The GSE (4.8) has a threshold behavior (A → M ) unusual for fermionic particles, which have
+there the singularity (A − M )3/2 . The quadratic behavior (4.8) is characteristic behavior for
+weakly coupled bosonic particles, it reflects the instability of free bosons under the introduction
+8                                                                                          V.A. Fateev
+
+of external field. The S-matrix in this limit coincides with S-matrix of complex sinh-Gordon
+model with
+                  ∂µ χ∂µ χ∗
+                                    
+             1                 2   ∗
+      L̂1 =                 + M χχ ,                                                    (4.9)
+            4π 1 + γ 2 χχ∗
+where χ = χ1 + iχ2 is a complex scalar field. Complex sinh-Gordon model is integrable clas-
+sically [27, 35]. The quantum integrability and renormalizability of this theory was studied
+in [5, 8]. For b  1, γ  1 the theory is described by weakly coupled charged bosons χ, χ∗
+with masses M . The external field A can be introduced by ∂0 → ∂0 + iA. It is easy to check
+that E(A) in this case can be derived by minimization of Euclidean action for constant χ
+                            A2 χχ∗
+                                             
+                    1                    2   ∗
+       E(A) = min       −             + M χχ      .
+                χ  4π     1 + γ 2 χχ∗
+   The duality between the QFTs (4.2) and (4.9) gives us an example of the fermion-boson
+duality, when the charged particles being the fermions in weak coupling regime become the
+bosons in the strong coupling one.
+   2. Integrable perturbation µ2 e−bϕ (second hierarchy). The Lagrangian L2 in the
+form convenient for PT at small b is
+             1                       M2
+                (∂µ ϕ)2 + 2M ψψebϕ + 2 e2bϕ + 2e−bϕ + LTM ,
+                                                     
+      L2 =                                                                          (4.10)
+           16π                       b
+where LTM is the Lagrangian for the massless Thirring model (4.3). In the PT the spectrum
+consists from two √charged particles ψ, ψ + with masses M and one neutral particle (their bound
+state) with mass 3M . In this case we do not have conserved currents with odd spins and in
+PT amplitude R+− 6= 0. The U(1) symmetric solution of Yang–Baxter equation up to CDD
+factors coincides with the S-matrix of the sine-Gordon model SSG :
+       ++        +−                                 +−            −i sin πλ
+      S++ (θ) = S+− (iπ − θ) = −eiδλ (θ) ,         S−+ (θ) =                  eiδλ (θ) ,        (4.11)
+                                                               sinh λ(iπ − θ)
+where
+             Z ∞
+                         sin(ωθ) sinh[ωπ(1 − λ)/2λ]
+      δλ =         dω                               ,
+             0          ω cosh(ωπ/2) sinh[ωπ(1/2λ)]
+      1
+λ = β 2 −1, and βSG is the coupling constant in sine-Gordon model. S-matrix (4.11) corresponds
+      SG
+to cUV = 1. We expect that for our QFT cUV = 2. It can be achieved by addition of one CDD
+factor. At b → 0 the S-matrix for QFT (4.10) is −I + O(b2 ). It means that at b → 0 the
+CDD factor should cancel sine-Gordon S-matrix, i.e., at b = 0 S-matrix SSG should be diagonal
+at λ(0) and contain only one factor. It happens if λ(0) = 3. For this λ the S-matrix (4.11)
+has the poles at θ1 = i2π            iπ
+                       3 and θ1 = 3 . The first pole will be canceled  by CDD factor and the
+                                                          π
+                                                              √
+second gives the bound state with the mass M1 = 2M sin 3 = 3M , what agrees with the PT.
+It means that
+                      sinh(θ) − i sin(π/λ)
+      S (2) (θ) = −                        SSG (λ, θ).
+                      sinh(θ) + i sin(π/λ)
+To find the function λ(b) we introduce the field A coupled with the charge (4.4). At A/M → ∞
+                                                            2 2
+we have the same result that for QFT (4.2) E(A) → − a πA . The kernel K̂ (2) (θ) is now expressed
+         1 d ++
+throw 2π   dθ δ     (θ), where δ ++ (θ) is the phase of scattering of particles ψψ : δ ++ (θ) = δλ +
+1     sinh(θ)−i sin(π/λ)
+i log sinh(θ)+i sin(π/λ) . The Fourier transform of this kernel is
+
+                     sinh πω   λ−1
+                                      cosh 3πω
+                                              
+         (2)                2   λ           2λ
+       K (ω) =
+                         sinh πω         πω
+                                            
+                               λ cosh 2
+Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality                               9
+
+and
+                              A2             A2
+      E(A → ∞) = −                     = −          .
+                           2πK (2) (0)     π(λ − 1)
+                                                             2
+Comparing two expressions we derive λ = 3+2b
+                                           1+2b2
+                                                 . At b → ∞, λ → 1 and we again have
+S → I + O(γ ). The mass of the neutral particle M1 = 2M sin πλ and at λ = 2 or 2b2 = 1 it
+             2
+                                                               
+
+disappears from the spectrum and we have only two charged particles. At b2  1, γ 2 = 4b12 the
+                      πω cosh(3πω/2)
+kernel K (2) = 2γ 2 cosh(πω/2) sinh(πω) and E(A) can be calculated. The result can be written in the
+parametric form [14]
+                                                                                  2
+                       A2                               X3                                   4X 3
+                                                                        
+                                                    2                         M
+      E(A) − E(0) = −                   1 − 3X + X +                  ,                =           .
+                      4πγ 2                          (1 − X)                  A            (1 − X)
+
+It is easy to check that E(A) coincides with the minimum of the Euclidean action (after ∂0 →
+∂0 + iA) for the QFT with Lagrangian
+
+                  ∂µ χ∂µ χ∗
+                                                   
+              1                 2   ∗       2   ∗
+                                                  
+       L̂2 =                + M   χχ  1 + γ   χχ      .
+             4π 1 + γ 2 χχ∗
+
+The perturbative expansion in γ 2 for the S-matrix confirms this suggestion. Here we see not
+only the phenomenon of the Dirac fermion-charged boson duality but also that due to the non-
+trivial kinetic term, the interaction, which looks as repulsive potential becomes attractive for
+finite γ and produce the bound state for γ 2 > 21 .
+   3. Integrable perturbation µe−bϕ cos(aφ) dual to the sausage model (third hier-
+archy). The Lagrangian of the perturbed S-L CFT now is
+              1
+                 (∂µ ϕ)2 + (∂µ φ)2 + 4µ cosh(bϕ) cos(aφ).
+                                  
+      L3 =                                                                                             (4.12)
+             16π
+The Lagrangian L3 in the form convenient for PT at small b is
+
+                                            M2
+                                                        
+           1          2                            2
+     L3 =       (∂µ ϕ) + 2M ψψ cosh(bϕ) + 2 sinh (bϕ) + LTM ,                                          (4.13)
+          16π                                b
+
+where the term with sinh2 bϕ plays the role of the counterterm and LTM is given by (4.3). In
+the PT the spectrum consists from two charged (ψ, ψ + ) or (+, −) and one neutral particle (ϕ)
+or (0) with the same mass M . The S-matrix S (3) (θ) for such set of particles is known [17, 41]
+and up to C, P, T
+       ij
+      Skl (θ) = Sk̄ı̄j̄l̄ (θ) = Slk
+                                 ji        kl
+                                    (θ) = Sij (θ)
+
+and crossing
+       ij
+      Skl (θ) = Slı̄j k̄ (iπ − θ)
+                                                     ij
+symmetries has the following independent amplitudes Skl (θ), where i, j, k, l = +, 0, −, and i+j =
+k + l, j̄ = −j,
+                                                      ++
+       ++       sinh λ(θ − iπ)                0+   −iS++ (θ) sin 2πλ
+      S++ (θ) =                ,             S+0 =                   ,
+                    sinh λ(θ + iπ)                      sinh λ(θ − 2iπ)
+                ++
+       +0      S++ (θ) sinh λθ              +−      − sin 2πλ sin πλ       00    +0    +−
+      S+0 =                         ,      S−+ =                     ,    S00 = S+0 + S−+ .            (4.14)
+               sinh λ(θ − 2iπ)                      sinh λ(θ − 2iπ)
+10                                                                                                           V.A. Fateev
+
+In the perturbation theory we derive λ = 12 −b2 +O(b4 ). To find exact function λ(b) we introduce
+                                                                                             2 2
+the external field A coupled with the charge (4.4). Again we have that E(A → ∞) → − a πA .
+The kernel of BA equations (4.5), (4.6) is now
+                                        1 d        ++               λ       sin 2πλ
+      K̂ (3) (θ) = δ(θ) −                     log(S++ (θ)) = δ(θ) −                      .
+                                       2πi dθ                       π cosh 2λθ − cos 2πλ
+It has the Fourier transform
+                                  πω(1−λ) 
+                 2 sinh πω
+                        
+        (3)              2 cosh
+                               2λ
+      K (ω) =                                ,                                                                    (4.15)
+                         sinh πω
+                              2λ
+
+and
+                                       A2            A2
+      E(A → ∞) = −                              = −     ,
+                                    2πK (3) (0)     4πλ
+
+or λ = 4a12 = 2(1+2b1         1
+                        2 ) = k . At b → ∞, λ → 0 and our S-matrix coincides with the S-matrix
+
+of the O(3) sigma model. For finite b  1 it is natural to search the dual representation of the
+QFT (4.12), (4.13) as U(1) symmetric deformation of this sigma model. As the deformed O(3)
+sigma model should be compared with QFT (4.12), (4.13), we consider the BA equations here
+more attentively. We should show that observables in this QFT calculated from the S-matrix
+data in the UV region coincide with the same observables in the sigma-model analysis. As the
+observables calculated from S-matrix data we consider here the GSE in the external field E(A)
+and E0 (R) the GSE of the model at the finite size circle of length 2πR (see later). To start,
+we consider the function E(A). The BA equations can be    solved by generalized Winner–Hopf
+                                                       A
+technique [20], which permits to develop the large M       expansion. This expansion of E(A)
+                                                                           2q
+for kernel (4.15) runs in two types of exponents: instanton exponents M  A     and perturbative
+                  2λ
+exponents M
+               
+             A
+                 1−λ
+                      , namely
+                                  ∞          2q
+                A2 X
+                                                                     
+                                         M              (q)       A
+      E(A) = −                                      f                     ,                                       (4.16)
+               4πλ                       A                        M
+                                 q=0
+
+                          A                                                      M
+                                                                                      2λ
+where the functions f (q) M
+                            
+                              , are the regular series in                        A
+                                                                                      1−λ
+                                                                                            . For example,
+                                                         2          −λ
+                                                                              1
+                                                                                       2λ      !
+                                                                  Γ 2−2λ   Γ 2−2λ
+                                        
+          (0)       A                         1−λ                                    2λM 1−λ
+      f                     =     1−4                                 λ       −1
+                                                                                             + ··· .
+                                              1 − 2λ
+                                                                                 
+                    M                                             Γ 2−2λ   Γ 2−2λ     A
+
+The instanton exponents in the expansion (4.16) appear due to the instanton contributions and
+the perturbative exponents as the sum of PT around the q-instanton solution. The instanton
+exponents do not depend on coupling constant b. We note that instantons appear in all sigma
+models with the compact two-dimensional target space.
+                                                                        A
+   For b  1, λ  1 and the main contribution to E(A) comes from f (0) M
+                                                                          
+                                                                            . The BA equations
+                                                     A                   A
+                                                                          
+simplify drastically in the scaling limit λ → 0, log M → ∞ with λ log M fixed. Corrections
+to the scaling behavior also can be developed. Here we give the scaling limit of E(A) together
+with the leading (“two-loop”) correction [17]
+
+                 A2 1 − q
+                                                                 
+                                       q         1−q        2   2
+                                                                  
+      E(A) = −               1 + 4λ        log         + O λ log λ ,                    (4.17)
+                4πλ 1 + q           1 − q2        2λ
+
+                    M e3/2
+                              2λ
+where q =            8A
+                                1−λ
+                                      . In the limit λ → 0 we recover the result of [23] for O(3) SM.
+Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality                 11
+
+5    Sigma models, Ricci f low and sausage sigma model
+The nonlinear sigma models (SM) in two-dimensional space-time are widely used in QFT as well
+as in relation with string theory. They are described by the action
+                  Z
+                1
+      A[G] =         Gij (X)∂µ X i ∂µ X j d2 x + · · · ,                               (5.1)
+               4π
+
+where X i are coordinates in d-dimensional manifold called target space and symmetric mat-
+rix Gij (X) is the corresponding metric.
+    The standard approach to two-dimensional SM is the perturbation theory. If the curvature
+is small one can use the following renormalization group (RG)-evolution equation [19]. Let t be
+the RG time (the logarithm of the scale) t → −∞ in UV limit and t → ∞ in IR. Then the one
+loop RG evolution equation is
+
+      d
+         Gij = −Rij + O R2 ,
+                          
+                                                                                           (5.2)
+      dt
+where Rij is the Ricci tensor of G.
+    The analysis of this equation shows [34] that in general the nonlinear evolution equation is
+unstable in the sense that even if one starts from manifold of small curvature everywhere at
+some scale t∗ , under evolution in both directions t → ±∞ the metric G(t) develops at least
+some regions where its curvature grows and (5.2) is no more applicable. If it happens in the UV
+direction t → −∞ the action (5.1) does not defines any local QFT. However, special solutions
+exist where UV direction is stable and curvature remains small up to t → −∞, permitting one to
+define the local QFT (at least perturbatively). For example, if we have homogeneous symmetric
+space, its metric grows in the UV and curvature monotonously decreases and we are dealing with
+an UV asymptotically free QFT unambiguously defined by the action (5.1). Very interesting
+class of the solutions of Ricci flow equation form the solutions related with deformed symmetric
+spaces. The simple example of such solution (deformed sphere S 2 or sausage) is considered
+later. The asymptotic of the solutions of Ricci flow equations at t → −∞ correspond to the
+fixed points of Ricci flow. They are more symmetric and subject to methods of CFT.
+    To study the large distance physics one should find a suitable approach. The quantum
+integrability is one of the most successful lines in studying non-critical SMs. The quantum
+integrability and global symmetries of the metric are manifested in the factorized scattering
+theory (FST) of corresponding excitations. The FST is rather rigid and its internal restriction
+does not permit a wide variety of consistent constructions. The FST contains all the information
+about background integrable QFT. The methods of integrable QFTs allows one to compute
+some off-mass-shell observables on the base of FST. In the UV region these observables should
+be compared with that’s following from SM (5.1). If they match non-trivially in the UV region
+it is naturally to suggest the chosen FST as the scattering theory of integrable SM. Moreover,
+one can use the FST as a non-perturbative definition of the SM.
+    At d = 2 the Ricci flow equation (5.2) is much simplified. There one has Rij = 21 RGij ,
+where R is the scalar curvature. Then one can always choose the conformal coordinates such
+that Gij = eΦ δij and R = −e−Φ ∂X i ∂X i Φ. The equation (5.2) now reads
+
+         d     1                    d
+     −      Φ = R + ···      or        Φ = e−Φ ∂X i ∂X i Φ + · · · ,
+         dt    2                    dt
+
+the two loop correction to the first of these equations is 14 R2 [19].
+   Our SM is U(1) or axially symmetric, so in conformal coordinates X, Y we choose 0 ≤ X < 2π
+as angular coordinate and Φ(Y ) independent on X. Then one loop equation looks as nonlinear
+12                                                                                   V.A. Fateev
+
+
+
+
+                                  Figure 3. RG evolution of sausage.
+
+
+heat equation
+
+      d
+         Φ(Y ) = e−Φ ∂Y2 Φ(Y ).
+      dt
+
+The solution of this equation is [17]
+
+                   sinh 2ν(t0 − t)
+     eΦ =                                 ,
+            ν(cosh 2ν(t0 − t) + cosh 2Y )
+
+where ν is the real parameter. It corresponds to the action
+
+                       ((∂µ X)2 + (∂µ Y )2 ) sinh 2ν(t0 − t) 2
+                   Z
+             1
+     ASSM =                                                 d x.                             (5.3)
+            4π            ν(cosh 2ν(t0 − t) + cosh 2Y )
+
+            √ for u = ν(t0 − t)  1 looks like a sphere and at u  1 we see a p
+This manifold                                                                      long sausage of
+length L ≃ 2ν(t0 − t), and in the middle it tends to the cylinder with radius 1/ν. For this
+reason we call this QFT as sausage sigma model (SSM). For u = ν(t0 − t)  1 the sausage looks
+as two long cigars (2.1) glued together. In particular, it means that in the UV region u  1 one
+can use the black hole (with k = ν1 ) or S-L CFT data for analysis of SSM.
+   The SSM possesses the instantons and one can add to the action (5.3) topological term iθT T
+where θT is a topological angle. The instantons play important role at large distances and for
+θT = π this theory flow from the CFT with cUV = 2 to the CFT with cIR = 1. The full analysis
+of this theory was done in [17]. Here we will be interested in the UV behavior, which does not
+depend on θT .
+   One can compare the GSE in the external field A derived from FST data and the same value
+                                                                           A
+derived from SSM (5.3). The field A introduces the scale (t0 − t) = log M    . The introduction of
+the field A amounts the substitution ∂0 X → (∂0 + iA)X in the action (5.3). The GSE derived
+from the action of SSM corresponds to the minimum of Euclidean action. This minimum is
+achieved at Y = 0. The one loop GSE E(A) then is
+                                                                           
+               1 2                                                      A
+     E(A) = −     A (tanh(u) + O(ν log ν)),             u = ν log               .            (5.4)
+              4πν                                                       M
+
+Comparing GSEs (4.17) and (5.4) we derive that they coincide in the scaling (one-loop) appro-
+ximation and that ν = λ = k1 .
+   It is worth mentioning that the SSM action (5.3) admits also a simple parametrization in
+terms of unit-vector nj (x) on S 2 in which one can easily see SSM as the deformation of O(3)-
+sigma model
+
+                           3
+                                  (∂µ nj )2
+                         Z X
+                  1
+     ASSM =                         ν2
+                                                d2 x,                                        (5.5)
+                4πg(t)                      2
+                          j=1 1 − 2g 2 (t) n3
+
+
+where g(t) = ν cot(ν(t0 − t)).
+Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality                     13
+
+6    Sausage at the circle
+In this section   we consider SM at the circle of length R. It introduces the scale (t0 − t) =
+       1
+         
+log RM     . In the UV scaling regime: − log(RM ) → ∞, ν → 0 such that u = −ν log(RM ) is
+finite, our one-loop approximation is exact up to O(ν log ν). In this approximation we can use
+minisuperspace approach to calculate the UV corrections to GSE E0 (R), effective central charge
+              π
+E0 (R) = − 6R   c(R) and to the energies Ei (R) of exited states. It was in shown in [16, 17] that
+these values can be expressed throw the eigenvalues of the covariant operator ĥ
+
+                1                       ei (R)
+     ĥ = −∇2t + Rt ,          ĥΨi =          Ψi ,                                          (6.1)
+                4                          6
+
+where ∇2t is the Laplace operator and Rt is the scalar curvature in the SSM metric renormalized
+at the scale R. Then with the accuracy ν log ν
+
+                                                      π(ei − e0 )
+     c(R) = 2 − e0 (R),         Ei (R) = E0 (R) +                 .                          (6.2)
+                                                          R
+
+Operator ĥ is self-adjoint with respect to the scalar product with the SSM metric
+                  Z
+     (Ψ1 , Ψ2 ) = Ψ∗1 Ψ2 eΦ(y) dxdy,
+
+where coordinates x, y can be considered as the zero modes of the fields X, Y .
+  It is easy to see that the operator ĥ/ν
+
+                eΦ(y)       1 d2
+                                        
+      1                            1 00
+        ĥΨ = −                   + Φ (y) Ψ
+      ν           ν         2 dy 2 8
+
+depends only on the scaling variable u = −ν log(RM ). It means that the eigenvalues ei (R) scale
+as νei (u). We can search for the solution Ψ = eixm Ψm . After the substitution
+                                     s
+            cn(z|s)                      sn(z|s) cn(z|s)
+     ey−u =         ,         ψm =                       Ψm
+            sn(z|s)                         dn(z|s)
+
+with modulus of the elliptic Jacobi function s2 = 1 − e−4u the equation can be written in the
+Lamé form
+
+          d2   cn2 (2z|s)      m2 dn2 (z|s)          κm,j s2
+                                            
+       − 2− 2             + 2                  ψm =          ψm ,                       (6.3)
+         dz    sn (2z|s) sn (z|s) cn2 (z|s)            6
+                                                                                             1
+where em,j (R) = νκm,j (u) and the boundary conditions for the solutions are ψm ∼ z m+ 2 at
+                         1
+z → 0, ψm ∼ (K − z)m+ 2 at z → K, where K(s2 ) is a real period of Jacobi functions.
+   For small u, s2 ≃ 4u, K ≃ π2 , the equation (6.3) can be easily solved
+
+     ψm = (sin 2z)m+1/2 Pj (cos 2z),
+
+                                                       κ   j(j+1)+1/2
+where Pj are Legendre polynomials. We derive m,j     6 ≃        u     , j ≥ m and e0 (R) = νκm,0 =
+     3                                                     d
+log(1/RM ) . This asymptotic is universal for all spheres S with d > 1
+
+               3
+     c(R) = d − d/ log(1/RM ) + O log(log(1/RM ))/ log2 (1/RM ) .
+                                                               
+               2
+14                                                                                                   V.A. Fateev
+
+We consider now another limit u  1, s2 → 1, K ≃ 2u + log 4. In this limit the potential V (z)
+in the Lamé equation with exponential accuracy looks as
+                    1
+     Vl (z) = −          + m2 coth2 z,     0 < z  K,
+                sinh2 2z
+                      1
+     Vr (z1 ) = −     2    + m2 coth2 z1 ,    0 < z1 = K − z  K.
+                  sinh 2z1
+                      κ     2    2
+We parametrize m,n   6 = m +4p . Then in the middle one can neglect the potential term and ψm
+is the plane wave solution. At the left and right ends z ∼ 0, z ∼ K the equation can be solved
+exactly in terms of the hypergeometric functions F (A, B, C, z)
+                                  1
+        (l)
+            = Nl (p, m)(tanh z)m+ 2 (cosh z)2ip F A, A, m + 1, tanh2 z ,
+                                                                      
+      ψm
+        (r)    (l)                        m + 1 − 2ip
+      ψm    = ψm   (z1 ),   where A =                  .                                 (6.4)
+                                                 2
+The constant Nl (p, m) = Nr (p, m) is chosen from the condition
+                             (cl)
+      (l)
+     ψm   ≃ e2ipz + Rl (p, m)e−2ipz ,                 z  1,          (r)
+                                                                     ψm   ≃ e2ipz1 + R(cl)
+                                                                                      r (p, m)e
+                                                                                                −2ipz1
+                                                                                                       .
+
+The corresponding solutions (6.4) are specified by the reflection amplitudes
+
+                    Γ(1 + 4ip)Γ2 21 − 2ip + |m|
+                                                
+       (cl)  (cl)                             2
+     Rl = Rr =                                  .                                                         (6.5)
+                    Γ(1 − 4ip)Γ2 12 + 2ip + |m|
+                                              2
+
+These amplitudes coincide with the semiclassical limit b  1, bα0 = ip, of CFT reflection
+amplitudes (2.5) with n = 0. (For n 6= 0 the energy levels are very large and our minisuperspace
+approach does not work.) Matching the solutions in different domains we derive
+
+     1             π 2 (j + 1)2
+       κm,j = m2 +               + O u−5 ,
+                                        
+     6             4(u + rm ) 2
+
+                                           Γ0 (x)
+                            
+                     m+1
+     rm = ψ(1) − ψ             ,    ψ(x) =        .                                                        (6.6)
+                         2                 Γ(x)
+
+The UV asymptotics with the accuracy O M 2 R2 log M R can be derived from exact CFT
+                                                            
+
+reflection amplitudes with n = 0. The potential terms in L3 are 2µebϕ cos aφ, and 2µe−bϕ cos aφ.
+Both of them correspond to S-L CFT and have the same “quantum” reflection amplitudes (2.5).
+To write the equation for UV asymptotics of em,n (R) [44] we should make the substitution
+         R 2−2∆Pot
+µ → µ( 2π )         and take the exact relation between µ and M . In our case ∆Pot = a2 − b2 = 12
+                                                                               M
+and exact relation between µ and M can be derived by BA method and is µ = 2π     . The equation
+                   (q) (q)                            m 2
+                                                              2
+                                                                 
+for the levels is Rl Rr = 1. Namely, em,j (R) = 6 k + 4Pm,j , where Pm,j are the solutions
+                              (q)   (q)                        (q)      (q)
+to the equation: log Rl Rr = 2iπ(j + 1) with Rl                      = Rr = R(q) ,
+
+                                          Γ(1 + 4biP )Γ(1 + iP/b)Γ2 21 − 2biP + |m|
+                            −2iP/b                                                   
+       (q)            MR                                                         2
+     R       =                                                                         .
+                     16πb2                Γ(1 − 4biP )Γ(1 − iP/b)Γ2 12 + 2biP + |m|
+                                                                                 2
+
+It is easy to check that in the scaling limit the UV asymptotics coincide with that derived by
+minisuperspace approach. The two loop correction to (6.6) can be easily calculated for u  1
+using R(q) . It is
+                                                                           !
+                                                ν
+                                                  
+       νem,j          π 2 (j + 1)2     ν  log       + ψ(1)
+              = m2 +                           4π
+                                                           + O ν 2 log2 ν .
+                                                                         
+                                   1+
+         6           4(u + rm )2       2      (u + rm )
+Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality                                15
+
+
+
+
+                 Figure 4. Incidence diagram of TBA systems and source term for SSM.
+
+
+  The effective central charge can be calculated with arbitrary accuracy from S-matrix data
+(TBA equations). The TBA equations for λ = ν = k1 = N1 form the system of N + 1 coupled
+nonlinear equations for N + 1 functions εa (β)2 :
+                               Z X  N
+                            1               lab                     0 
+                                                     log 1 + e−εb (β ) dβ 0 ,
+                                                        
+        Rρa (β) = εa (β) +                         0
+                                                                                                         (6.7)
+                           2π          cosh(β − β )
+                                   b=0
+                       Z X N
+                    1
+                              ρb (β) log 1 + e−εb (β) dβ,
+                                                    
+        E0 (R) = −
+                   2π
+                           b=0
+
+where lab is the incidence matrix of the affine DN Dynkin diagram and ρa = M δ0a cosh β for
+                          M δa      M δa
+SSM at θT = 0 and ρa = 2 0 eβ + 2 1 e−β for SSM with topological term at θT = π. The TBA
+calculations reproduce with great accuracy the function e0 (R) and scaling function κm,n (u). The
+comparison of numerically computed from equation (6.3) function κ0 (u) and function N1 e0 (R)
+derived from TBA equations is represented in [17]. The excellent agreement of UV behavior
+of observables derived from FST data (4.14) for QFT (4.13) with that’s derived from the Ricci
+flow data for SSM (5.3) give us a reason to conjecture that these theories coincide and are dual.
+
+
+7       Sigma model with singular metric
+        and RG f low to rational CFT
+In the previous sections we discussed the SMs with compact target space. One can easily derive
+from the Ricci flow equation (5.2) that at d = 2 the volume of this manifold
+          Z √
+      Ω=       Gd2 X = −2(t − t0 )                                                       (7.1)
+
+grows linearly for t → −∞. Contrary the “forward” RG evolution always ends at some point t0
+where manifold shrinks to a point and curvature becomes infinite. It means that the only
+possibility to have non-trivial RG evolution in the range −∞ < (t − t0 ) < ∞ is to work with
+metric where integral (7.1) does no exist. It happens for the non-compact manifolds with singular
+metric. Here we consider this interesting possibility.
+   The action of the sausage model (5.3) admits the analytic continuation Y → Y + iπ     4, u →
+u + iπ
+     4 ,
+
+                          ((∂µ X)2 + (∂µ Y )2 ) cosh 2u 2
+                      Z
+                1
+        AMSM =                                         d x.                                              (7.2)
+               4π            ν(sinh 2u + sinh 2Y )
+    2
+    For arbitrary λ < 12 the calculation of the GSE and the energies of excited states can be also derived from
+the nonlinear integral equations (see [1, 4] for details).
+16                                                                                       V.A. Fateev
+      2
+      1
+      0
+     -1              -20                -10          0            10             20             30
+     -2
+
+
+           Figure 5. Ricci flow from the bell in IR to hybrid of cigar and trumpet in UV.
+
+This metric has singularity at Y = −u, i.e., coordinate Y in target space should be considered in
+the region Y > −u. The metric is singular but all geodesic distances are finite and we can apply
+to the analysis of this “massless” sigma model (MSM) the minisuperspace approach. The part
+of corresponding manifold which can be embedded to Euclidean space looks as a bell for large
+negative u (IR regime) and as a surface surgery of cigar with trumpet for u  1 (UV regime).
+   The metric of the bell is
+      ds2 = k dr2 + tan2 r dθ2 ,
+                              
+
+where k = ν1 . It was shown in [25] that the action with this metric for integer k = N descri-
+bes ZN parafermionic CFT [42]. The analysis of the CFT with this action was done in [30].
+There was shown that the theory is consistent only for integer k = N and the U(1) symmetry
+of action is broken up to group ZN . It means that in quantum case the surgery is possible only
+for ν = N1 .
+   The MSS equations with metric (7.2)  q have the form (6.1), (6.2). After the substitution
+Ψ = eixm Ψm , ey−u = kdn(z|s)
+                        sn(z|s) , ψm =
+                                            sn(z|s) dn(z|s)
+                                                cn(z|s)     Ψm , where s2 = 1+e1−4u , it has again the
+Lamé form
+          d2   dn2 (2z|s)        m2 cn2 (z|s)                 κ0m,j
+                                                
+       − 2− 2             + 2                       ψ m,j   =       ψm,j ,                        (7.3)
+         dz    sn (2z|s)     sn (z|s) dn2 (z|s)                 6
+here em,j (R) = νκ0m,j (u). This transformation maps the point y = ∞ to z = 0 and y = −u to
+                            1                             1
+z = K(s2 ), and ψm ∼ z m+ 2 at z → 0, ψm ∼ (K − z) 2 at z → K.
+   In the IR limit u → −∞, K → π2 , this equation can be solved exactly in terms of the Jacobi
+                                (m,0)
+polynomials (cos z)m sin 2zPj           (cos 2z). When the IR limit of RG is described by CFT, the
+               −e0 )
+values ∆i = (ei24    coincide with the spectrum of conformal dimensions of primary fields and
+d − e0 with the central charge of CFT. In our case
+               ν κ0m,j − κ00,0
+                               
+                                   j(j + 1) m2                         6
+      ∆j,m =                     =         −    ,   j ≤ m,       e0 = .
+                     24               N      4N                       N
+    These values correspond in one loop approximation to the spectrum of ZN -parafermionic
+CFT. It can be proved [16] that perturbation theory in s2 = 1+e1−4u for eigenvalues converges for
+all real u. The eigenvalues κ0m,j can be expanded in the series in parameter e4u = (M R)−4/N .
+We will see later that corresponding quantum (all loops) series have the IR expansion parameter
+          4
+(M R)− N +2 . For example,
+      κ0m,j − κ00,0                      (4j(j + 1) − m2 )2 2
+                     = 4j(j + 1) − m2 −                     s + ··· ,                  (7.4)
+            6                                8j(j + 1)
+                         1                     3
+      κ00,0 = 6 − s4 − s6 + · · · = 6 − e8u + e12u + · · · .                           (7.5)
+                         2                     2
+   In the opposite UV limit u  1 the potential term in (7.3) with exponential accuracy has
+the form
+                      1
+      Vl (z) = −           + m2 coth2 z,     0 < z  K,
+                  sinh2 2z
+                        1
+      Vr (z1 ) = −      2    + m2 tanh2 z1 ,     0 < z1 = K − z  K.                   (7.6)
+                    sinh 2z1
+Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality                    17
+
+
+
+                                3
+                               10
+
+
+
+
+                                           261
+
+
+
+
+                     E = κ/6
+                                           189
+
+                                           125
+                                2
+                               10
+                                           69
+
+
+
+
+                                           21
+
+                                −5                      0                   5   10
+                                                                  u
+
+
+                   Figure 6. Ricci flow of the levels from IR to UV for m = 10.
+
+
+In the right region the potential V is attractive for m > 0 and has a bound states
+                       1
+     ψm,j = (tanh z1 ) 2 (cosh z1 )j−m+1 F −j, −j + m, m − 2j, cosh−2 z1 ,
+                                                                        
+                                                                                              (7.7)
+     1 0                                                 m−1
+       κm,j = m2 − (2j + 1 − m)2 ,        j = 0, . . . ≤     .                                (7.8)
+     6                                                    2
+These states describe discrete degrees of freedom of the manifold which survive in the UV limit.
+We note that UV limit is described by the SL(2, R)/U(1) CFT which was studied in [10]. The
+levels (7.8) correspond to discrete series representations of SL(2, R) and play an essential role
+for string theory interpretation of the coset CFT.
+   In the left region the potential V is repulsive and for j > m−1
+                                                                2   the spectrum can be derived
+by matching the exact solutions at the left and right ends
+                            1
+      (l)
+          = Nl (tanh z)m+ 2 (cosh z)2ip F A, A, m + 1, tanh2 z ,
+                                                                 
+     ψm
+                          1
+      (r)
+          = Nr (tanh z1 ) 2 (cosh z1 )2ip F A, A − m, 1, tanh2 z1
+                                                                  
+     ψm
+
+                                                                                                (cl)
+(here as before A = m+1−2ip
+                      2     ) with the plane wave in the middle. The reflection amplitude Rl
+                                    (cl)
+will be again (6.5) and Rr                 is now
+
+              Γ(1 + 4ip)Γ 12 − 2ip + m                      1         m
+                                                                      
+                                     2 Γ                   2 − 2ip − 2 
+     R0(cl)
+      r     =              1         m                      1         m .                     (7.9)
+              Γ(1 − 4ip)Γ 2 + 2ip + 2 Γ                     2 + 2ip − 2
+
+The matching leads to
+
+      κ0m,j (u)        π 2 (2j − m + 2)
+                = m2 +                         5
+                                                 
+                                        + O 1/u    .                                        (7.10)
+         6               16(u + rm )2
+
+   The flow of the spectrum for m = 10 from IR to UV, i.e., from discrete spectrum for u → −∞
+to discrete (7.8) and continuum (7.10) for u → −∞ is shown on the Fig. 6. One can see that
+not only the ground state level e0 (R) (related with effective central charge c(R) = 2 − e0 (R)) is
+according to Zamolodchikov’s c-theorem the decreasing (non-increasing) function of u, but all
+levels also possess this property.
+18                                                                                        V.A. Fateev
+
+     The quantum version of the reflection amplitude (7.9) is
+                             −2iP/b
+                                       Γ(1 + 4biP )Γ(1 + iP/b) Γ 21 − 2biP + m
+                                                                                1           m
+                                                                                               
+                                                                                    −      −
+                 
+                      MR                                                        Γ     2biP
+       Rr(q) =                                                               2   2          2
+                                                                                             m .
+                     16πb2             Γ(1 − 4biP )Γ(1 − iP/b) Γ 21 − 2biP + m
+                                                                             2  Γ 1
+                                                                                  2 − 2biP − 2
+
+                     (q)
+The poles of Rr (P, m) at the physical strip iP ≥ 0 at the points Pj,m = 4bi (m − 2j − 1),
+j ≤ m−1                                         2    2       1
+     2 , determine exact bound states levels 2b = 2a − 1 = 2ν − 1
+               2                                        
+     1         m        2           2      1
+       em,j =     + 4Pm,j = ν m −              (m − 2j − 1)
+     6          k                       1 − 2ν
+
+in agreement with (7.8) up to O(ν 2 ).
+   The minisuperspace approach is valid for the quantum numbers j, m  k = 4a2 . In the
+UV limit MSM looks as a cigar matched with a trumpet. The CFTs corresponding to these
+sigma models are T dual. Both of these models are dual to S-L CFT, but interpretation of
+the primary fields (2.4) is different. The numbers m, n (momentum m and winding quantum
+number n for cigar) transform to n, m (momentum n and winding quantum number m for
+trumpet). This transformation corresponds to φ → φ̂, where ∂µ φ̂ = εµν ∂v φ. The reflection
+              (q)              (q)
+amplitudes Rl (p, m) and Rr (p, m) correspond to the momentum number equal to m and
+winding number equal to 0 for cigar and vice versa for trumpet. It means that left (ϕ → ∞)
+and right (ϕ → −∞) CFTs are related by transformation φ → φ̂, i.e., the potential term in the
+action of QFT dual to MSM is
+
+      2µebϕ cos(aφ) + 2µe−bϕ cos aφ̂ .
+                                      
+
+But these two terms are mutually local only if 4a2 = k is integer, i.e., k = N , and we derive
+again the quantization of the coupling constant.
+
+
+8      ZN -parafermionic CFT and IR action for Ricci f low
+ZN -parafermionic CFT [42] with the central charge cN = 2 − N 6+2 describes the critical behavior
+of ZN -Ising model [18]. It has the primary fields φj,m , j ≤ m, with the conformal dimensions
+
+         (CFT)        j(j + 1) m2
+       ∆j,m      =            −    .
+                       N +2     4N
+Besides the parafermionic symmetry it has also the symmetry generated by WN algebra. The
+                                                        (CFT)
+ZN -neutral fields are thermal operators φj,0 with ∆j,0        = j(j+1)
+                                                                   N +2 , j = 1, . . . ≤ [N/2]. To
+show that the Ricci flow, studied in the previous section, in the IR regime is described by the
+perturbation of the ZN -parafermionic CFT, one should find the receiving operator in the space
+of the ZN -neutral fields of this theory. The perturbative calculations with this IR relevant field
+must be consistent with RG results.
+    Besides the parafermionic symmetry ZN -parafermionic CFT has the symmetry algebra WN .
+This symmetry algebra is generated by the holomorphic field Ws (z) which appear in the OPE
+of the parafermionic currents ψ(z) and ψ ∗ (z) (see [11]).
+    The first thermal operator ε = φj,0 has the descendent field E = N W−1 W −1 ε with dimension
+1+ N 2+2 . The constant N provides the conformal normalization of the field E. This field is unique
+self dual (with respect ZN ⊗ ẐN or order-disorder duality) integrable IR relevant perturbation
+in ZN -parafermionic CFT. It means that the action describing our flow should be written as
+                       Z
+       AIR = APF + κ Ed2 x,                                                                    (8.1)
+Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality                                 19
+
+where APF is the action of ZN -parafermionic CFT and κ is the coupling constant. The exact
+relation between κ and mass scale M , which appear later in FST and TBA equations, can be
+derived by BA method [12, 40] and is
+
+                N 2 (N − 2)2                 4 8w
+                                              
+           2
+      (πκ) =                    G(w)G(3w)         ,                                                     (8.2)
+             3(N + 2)2 (N + 4)2             wM
+
+where G(w) = Γ(1+w)          1
+             Γ(1−w) and w = N +2 .
+                                                                         (CFT)
+   One can calculate the IR corrections to the spectrum ∆j,m                     and to the effective central
+                                                                                                     (CFT)
+charge c(R) with the action (8.1), (8.2). The first exact corrections to Dj,m = (N + 2)∆j,m                  is
+                                                      4w
+                       1 2 B(j, w)               8π
+      Dj,m (R) = Dj,m − Dj,m                                   + ··· ,                                  (8.3)
+                       4     j(j + 1)           wM R
+
+where
+                  2N 2 G2 (w)G((2j + 2)w)
+      B(j, w) =                           .
+                  (N + 2)2 G(2w)G(2jw)
+
+   The exact corrections to the central charge calculated with the action AIR are
+                                         8v                        12v
+             6                      8π                          8π
+      c=2−      + C1 (w)                        + C2 (w)                     + ··· ,                    (8.4)
+           N +2                    wM R                        wM R
+
+where
+                  wN 2 (N − 2)2 G(w)G(3w)
+      C1 (w) =                               ,
+               (N + 2)2 (N + 4)2 G(4w)G(−2w)
+                 −w3N 4 (N − 4)2 G(2w)G(4w)
+      C2 (w) =                                 .
+               2(N + 4)4 (N + 8)2 G(6w)G(−3w)
+
+    At N  1, w = N 1+2  1 the coefficients Bj,m , C1 , C2 are Bj,m = 2 + O(w), C1 (w) =
+1 + O(w), C3 (w) = − 23 + O(w). Comparing equations (8.3), (8.4) with (7.4), (7.5) we see their
+coincidence in one loop approximation.
+    To make more non-trivial test one can use the TBA equations for MSM. These equations
+can be derived from the massless FST, consistent with QFTs (7.2), (8.1). Massless FSTs are
+widely used for the analysis of RG flows from one critical point in UV to another critical point
+in IR (see, for example, [17, 43]). The massless particles or kinks in such FST are of two kinds:
+                                                                                        M −θ
+right-moving with the dispersion low: e = p = M        θ
+                                                    2 e and left-moving: e = −p = 2 e . The
+full scattering matrix contains amplitudes SRR (θ), SLL (θ) and SRL (θ) of right-right, left-left and
+right-left moving particles.
+    ZN -parafermionic CFT which is the basic object for IR action (8.1) possesses the symmetry
+with quantum group SL(2)q with q = exp N2πi     +2 . As the parameter of symmetry q takes only
+discrete values it is natural to expect that the scattering matrix will correspond to the massless
+kinks. The most suitable factorized scattering matrix of kinks with SL(2)q symmetry is described
+in [11], where all amplitudes of kinks scattering are written explicitly. In [11] this scattering
+matrix was used for massive kinks in some integrable model also related with ZN -parafermionic
+CFT. Here one should use the same amplitudes for the scattering of right-right, left-left and
+right-left moving kinks.
+    The TBA equations can be derived by the procedure of diagonalization of the transfer-matrix
+with the elements depending on the scattering amplitudes. The massless FST described above
+20                                                                                     V.A. Fateev
+
+
+
+
+                Figure 7. Incidence diagram of TBA system and source terms for MSM.
+
+
+leads to the same equations (6.7) for N + 1 functions εa , but the source term ρa is different.
+                M δa      M δa
+Now it is ρa = 2 0 eβ + 2 N e−β .
+   The numerical solution of TBA equations perfectly reproduces the UV and the IR behavior of
+MSM in the scaling limit (see [16]). The exact coefficients B(j, w), C1 (w), C2 (w) derived from
+the action (8.1) coincide with all possible numerical accuracy with the corresponding coefficients
+calculated from the TBA equations.
+
+
+9      Concluding remarks
+     1. Sine-Liouville CFT possesses integrable perturbations, corresponding to massive and mass-
+        less QFTs. All these perturbations establish non-trivial duality properties, like Dirac
+        fermion-charged boson duality, duality with sigma models, which describe “massive” and
+        “massless” Ricci flows.
+     2. Sine-Liouville CFT can be generalized to sine-Toda CFT. This CFT possesses three
+        different integrable perturbations [14]. These integrable field theories have the Lagrangian
+        description in terms of massive Thirring model coupled with non-simply laced affine Toda
+        theories of rank r. Perturbative calculations, analysis of FST and BA technique show that
+        these QFTs have the dual description available for the perturbative analysis in the strong
+        coupling regime. The dual QFTs are formulated in terms of completely bosonic theories,
+        namely, complex sinh-Gordon theory coupled with Toda theories corresponding to dual
+        affine algebras but with smaller rank r̂ = r − 1.
+     3. The SSM can be generalized to sigma-model with 3d target space [15]. The metric of this
+        sigma model is the deformation of O(4) (or chiral SU(2)⊗SU(2)) metric, depending on two
+        parameters. The two-parameter family of dual QFTs describes the wide class of integrable
+        theories. Different reductions of these theories with respect two quantum groups describe
+        almost all known integrable field theories with cUV ≤ 3. See also recent papers [3, 24, 26].
+     4. The scattering matrix (4.14), which can be considered as non-perturbative definition of
+        SSM is related with massless scattering  theory for MSM. The second can be derived by
+        SL(2)q restriction with q = exp i N2π+2 of the S-matrix (4.14) for the value of parameter
+               1
+        λ = N +2 . Such restriction of scattering matrix of particles (4.14) (which possesses the
+        quantum group symmetry with q = exp(i2πλ)) to S-matrix of kinks is possible only for
+        integer N . The similar phenomenon takes place in the sigma model with 3d target space.
+        There also the scattering matrices for “massive” Ricci flow and massless one are related
+        in the similar way. Probably this property is general for integrable Ricci flows, which
+        are related by simple transformation of the metric similar to (5.3), (7.2), but describe
+        completely different physics.
+     5. The large distance pattern of sigma-models depends strongly on other possible terms in
+        action (5.1), which are denoted as . . . . The fields like the tachion, the Wess–Zumino–
+        Witten term or the topological charge are usually less important in the UV behavior of
+Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality                                    21
+
+      theory. However, if the QFT corresponding to sigma model has broken P, T symmetries
+      (but not PT) the action of sigma model contains the terms like B-field or some higher
+      differential forms consistent with metric. These terms appear in the Ricci flow equations
+      and can be relevant in UV regime.
+
+
+
+References
+ [1] Ahn C., Balog J., Ravanini F., NLIE for the sausage model, arXiv:1701.08933.
+ [2] Arinshtein A.E., Fateev V.A., Zamolodchikov A.B., Quantum S-matrix of the (1 + 1)-dimensional Todd
+     chain, Phys. Lett. B 87 (1979), 389–392.
+ [3] Arutyunov G., Borsato R., Frolov S., S-matrix for strings on η-deformed AdS5 × S5 , J. High Energy Phys.
+     2014 (2014), no. 4, 002, 24 pages, arXiv:1312.3542.
+ [4] Bazhanov V.V., Kotousov G.A., Lukyanov S.L., Quantum transfer-matrices for the sausage model,
+     arXiv:1706.09941.
+ [5] Bonneau G., Delduc F., S-matrix properties versus renormalizability in two-dimensional O(N ) symmetric
+     models, Nuclear Phys. B 250 (1985), 561–592.
+ [6] Braden H.W., Corrigan E., Dorey P.E., Sasaki R., Affine Toda field theory and exact S-matrices, Nuclear
+     Phys. B 338 (1990), 689–746.
+ [7] Coleman S., Quantum sine-Gordon equation as the massive Thirring model, Phys. Rev. D 11 (1975), 2088–
+     2097.
+ [8] de Vega H.J., Maillet J.M., Renormalization character and quantum S-matrix for a classically integrable
+     theory, Phys. Lett. B 101 (1981), 302–306.
+ [9] Delius G.W., Grisaru M.T., Zanon D., Exact S-matrices for non-simply-laced affine Toda theories, Nuclear
+     Phys. B 382 (1992), 365–406, hep-th/9201067.
+[10] Dijkgraaf R., Verlinde H., Verlinde E., String propagation in a black hole geometry, Nuclear Phys. B 371
+     (1992), 269–314.
+[11] Fateev V.A., Integrable deformations in ZN -symmetrical models of the conformal quantum field theory,
+     Internat. J. Modern Phys. A 6 (1991), 2109–2132.
+[12] Fateev V.A., The exact relations between the coupling constants and the masses of particles for the integrable
+     perturbed conformal field theories, Phys. Lett. B 324 (1994), 45–51.
+[13] Fateev V.A., The duality between two-dimensional integrable field theories and sigma models, Phys. Lett. B
+     357 (1995), 397–403.
+[14] Fateev V.A., Integrable deformations of affine Toda theories and duality, Nuclear Phys. B 479 (1996),
+     594–618.
+[15] Fateev V.A., The sigma model (dual) representation for a two-parameter family of integrable quantum field
+     theories, Nuclear Phys. B 473 (1996), 509–538.
+[16] Fateev V.A., Onofri E., An eigenvalue problem related to the non-linear σ-model: analytical and numerical
+     results, J. Phys. A: Math. Gen. 36 (2003), 11881–11899, math-ph/0307010.
+[17] Fateev V.A., Onofri E., Zamolodchikov A.B., Integrable deformations of the O(3) sigma model. The sausage
+     model, Nuclear Phys. B 406 (1993), 521–565.
+[18] Fateev V.A., Zamolodchikov A.B., Self-dual solutions of the star-triangle relations in ZN -models, Phys.
+     Lett. A 92 (1982), 37–39.
+[19] Friedan D., Nonlinear models in 2 + ε dimensions, Phys. Rev. Lett. 45 (1980), 1057–1060.
+[20] Ganin M.P., On a Fredholm integral equation whose kernel depends on the difference of the arguments, Izv.
+     Vyssh. Uchebn. Zaved. Mat. 2 (1963), no. 2, 31–43.
+[21] Goddard P., Nuyts J., Olive D., Gauge theories and magnetic charge, Nuclear Phys. B 125 (1977), 1–28.
+[22] Gukov S., Klebanov I.R., Polyakov A.M., Dynamics of (n, 1) strings, Phys. Lett. B 423 (1998), 64–70,
+     hep-th/9711112.
+[23] Hasenfratz P., Maggiore M., Niedermayer F., The exact mass gap of the O(3) and O(4) nonlinear σ-models
+     in d = 2, Phys. Lett. B 245 (1990), 522–528.
+22                                                                                               V.A. Fateev
+
+[24] Hoare B., Roiban R., Tseytlin A.A., On deformations of AdSn × Sn supercosets, J. High Energy Phys. 2014
+     (2014), no. 6, 002, 34 pages, arXiv:1403.5517.
+[25] Kiritsis E.B., Duality in gauged WZW models, Modern Phys. Lett. A 6 (1991), 2871–2879.
+[26] Klimčı́k C., Integrability of the bi-Yang–Baxter σ-model, Lett. Math. Phys. 104 (2014), 1095–1106,
+     arXiv:1402.2105.
+[27] Lund F., Regge T., Unified approach to strings and vortices with soliton solutions, Phys. Rev. D 14 (1976),
+     1524–1535.
+[28] Maldacena J., The large N limit of superconformal field theories and supergravity, Adv. Theor. Math. Phys.
+     2 (1998), 231–252, hep-th/9711200.
+[29] Maldacena J., The large-N limit of superconformal field theories and supergravity, Internat. J. Theoret.
+     Phys. 38 (1999), 1113–1133.
+[30] Maldacena J., Moore G., Seiberg N., Geometrical interpretation of D-branes in gauged WZW models, J. High
+     Energy Phys. 2001 (2001), no. 7, 046, 63 pages, hep-th/0105038.
+[31] Mandelstam S., Soliton operators for the quantized sine-Gordon equation, Phys. Rev. D 11 (1975), 3026–
+     3030.
+[32] Montonen C., Olive D., Magnetic monopoles as gauge particles?, Phys. Lett. B 125 (1977), 117–120.
+[33] Nemeschansky D., Feı̆gin–Fuchs representation of su(2)
+                                                       b   k Kac–Moody algebra, Phys. Lett. B 224 (1989),
+     121–124.
+[34] Perelman G., The entropy formula for the Ricci flow and its geometric applications, math.DG/0211159.
+[35] Pohlmeyer K., Integrable Hamiltonian systems and interactions through quadratic constraints, Comm. Math.
+     Phys. 46 (1976), 207–221.
+[36] Seiberg N., Witten E., Electric-magnetic duality, monopole condensation, and confinement in N = 2 super-
+     symmetric Yang–Mills theory, Nuclear Phys. B 426 (1994), 19–52, hep-th/9407087.
+[37] Witten E., String theory and black holes, Phys. Rev. D 44 (1991), 314–324.
+[38] Witten E., Anti de Sitter space and holography, Adv. Theor. Math. Phys. 2 (1998), 253–291, hep-th/9802150.
+[39] Zamolodchikov A.B., Exact two-particle S-matrix of quantum sine-Gordon solitons, Comm. Math. Phys. 55
+     (1977), 183–186.
+[40] Zamolodchikov A.B., Mass scale in the sine-Gordon model and its reduction, Internat. J. Modern Phys. A
+     10 (1995), 1125–1150.
+[41] Zamolodchikov A.B., Fateev V.A., A model factorized S-matrix and an integrable spin-1 Heisenberg chain,
+     Soviet J. Nuclear Phys. 32 (1980), 298–303.
+[42] Zamolodchikov A.B., Fateev V.A., Nonlocal (parafermion) currents in two-dimensional conformal quantum
+     field theory and self-dual critical points in ZN -symmetric statistical systems, Sov. Phys. JETP 62 (1985),
+     215–225.
+[43] Zamolodchikov A.B., Zamolodchikov A.B., Massless factorized scattering and sigma models with topological
+     terms, Nuclear Phys. B 379 (1992), 602–623.
+[44] Zamolodchikov A.B., Zamolodchikov A.B., Conformal bootstrap in Liouville field theory, Nuclear Phys. B
+     477 (1996), 577–605, hep-th/9506136.
+

@@ -1,0 +1,4 @@
+PASS unequal-source crossing diamond on complete Gaussian generator
+PASS full joint first jets and both derivative Wick crossmatchings retained
+FAIL EXPECTED two-extreme global average: excess double-crossing coefficient delta02/4
+PASS independent local forest balancing diamond

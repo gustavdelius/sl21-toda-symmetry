@@ -1,0 +1,7 @@
+PASS a0 squared
+PASS a2 squared
+PASS source cross
+PASS d a0
+PASS d a2
+PASS d squared
+PASS Cauchy determinant sign

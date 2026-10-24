@@ -1,0 +1,15 @@
+PASS first jet follows from Cauchy moments with action sign
+PASS bare BB current-action finite contact
+PASS tails plus bare contact leave radial coefficient t
+PASS AA radial coefficient and canonical addition
+PASS canonical finite additions
+PASS circle-excluded strip moment I=pi
+PASS strip derivative gives J1=-pi
+PASS strip derivative gives Jw=-pi
+PASS smooth Cauchy distribution contour moment pole=1
+PASS smooth Cauchy distribution contour moment pole=2
+PASS endpoint/source exponent differs from source/source exponent
+PASS endpoint subtraction radial primitive t - 1
+PASS endpoint subtraction radial primitive t
+PASS BB descendant coefficient after canonical multiplication
+14 PASS, 0 FAIL

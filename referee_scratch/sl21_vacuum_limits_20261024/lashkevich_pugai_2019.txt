@@ -1,0 +1,2219 @@
+                                                                         The complex sinh-Gordon model:
+                                                                     form factors of descendant operators and
+                                                                          current–current perturbations
+                                                                              Michael Lashkevich and Yaroslav Pugai,
+                                                        Landau Institute for Theoretical Physics, 142432 Chernogolovka, Russia ∗
+                                                        Moscow Institute of Physics and Technology, 141707 Dolgoprudny, Russia
+                                                        Kharkevich Institute for Information Transmission Problems, 19 Bolshoy Karetny
+                                                        per., 127994 Moscow, Russia
+                                                        E-Mail. ML: lashkevi@landau.ac.ru, YP: slava@itp.ac.ru
+arXiv:1811.02631v3 [hep-th] 25 Dec 2018
+
+
+
+
+                                                                                                 Abstract
+                                                      We study quasilocal operators in the quantum complex sinh-Gordon theory in the form factor ap-
+                                                  proach. The free field procedure for descendant operators is developed by introducing the algebra of
+                                                  screening currents and related algebraic objects. We work out null vector equations in the space of oper-
+                                                  ators. Further we apply the proposed algebraic structures to constructing form factors of the conserved
+                                                  currents Tk and Θk . We propose also form factors of current–current operators of the form Tk T−l . Ex-
+                                                  plicit computations of the four-particle form factors allow us to verify the recent conjecture of Smirnov
+                                                  and Zamolodchikov about the structure of the exact scattering matrix of an integrable theory perturbed
+                                                  by a combination of irrelevant operators. Our calculations confirm that such perturbations of the complex
+                                                  sinh-Gordon model and of the ZN symmetric Ising models result in extra CDD factors in the S matrix.
+
+                                          1. Introduction and results
+
+                                          The complex sinh-Gordon model is an interesting integrable massive model, which has been studied exten-
+                                          sively at both, classical [1, 2] and quantum [3–8] levels. In the quantum case the exact S matrix has been
+                                          found, which made it possible to develop the bootstrap form factor program.
+
+                                          1.1. Sigma model description
+                                          We will not use directly the Lagrangian description in this work. However, let us recall it for completeness
+                                          and fixing notation. The complex sinh-Gordon model can be described as the theory of a complex bosonic
+                                          field χ = χ1 + iχ2 , χ̄ = χ1 − iχ2 with the action
+                                                                                         Z 2                      
+                                                                                           d x ∂µ χ ∂ µ χ̄    2
+                                                                              S[χ, χ̄] =                   − M0 χχ̄ ,                            (1.1)
+                                                                                           4π  1 + g0 χχ̄
+
+                                          Initially, the model was introduced for negative values of a bare coupling constant g0 by Pohlmeyer [1] and
+                                          Lund and Regge [2]. In this regime the theory has a rich spectrum of solitons and their bound states. In
+                                          what follows we basically consider the model in the regime g0 > 0. The spectrum in this case consists of
+                                          a single particle-antiparticle pair [6]. In the semiclassical limit [3, 4] for g0 < 0 the coupling constant is
+                                          renormalized as
+                                                                                                  g0
+                                                                                            g=         .                                           (1.2)
+                                                                                                1 + g0
+                                          As for the mass M of the particles it is only equal to M0 for small values of the coupling constant g. For
+                                          general coupling constants we have
+                                                                                                1/(1−2g)
+                                                                                        M ∼ M0           .                                      (1.3)
+                                            ∗
+                                                Mailing address.
+
+
+                                                                                                     1
+For M0 = 0 the action describes a conformal model [9]. The perturbation operator χχ̄ has the conformal
+dimension 2g/(2g − 1).
+   The sigma-model type action (1.1) is convenient for perturbative calculation of the S matrix of the non-
+topological particles, but when studying the operator contents of the theory we encounter difficulties. The
+perturbation constant is g0 is dimensionless, and a complete exact solution of the conformal field theory,
+which describes the model at small distances, is missing. Thus, the operators of the theory cannot be
+generally expressed in terms of the basic field χ.
+
+1.2. Fateev’s action and the operator contents
+Fateev [6, 7] proposed a dual description of the theory (1.1) in terms of two neutral scalar fields ϑ(x), ϕ(x)
+with the action
+                               Z                                                         
+                                 2     (∂µ ϑ)2 + (∂µ ϕ)2       βϕ             2+4β 2 −2βϕ
+                 Sdual [ϑ, ϕ] = d x                      + M e cos αϑ − CM          e       .             (1.4)
+                                               8π
+
+The coupling constants α and β are not independent and related to the coupling constant g of the sigma-
+model action according to the equation
+                                                          1
+                                          α2 = β 2 + 1 =    .                                      (1.5)
+                                                         2g
+The constant M is the physical mass subject to a particular choice of the constant C.
+   We will consider the exponential operators
+                                                                                     
+                                       κ        im                  im̄
+                    φκmm̄ (x) = exp − ϕ(x) −       (ϑ(x) + ϑ̃(x)) +     (ϑ(x) − ϑ̃(x))                     (1.6)
+                                      2β        2α                  2α
+
+and their descendants. Here κ, m, m̄ are real numbers. The symbol ϑ̃(x) stands for the dual field defined
+by the equation
+                                              ∂ µ ϑ̃ = ǫµν ∂ν ϑ.
+The complex sinh-Gordon basic fields χ, χ̄ and the operator χχ̄ coincide up to normalization constants with
+the following exponential operators
+                                             χ(x) ∼ φ1−1,−1 (x),
+                                                 χ̄(x) ∼ φ11,1 (x),                                        (1.7)
+                                               χχ̄(x) ∼ φ20,0 (x).
+There is a U (1) charge Q associated to the complex boson χ, χ̄ corresponding to the physical particle and
+antiparticle. Assuming Q(χ) = −1 (since χ annihilates a particle) and Q(χ̄) = 1 (since χ̄ annihilates an
+antiparticle), we see that the charge of the operator φκmm̄ is
+                                                           m + m̄
+                                            Q(φκmm̄ ) =           ∈ Z.                                     (1.8)
+                                                             2
+This relation will provide a selection rule for matrix elements.
+    The exponential operators contain, in general, both the field ϑ and its dual ϑ̃. For this reason the
+operators are not mutually local. Recall that two operators O1 , O2 are mutually quasilocal, if they have the
+following property. Consider any correlation function hO1 (x1 )O2 (x2 ) · · · i. The move of the point x1 around
+x2 in the counter-clockwise direction along a closed contour results in the multiplication of the correlation
+function by a phase factor e2πiγ . The number γ = γ(O1 , O2 ) is called the mutual locality exponent of the
+two operators. For the exponential operators φκmm̄ (x) the mutual locality exponents are
+
+                                                   ′           g(mm′ − m̄m̄′ )
+                                      γ(φκmm̄ , φκm′ m̄′ ) =                   .                           (1.9)
+                                                                     2
+In particular, for example, the energy operators φ2k00 are mutually local with the spin and disorder operators.
+The operator φκmm̄ is local with respect to the basic bosons of the initial Lagrangian (1.1) for g(m̄−m)/2 ∈ Z
+only.
+
+                                                           2
+    We study the structure of the space Hm κ                                                          κ
+                                             m̄ of operators obtained from the exponential operators φmm̄ by
+attaching space-time derivatives of the fields ϕ, ϑ. It is convenient to parameterize the space-time by the
+light cone coordinates x± = x1 ± x0 with the corresponding derivatives ∂± . Then this space reads
+                            κ             k1         l1         k̄1        l̄1         κ
+                           Hm m̄ = span{(∂− ϑ · · · ∂− ϕ · · · ∂+ ϑ · · · ∂+ ϕ · · · )φmm̄ (x)}.         (1.10)
+
+We call a basic operator a level (k, k̄) descendant of the exponential operator φκmm̄ , if
+                                                    X        X
+                                               k=      ki +     li ,
+                                                    X        X                                           (1.11)
+                                               k̄ =    k̄i +   ¯li
+
+The Lorentz spin s of a descendant operator and its ultraviolet scaling dimension d are given by the expres-
+sions
+                                                               m2 − m̄2
+                             s = smm̄ + k − k̄,      smm̄ = g            ,
+                                                                   4
+                                                                                                      (1.12)
+                                  κ                    κ      m2 + m̄2      κ2
+                             d = dmm̄ + k + k̄,      dmm̄ =             − 2.
+                                                                 8α2       4β
+Here smm̄ and dκmm̄ are the spin and the dimension of the exponent, while ∆k = k − k̄ and L = k + k̄ are
+contributions of derivative of the fields ϕ, ϑ. We shall call ∆k the ‘external’ spin and L the total level.
+   The model (1.4) can also be considered as a perturbation of the sine-Liouville theory by the operator e2βϕ .
+The conformal dimensions of the operators in the sine-Liouville theory differs from those given by (1.12) by
+an extra term −2κ/4β 2 . The sine-Liouville theory is a dual description of the theory (1.1) with M0 = 0.
+This gives the dimension of χχ̄, which results in (1.3).
+   Note that the spin (and hence, for generic values of parameters, the external spin) is a well-defined
+quantum number in any Lorentz invariant theory. In contrary, the scaling dimension is not a well-defined
+quantum number in a massive theory, since it is not an eigenvalue of a Hermitian operator. It is only an
+index that describes the decay of correlation functions at small distances. In particular, an admixture of
+operators of lower dimensions to a given operator does not change scaling dimension of the latter. Then the
+space Hmκ
+          m̄ is split into subspaces                 M
+                                              κ              κ
+                                            Hm  m̄ =      (Hm  m̄ )∆k ,
+                                                         ∆k∈Z
+        κ )
+where (Hmm̄ ∆k is the subspace of all operators with external spin ∆k. Each of these subspaces is organized
+as an infinite filtration by the total level L:
+                         κ                    κ                     κ             κ
+                       (Hm m̄ )∆k ⊃ · · · ⊃ (Hmm̄ )∆k,L ⊃ · · · ⊃ (Hmm̄ )∆k,1 ⊃ (Hmm̄ )∆k,0 .
+
+                                    κ )
+Each element of the filtration (Hm   m̄ ∆k,L consist of operators of the total level ≤ L. The last element of
+                 κ
+the filtration (Hmm̄ )∆k,0 is one-dimensional, since it consist of the only exponential operator φκmm̄ .
+
+1.3. S matrix description
+In this paper we will develop the bootstrap form factor approach, whose starting point is an exact S matrix.
+From the viewpoint of the scattering theory, the complex sinh-Gordon model is an integrable model with
+simple spectrum containing a particle and an antiparticle with mass M associated with the complex boson
+field χ. In two dimensions the standard parameterization of the momentum P and energy E is given in
+terms of the rapidity variable θ:
+                                                P = M sh θ,
+                                                                                                      (1.13)
+                                                E = M ch θ.
+Due to the integrability of the model, a multiparticle scattering matrix can be factorized into a product
+of two-particles ones. Let us denote the particle by a symbol 1 and the antiparticle by 1̄. The scattering
+matrix for two particles depends on the difference θ of their rapidities and is diagonal [5]:
+
+                                             sh(θ/2 − iπg)
+                     S11 (θ) = S1̄1̄ (θ) =                 ,       S11̄ (θ) = S1̄1 (θ) = S11 (iπ − θ).   (1.14)
+                                             sh(θ/2 + iπg)
+
+                                                               3
+In the paper we will be interested in calculation of matrix elements of quasilocal operators with respect to
+eigenvectors of the Hamiltonian. These matrix elements are expressed in terms of meromorphic functions
+called form factors [10, 11]. These form factors can be found as solutions to a set of difference equations
+called form factor axioms. The data about the theory enters the form factor axioms through the S matrix
+and, in this sense, the S matrix completely describes the theory. Nevertheless, an important task is to
+identify the operators obtained in terms of solutions to the form factor axioms and those defined in the
+usual way, in terms of Lagrangian fields. Some results concerning this identification are presented in this
+paper.
+    Here we will follow the algebraic approach to form factors proposed in [12] and then developed in [13–16]
+for the sinh-Gordon model. A similar construction for the complex sinh-Gordon model was proposed in [17].
+Here we extend this construction by introducing the so called screening currents, which make it possible to
+obtain form factors of operators we are interested in.
+
+1.4. Relation to the ZN Ising models
+After a formal continuation of the parameter g to the negative region g = −N −1 for the values N = 2, 3, . . .
+the scattering matrix of the theory describes a basic particle and antiparticle scattering matrix of Koberle–
+Swieca for the ZN Ising models [18]. There is an essential difference between the models however. In
+particular, for N > 3 the ZN Ising models not only contains the particles 1 and 1̄, but also bound states of
+these fundamental particles. Form factors that involve bound state particles can be obtained from the form
+factors of the fundamental particles.
+    On the other hand, the ZN Ising model can be treated as a perturbation of the Fateev–Zamolodchikov
+ZN conformal model with the Virasoro algebra central charge
+                                                                 N −1
+                                                           c=2        .                                (1.15)
+                                                                 N +1
+This conformal model consists of a set of quasilocal primary operators φκmm̄ (x) with κ = 0, 1, . . . , N and
+both m, m̄ equal to κ modulo 2, and their WN descendants. These primary operators are in a one-to-
+one correspondence with the exponential operators defined in (1.6). Let SZ0N be the formal action of the
+conformal parafermion model. This action can be considered as a result of a reduction of the action (1.1)
+with M0 = 0 and g = −N −1 . Then the formal action of the ZN model reads
+                                                      Z
+                                     SZN = SZN − λ d2 x φ200 (x).
+                                              0
+                                                                                                        (1.16)
+
+Due to the identification (1.7) the second term can be considered as a counterpart of the mass term in the
+action (1.1), λ ∼ M02 . The exact relation between the parameter λ and the physical mass M was found
+in [19].
+    Note that the order parameter (‘spin’) operators σk , disorder parameter (‘dual spin’) operators µk and
+neutral ‘energy’ density operators ǫk are identified with primary operators as follows:1
+
+                                           σk = φkkk ,     µk = φkk,−k ,   ǫk = φ2k
+                                                                                 00 .                  (1.17)
+
+We postpone discussing the reduction problem to another publication. Here we just mention, that the
+exponential operators are consistent with the reduction just for integer values of κ, m, m̄ subject to the
+conditions m, m̄ ≡ κ (mod 2) and |m|, |m̄| ≤ κ ≤ N . These exponential operators represent primary
+operators of the ZN Ising model. Besides, the conserved currents will be constructed here in such a way
+that they survive reduction and have a sense in the ZN Ising model.
+    The identification with ZN Ising models [20] essentially follows from the fact that the sine-Liouville
+model, i.e. the model described by the action (1.4) with λ = 0, is nothing but the SL(2, R)/U (1) model
+of conformal field theory, a noncompact (or negative real N ) counterpart of the ZN symmetric conformal
+Fateev–Zamolodchikov models, which are SU (2)/U (1) coset conformal models.
+    In the case of the Z2 Ising model, form factors of primary and descendant operators were studied in [21].
+The first results about primary operators in the Z3 Ising model were obtained in [22]. Form factors of
+  1
+      With this notation χ ∼ σN−1 , χ̄ ∼ σ1 , χχ̄ ∼ ǫ1 .
+
+
+                                                                 4
+primary operators and a few descendant operators in general ZN Ising models as well as their vacuum
+expectation values were studied within the algebraic approach in [23–25]. An alternative procedure based
+on a different approach was also proposed in [26]. The construction proposed in [17] can be continued to the
+ZN Ising model, but for completeness demands a reduction procedure, which will be discussed elsewhere.
+Nevertheless, most of our results in this paper can be applied to the ZN Ising model, and we will use the
+notation system adapted to it.
+
+1.5. Conserved currents
+One of the advantages of our algebraic construction is that it makes it possible to find matrix elements of all
+operators including the descendant operators with both right and left chiralities. This question turns out to
+be rather nontrivial in other approaches starting from the pioneer work [27]. An important understanding
+concerning the equivalence of the operator contents of conformal models and their massive perturbations
+was achieved in [28–30].
+   In this paper we pay a special attention to form factors of physically interesting spin k ∈ Z descendants
+Tk and Θk of the unit operator and of the operator φ200 respectively. These operators are components of
+conserved currents and define the local integrals of motion:
+                                Z                Z
+                                  dz                 dz̄
+                           Ik =       Tk+1 (x) +         Θk−1 (x),
+                                  2π                 2π
+                                Z                  Z                                                    (1.18)
+                                  dz̄                 dz
+                         I−k =        T−k−1 (x) +         Θ−k+1 (x),    k = 1, 2, . . . .
+                                  2π                  2π
+
+The subscript k of Ik is usually called the spin of the current in the following sense: if O(x) is a spin s
+operator, the operator [Ik , O(x)] is a spin s + k operator.
+    The existence of commuting local integrals of motion provides the integrability of the massive model [31].
+In the off-critical theory the following continuity equations hold for these currents
+
+                                                       ∂− Tk = ∂+ Θk−2 ,
+                                                                                                        (1.19)
+                                                     ∂+ T−k = ∂− Θ−k+2 .
+
+In this paper we obtain multiparticle form factors of the currents as well as those of the combined opera-
+tors Tk T−l (k, l ≥ 2) defined according to Zamolodchikov’s rule [32, 33]:
+                                                                                    µ
+                   Tk T−l (x) = lim (Tk (x + ǫ)T−l (x) − Θk−2 (x + ǫ)Θ2−l (x) − ∂µ Jkl (x, ǫ)) ,        (1.20)
+                                  ǫ→0
+
+where the last term is a combination of space-time derivatives that cancels the singular part of operators
+products in the first two terms. Thus this operator is defined modulo space-time derivatives.
+    Form factors of the operators Tk T−l (x) (k, l ≥ 2) where first discussed (for k = l = 2) by G. Delfino and
+G. Niccoli in [34–36]. Recently [16] we obtained form factors of the products with arbitrary k, l in the sinh-
+Gordon model and the perturbed minimal M (2, 2n + 1) model. Here we show how to transfer this method
+to the complex sinh-Gordon model and propose explicit expressions for form factors
+
+                      hvac |O|θ1 , . . . , θn iα1 ...αN ,      O = Tk , Θk−2 , T−l , Θ2−k , Tk T−l .
+
+This result was achieved by studying algebraic structures that arise in the free field realization of form
+factors.
+
+1.6. Integrable current–current perturbations
+The operators Tk T−k are interesting since they produce a family of irrelevant integrable deformations of
+integrable quantum field theories [37–39]. Recently, F. Smirnov and A. Zamolodchikov proved [40] the
+integrability of infinite-dimensional families of such theories with the action of the form
+                                                     ∞
+                                                     X              Z
+                                      Sλ = S0 −             λ2k−1       d2 x [T2k T−2k ](x),            (1.21)
+                                                     k=2
+
+
+                                                                5
+where the formal action S0 describes any two-dimensional integrable model of QFT. The bracket symbol is
+defined as
+
+         [Tk T−l ](x) = Tk T−l (x) + δk,2 hΘ0 (0)i Θ2−l (x) + δl,2 hΘ0 (0)i Θk−2 (x) − δk,2 δl,2 hΘ0 (0)i2 .           (1.22)
+
+This modification for k = 2 or l = 2 is necessary to avoid divergences in the diagonal matrix elements, which
+enter the perturbation theory for the S matrix. It was assumed that the structure of the spectrum and the
+S matrix of the initial model forbids integrals of motion of even spin. It was conjectured that for a massive
+integrable model the resulting S matrix takes a general form2
+                                                                           ∞
+                                                                           X                      2
+                                          iΦλ (θ)                                            Z2k
+                       Sλ (θ) = S(θ) e              ,     Φλ (θ) = −             λ2k−1                  sh(2k − 1)θ,   (1.23)
+                                                                                             M
+                                                                           k=1
+
+where S(θ) is the S matrix of the underlying local integrable model and
+
+                                                        Zk = e−kθ hθ|Tk (0)|θi                                         (1.24)
+
+are constants. The conjecture was checked in [40] for the soliton S matrix of the sine-Gordon theory by
+means of the fermion representation [41] in the first order, and it was conjectured that the result is exact.
+Independently, we checked the conjecture for the sinh-Gordon model and, therefore, for the first breather S
+matrix of the sine-Gordon model in [42] by means of the algebraic construction we developed earlier.
+
+1.7. Perturbations of the complex sinh-Gordon model and the ZN Ising model
+In the complex sinh-Gordon model the scattering does not exclude even spin integrals of motion, so that
+there is just one integral of motion for every nonzero spin. In the present paper we obtain the CDD factor
+in this case. Namely, we consider the model
+                                   Z                                  X∞   Z
+                                       d2 x       ∂µ χ ∂ µ χ̄    2
+                    Sλ [χ, χ̄] =                              − M0 χχ̄ −   λk d2 x [Tk+1 T−k−1 ](x).                   (1.25)
+                                       4π         1 + g0 χχ̄
+                                                                                 k=1
+
+   An important part of the derivation of the exact CDD factor [40] was a conjecture on the structure of
+the 1 + 1 → 1 + 1 matrix elements of the operators Tk T−k . In our earlier work [42] we were able to provide
+an analytic computation of these matrix elements in the case of the sinh-Gordon model. In the present work
+we develop a similar technique to derive the expression for the complex sinh-Gordon model. The result is
+
+                     lim 11 hθ1 θ2 |[Tk T−k ](0)|θ3 θ4 i11 = 4Zk2 sh(θ1 − θ2 ) sh(k − 1)(θ1 − θ2 ),
+                    θ3 →θ1
+                    θ4 →θ2
+                                                                                                                       (1.26)
+                     lim 11̄ hθ1 θ2 |[Tk T−k ](0)|θ3 θ4 i11̄ = (−)k 4Zk2 sh(θ1 − θ2 ) sh(k − 1)(θ1 − θ2 ),
+                    θ3 →θ1
+                    θ4 →θ2
+
+
+This formula generalizes the formula by Smirnov and Zamolodchikov to the case of even currents. Following
+the general argument of [40] we propose that the exact scattering matrix is given by the expression
+                      λ                                    λ                                                     λ
+                     S11 (θ) = S1̄λ1̄ (θ) = S11 (θ) eiΦ+ (θ) ,                       λ
+                                                                        S1λ1̄ (θ) = S1̄1 (θ) = S11̄ (θ) eiΦ− (θ) ,     (1.27)
+
+where                                                                                2
+                                                          ∞
+                                                          X                    Zk+1
+                                          Φλε (θ) = −           k+1
+                                                                ε     λk                   sh kθ.                      (1.28)
+                                                                                M
+                                                          k=1
+
+We find a remarkable agreement with the Smirnov–Zamolodchikov proposal for the modified scattering
+matrix. To calculate the matrix elements (1.26) we provide a construction for the currents Tk , Θk and,
+which demands a heuristic step, for the products Tk T−l .
+   2
+    Though the operator Tk T−k is not uniquely defined, the corresponding integral over the plane is well-defined since the
+space-time derivatives produce zero contribution.
+
+
+
+                                                                    6
+   As an immediate consequence, we can also propose that the corresponding ZN Ising models also have a
+similar integrable perturbation
+                                     Z            X∞        Z
+                                       2    2
+                         Sλ = SZN − λ d x φ00 −          λk d2 x [Tk+1 T−k−1 ].                 (1.29)
+                                                                      k=1
+                                                                  k6≡0 mod N
+
+
+The CDD factors arising in this case can be extracted expression (1.28) for g = −N −1 . In the ZN Ising
+model there are N − 1 particles of masses
+                                                      sin πs
+                                                          N
+                                      Ms = M              π ,           s = 1, . . . , N − 1.                    (1.30)
+                                                      sin N
+
+Let Sss′ (θ) be the S matrix of particles s and s′ in the ZN Ising model. Then for the S matrix of the
+model (1.29) we have
+                                           λ                   iΦλ ′ (θ)
+                                         Sss ′ (θ) = Sss′ (θ) e ss       ,                      (1.31)
+where                                                         2
+                                         ∞
+                                         X              Zk+1                                       sin πsk
+                         Φλss′ (θ) = −         λk                   rsk rs′ k sh kθ,     rsk =          N
+                                                                                                             .   (1.32)
+                                         k=1
+                                                         M                                         sin πk
+                                                                                                       N
+
+This expression is obtained from (1.27), (1.28) by fusion of particles starting from Φλ11 (θ) = Φλ+ (θ). As a
+consistency check we may notice that ΦλN −1,1 (θ) = Φλ− (θ), since the particle (N − 1) is the antiparticle to
+the particle 1.
+
+1.8. Lorentz non-invariant perturbations
+The action (1.25) admits a generalization
+                              Z 2                       X∞    Z
+                                d x ∂µ χ ∂ µ χ̄    2
+                 Sλ [χ, χ̄] =                   − M0 χχ̄ −   λkl d2 x [Tk+1 T−l−1 ](x).                          (1.33)
+                                4π   1 + g0 χχ̄
+                                                                               k,l=1
+
+The operators [Tk T−l ] has spin k − l so that the contributions with k 6= l are Lorentz non-invariant.
+Nevertheless, the corresponding 1 + 1 → 1 + 1 matrix elements also have a simple form:
+
+                      lim 11 hθ1 θ2 |[Tk T−l ](0)|θ3 θ4 i11 = 4Zk Zl sh(θ1 − θ2 ) s+
+                                                                                   k−1,l−1 (θ1 , θ2 ),
+                     θ3 →θ1
+                     θ4 →θ2
+                                                                                                                 (1.34)
+                      lim 11̄ hθ1 θ2 |[Tk T−l ](0)|θ3 θ4 i11̄ = 4Zk Zl sh(θ1 − θ2 ) s−
+                                                                                     k−1,l−1 (θ1 , θ2 )
+                     θ3 →θ1
+                     θ4 →θ2
+
+
+with
+                                             1 k+1 kθ1 −lθ2 l+1 kθ2 −lθ1 
+                                  sεkl (θ1 , θ2 ) =
+                                                ε    e      −ε e           .                         (1.35)
+                                             2
+Relying on this result, we may conjecture that the S matrices, which now depend on the two rapidities, read
+                                λ                                                          λ
+                               S11 (θ1 , θ2 ) = S1̄λ1̄ (θ1 , θ2 ) = S11 (θ1 − θ2 ) eiΦ+ (θ1 ,θ2 ) ,
+                                                                                           λ
+                                                                                                                 (1.36)
+                                                   λ
+                               S1λ1̄ (θ1 , θ2 ) = S1̄1 (θ1 , θ2 ) = S11̄ (θ1 − θ2 ) eiΦ− (θ1 ,θ2 ) ,
+
+where the phase shift, which generalizes (1.28), is
+                                                          ∞
+                                                          X             Zk+1 Zl+1 ε
+                                   Φλε (θ1 , θ2 ) = −             λkl            skl (θ1 , θ2 ).                 (1.37)
+                                                                          M2
+                                                          k,l=1
+
+   For the Lorentz non-invariant action for the ZN Ising model
+                                      Z              X∞       Z
+                                          2   2
+                        Sλ = SZN − λ d x φ00 −             λkl d2 x [Tk+1 T−l−1 ]                                (1.38)
+                                                                      k=1
+                                                                  k6≡0 mod N
+
+
+
+                                                                    7
+we obtain the following:
+                                                                                     λ
+                                                                               iΦ ′ (θ1 ,θ2 )
+                                                   λ
+                                                  Sss ′ (θ1 , θ2 ) = Sss′ (θ) e ss            ,                                        (1.39)
+where
+                                                 ∞
+                                                 X            Zk+1 Zl+1                                         
+                        Φλss′ (θ1 , θ2 ) = −            λkl         2
+                                                                        rsk rs′ l ekθ1 −lθ2 −rsl rs′ k ekθ2 −lθ1 .                     (1.40)
+                                                                2M
+                                                k,l=1
+
+
+1.9. Structure of the paper
+The paper is organized as follows. In Sect. 2 we recall the basic facts about form factors and describe the
+free field construction introduced in [17]. In Sect. 3 we describe the new objects, the so called screening
+currents, analogous to those introduced in [14,16] for the sinh-Gordon model. In fact, this realization makes
+it possible to calculate form factors in a rather direct way. In Sect. 4 we obtain free field realizations for the
+conserved currents Tk , Θk . In Sect. 5 we consider the products Tk T−l . Obtaining a compact form for the
+two-by-two diagonal matrix elements of Tk T−l for arbitrary k, l demands some tricks, which are described
+there.
+
+2. Free field construction for form factors
+
+2.1. Form factor axioms
+Our first aim is to formulate briefly the free field construction for form factors of physical operators in
+the complex sinh-Gordon model. A natural bases in the spaces of operators consist of exponential opera-
+tors φκmm̄ (x) and their descendants of the form (1.10). In the form factor approach all quasilocal operators O
+are characterized by an infinite set of matrix elements in the basis of asymptotic states. Due to the crossing
+symmetry it is sufficient to describe the matrix elements between the vacuum and incoming particles only.
+Let |θ1 , . . . , θn iα1 ...αn be the in-state of n particles with the velocities θi and internal states αi = 1, 1̄. Con-
+sider any local or quasilocal operator O(x). The meromorphic functions FO (θ1 , . . . , θn ) of complex variables
+θi , whose values on the real axis are given by
+
+                       FO (θ1 , . . . , θn )α1 ...αn = hvac |O(0)|θ1 . . . θn iα1 ...αn ,           if θ1 > . . . > θn ,                (2.1)
+
+are called form factors of the operator O. Every correlation function can be expressed in terms of form
+factors due to the spectral expansion (see [11] and references therein for details). The form factors must be
+neutral with respect to the charge Q defined in (1.8):
+                                                                        n
+                                                                        X
+                                                              Q(O) +          αi = 0.                                                   (2.2)
+                                                                        i=1
+
+    Form factors are shown to satisfy a set of difference equations called form factor axioms [11]. Let sO
+be the Lorentz spin of the operator O(x) and γO (α) be a mutual locality index of the operator O and a
+bosonic ‘elementary field’ operator that corresponds to the annihilation of a particle of type α, in our case
+χ for α = 1 and χ̄ for α = 1̄. In the case of a diagonal S matrix, which is the case of our interest here, the
+form factor axioms read
+
+                 FO (θ1 + ϑ, . . . , θn + ϑ)α1 ...αn = esO ϑ FO (θ1 , . . . , θn )α1 ...αn ,                                           (2.3a)
+                     FO (θ1 , θ2 , . . . , θn )α1 α2 ...αn = e2πiγO (α1 ) F (θ2 , . . . , θn , θ1 − 2πi)α2 ...αn α1 ,                  (2.3b)
+                 FO (. . . , θi , θi+1 , . . . )...αi αi+1 ... = Sαi αi+1 (θi − θi+1 )FO (. . . , θi+1 , θi , . . .)...αi+1 αi ... ,   (2.3c)
+                         ′
+           Res FO (ϑ , ϑ, θ1 , . . . , θn )ᾱαα1 ...αn
+         ϑ′ =ϑ+iπ
+                                                                     n
+                                                                                           !
+                                                                     Y
+                                                         2πiγO (α)
+                                       = −i 1 − e                          Sααi (ϑ − θi ) FO (θ1 , . . . , θn )α1 ...αn .              (2.3d)
+                                                                     i=1
+
+The last equation fixes the residue of the kinematic pole of form factors on the physical sheet. In the
+presence of bound states one needs to add equations for the residues of dynamic poles.
+
+                                                                         8
+   For a diagonal S matrix the form factor can be factorized into the product of a special solution Rn,n′ to
+equations (2.3b), (2.3c) and a function JO with simple analytic properties. Namely, we have
+                          FO (θ1 , . . . , θn |θ1′ , . . . , θn′ ′ ) ≡ FO (θ1 , . . . , θn , θ1′ , . . . , θn′ ′ )1 . . . 1 1̄ . . . 1̄
+                                                                                                                  | {z } | {z }
+                                                                                                                         n         n′
+                                                                                                                   ′
+                                                                                                       θ1′        θn
+                                                                    = JO (eθ1 , . . . , eθn | e , . . . , e          ′   )
+                                                                         × Rn,n′ (θ1 , . . . , θn |θ1′ , . . . , θn′ ′ ).                                (2.4)
+The function JO (X|Y ) ≡ JO (x1 , . . . , xn |y1 , . . . , yn′ ) has the form
+                                                                  n                 n′
+                                                                  Y       γ (1)
+                                                                                    Y      γ (1̄) ˇ
+                                               JO (X|Y ) =               xi O             yj O   JO (X|Y ),                                              (2.5)
+                                                                  i=1               j=1
+
+where JˇO (X|Y ) is a rational function symmetric in the variables xi and in the variables yi separately. The
+set of functions JO (X|Y ) contain the complete information about the physical operator O and are the main
+object to be studied in this work. In what follows we describe a free field construction for these function,
+which solves the form factor axioms for FO and, as we expect, makes it possible, in principle, to obtain form
+factors of any quasilocal operator of the form (1.10).
+    The second factor Rn,n′ is already fixed in terms of the known functions and therefore will not be so
+interesting. Its explicit form is [43]
+                                                                         n                       n′                        n
+                                                                                                                         n Y   ′
+                                                                         Y                       Y                       Y
+                                                               n+n′
+              Rn,n′ (θ1 , . . . , θn |θ1′ , . . . , θn′ ′ ) = CN               R(θi − θj )             R(θi′ − θj′ )                R† (θi − θj′ ),      (2.6)
+                                                                         i<j                     i<j                     i=1 j=1
+
+where
+                                                                           1          i
+                                                          CN = √                 =p       π .                                                            (2.7)
+                                                                        2 sin πg    2 sin N
+The functions R, R† read
+                                                          sh θ2
+                                      R(θ) =              θ   iπ
+                                                                     R̄(θ),             R† (θ) = R̄−1 (θ − iπ),
+                                                     sh   2 − N
+                                               ∞          iθ    1
+                                                                                     iθ
+                                                                                                                                                       (2.8)
+                                               Y     Γ    2π − N + n Γ              − 2π − N1 + n Γ2 n + N1
+                                R̄(θ) =                   iθ    1
+                                                                                     iθ
+                                                                                                           ,
+                                               n=1
+                                                     Γ    2π + N + n Γ              − 2π + N1 + n Γ2 n − N1
+and satisfy the equations
+                                          R(2πi − θ) = R(θ),                        R(θ) = S11 (θ)R(−θ),
+                                           †                        †
+                                        R (2πi − θ) = R (θ),                        R† (θ) = S11̄ (θ)R† (−θ).
+Here and below we always use the parameter N = −g−1 , since it is more convenient in our technique. We
+will not assume it to be an integer. Moreover, we will usually assume it irrational and negative, as it is
+necessary in the complex sinh-Gordon model. Nevertheless, the results are applicable to the ZN Ising model
+for those operators that are compatible with the reduction.
+    It is straightforward to check that the form factors are consistently defined by axiom (2.3c), so that they
+satisfy axioms (2.3a,b) for any set of homogeneous rational functions JˇO (X|Y ), while the kinematic pole
+condition (2.3d) reads
+                                     m−m̄      (ω 1/2 − ω −1/2 )z
+        JO (X, z ′ |Y, z) = −ω ±      4                           Dmm̄ (X|Y |z)JO (X|Y ) + O(1),                                        z ′ → e±iπ z.    (2.9)
+                                                     z′ + z
+Here
+                                            Y        z Y                  z Y     
+                                   m−m̄                        z    m̄−m Y              z
+          Dmm̄ (X|Y |z) = ω         4             f+ −     f−     −ω 4     f− −     f+                                                                  (2.10)
+                                                       x       y                x       y
+                                           x∈X                    y∈Y                                   x∈X                  y∈Y
+
+with
+                                          ω ε/2 z − ω −ε/2
+                                                fε (z) =   ,     ω = e2πi/N .                                                                           (2.11)
+                                                z−1
+The functions fε (z) will play an important role in the free field construction.
+
+                                                                                9
+2.2. Oscillators and currents
+To describe from factors of exponential and descendant operators in the complex sinh-Gordon model we
+follow the free field approach proposed in [12]. In this method the functions JO from (2.4) are represented
+as matrix elements of free fields of a special form. In this section we recall the results of [17] with a slight
+modification necessary to introduce screening currents in the next section.
+    First, introduce some notation. In what follows we will use the parameter ω defined in (2.11). Sometimes
+it will be convenient to use the ‘conjugate’ parameter
+
+                                           ω̃ = e−iπ ω −1 = e−iπ(N +1)/N .                                  (2.12)
+
+Besides, for brevity we will use the notation
+
+                                            πk                                                π(N + 1)k
+               [k]ω = ω k/2 − ω −k/2 = 2i sin   ,             [k]ω̃ = ω̃ k/2 − ω̃ −k/2 = −2i sin        ,
+                                            N                                                     N         (2.13)
+                                            πk                                              π(N + 1)k
+              {k}ω = ω k/2 + ω −k/2 = 2 cos    ,             {k}ω̃ = ω k/2 + ω −k/2 = 2 cos           .
+                                            N                                                   N
+    The corresponding bosonization procedure is formulated in terms of two families of oscillators α±      ±
+                                                                                                    k and βk
+with k ∈ Z, k 6= 0 and the oscillator γ ± . We assume the nonzero commutation relations for these elements
+to be                                              ′      (1)
+                                         [αεk , αεl ] = kAεk δε+ε′ ,0 δk+l,0 ,
+                                                   ′           (2)
+                                           [βkε , βlε ] = kAεk δε+ε′ ,0 δk+l,0 ,                            (2.14)
+                                           [γ − , γ + ] = (log ω)−1 .
+                               (i)
+The numerical coefficients Ak (i ∈ {1, 2}), which enter the definition of commutation relation of the
+oscillators, are taken in the form
+
+                                 (i) 1
+                                Ak = (ω k/2 − ω −k/2 )(ω k/2 + (−1)k+i ω −k/2 ).                            (2.15)
+                                     2
+We also need the zero mode operators P, P † and the operators d, d†, which are conjugated to them:
+
+                                [d, P ] = [d† , P † ] = 1,           [d, P † ] = [d† , P ] = 0.             (2.16)
+
+The zero mode operators commute with all the oscillators α±       ± ±
+                                                             k , βk , γ .
+   Define the vacuum vectors |1irs for these auxiliary oscillators:
+
+                                     αεk |1irs = βkε |1irs = 0 (k > 0, ε = ±),
+                                      P |1irs = p|1irs = (2r + N − 1)|1irs ,                                (2.17)
+                                       †           †
+                                     P |1irs = p |1irs = (2s + N − 1)|1irs .
+
+Here r, s are two real numbers that fix the eigenvalues of the operators P, P † . The operators α±     ±
+                                                                                                 −k , β−k
+(k > 0) generate the Fock space, which will be denoted by F̄rs . The conjugate vacuum vectors rs h1| are
+defined similarly:
+                                       ε           ε
+                                rs h1|α−k = rs h1|β−k = 0 (k > 0, ε = ±),
+
+                                      rs h1|P = rs h1|p = rs h1|(2r + N − 1),                               (2.18)
+                                             †         †
+                                     rs h1|P = rs h1|p = rs h1|(2s + N − 1).
+
+We will assume rs h1|1irs = 1. The operators α±    ±
+                                              k , βk (k > 0) generate another Fock space indicated by Frs .
+The exponents of the operators d, d† naturally shift the parameters r, s:
+                                                        †
+                                            e2ad+2bd |1irs = |1ir−a,s−b .                                   (2.19)
+
+   As for the operators γ ε , we will demand
+                                                      aγ − +(b−a)γ +
+                                            rs h1|ω                    |1irs = 1.                           (2.20)
+
+                                                              10
+In fact, it means that the vacuum vectors depend on the value of b. Nevertheless, since for any operator O
+this value turns out to be fixed, b = −Q(O), we may omit this parameter.
+    Introduce the normal ordering in consistency with the above definitions:
+                                      ′          ′                        ′            ′
+                               :αεk αε−k : = αε−k αεk ,          :βkε β−k
+                                                                       ε       ε
+                                                                          : = β−k βkε ,                 k > 0.                     (2.21)
+
+The normal ordering prescription for zero mode operators stands that we put P, P † to the right of d, d† and
+collect exponents of γ ε :          Y                       P          P
+                                           −     +        −          +
+                                   : ω µi γ +νi γ : = ω γ    i µi +γ     i νi .                        (2.22)
+                                            i
+Define the vertex operators
+                                                           ε
+                                                                   X                       z −k
+                                          λε (z) = ω γ exp                (αεk + βkε )          ,
+                                                                                             k
+                                                                   k6=0
+                                                                                                                                   (2.23)
+                                                        ε
+                                                                     X                     z   −k
+                                          λ†ε (z) = ω −γ exp                  (αεk − βkε )          .
+                                                                                               k
+                                                                     k6=0
+
+The normal order sign is unnecessary here, because all operators in the exponents commute with each other.
+Since λε (x), λ†ε (x) do not contain the zero modes, their vacuum correlation functions are r and s independent
+and will be simply designated as h· · · i. Due to the Wick theorem we have
+
+                                            φ1 · · · φn = hφ1 · · · φn i :φ1 · · · φn : ,                                          (2.24)
+
+where φi are arbitrary normally ordered exponents of the oscillators αεk , βkε , γ ε like λε (z) or λ†ε (z). The
+vacuum average hφ1 · · · φn i factorizes into pair correlation functions:
+                                                                        n
+                                                                        Y
+                                                     hφ1 · · · φn i =     hφi φj i.                                                (2.25)
+                                                                        i<j
+
+The pair correlation functions for λε (z), λ†ε (z) are given by
+
+                      hλε (z ′ )λε (z)i = hλ†ε (z ′ )λ†ε (z)i = hλε (z ′ )λ†ε (z)i = hλ†ε (z ′ )λε (z)i = 1,
+                                                                                    z
+                                    hλε (z ′ )λ−ε (z)i = hλ†ε (z ′ )λ†−ε (z)i = fε ′ ,                                             (2.26)
+                                                                                      z z 
+                                           ′ †                † ′
+                                    hλε (z )λ−ε (z)i = hλε (z )λ−ε (z)i = f−ε − ′ ,
+                                                                                           z
+where fε (z) is defined in (2.11). Notice that all the operators λ commute with each other:
+
+                  λε′ (z ′ )λε (z) = λε (z)λε′ (z ′ ),         λ†ε′ (z ′ )λ†ε (z) = λ†ε (z)λ†ε′ (z ′ ),             if z ′ 6= z;
+                                                                                                                                   (2.27)
+                                      λε′ (z ′ )λ†ε (z) = λ†ε (z)λε′ (z ′ ),           if z ′ 6= −z.
+
+The exception points z ′ = ±z are related to the poles of the pair correlation functions (2.26). The pole
+contributions from hλ± λ∓ i and hλ†± λ†∓ i, which break the commutativity in the first line, will cancel each
+other in final expressions. The contribution from hλ± λ†∓ i, which breaks the commutativity in the second
+line, is important and is responsible for the kinematic poles of form factors. It reads:
+
+                                                      [1]ω z
+                                λε (z ′ )λ†−ε (z) = −ε ′     sε (z) + O(1)                   as z ′ → −z.                          (2.28)
+                                                      z +z
+The operators sε (z) are defined as
+                                                                                                                !
+                                                                                               X Dε
+                                                                    ε(γ + −γ − )
+                           sε (z) = :λε (−z)λ†−ε (z): = ω                          :exp                 k −k
+                                                                                                            z       :,             (2.29)
+                                                                                                        k
+                                                                                               k6=0
+
+where
+                                           Dkε = (−)k (αεk + βkε ) + α−ε   −ε
+                                                                      k − βk ,                                                     (2.30)
+
+                                                                   11
+Important properties of sε (z) are                                            z
+                                                     hsε′ (z ′ )λε (z)i = fε′ − ′ ,
+                                                                               zz                                               (2.31)
+                                                             ′ †
+                                                     hsε′ (z )λε (z)i = f−ε′ ′ ,
+                                                                               z
+and                                                                        z         z
+                                                 hsε′ (z ′ )sε (z)i = f+    .     f−                       (2.32)
+                                                             z′        z′
+    Now we are ready to define the vertex operators t(z), t† (z), which correspond in the free field construction
+to the operators that create the particles:3
+                                             †
+                                                                                
+                              t(z) = z (P −P )/2N ω P/4 λ+ (z) + ω −P/4 λ− (z) ,
+                                          †
+                                                   †                     †
+                                                                                                          (2.33)
+                             t† (z) = z (P −P )/2N ω P /4 λ†+ (z) + ω −P /4 λ†− (z) .
+
+These operators are not pure exponents, and we must decompose the corresponding products before applying
+the rules (2.24), (2.25). Moreover, they contain zero modes, so that it is important to specify the modules
+F̄rs , in which they act.
+     From the property (2.28) we easily obtain
+
+                                      P −P †   [1]ω z  P −P †             P † −P
+                                                                                         
+               t(z ′ )t† (z) = −ω ±      4             ω   4   s + (z) − ω    4   s − (z)  + O(1)              as z ′ → e±iπ z.   (2.34)
+                                               z′ + z
+From (2.31) we have
+                                       z                                                         z
+                    sε (z ′ )t(z) = fε − ′ :sε (z ′ )t(z): ,               sε (z ′ )t† (z) = f−ε          :sε (z ′ )t† (z): .     (2.35)
+                                        z                                                           z′
+Let X = (x1 , . . . , xn ), Y = (y1 , . . . , yn′ ) and
+
+                                   t(X) = t(x1 ) · · · t(xn ),           t† (Y ) = t† (y1 ) · · · t† (yn′ ).
+                                         ±
+Let hu| ∈ Frs , |vi ∈ F̄rs such that hu|D−k = 0, Dk± |vi = 0 (k > 0). Then from the identities (2.34), (2.35)
+we easily derive that the functions J(X|Y ) = hu|t(X)t† (Y )|vi satisfy the kinematic pole condition (2.9). It
+means that they define form factors of quasilocal operators according to (2.4).
+
+2.3. Form factors from free fields
+Let us recall, that form factors of arbitrary physical operators can be found as soon as the functions JO are
+fixed. Assuming
+                                 JO (X|Y ) = Jrs (X|Y ) ≡ rs h1|t(X)t† (Y )1irs ,
+we have [23, 17]
+                                                                             φκmm̄
+                                                          O = Φκmm̄ =              ,                                              (2.36)
+                                                                             Gκmm̄
+if
+                          κ m − m̄                    κ m − m̄                   m + m̄
+                     r =1+   +          ,    s =1+ −             ,     n′ − n =          = Q,             (2.37)
+                          2        4                  2      4                      2
+where we denote n = #X, n′ = #Y . The quantity Q is the charge of the operator and it is the same for all
+form factors so that the triple (r, s, Q) characterizes an exponential operator as well as the triple (κ, m, m̄).
+The numbers Gκmm̄ are normalization constants. In the special case m̄ = −m they coincide with the vacuum
+expectation values hφκm,−m i calculated in [44].4 They will play very little role in our consideration, and we
+will not quote the explicit expression here.
+    3
+      The definition here differs from that of [17] by non-rational prefactors, which will drastically simplify the commutation
+relations with the screening currents and screening operators later.
+   4
+      The factors Gκm,−m were calculated in [44] for the ZN Ising model. They are easily continued to arbitrary g and differ from
+those of the complex sinh-Gordon model by simple factors. Below we will need a combination that is the same in both theories.
+
+
+
+                                                                    12
+   Though we never use the explicit form of the J functions below, let us give it for completeness:
+
+                                       n          n ′           ! r−s
+                                                                   N
+                                                                                                              * n                   n    ′           +
+                                       Y          Y                      X             p P       † P           Y                    Y
+                                                                                           εi + p4   ε′j
+               Jrs (X|Y ) =                  xi         yi−1                      ω    4                                λεi (xi )            λ†ε′ (yi ) ,   (2.38)
+                                                                                                                                               i
+                                       i=1        j=1                   {εi =±}                                   i=1               i=1
+                                                                        {ε′ =±}
+                                                                          j
+
+
+where        * n                                  +
+              Y                  n
+                                 Y
+                                  ′
+                                                                Y                           Y                              Y                  
+                                                                                  xj                              yj                            yj
+                     λεi (xi )         λ†ε′ (yi )       =               fεi                             fεi                              f−εi −      .      (2.39)
+                                          i                                       xi       1≤i<j≤n′
+                                                                                                                  yi                            xi
+               i=1               i=1                        1≤i<j≤n                                                          1≤i≤n
+                                                            εi +εj =0                       ε′ +ε′ =0                       1≤j≤n′
+                                                                                             i   j
+                                                                                                                            εi +ε′j =0
+
+    Now let us turn to the problem of description of descendant operators (1.10). Though up to now it is not
+possible to find form factors of each operator of the form (1.10), it is possible to establish a set of solutions to
+the form factor equations that correspond to each family (Hm       κ )
+                                                                    m̄ ∆k,L . The basic idea is that the J functions
+for operators in (Hmm̄ )∆k,L /(Hmm̄ )∆k,L−1 are obtained as matrix elements of the form hu|t(X)t† (Y )|vi,
+                      κ                κ
+
+where hu| ∈ (Frs )k , |vi ∈ (F̄rs )k̄ , so that ∆k = k − k̄, L = k + k̄. Generally, matrix elements do not provide
+form factors since the corresponding F functions obtained by means of (2.4) do not satisfy the kinematic
+pole equation (2.3d). But, as we discussed at the end of the last subsection, this equation is satisfied subject
+        ±
+to hu|D−k   = 0, Dk± |vi = 0 (k > 0). Such vectors are generated from the vacuums by the elements of the
+Heisenberg algebra thatLcommute with Dk± .
+    Explicitly, let A = ∞   k=0 Ak be a graded commutative algebra with the generators a−k , b−k , k ∈ Z>0 .
+The grading Ak is defined according to the rule deg a−k = deg b−k = k. Consider two representations of this
+algebra in the Heisenberg algebra (2.14). Slightly abusing the notation, let
+
+                                                            α−    +
+                                                             k − αk
+                                                                                                   α−     +
+                                                                                                    −k − α−k
+                                              a−k =               (1)
+                                                                          ,             ā−k =                (1)
+                                                                                                                           ,
+                                                                 Ak                                      Ak
+                                                                                                    −     +
+                                                                                                                                                            (2.40)
+                                                            βk− − βk+                              β−k − β−k
+                                              b−k =               (2)
+                                                                          ,              b̄−k =               (2)
+                                                                                                                        .
+                                                                Ak                                       Ak
+The representatives without bar act on the bra states, while those with bar act on the ket ones. Let h ∈ A.
+Then the states
+                                     rs hh| = rs h1|h,  |hirs = h̄|1irs                               (2.41)
+satisfy the equations
+                                                         rs hh|D−k = 0,                    Dk |hirs = 0.                                                    (2.42)
+Moreover, they provide all solutions to these equations.
+  Let h, h′ ∈ A. We claim then that the functions
+                                                         hh̄′
+                                                        Jrs  (X|Y ) = rs hh|t(X)t† (Y )|h′ irs                                                              (2.43)
+
+define according to (2.4) form factors of a descendant of the exponential operator Φκmm̄ , which will be
+denoted symbolically as hh̄′ Φκmm̄ . If h ∈ Ak and h′ ∈ Ak̄ , the corresponding operator belongs to the
+subspace (Hm  κ )
+                m̄ k−k̄,k+k̄ . It means that its spin and scaling dimension are defined by (1.12).
+    Note that an operator of the form hΦκmm̄ (which means that h′ = 1) is a right (‘chiral’) descendant, i.e. a
+descendant of level (k, 0). Since its total level L coincides with its external spin ∆k, the last is well defined
+and no operators of lower dimensions admix except for special resonant values of the parameters. The same
+is valid for left (‘antichiral’) descendants h̄′ Φκmm̄ , with the only difference that their total levels L coincide
+with −∆k.
+    Let us make a remark about identities for the functions Jrs     hh̄′ (X|Y ). First, it is trivial that
+
+                                         †      ′               Q             †      ′
+                         r+N,s+N hh|t(X)t (Y )|h ir+N,s+N = (−1) × rs hh|t(X)t (Y )|h irs .                                                                 (2.44)
+
+It means that the shift r → r + N , s → s + N (or, equivalently, κ → κ + 2N ) only multiplies the operator
+by (−1)Q :
+                                 hh̄′ Φκ+2N
+                                       mm̄ (x) = (−1)
+                                                     (m+m̄)/2
+                                                              hh̄′ Φκmm̄ (x).                       (2.45)
+
+                                                                                  13
+The second identity was proved in [17] and called there the reflection identity. Namely, there are linear
+maps ρrs : A → A, which commute with the grading, such that ρrs (1) = 1 and
+                   †           ′                                             †      ′
+        rs hh|t(X)t (Y )|ρrs (h )irs = CQ,rs × −s−N +1,−r−N +1 hρrs (h)|t(X)t (Y )|h i−s−N +1,−r−N +1 ,                      (2.46)
+
+where
+                                                            Q
+                                                            Y        [s + Q
+                                                                          2 − i]ω
+                                                 CQ,rs =             Q
+                                                                                               .                             (2.47)
+                                                            i=1 [r − 2 − 1 + i]ω
+
+In the operator language
+                                         h ρrs (h′ ) Φκmm̄ = CQ,rs ρrs (h)h̄′ Φm
+                                                                               −κ−2N −2
+                                                                                m̄      .                                    (2.48)
+The third identity reads
+                                                                          n          n′
+                                                                          Y          Y
+                                        †       ′                    n
+                       r+N,s hh|t(X)t (Y )|h ir+N,s = (−1)                      xi         yi−1 rs hh|t(X)t† (Y )|h′ irs .   (2.49)
+                                                                          i=1        i=1
+
+It means that the operator hh̄′ Φκ+N                                                   ′ κ
+                                              m+N,m̄−N differs from the operator hh̄ Φmm̄ by a simple factor in form
+factors. More generally, for every operator O there exists O(1) such that
+                                                                     n      n′
+                                                                                  !
+                                                                     X      X
+           FO(1) (θ1 , . . . , θn |θ1′ , . . . , θn′ ′ ) = (−1)n exp   θi −    θi′ FO (θ1 , . . . , θn |θ1′ , . . . , θn′ ′ ), (2.50)
+                                                                      i=1             i=1
+
+so that the charge and spin of the new operator are Q(1) = Q, s(1) = s − Q. Continuing the procedure, we
+obtain an infinite chain of operators
+
+                                       . . . , O(−2) , O(−1) , O(0) ≡ O, O(1) , O(2) , . . .                                 (2.51)
+
+This property is related with a symmetry of the Zamolodchikov–Faddeev algebra in the case of diagonal S
+matrix for a particle-antiparticle pair. Due to the absence of such symmetry in the ZN Ising model, no more
+than one operator of each such chain can be consistent with the reduction from the complex sine-Gordon
+model to the ZN Ising model.
+
+2.4. Computation of matrix elements
+In the last subsection we presented an explicit expression for the J functions corresponding to exponential
+operators Φκmm̄ . Here we will show that there is a straightforward way to obtain the J functions (and, due
+to (2.4), form factors) for any operator hh̄′ Φκmm̄ , once we know the explicit form of h, h′ in terms of the
+generators a−k , b−k . This construction is based on the following three sets of commutation relations. First,
+the commutation relations between the representatives a−k , b−k and the exponents λε (z), λ†ε (z) together
+with the action on the ket vacuums read
+
+                           [a−k , λε (z)] = (−ε)k+1 z k λε (z),            [b−k , λε (z)] = (−ε)k z k λε (z),
+                           [a−k , λ†ε (z)] = (−ε)k+1 z k λ†ε (z),          [b−k , λ†ε (z)] = −(−ε)k z k λ†ε (z),             (2.52)
+                                                    a−k |1irs = b−k |1irs = 0.
+                                                                     h corresponding to the right de-
+These commutation relations are sufficient to compute all functions Jrs
+scendants. Similarly, the commutation relations between the representatives ā−k , b̄−k and the exponents
+λε (z), λ†ε (z) together with the action on the bra vacuums read
+
+                             [λε (z), ā−k ] = εk+1 z −k λε (z),           [λε (z), b̄−k ] = εk z −k λε (z),
+                             [λ†ε (z), ā−k ] = εk+1 z −k λ†ε (z),         [λ†ε (z), b̄−k ] = −εk z −k λ†ε (z),              (2.53)
+                                                    rs h1|ā−k = rs h1|b̄−k = 0.
+
+
+
+
+                                                                     14
+These commutation relations are sufficient to compute all functions Jrs h̄ corresponding to the left descendants.
+
+Nevertheless, both (2.52) and (2.53) are not sufficient to compute general Jrs   hh̄ functions. To do it we need
+
+the third set of relations:
+                                                                         (1)
+                                    [a−k , ā−l ] = −(1 + (−1)k )kδkl /Ak ,
+                                                                                                            (2)
+                                                        [b−k , b̄−l ] = −(1 − (−1)k )kδkl /Ak ,                                                               (2.54)
+                                                              [a−k , b̄−l ] = [b−k , ā−l ] = 0,
+    As a result, we obtain the following expression
+
+                      n           n′                ! r−s
+                                                       N
+                                                                                                                  * n                    n′            +
+                      Y           Y                          X            p P       † P                            Y                     Y
+       hh̄′                                                                   εi + p4   ε′j    hh̄′
+     Jrs (X|Y ) =            xi         yi−1                          ω   4                   PE|E ′ (X|Y )                  λεi (xi )         λ†ε′ (yi ) .   (2.55)
+                                                                                                                                                 i
+                       i=1        j=1                       {εi =±}                                                  i=1                 i=1
+                                                            {ε′ =±}
+                                                              j
+
+
+                                                                                                                         ′
+                                                                                       hh̄ (X|Y ), which linearly depend
+Here E = {ε1 , . . . , εn }, E ′ = {ε′1 , . . . , ε′n′ }, and the Laurent polynomials PE|E ′
+                                    ′
+on the algebraic elements h, h , are defined by the following inductive procedure. First, PE|E           1
+                                                                                                             ′ (X|Y ) = 1.
+
+Second, the ‘elementary’ polynomials are defined explicitly
+                                                                      n                 n             ′
+                                          a−k
+                                                                      X                 X
+                                         PE|E ′ (X|Y ) =                (−εi )k+1 xki +   (−ε′i )k+1 yik ,
+                                                                      i=1                           i=1
+                                                                      n
+                                                                      X                       n′
+                                                                                              X
+                                               b
+                                           −k
+                                         PE|E ′ (X|Y ) =                    (−εi )k xki −           (−ε′i )k yik ,
+                                                                      i=1                     i=1
+                                                                                                ′
+                                                                                                                                                              (2.56)
+                                                                      n
+                                                                      X                       n
+                                                                                              X
+                                               ā
+                                           −k
+                                         PE|E ′ (X|Y ) =                    εk+1
+                                                                             i   x−k
+                                                                                  i +                ε′k+1
+                                                                                                      i    yi−k ,
+                                                                      i=1                     i=1
+                                                                      n
+                                                                      X                 n′
+                                                                                        X
+                                               b̄
+                                           −k
+                                         PE|E ′ (X|Y ) =                    εki x−k
+                                                                                 i −            ε′k −k
+                                                                                                 i yi .
+                                                                      i=1                i=1
+
+Now let                                                      Y p q                             Y p′ q ′
+                                                      h=        k
+                                                              a−k   k
+                                                                  b−k ,               h′ =        k
+                                                                                                a−k   k
+                                                                                                    b−k
+                                                              k                                 k
+
+with finite numbers of nonunit factors, i.e. the sequences pk ≥ 0 etc. stabilizing at zero. Besides, let
+                             (                                 (
+                               h|pk →pk −1 , pk > 0              h|qk →qk −1 , qk > 0
+                       hk| =                             h|k =
+                               0,             pk = 0,            0,            qk = 0,
+
+and similarly for h′k| , h′|k . Then the inductive relations are
+
+                                  ha     h̄′    hh̄              ′    ′                       1 + (−1)k           hh̄′
+                              PE|E−k′ (X|Y ) = PE|E ′ (X|Y ) − kpk
+                                                                                                      (1)
+                                                                                                             PE|Ek|′ (X|Y ),
+                                                                                                    Ak
+                                  hb     h̄′    hh̄              ′    ′                       1 − (−1)k           hh̄′
+                              PE|E−k′ (X|Y ) = PE|E ′ (X|Y ) − kqk
+                                                                                                      (2)
+                                                                                                             PE|E|k′ (X|Y ),
+                                                                                                    Ak
+                                                                                                                                                              (2.57)
+                               hh̄′ ā            hh̄′                 1 + (−1)k hk| h̄′
+                              PE|E ′ −k (X|Y ) = PE|E  ′ (X|Y ) − kp k      (1)
+                                                                                PE|E ′ (X|Y ),
+                                                                          Ak
+                               hh̄′ b̄            hh̄′                 1 − (−1)k h|k h̄′
+                              PE|E ′−k (X|Y ) = PE|E   ′ (X|Y ) − kqk
+                                                                            (2)
+                                                                                PE|E ′ (X|Y ).
+                                                                          Ak
+
+Note that the second terms in these relations are the result of ‘gluing’ the right and the left chiralities. They
+vanish in the case of chiral descendants.
+
+
+
+                                                                                 15
+    Another important remark is that the action of the elements a1−2k , b−2k on the operators is trivial. It
+is easy to see that the corresponding ‘elementary’ polynomial are E and E ′ independent. Denote
+                              (                                   (
+                               a−k , k ∈ 2Z + 1;                   ā−k , k ∈ 2Z + 1;
+                       ι−k =                          ιk = ῑ−k =                                    (2.58)
+                               b−k , k ∈ 2Z,                       b̄−k , k ∈ 2Z,
+
+for k > 0. Hence, we have
+                                                             n+n ′
+                                                             X
+                Fι−k O (θ1 , . . . , θn+n′ )α1 ...αn+n′ =            (−1)(k+1)δαk 1̄ ekθi FO (θ1 , . . . , θn+n′ )α1 ...αn+n′
+                                                              i=1
+
+for k 6= 0. But the prefactor in the r.h.s. is easily recognized as the action of the integral of motion Ik on
+the operator O:
+                                           [O(x), Ik ] = Nk ι−k O(x),                                   (2.59)
+where Nk is an appropriate normalization factor. For the cases k = ±1 the currents I±1 may be chosen
+to coincide with the components P± of the momentum, and the normalization factors read N1 = −N−1 =
+−M/2 in terms of the physical mass M of the particles.
+    The existence of explicit expressions for form factors makes, on the first glance, the whole free field
+representation unnecessary. The only point, where it proved its efficiency in this section was a simple proof
+of the kinematic pole. Nevertheless, as we will see in the next section, in its framework we introduce new
+objects — screening currents and screening operators, — which make it possible to create interesting families
+of descendant operators and prove important theorems about them.
+
+3. Screening currents and screening operators
+
+In [13–16] we constructed screening currents and screening operators in the case of the sinh-Gordon model.
+We have shown that these operators make it possible to prove important identities, which are analogous to
+the resonance identities in the conformal perturbation theory, to find form factors of conserved currents,
+and to study reductions in the sine-Gordon theory. In the present paper we start to follow this program for
+the complex sinh-Gordon model. In this section we construct screening currents and screening operators
+and discuss their properties. We construct these objects in analogy to the algebraic structures that appear
+in the deformed parafermion theory [23].
+
+3.1. Screening currents
+Let us introduce screening currents in terms of the Heisenberg algebra (2.14), (2.16). Later we will use them
+to construct screening operators, i.e. special integrals of these currents that commute with t(z), t† (z). There
+are two types of screening currents. The type I currents are defined as5
+                                                                                       !
+                                          †   γ + −γ −      X α− − α+ β − − β + z −k
+                             2d+2d† P −P    +                    k       k    k      k
+                    S(z) = e        ω 8           2    :exp                −               :,
+                                                                   [k]ω̃       {k}ω̃
+                                                                                         k
+                                                            k6=0
+                                                                                       !                    (3.1)
+                                                                 −       +
+                     †
+                                        †
+                             2d+2d† P 8−P + γ −γ
+                                                −    +      X α −α
+                                                                 k       k   βk − βk+ z −k
+                                                                              −
+                   S (z) = e        ω             2    :exp                +               :.
+                                                                   [k]         {k}       k
+                                                                          k6=0            ω̃                  ω̃
+
+The type II currents look even simpler:
+
+                                                     †        +     −
+                                                                               X α− − α+ + β − − β + z −k
+                          S̃(z) = e−2d−(2N +2)d z γ −γ :exp                           k        k          k        k
+                                                                                                                           :,
+                                                                                                   [k]ω                k
+                                                                               k6=0
+                                                                                                                                (3.2)
+                                                                               X α− − α+ − β − + β + z −k
+                           †          −(2N +2)d−2d†          γ − −γ +                 k        k          k        k
+                         S̃ (z) = e                      z              :exp                                               :.
+                                                                                                   [k]ω                k
+                                                                               k6=0
+
+   5
+    It may seem strange that we associate S to ω̃ and S̃ to ω, but we do it so that the notation stressed the analogy with our
+previous work on the sinh-Gordon model. There we used the symbol q for ω̃ and q̃ for ω.
+
+
+                                                                        16
+                                                                                                        +     −
+Nevertheless, their behavior is more complicated because of the factor z ±(γ −γ ) . We will see that this
+results in a kind of mode number shifts.
+    To save the space on the number of equations, we will omit some definitions and identities from now on.
+Namely, for any operator X the operator X † is defined according to the rule
+                            X → X†          ⇔      P ↔ P † , d ↔ d† , γ ε → −γ ε , βkε → −βkε .                               (3.3)
+Furthermore, for any identity that contains some operators without and with a dagger there exists another
+identity, which is obtained by the substitution
+                          X ↔ X † : S ↔ S † , S̃ ↔ S̃ † , t ↔ t† , P ↔ P † , d ↔ d† , etc.                                    (3.4)
+for every operator X in the identity.
+    The algebra of screening currents is defined in terms of operator products. These are given by
+                                                    z                        z
+                              S(z ′ )S(z) = 1 − ′ :S(z ′ )S(z): = − ′ S(z)S(z ′ ),
+                                                    z                        z
+                                                     z                      z                         (3.5)
+                             S † (z ′ )S(z) = 1 + ′ :S † (z ′ )S(z): = ′ S(z)S † (z ′ )
+                                                     z                       z
+for the type I operators. These relations were obtained straightforwardly by using the commutation relations
+between the oscillators. There is a similar relation between the type II screening currents as well:
+                                                    z                        z
+                              S̃(z ′ )S̃(z) = 1 − ′ :S̃(z ′ )S̃(z): = − ′ S̃(z)S̃(z ′ ),
+                                                    z                        z                        (3.6)
+                                                     z                      z
+                             S̃ † (z ′ )S̃(z) = 1 + ′ :S̃ † (z ′ )S̃(z): = ′ S̃(z)S̃ † (z ′ )
+                                                     z                       z
+As for relation between the currents of different types, we obtain
+                                                      z −1                      z′
+                            S(z ′ )S̃(z) = −i 1 + i ′         :S(z ′ )S̃(z): = S̃(z)S(z ′ ),
+                                                       z                          z                    (3.7)
+                                                    z −1                      z′ †
+                                ′    †                            ′   †                       ′
+                           S(z )S̃ (z) = i 1 − i ′          :S(z )S̃ (z): = S̃ (z)S(z )
+                                                    z                            z
+These operator products define completely the commutation relations in the algebra of modes of screening
+operators.
+    For any operator X(z) constructed of the oscillators let us define its modes
+                                                       I
+                                                          dz k−1
+                                                 Xk =         z     X(z).                              (3.8)
+                                                          2πi
+We will assume that the integral is taken over a closed contour that encloses all poles that come from the
+operator products of X(z) with the operators written to the right of it, and does not enclose any pole that
+comes from the operator products with the operators written to the left.
+    Then from the operator products (3.5), (3.6) we easily obtain
+                                         Sk Sl = −Sl+1 Sk−1 ,            Sk Sl† = Sl+1
+                                                                                   †
+                                                                                       Sk−1 ,
+                                                                                                                              (3.9)
+                                         S̃k S̃l = −S̃l+1 S̃k−1 ,        S̃k S̃l† = S̃l+1
+                                                                                      †
+                                                                                          S̃k−1 .
+Since the operator products (3.7) contain poles, the corresponding commutation relations have terms that
+come from their residues:                                             k+l P −P †
+                                Sk S̃l − S̃l−1 Sk+1 = i−1−k ǫk+l ω − 2 + 8 ,
+                                                                   k+l P −P †
+                                                                                                  (3.10)
+                                Sk S̃l† − S̃l−1
+                                            †
+                                                Sk+1 = ik+1 ǫ†k+l ω 2 + 8 .
+Here the r.h.s. contain the modes of the operators ǫ(z), ǫ† (z) defined according to
+                          †   +  −
+                                       X (1 − (−1)k )(α− − α+ ) + (1 + (−1)k )(β − − β + ) z −k
+             ǫ(z) = e−2N d z γ −γ exp                     k      k                 k  k
+                                                                                                ,                            (3.11)
+                                                                   [2k]ω                     k
+                                       k6=0
+
+and the rule (3.3). It is easy to check that
+              ǫ(z ′ )S(z) = :ǫ(z ′ )S(z): = iS(z)ǫ(z ′ ),            ǫ(z ′ )S † (z) = :ǫ(z ′ )S † (z) = −iS † (z)ǫ(z ′ ),
+                                                                                                                             (3.12)
+              ǫ(z ′ )S̃(z) = :ǫ(z ′ )S̃(z): = S̃(z)ǫ(z ′ ),          ǫ(z ′ )S̃ † (z) = :ǫ(z ′ )S̃ † (z) = S̃ † (z)ǫ(z ′ ).
+Hence,
+                      ǫk Sl = iSl ǫk ,        ǫk Sl† = −iSl† ǫk ,         ǫk S̃l = S̃l ǫk ,         ǫk S̃l† = S̃l† ǫk .      (3.13)
+
+                                                                    17
+3.2. Screening operators and null vectors
+Now we construct the operators that commute with the currents t(z), t† (z). We will see that the existence of
+these operators result in identities between descendant operators at special values of the parameters κ, m, m̄,
+namely for integer values of κ, (κ − m)/2 or, equivalently, for integer values of r + Q/2, s + Q/2.
+   Consider the operator products of the screening currents with the exponential operators λ, λ† . For the
+type I currents we have
+
+                           S(z ′ )λ+ (z) = ω −1/4 :S(z ′ )λ+ (z): = ω −1/2 λ+ (z)S(z ′ ),
+                                                    z ′ + ω̃ −1/2 z
+                           S(z ′ )λ− (z) = ω −1/4                    :S(z ′ )λ− (z): = ω 1/2 λ− (z)S(z ′ ),
+                                                     z ′ − ω̃ 1/2 z
+                                                                                                                                             (3.14)
+                                                   z ′ + ω̃ 1/2 z
+                           S(z ′ )λ†+ (z) = ω 1/4 ′                 :S(z ′ )λ†+ (z): = ω −1/2 λ†+ (z)S(z ′ ),
+                                                  z − ω̃ −1/2 z
+                           S(z ′ )λ†− (z) = ω 1/4 :S(z ′ )λ†− (z): = ω 1/2 λ†− (z)S(z ′ ).
+
+The corresponding identities for S † are obtained by means of the substitution (3.4) as it was mentioned in
+the last subsection.
+   What we need is the commutation relations of Sk , Sk† with t(z), t† (z). Nonzero commutators come from
+the singularities in the operator products. We have
+                                                                                       P +P † −2
+                                                  [Sk , t(z)] = i{1}ω̃ z k σ(z)ω −        8        ω̃ k/2 ,
+                                                                                         P +P † −2
+                                                                                                                                             (3.15)
+                                                [Sk , t† (z)] = −i{1}ω̃ z k σ † (z)ω          8      ω̃ −k/2 ,
+
+where σ(z), σ † (z) are defined by
+                                                                                                                               !
+                  2d+2d†       P −P †       γ + +γ −          X      ω̃ k/2 α−
+                                                                             k − ω̃
+                                                                                    −k/2 α+
+                                                                                          k         ω̃ k/2 βk− + ω̃ −k/2 βk+       z −k
+       σ(z) = e            z     2N     ω       2      :exp                                   +                                         :.   (3.16)
+                                                                             [k]ω̃                            {k}ω̃                  k
+                                                              k6=0
+
+We see that the r.h.s. of identities (3.15) are nonzero for any values of r, s. Thus, we need to combine them
+with the corresponding identities for Sk† to cancel these terms. Consider the combinations
+
+                                                                Sk± = Sk ± (−1)k−1 Sk† .                                                     (3.17)
+
+Later we will need their commutation relations with each other:
+                                                                      ′      ′
+                                                                Skε Slε + Sl+1
+                                                                           ε    ε
+                                                                               Sk−1 = 0,                                                     (3.18)
+
+and with S̃, S̃ † :                                                 P −P † k+l               
+                                                                                  P −P †  k+l
+                                Sk± S̃l − S̃l−1 Sk+1
+                                                  ∓
+                                                      = i−1−k ǫk+l ω 8 − 2 ± ω − 8 + 2 ,
+                                                                   P −P † k+l  P −P †   k+l
+                                                                                                                                            (3.19)
+                                Sk± S̃l† − S̃l−1
+                                             †    ∓
+                                                 Sk+1 = ik+1 ǫ†k+l ω 8 + 2 ± ω − 8 − 2 .
+For the commutators of these combinations with t, t† we have
+                                                          P +P † −2 k      P +P † −2  k
+                                                                                         
+                       [Sk± , t(z)] = i1−k {1}ω̃ z k σ(z) ω − 8 − 2 ± ω 8 + 2 ,
+                                                           P +P † −2 k            †                                                        (3.20)
+                        ± †            k−1         k †               +2    − P +P8 −2 − k2
+                      [Sk , t (z)] = i {1}ω̃ z σ (z) ω         8        ±ω                   .
+
+Here the r.h.s. contain sums of two terms, which can be canceled at special values of r, s. Define the operators
+
+                                  Σ+ = Sk+ : F̄rs → F̄r−1,s−1 ,                      k = − κ2 = 1 − r+s
+                                                                                                     2 ;
+                                                                                                                                             (3.21)
+                                  Σ− = Sk− : F̄rs → F̄r−1,s−1 ,                      k = − κ+N
+                                                                                            2 =1−
+                                                                                                  r+s+N
+                                                                                                    2   ,
+
+These operators commute with t(z), t† (z) for integer values of k:
+
+                                    [Σ+ , t(z)]|F̄rs = [Σ+ , t† (z)]|F̄rs = 0, if r + s ∈ 2Z,
+                                                                                                                                             (3.22)
+                                    [Σ− , t(z)]|F̄rs = [Σ− , t† (z)]|F̄rs = 0, if r + s + N ∈ 2Z.
+
+                                                                            18
+These values of r, s correspond to even values of κ or κ + N . Later we will use Σ+ in the H00
+                                                                                            0 space of
+
+operators, where the conserved currents Tk appear.
+   Now turn to the type II screening currents. We have
+
+                                             z ′1/2
+                      S̃(z ′ )λ± (z) =                 :S̃(z ′ )λ± (z): = −ω ±1/2 z −1 λ± (z)S̃(z ′ ),
+                                        z ′ − ω ∓1/2 z                                                           (3.23)
+                                        z ′ + ω ±1/2 z
+                      S̃(z ′ )λ†± (z) =                :S̃(z ′ )λ†± (z): = ω ±1/2 zλ†± (z)S̃(z ′ ).
+                                             z ′1/2
+These operator products contain poles for both λ+ and λ− so that the r.h.s. of the corresponding com-
+mutation relations with t, t† have the desired form of sums at once. The result is written in terms of
+anticommutators:
+                         {S̃k , t(z)} = z k σ̃(z){P − 2k + 1}ω , {S̃k , t† (z)} = 0,             (3.24)
+where
+                                                        †     +    −     P −P †   1       γ + +γ −
+                         σ̃(z) = e−2d−(2N +2)d z γ −γ + 2N − 2 ω 2
+                                        X ω k/2 (α− + β − ) − ω −k/2 (α+ + β + ) z −k
+                                                   k   k               k    k
+                                 × :exp                                               :.                         (3.25)
+                                                           [k]ω                    k
+                                        k6=0
+
+The operator σ̃ † appears in the corresponding commutator of S̃k† . Looking at the r.h.s. of (3.24) we see that
+it vanishes when the brace vanishes, in particular, when r = k. Define
+
+                                 Σ̃ = S̃r : F̄rs → F̄r+1,s+N +1,                          r + Q/2 ∈ Z;
+                                     †
+                                                                                                                 (3.26)
+                                Σ̃       = S̃s† :   F̄rs → F̄r+N +1,s+1 ,                 s + Q/2 ∈ Z.
+
+The requirement that r + Q/2 or s + Q/2 is an integer is not quite obvious. Let us explain it. The power at
+                                                                                     +    −
+the exponent in S̃r contains, beside of the explicit factor z r−1 , the factor z γ −γ (see the definition (3.2)).
+It is easy to see that for any function f
+                                                                             
+                    aγ + +bγ −     +   − a′ γ + +b′ γ −       a + b − a′ − b′          ′ +      ′ −
+                 hω            f (γ − γ )ω              i=f                     hω (a+a )γ +(b+b )γ i.    (3.27)
+                                                                     2
+It is related to the hidden parameter of the vacuum, mentioned above after equation (2.22). Since in each
+matrix element a + b and a′ + b′ are integers and a + b + a′ + b′ = −Q, the eigenvalue of γ + − γ − is always
+an integer, if Q is even, and a half-integer, if Q is odd. Since the total power of z under the integral must
+be integer, we have r + Q/2 ∈ Z.
+    We have
+                             {Σ̃, t(z)}|F̄rs = {Σ̃, t† (z)}|F̄rs = 0,    r + Q/2 ∈ Z;
+                                                                                                        (3.28)
+                            {Σ̃† , t(z)}|F̄rs = {Σ̃† , t† (z)}|F̄rs = 0, s + Q/2 ∈ Z.
+From the commutation relations (3.9), (3.18), (3.19) we obtain
+
+                                          (Σ± )2 = 0,             Σ̃2 = 0,            (Σ̃† )2 = 0,
+                                                                    †                          †
+                                              Σ̃Σ̃† = e2N (d−d ) Σ̃† Σ̃ e−2N (d−d ) ,
+                                                                                      †                  †       (3.29)
+                             Σ+ Σ̃ = Σ̃Σ− ,                 Σ− Σ̃ = Σ̃ e2N (d+d ) Σ+ e−2N (d+d ) ,
+                                                                                           †                 †
+                           Σ+ Σ̃† = Σ̃† Σ− ,                Σ− Σ̃† = Σ̃† e2N (d+d ) Σ+ e−2N (d+d ) ,
+
+while from (3.13) we have
+
+                                 ǫk Σ+ = iΣ− ǫk ,                 ǫk Σ− = i e−4N d Σ+ e4N d ǫk ,
+                                                                                                                 (3.30)
+                                         ǫk Σ̃ = e−2N d Σ̃ e2N d ǫk ,             ǫk Σ̃† = Σ̃† ǫk .
+
+    Now let us discuss applications of screening operators to form factors. Let r + Q/2, s + Q/2 ∈ Z. From
+(3.28) we immediately obtain
+                                        †      ′          Q                     †          ′
+                 r+1,s+N +1 hh|S̃r t(X)t (Y )|h irs = (−1) × r+1,s+N +1 hh|t(X)t (Y )S̃r |h irs .                (3.31)
+
+                                                                    19
+This produces an identity for form factor. Consider the right action of S̃r on the vector r+1,s−N +1 hh|. Due
+to equation (3.27) it depends on the charge Q, but we need a Q independent action on the element h. Thus,
+we define the algebraic element sk (h) according to
+
+                                             rs hs̃−k (h)| = r+1,s+N +1 hh|S̃k−Q/2 .                                     (3.32)
+
+Then the identity (3.31) reads
+                              †      ′          Q                     †               ′
+        rs hs̃−r−Q/2 (h)|t(X)t (Y )|h irs = (−1) × r+1,s+N +1 hh|t(X)t (Y )|s̃r−Q/2 (h )ir+1,s+N +1                      (3.33)
+
+On the operator side it means
+                                                                 m+m̄
+                                                                                              κ+N +2
+                    s̃−1−(κ+m)/2 (h)h̄′ Φκmm̄ (x) = (−1)          2     h s̃1+(κ−m̄)/2 (h′ ) Φm−N, m̄+N (x).             (3.34)
+
+An interesting example is the case h = h′ = 1 and κ + m, κ − m̄ ≥ 0. In this case
+
+                                                s̃−1−(κ+m)/2 (1)Φκmm̄ (x) = 0,                                           (3.35)
+
+which corresponds to a null vector in conformal field theory.
+   Now suppose r + s − 2 = κ = −2k be even. Then the Σ+ operator is defined and
+                                      +      †      ′                      †     + ′
+                          r−1,s−1 hh|Sk t(X)t (Y )|h irs = r−1,s−1 hh|t(X)t (Y )Sk |h irs .                              (3.36)
+
+With the definition
+                                                                            +
+                                                 rs hs−k (h)| = r−1,s−1 hh|Sk                                            (3.37)
+we have an operator identity
+                                       sκ/2 (h)h̄′ Φκmm̄ (x) = h s−κ/2 (h′ ) Φκ−2
+                                                                              mm̄ (x),                                   (3.38)
+which corresponds to a set of resonance identities in the order |κ|/2 of the conformal perturbation theory
+in χχ̄.
+
+3.3. Inverse screening currents
+Now introduce some more objects: inverse type I screening currents and their modes. The inverse screening
+currents S −1 (z), S †−1 (z) are defined by formal inversion of the currents (3.1) under the normal order sign
+(do not forget about the rule (3.3)):
+                                                                                      !
+                                      †   P † −P γ − −γ +  X α+ − α− β + − β − z −k
+                   S −1 (z) = e−2(d+d ) ω 8 + 2 :exp              k     k
+                                                                          − k       k
+                                                                                            :.          (3.39)
+                                                                    [k]        {k}       k
+                                                                      k6=0         ω̃              ω̃
+
+There modes will also be labeled by the −1 superscript:
+                               Z                              Z
+                                  dz k−1 −1                     dz k−1 †−1
+                        Sk−1 =        z  S (z),       Sk†−1 =       z S (z).                                             (3.40)
+                                  2πi                           2πi
+We will need their commutation relations between themselves:
+
+                                 Sk−1 Sl−1 = −Sl+1
+                                               −1 −1
+                                                   Sk−1 ,                             †−1
+                                                                        Sk−1 Sl†−1 = Sl+1 Sk−1 ,                         (3.41)
+
+and with modes of the screening currents:
+                                          −1
+                          Sk−1 Sl + Sl−1 Sk+1                        †
+                                              = δk+l,0 , Sk−1 Sl† − Sl−1  −1
+                                                                         Sk+1 = (−1)l ηk+l ,
+                                                                                                                         (3.42)
+                          Sk−1 S̃l − S̃l+1 Sl−1
+                                            −1
+                                                = 0,                           †
+                                                                 Sk−1 S̃l† − S̃l+1  −1
+                                                                                   Sl−1 = 0,
+
+where ηk and ηk† are modes of the currents η(z), η † (z):
+                          P † −P
+                                 +γ − −γ +
+               η(z) = ω      4
+                                                                                                            !
+                               X z −k         (1 − (−1)k )(α+    −
+                                                            k − αk )             (1 + (−1)k )(βk+ − βk− )       z −k
+                      × exp                                                  −                                       .   (3.43)
+                                      k                  [k]ω̃                            {k}ω̃                   k
+                               k6=0
+
+
+                                                                 20
+We will also need their commutators with ǫk , ǫ†k :
+
+                                               ǫk Sl−1 = −iSl−1 ǫk ,             ǫk Sl†−1 = iSl†−1 ǫk .                                               (3.44)
+
+The commutation relations with t(z), t† (z) read
+                                                                         k−1                                   P −P †        P +P †
+                          [Sk−1 , t(z)] = (−1)k ω 1/4 {1}ω̃ ω̃ − 2 :η(−ω̃ −1/2 z)τ̃ (z): z k+ 2N ω −                            8       ,
+                                                                         k−1                                    −P †       P +P †
+                                                                                                                                                      (3.45)
+                                                                                                           k+ P 2N
+                       [Sk†−1 , t(z)] = (−1)k ω −1/4 {1}ω̃ ω̃             2    :η † (−ω̃ 1/2 z)τ̃ (z): z               ω      8     ,
+
+where                                                                                                                                   !
+                           −2(d+d† )       γ + +γ −          X       ω̃ k/2 α+
+                                                                             k − ω̃
+                                                                                    −k/2 α−
+                                                                                          k        ω̃ k/2 βk+ + ω̃ −k/2 βk−                 z −k
+              τ̃ (z) = e               ω       2      :exp                                     +                                                 .    (3.46)
+                                                                               [k]ω̃                           {k}ω̃                          k
+                                                             k6=0
+
+We also have
+                                              −1
+                      Sl−1 [Sk−1 , t(z)] = −[Sk+1         −1
+                                                  , t(z)]Sl−1 ,                                           †−1
+                                                                                  Sl−1 [Sk†−1 , t(z)] = [Sk+1         −1
+                                                                                                              , t(z)]Sl−1 ,                           (3.47)
+
+   The inverse screening operators make it possible to define elements t−~k|−~l according to
+
+                                          ( 14 (r−s)+ 12 (γ + −γ − ))(n−m) =                    −1        −1 †−1        †−1
+     rs ht−k1 ,...,−km |−l1 ,...,−ln |ω                                         r+m+n,s+m+n h1|Sk1 · · · Skm Sl1 · · · Sln .                          (3.48)
+
+These elements can also be defined in terms of the ket vectors:
+        1         1
+     ω ( 4 (r−s)+ 2 (γ −γ ))(n−m) |t−k1 ,...,−km|−l1 ,...,−ln irs = Sl−1
+                      +     −
+                                                                      n
+                                                                         · · · Sl−1
+                                                                                 1
+                                                                                    Sk†−1
+                                                                                       m
+                                                                                          · · · Sk†−1
+                                                                                                   1
+                                                                                                      |1ir−m−n,s−m−n .                                (3.49)
+
+Notice that the screening operators with and without daggers exchanged their places. For simplicity we will
+write
+                                       t−~k = t−~k|∅ , t†−~k = t∅|−~k .
+These simplest elements are easily obtained from the series
+                                    ∞
+                                    X                          ∞
+                                                               X
+                                                  k                                                           [k]ω
+                                            t−k z = exp              Bk (a−k + b−k )z k ,          Bk =             .                                 (3.50)
+                                                                                                              2ik k
+                                    k=1                        k=1
+
+Explicitly, the first few of them look like
+
+                       t−1 = B1 (a−1 + b−1 ),                                                                                                        (3.51a)
+                                                             B12
+                       t−2 = B2 (a−2 + b−2 ) +                   (a−1 + b−1 )2 ,                                                                     (3.51b)
+                                                             2
+                                                                                                           B13
+                       t−3 = B3 (a−3 + b−3 ) + B1 B2 (a−1 + b−1 )(a−2 + b−2 ) +                                (a−1 + b−1 )3 .                       (3.51c)
+                                                                                                           6
+The elements t†−k are obtained from t−k by the substitution b−k → −b−k .
+
+4. Conserved currents
+
+Above we discussed two methods to construct descendant operators in terms of free fields. The first method
+was based on the algebra A and its representations. This method seems to be general, at least, at generic
+values of the parameters. The second approach is based on the screening currents, and it is not quite clear,
+how general it is. In this section we demonstrate the second method on a rather simple example.
+
+
+
+
+                                                                           21
+4.1. The conservation laws in the form factor language
+An important problem of the bootstrap form factor approach is to find the relation between the operators
+defined in terms of their form factors (in our approach the operators hh̄Φκmm̄ ) and those defined in terms
+of the fields ϑ, ϕ of the dual complex sinh-Gordon theory. In general, finding this relation is a rather
+sophisticated problem. In this section we would like to concentrate on a class of physically interesting
+descendant operators, namely, the conserved currents (or densities of local integrals of motion) T±k (x),
+Θ±(k−2) (x) (k ≥ 2), as we discussed in subsection 1.5. The currents Tk are right chiral descendants of
+the unit operator φ000 , while Θk−2 can be chosen in different ways, depending of what perturbation theory
+we are starting from. We will choose the sine-Liouville theory (for the complex sinh-Gordon model) or
+ZN parafermion theory (for the ZN Ising model) for a nonperturbed conformal theory, and the operator
+φ200 ∼ χχ̄ for the perturbation. In this picture the operators Θk−2 are right descendants of the perturbation
+operator φ200 due to the resonance phenomenon. Similarly, T−k and Θ2−k are left descendants of 1 and φ200
+correspondingly.
+     Let us rewrite the continuity equations (1.19) in terms of form factors
+
+                            hvac |∂− Tk |θ1 , . . . , θ2n iα1 ...α2n = hvac |∂+ Θk−2 |θ1 , . . . , θ2n iα1 ...α2n ,
+                                                                                                                           (4.1)
+                          hvac |∂+ T−k |θ1 , . . . , θ2n iα1 ...α2n = hvac |∂− Θ2−k |θ1 , . . . , θ2n iα1 ...α2n
+for k ≥ 2. Since the space-time derivatives are generated by the momentum components, they may be
+substituted by their eigenvalues:
+
+  hvac |∂± O(0)|θ1 , . . . , θ2n iα1 ...α2n = hvac |[O(0), −iP± ]|θ1 , . . . , θ2n iα1 ...α2n =
+                                                                                 2n
+                                                                           iM X ±θi
+                                                                     =±        e ×hvac |O(0)|θ1 , . . . , θ2n iα1 ...α2n . (4.2)
+                                                                            2
+                                                                                 i=1
+                         P2n               Pn               Pn
+But the expressions i=1 e±θi = i=1 x±1   i +
+                                                     ±1
+                                                i=1 yi  are obtained by the action of the elements a−1 for
+upper signs and ā−1 for lower signs. Thus, we have
+
+                              ā−1 Tk = −a−1 Θk−2 ,              a−1 T−k = −ā−1 Θ2−k ,              k ≥ 2.                (4.3)
+
+In other words, our aim is to find for each k ≥ 2 two pairs h, h′ ∈ Ak and g, g ′ ∈ Ak−2 such that
+                                                †                              †
+                                     11 hh|t(X)t (Y )|a−1 i11 = −22 ha−1 |t(X)t (Y )|gi22 ,
+                                                  †      ′            ′      †                                             (4.4)
+                                    11 ha−1 |t(X)t (Y )|h i11 = −22 hg |t(X)t (Y )|a−1 i22 .
+
+Then Tk = h1, Θk−2 = gΦ200 , T−k = h̄′ 1, Θ2−k = ḡ ′ Φ200 . In the case k = 2 we know that g = g′ = hΘ0 i
+and, due to the known vacuum expectation value of the operator φ200 and the coupling constant λ in terms
+of the mass M , it is possible to find T2 , T−2 , Θ0 so that they were related to the energy-momentum tensor
+according to the standard convention:
+
+                                 T2 = −2πT++ ,              T−2 = −2πT−− ,              Θ0 = 2πT+− .                       (4.5)
+
+From [19, 44] we have6
+                                                             N               πM 2
+                                               hΘ0 i = π         λhφ200 i =          .                                     (4.6)
+                                                            N +2            4 sin 2π
+                                                                                  N
+Due to the continuity equations, it fixes the normalization of T±2 as well.
+
+4.2. Explicit construction of conserved currents
+Return to the elements t−k , t†−k defined in (3.50). It is easy to prove the identities:
+                                    †                                 −1        †
+                      11 ht−k |t(X)t (Y )|a−1 i11 = −N −1,−N −1 ha−1 t2−k |t(X)t (Y )|1i−N −1,−N −1 ,
+                           †        †                                 †         †
+                                                                                                                           (4.7)
+                      11 ht−k |t(X)t (Y )|a−1 i11 = −N −1,−N −1 ha−1 t2−k |t(X)t (Y )|1i−N −1,−N −1 .
+   6
+    The values of λ and hφ200 i were found for the ZN Ising model, but their product can be analytically continued to the complex
+sinh-Gordon model.
+
+
+                                                                    22
+To do it, first, notice that
+                                                                                   †
+                                            rs ha−1 |{1}ω = r+N +2,s+N +2 h1|S̃1 S̃0 ,
+                                                                  †
+                                                                                                              (4.8)
+                                            {1}ω |a−1 irs = S̃0 S̃−1 |1ir−N −2,s−N −2 .
+Then we have
+                           †                        −1 −1     †          †
+             11 ht−k |t(X)t (Y )|a−1 i11 = 22 h1|{1}ω Sk t(X)t (Y )S̃0 S̃−1 |1i−N −1,−N −1
+                                                                        2N d† † −2N d†
+                                         = 22 h1|{1}−1 −1     †
+                                                    ω Sk t(X)t (Y )Σ̃ e       Σ̃ e      |1i−N −1,−N −1
+                  †             †
+Both Σ̃ and e2N d Σ̃† e−2N d anticommute with t(z), t† (z). Hence, we may push them to the left:
+                           †                        −1 −1     2N d† † −2N d†
+             11 ht−k |t(X)t (Y )|a−1 i11 = 22 h1|{1}ω Sk Σ̃ e       Σ̃ e      t(X)t† (Y )|1i−N −1,−N −1
+                                         = 22 h1|{1}−1 −1      †        †
+                                                    ω Sk S̃0 S̃−1 t(X)t (Y )|1i−N −1,−N −1
+
+Then, by using the commutation relations (3.42) and again (4.8), we obtain
+                                    †                        −1      † −1         †
+                      11 ht−k |t(X)t (Y )|a−1 i11 = 22 h1|{1}ω S̃1 S̃0 Sk−2 t(X)t (Y )|1i−N −1,−N −1
+                                                                   −1
+                                                  = −N,−N ha−1 |Sk−2    t(X)t† (Y )|1i−N −1,−N −1
+                                                  = −N −1,−N −1 ha−1 t2−k |t(X)t† (Y )|1i−N −1,−N −1 ,
+
+which proves the first equation of (4.7). The second one is proved similarly.
+    Equations (4.7) are very similar to equations (4.4) with one difference. In the r.h.s. they contain states
+in the modules with r = s = −N − 1 instead of r = s = 2. Nevertheless, due to the reflection property (2.48)
+                                                                       −N −1
+the r.h.s. of (4.7) corresponds to descendants of the same operator Φ00      = Φ200 .
+    So we have two candidates for the continuity equation, corresponding to that of Tk , k ≥ 2. Now we
+claim that they are physically the same. Let
+                                                        1
+                                                  T±                 k †
+                                                   −k = 2 (t−k ± (−1) t−k )                                   (4.9)
+
+In what follows we will also use the notation
+                                                        1
+                                              (Sk−1 )± = (Sk−1 ± (−1)k Sk†−1 ),                              (4.10)
+                                                        2
+so that
+                            ±                   −1 ±
+                       rr hT−k | = r+1,r+1 h1|(Sk ) ,           |T±             k  −1 ±
+                                                                  −k irr = ±(−1) (S−k ) |1ir−1,r−1 .
+
+  Let us show that the combination T−     −k corresponds to a linear combination of operators of the form
+Pk−1
+ l=1 [Ik , (something)]. Indeed, it can be written as
+
+                                             ∞
+                                             X          X                        K
+                                                                                 Y            L
+                                                                                              Y
+                                    T−
+                                     −k =                          A{ki }{lj }         a−ki         b−lj .
+                                            K,L=0 {ki }K ,{lj }L                 i=1          j=1
+                                                   P i=1P j=1
+                                                      ki + lj =k
+                                                                                                       P
+First, consider
+          P      the case of odd k. Then,    the terms with even  L only  enter   thePsum.  Hence, if    lj is even,
+the sum      ki is odd and, hence, at least one ki is odd. On the contrary, if         lj is odd, and Pat least one
+lj is even.PSecond, consider the case of even k. The terms with   P  odd   L   only enter the sum.  If    lj is odd,
+the sum      ki is odd too, and there is at least one odd ki . If    lj is even, at least one even lj must exist.
+Hence, in both cases at least one odd ki or even lj enters each term. But a−ki with odd ki as well as b−lj
+with even lj corresponds to a commutator with an integral of motion according to (2.58), (2.59).
+     Hence, the element t†−k do not produce any new independent conserved currents in comparison with t−k .
+We will use their combination T+   −k as the ‘shortest’ element corresponding to a conserved current. Thus,
+we identify
+                          Tk = Gk T+    0
+                                    −k Φ00 ,      Θk−2 = −Gk T+      −2N −4
+                                                               2−k Φ00       ,      k ≥ 2,                    (4.11)
+
+
+                                                                23
+where
+                                                                         ik πM k
+                                                               Gk =               .                                         (4.12)
+                                                                         4 sin 2π
+                                                                               N
+This normalization factor is chosen in consistency with (4.6) for k = 2, but for k > 2 it is arbitrary and only
+provides the correct dimension.
+   In a similar way we obtain the identification for T−k , Θ2−k :
+
+                                      T−k = −Gk T̄+   −2
+                                                  −k Φ00 ,                 Θ2−k = Gk T̄+    2N +2
+                                                                                       2−k Φ00    .                         (4.13)
+
+The operator Φ−2                         0                    2N +2
+                 00 is identified with Φ00 and the operator Φ00     with Φ200 via the reflection and 2N
+(quasi)periodicity:
+                                   Φ−2     −2N
+                                     00 = Φ00  = Φ000 ,    2N +2
+                                                         Φ00     = Φ200 .
+Note that though the 2N periodicity directly identifies descendant operators as well as the exponential ones,
+the reflection demands applying the reflection map ρrs , which is proved to exist, but generally not known
+explicitly.
+   Now we have to discuss the property expressed in equations (2.49)–(2.51). It is evident that the whole
+                         (p)  (p)
+chains of the operators Tk , Θk (p ∈ Z) satisfy the same continuity equations:
+                                                                 (p)           (p)
+                                                            ∂− Tk       = ∂+ Θk−2 ,
+                                                                 (p)           (p)
+                                                                                                                            (4.14)
+                                                            ∂+ T−k = ∂− Θ−k+2 .
+
+But since non-diagonal matrix elements of the integrals of motion Ik vanish, while the diagonal ones are p
+independent, there is no difference between these operators with different values of p: we may substitute
+  (p)  (p)                                                                                          (p)
+Tk , Θk from any values of p into (1.18) instead of Tk , Θk . It means that there exist operators Ξk (x)
+such that
+                                (p)          (p)        (p)               (p)
+                              Tk − Tk = ∂+ Ξk−1 ,     Θk−2 − Θk−2 = ∂− Ξk−1 ,
+                              (p)            (p)        (p)               (p)
+                                                                                                    (4.15)
+                            T−k − T−k = ∂− Ξ1−k ,     Θ2−k − Θ2−k = ∂+ Ξ1−k .
+We will use this fact while constructing products of currents in the next section for the products Tk T−l . By
+                                                                   (p) (p′ )
+using the definition (1.20), from (4.15) it is easy to prove that Tk T−l − Tk T−l is a combinations of space-
+time derivatives for any values of p, p′ . Indeed,
+
+    (p)                           (p′ )              (p)                                   (p′ )
+  (Tk (x + ǫ) − Tk (x + ǫ))T−l (x) − (Θk−2 (x + ǫ) − Θk−2 (x + ǫ))Θ2−l (x)
+                                               (p)              (p′ )                (p)           (p′ )
+                                      = ∂+ Ξk−1 (x + ǫ)T−l (x) − ∂− Ξk−1 (x + ǫ)Θ2−l (x)
+                                                                               (p)                  (p′ )   (p′ )
+                                                           = ∂µ (· · · )µ − Ξk−1 (x + ǫ)(∂+ T−l (x) − ∂− Θ2−l (x)) = ∂µ (· · · )µ
+
+                        (p′ )
+and the same for the T−l −T−l . Since we defined Tk T−l up to space-time derivatives, it is sufficient find form
+                                (p)    (p′ )
+factors for any operator Tk T−l or even for any their linear combination. The question about consistency
+with the reduction to the ZN Ising model is more subtle, and we will not discuss it here. Anyway, it
+does not affect diagonal matrix elements like (1.26), and we may ignore it in the context of studying the
+perturbations (1.29).
+
+5. Form factors for the products Tk T−l
+
+5.1. The main conjecture
+We have shown that each current Tk (k ≥ 2) corresponds, up to a factor, to the bra vector 11 hT−k |,
+while T−k corresponds to the ket vector |T−k i00 . We would like to unite them into one matrix element
+11 hT−k | · · · |T−l i00 , which, as we expect, will describe the product Tk T−l . The problem is that the operator
+denoted by dots must shift the zero mode. For the sinh-Gordon model [16] we used the possibility to define
+
+
+
+                                                                         24
+representative for both Tk , T−l in the same Fock module. Here we have no such possibility. Instead, we may
+insert S̃0 = Σ or S̃0† = Σ̃† . We may conjecture that the matrix element
+                                                 +        †          +
+                                            11 hT−k |t(X)t (Y )S̃0 |T−l i0,−N
+
+                                  (−1)
+corresponds to the product Tk T−l , which, as we discussed at the end of the last subsection only differs from
+Tk T−l by space-time derivatives. To verify our conjecture, let us check its consistency with the asymptotic
+cluster factorization principle [45]. Namely, split each of the sets X and Y into two disjoint nonempty parts:
+
+                        X = XR ⊔ XL ,            Y = YR ⊔ YL ,        0 < #XR = #YR < n.
+
+Let Λ be a real variable. Consider the matrix element
+                                     +      Λ           † Λ      †           +
+                                11 hT−k |t(e XR )t(XL )t (e YR )t (YL )S̃0 |T−l i0,−N
+
+
+in for large positive Λ. Since S̃0 is a screening operator Σ̃, we may rewrite it as
+                                     +      Λ     † Λ                †       +
+                                11 hT−k |t(e XR )t (e YR )S̃0 t(XL )t (YL )|T−l i0,−N
+
+
+In the limit Λ → +∞ the main contribution comes from the vacuum intermediate state near S̃0 and, hence,
+the matrix element factorizes:
+
+       +      Λ     † Λ                            †       +
+  11 hT−k |t(e XR )t (e YR )|1i11 × 0,−N h1|t(XL )t (YL )|T−l i0,−N
+
+                                               = ekΛ ×11 hT+          †                            †       +
+                                                           −k |t(XR )t (YR )|1i11 × 0,−N h1|t(XL )t (YL )|T−l i0,−N .
+
+Since R(Λ)R† (Λ) → 1 as Λ → ±∞, it means that each form factor splits into the product of a form factor
+                   (−1)
+of Tk and that of T−l in this limit in consistency with the mentioned principle.
+                                                 (1)
+   The insertion of S̃0† corresponds to Tk T−l . To minimize the number of space-time derivative terms it is
+convenient to take the sum of the two types of matrix elements. Namely, define the functions
+                                         Gk Gl
+                     JTk T−l (X|Y ) =          × 11 hT+        †          †     †       +
+                                                      −k |t(X)t (Y )(S̃0 ǫ0 + S̃0 ǫ0 )|T−l i−N,−N .               (5.1)
+                                          2
+We will think that these functions define the form factors of the operator Tk T−l (modulo space-time deriva-
+tives). The ǫ0 , ǫ†0 operators are inserted in (5.1) for the sake of shifts of zero modes solely.
+    As a check, let us calculate the vacuum expectation value of the spinless operators Tk T−k . By definition,
+we have
+                                                          iG2k
+                   hTk T−k i = JTk T−k (∅|∅) = (−1)k                      −1 +      −1 −
+                                                               22 h1|(Sk ) S̃0 (S−k ) |1i−1,−1−N
+                                                            2                             
+                                                   − 22 h1|(Sk−1 )+ S̃0† (S−k
+                                                                           −1 −
+                                                                              ) |1i−1−N,−1 .
+
+By using (3.42), (3.44) we obtain
+
+                                                   iG2k
+                            hTk T−k i = (−1)k−1                  −1 +        −1 −
+                                                         22 h1|(S2−k ) S̃0 (Sk−2 ) |1i−1,−1−N
+                                                    2                              
+                                                    −1 + †       −1 −
+                                         − 22 h1|(S2−k  ) S̃0 (Sk−2 ) |1i−1−N,−1 .
+
+We immediately conclude that hTk T−k i = 0 for k ≥ 3. Thus continue for k = 2. Since
+                      −1 +
+              22 h1|(S0 ) = 11 h1|,         iS̃0 (S0−1 )− |1i−1,−1−N = −iS̃0† (S0−1 )− |1i−1−N,−1 = |1i11
+
+for Q = 0, we obtain
+                                              hT2 T−2 i = −G22 = −hΘ0 i2                                          (5.2)
+in consistency with [32].
+
+
+                                                           25
+   Let us study the functions JTk T−l in more detail. First of all, from (3.42), (3.44) we have
+
+  S̃0 ǫ†0 |T+               l     †   −1 +                    l       −1 − †
+            −l i−N,−N = (−1) S̃0 ǫ0 (S−l ) |1i−1−N,−1−N = (−1) iS̃0 (S−l ) ǫ0 |1i−1−N,−1−N
+                                                                                               −1 +
+                                                                                    = (−1)l i(S1−l ) S̃−1 ǫ†0 |1i−1−N,−1−N .
+
+Similarly,
+                             S̃0† ǫ†0 |T+
+                                        −l i−N,−N = (−1)
+                                                        l−1    −1 + †
+                                                            i(S1−l ) S̃−1 ǫ0 |1i−1−N,−1−N .
+Here we have taken into account that on ket vectors S−k  −1 produces t† , while S †−1 produces t . Then we
+                                                                      −k         −k             −k
+easily obtain
+                             (S̃−1 ǫ†0 − S̃−1
+                                           †
+                                              ǫ0 )|1i−1−N,−1−N = 2iB1 |b−1 i00 .
+              −1 , S †−1 with b̄
+By commuting S1−l   1−l          −1 we get a more explicit expression:
+
+                        JTk T−l (X|Y ) = Gk Gl × 11 hT+         †              +      +
+                                                      −k | t(X)t (Y ) |B1 b−1 T1−l − T−l i11 .                           (5.3)
+
+This expression is appropriate for calculating form factors with the help of the procedure described in
+subsection 2.4. It is convenient for small values of k, l, but for large values it becomes too complicated. The
+initial form (5.1) turns out to be much more practical for finding expressions for form factors for general
+values of k, l.
+
+5.2. Computing matrix elements by pulling inverse screening operators
+                                                                                 −1 )+ to the left and then
+To compute the matrix elements (5.1) we have to pull (Sk−1 )+ to the right and (S−l
+                                        −1 +
+apply them to the vacuum. First, pull (Sk ) to the right:
+
+                             Gk Gl
+  JTk T−l (X|Y ) = (−1)l−1                    †        −1 +       †      †     −1 +
+                                   22 h1|t(X)t (Y )(S2−l ) (S̃0 ǫ0 + S̃0 ǫ0 )(Sk−2 ) |1i−1−N,−1−N
+                              2                                                                                      
+                                                                             −1 +
+                                           − 22 h1|[(Sk−1 )+ , t(X)t† (Y )](S1−l ) i(S̃−1 ǫ†0 − S̃−1
+                                                                                                  †
+                                                                                                     ǫ0 )|1i−1−N,−1−N .
+                                                                       −1 )+ there to the left. In the second
+The first term in the parentheses vanishes if k > 2. We have to pull (S2−l
+term we have to expand the commutators and pull (S1−l   −1 )+ and then S̃ , S̃ † to the left. By using the
+                                                                           −1  −1
+commutation relations (3.47 we obtain
+
+  JTk T−l (X|Y ) = Gk Gl δk,2 δl,2 δn,0 − δk,2 × 22 h1|t(X)t† (Y )|T+
+                                                                    2−l i22
+                 δl,2                                       δl,2                                   
+              −       × 0,−N hT+2−k  |t(X)t† (Y )|1i0,−N −       × −N,0 hT+ 2−k |t(X)t† (Y )|1i−N,0 + J[Tk T−l ] (X|Y ).
+                  2                                          2
+The first two terms in parentheses correspond to the fourth and the second terms in (1.22). The sum of the
+                                                     (1)    (−1)
+third and the fourth terms is proportional to δl,2 (Θk−2 +Θk−2 ) and, up to space-time derivative terms, which
+we ignore, gives the third term of (1.22). The rest of the expression corresponds to the [Tk T−l ] operator and
+is given by
+                                                                          −1 +
+  J[Tk T−l ] (X|Y ) = (−1)l−1 B1 Gk Gl × 22 h1| [(Sk−1 )+ , t(X)t† (Y )](S1−l )
+                                                                              −1 +     −1 +
+                                                                                                           
+                                                                          + (S2−l ) [(Sk−1 ) , t(X)t† (Y )] |b−1 i00 . (5.4)
+
+More explicitly, equation (5.4) can be written as
+                                    n 
+                 J[Tk T−l ] (X|Y ) X                  †       −1 +            −1 +
+                                  =    22 h1|t(X̂ij )t (Y )[(Sk ) , t(xi )][(S1−l ) , t(xj )]|b−1 i00
+                 (−1)l B1 Gk Gl
+                                     i<j
+                                                                  −1 +
+                                        − 22 h1|t(X̂ij )t† (Y )[(S2−l               −1 +
+                                                                      ) , t(xi )][(Sk−1 ) , t(xj )]|b−1 i00
+                                                                                      −1 + †
+                                        + 22 h1|t(X)t† (Ŷij )[(Sk−1 )+ , t† (yi )][(S1−l ) , t (yj )]|b−1 i00
+                                                                                                                 
+                                        − 22 h1|t(X)t† (Ŷij )[(S2−l
+                                                                 −1 + †             −1 +
+                                                                     ) , t (yi )][(Sk−1 ) , t(yj )]|b−1 i00
+                                        n 
+                                        X
+                                                              †         −1 +            −1 + †
+                                    +           22 h1|t(X̂i )t (Ŷj )[(Sk ) , t(xi )][(S1−l ) , t (yj )]|b−1 i00
+                                        i,j=1
+
+
+                                                               26
+                                                                                               
+                                                     −1 +              −1 + †
+                                          − 22 h1|[(S2−l ) , t(xi )][(Sk−1 ) , t (yj )]|b−1 i00 ,                             (5.5)
+
+where X̂ij... = X \ {xi , xj , . . .}. The expression looks a little terrifying on the first glance, but in fact it can
+be straightforwardly computed for arbitrary values of k, l. First, we have to substitute the commutators,
+which are easily extracted from (3.45) and read
+
+        [(Sk−1 )+ , t(z)]|F̄rr = −iz k (ω̃ 1/2 + ω̃ −1/2 )
+                                              1−r   1−k                   r−1  k−1
+                                                                                                          
+                                 × (−1)k ω 2 ω̃ 2 :η(−ω̃ −1/2 z)τ̃ (z): − ω 2 ω̃ 2 :η † (−ω̃ 1/2 z)τ̃ (z): ,
+                                                                                                                              (5.6)
+      [(Sk−1 )+ , t† (z)]|F̄rr = iz k (ω̃ 1/2 + ω̃ −1/2 )
+                                               r−1   k−1                   1−r  1−k
+                                                                                                              
+                                 × (−1)k ω 2 ω̃ 2 :η(−ω̃ 1/2 z)τ̃ † (z): − ω 2 ω̃ 2 :η † (−ω̃ −1/2 z)τ̃ † (z): .
+
+Then, take into account the contribution of b−1 in the ket vectors by pulling b̄−1 to the left with the aid
+of (2.53) and
+                           [τ̃ (z), b̄−1 ] = −z −1 τ̃ (z), [τ † (z), b̄−1 ] = z −1 τ̃ † (z).          (5.7)
+At last, apply the Wick theorem to the resulting products of exponents of oscillators on the basis of the pair
+correlation functions
+                                                hη(z ′ )η(z)i = hη(z ′ )η † (z)i = 1,
+                                                                                                     z ′ − ω̃ 1/2 z
+                   hη(z ′ )λ± (z)i = hλ± (z)η(z ′ )i = hη(z ′ )τ̃ (z)i = hτ̃ (z)η(z ′ )i = ω 1/2 ′                  ,
+                                                                                                    z + ω̃ −1/2 z
+                                                                                                      z ′ − ω̃ −1/2 z
+                 hη(z ′ )λ†± (z)i = hλ†± (z)η(z ′ )i = hη(z ′ )τ̃ † (z)i = hτ̃ † (z)η(z ′ )i = ω −1/2 ′               ,
+                                                                                                        z + ω̃ 1/2 z
+                                                                                                                              (5.8)
+                                       hτ̃ (z ′ )λ± (z)i = ω ±1/2 hλ± (z)τ̃ (z ′ )i = ω ±1/4 ,
+                                                                                          ω ∓1/2 z ′ + ω ±1/2 z
+                            hτ̃ (z ′ )λ†± (z)i = ω ±1/2 hλ†± (z)τ̃ (z ′ )i = ω ±1/4                             ,
+                                                                                                  z′ + z
+                                                     z                                (z ′ − ω̃z)(z ′ − ω̃ −1 z)
+                           hτ̃ (z ′ )τ̃ (z)i = 1 −      ,       hτ̃ (z ′ )τ̃ † (z)i =                             .
+                                                     z′                                      z ′ (z ′ + z)
+
+In practice, the algorithm is treatable by a computer algebra system (we used Wolfram Mathematica R ), or
+suits for numerical computations.
+
+5.3. Particular cases: 2-particle form factors and 2-by-2 matrix elements
+As the first example, let us give the result for the two-particle form factor. For n = 1 (5.4) reads
+
+  J[Tk T−l ] (x|y) = (−1)l B1 Gk Gl 22 h1|[(Sk−1 )+ , t(x)][(S1−l
+                                                              −1 + †
+                                                                  ) , t (y)]|b−1 i00
+                                                                                      −1 +            −1 + †
+                                                                                                                            
+                                                                           − 22 h1|[(S2−l ) , t(x)][(Sk−1 ) , t (y)]|b−1 i00 . (5.9)
+
+After a cumbersome but straightforward calculation, we obtain
+
+                               π 2 M k+l e(k−l)θ R† (2δ) sh 2δ
+  F[Tk T−l ] (θ + δ|θ − δ) =                                   
+                               8 sin 2π         iπ
+                                      N ch δ + N ch δ − N
+                                                             iπ
+                                                                                                       
+                                        × (−1)k e−(k+l−2)δ Hk (δ)Hl (δ) − (−1)l e(k+l−2)δ Hk (−δ)Hl (−δ) , (5.10)
+
+where                                                                                                  
+                                             iπ(k−1)           iπ               −
+                                                                                    iπ(k−1)          iπ
+                                Hk (δ) = e      N       ch δ +             +e          N      ch δ −          .              (5.11)
+                                                               N                                     N
+Notice, that F[Tk T−l ] (θ|θ − iπ) = 0, which, in particular, means that the [Tk T−l ] perturbations in (1.25),
+(1.29) do not affect the particle spectrum in the first order of the perturbation theory.
+
+
+
+                                                                     27
+    Now consider the four-particle form factors. A general expression for the four-particle form factor
+F[Tk T−l ] (θ1 , θ2 |θ2′ , θ1′ ) is complicated, but for the diagonal case θ1′ = θ1 − iπ, θ2′ = θ2 − iπ it simplifies. We
+have
+
+  J[Tk T−l ] (x1 , x2 | − x1 , −x2 ) = π 2 M k+l [2k − 2]ω [2l − 2]ω
+                                         (x1 + x2 )(ω 1/2 x1 − ω −1/2 x2 )(ω −1/2 x1 − ω 1/2 x2 )(x21 x2k+l − x1k+l x22 )
+                                     ×                                                                                    . (5.12)
+                                                                    xl+2   l+2
+                                                                      1 x2 (x1 − x2 )
+
+Taking into account that
+
+                                                                                    sh2 2θ
+                             R(θ)R(−θ)R†(iπ + θ)R† (iπ − θ) =                                        ,                   (5.13)
+                                                                           sh 2θ + iπ
+                                                                                   N sh
+                                                                                             θ   iπ
+                                                                                             2 − N
+
+we obtain (1.34) with
+                                                                         π(k−1)
+                                                                k sin      N
+                                                    Zk = πM                     ,                                          (5.14)
+                                                                       sin Nπ
+which is easily established by computing the matrix element 11 hT+        †
+                                                                 −k |t(x)t (−x)|1i11 .
+
+
+6. Conclusion
+
+In this work we further develop the algebraic approach for form factors of quasilocal operators in the complex
+sinh-Gordon model. The general construction [17] is based on the oscillator representation for the operators
+that create the particles, and on special oscillators, which generate descendant operators from the primary
+ones. Unlike the free boson theory, the interacting theory has inner relations between different operators,
+which have to be discovered to get full understanding of the space of operators. We study the structure
+of the space of descendant operators by introducing the algebra of screening currents. This algebra is
+constructed from the algebra of operators that create particles, and there is no direct analogy or guesses
+from the corresponding CFT. The new algebraic objects allow us to study analytically the space of form
+factors and to obtain new physically interesting results.
+    In particular, we have found null vectors in the space of descendant operators. We have also proposed
+closed expressions for multiparticle form factors of the conserved currents Tk and Θk for arbitrary integer
+k in terms of the inverse screening currents. Note that any conservation law in the form factor language
+is an infinite set of algebraic equations for functions of arbitrary number of variables, while the algebra of
+screening currents makes it possible to prove them in an elegant and simple manner.
+    We have proposed an expression for form factors of the composite operators Tk T−l . These operators in
+the conformal limit are descendant operators with both right and left chiralities. In the conformal field theory
+the two chiralities are independently generated by two chiral current algebras, which include the Virasoro
+algebra. In the massive case there are no chiral algebras, so that two chiralities mix with each other, and this
+complicates studying the space of quasilocal operators. Nevertheless, the algebraic construction provides
+some hints to computing form factors of such operators.
+    With the representation for multiparticle form factors of the operators Tk T−l in hand, we turn to a phys-
+ically interesting question of finding the scattering matrix in the current–current integrable perturbations
+of the massive integrable field theories. We calculated the 2-by-2 diagonal matrix elements (1.34), which
+define the first order contribution to the scattering phases in the models (1.33). Our result confirms the
+conjecture about the scattering matrices of such new integrable perturbations and extends it to the case of
+a particle–antiparticle pair that allow even spin integrals of motion, and to the case of Lorentz non-invariant
+perturbations.
+    Our results are partially applicable to the ZN Ising models, which is a reduction of the complex sine-
+Gordon model. The representations for the currents Tk , Θk can be shown to be compatible with the
+reduction. The composite operators Tk T−l are defined modulo space-time derivatives and by adding such
+derivatives can be rendered to a reducible form. We consider a study of the reduction procedure as a natural
+next step.
+
+
+
+                                                                28
+Acknowledgments
+
+The authors are grateful to A. Belavin, M. Bershtein, A. Litvinov and A. Zamolodchikov for discussions.
+The work was supported by the Russian Science Foundation under the grant 18–12–00439. M.L. was able
+to combine scientific research with teaching owing to the support of the Simons Foundation.
+
+References
+
+ [1] K. Pohlmeyer, Integrable Hamiltonian Systems and Interactions Through Quadratic Constraints,
+     Commun. Math. Phys. 46, 207 (1976).
+
+ [2] F. Lund and T. Regge, Unified Approach to Strings and Vortices with Soliton Solutions, Phys. Rev.
+     D14, 1524 (1976).
+
+ [3] H. J. de Vega and J. M. Maillet, Renormalization Character and Quantum S Matrix for a Classically
+     Integrable Theory, Phys. Lett. B101, 302 (1981).
+
+ [4] H. J. de Vega and J. M. Maillet, Semiclassical Quantization of the Complex Sine-Gordon Field
+     Theory, Phys. Rev. D28, 1441 (1983).
+
+ [5] N. Dorey and T. J. Hollowood, Quantum scattering of charged solitons in the complex sine-Gordon
+     model, Nucl. Phys. B440, 215 (1995), arXiv:hep-th/9410140.
+
+ [6] V. A. Fateev, The duality between two-dimensional integrable field theories and sigma models, Phys.
+     Lett. B357, 397 (1995).
+
+ [7] V. A. Fateev, Normalization factors, reflection amplitudes and integrable systems, (2001),
+     arXiv:hep-th/0103014.
+
+ [8] V. A. Fateev, Integrable Deformations of Sine-Liouville Conformal Field Theory and Duality, SIGMA
+     13, 080 (2017), arXiv:1705.06424.
+
+ [9] E. Witten, On string theory and black holes, Phys. Rev. D44, 314 (1991).
+
+[10] M. Karowski and P. Weisz, Exact Form Factors in (1 + 1)-Dimensional Field Theoretic Models with
+     Soliton Behavior, Nucl. Phys. B139, 455 (1978).
+
+[11] F. A. Smirnov, Form factors in completely integrable models of quantum field theory, Adv. Ser.
+     Math. Phys. 14, 1 (1992).
+
+[12] B. Feigin and M. Lashkevich, Form factors of descendant operators: Free field construction and
+     reflection relations, J. Phys. A42, 304014 (2009), arXiv:0812.4776.
+
+[13] M. Lashkevich and Y. Pugai, On form factors and Macdonald polynomials, JHEP 1309, 095 (2013),
+     arXiv:1305.1674.
+
+[14] M. Lashkevich and Y. Pugai, Form factors in sinh- and sine-Gordon models, deformed Virasoro
+     algebra, Macdonald polynomials and resonance identities, Nucl. Phys. B877, 538 (2013),
+     arXiv:1307.0243.
+
+[15] M. Lashkevich and Y. Pugai, Form factors of descendant operators: Resonance identities in the
+     sinh-Gordon model, JHEP 1412, 112 (2014), arXiv:1411.1374.
+
+[16] M. Lashkevich and Y. Pugai, Form factors of descendant operators: Reduction to perturbed
+     M (2, 2s + 1) models, JHEP 1504, 126 (2015), arXiv:1412.7509.
+
+[17] M. Lashkevich and Y. Pugai, Algebraic approach to form factors in the complex sinh-Gordon theory,
+     Phys. Lett. B764, 190 (2017), arXiv:1610.04926.
+
+[18] R. Koberle and J. A. Swieca, Factorizable Z(N ) models, Phys. Lett. 86B, 209 (1979).
+
+                                                    29
+[19] V. A. Fateev, The exact relations between the coupling constants and the masses of particles for the
+     integrable perturbed conformal field theories, Phys. Lett. B324, 45 (1994).
+
+[20] T. Fukuda and K. Hosomichi, Three-point functions in sine-Liouville theory, JHEP 0109, 003 (2001),
+     arXiv:hep-th/0105217.
+
+[21] J. L. Cardy and G. Mussardo, Form factors of descendent operators in perturbed conformal field
+     theories, Nucl. Phys. B340, 387 (1990).
+
+[22] F. A. Smirnov, Quantum groups and generalized statistics in integrable models, Commun. Math.
+     Phys. 132, 415 (1990).
+
+[23] M. Jimbo, H. Konno, S. Odake, Y. Pugai, and J. Shiraishi, Free field construction for the ABF
+     models in regime II, J. Stat. Phys. 102, 883 (2001), arXiv:math/0001071.
+
+[24] V. A. Fateev, V. V. Postnikov, and Y. P. Pugai, On scaling fields in ZN Ising models, JETP Lett. 83,
+     172 (2006), arXiv:hep-th/0601073.
+
+[25] V. A. Fateev and Y. P. Pugai, Correlation functions of disorder fields and parafermionic currents in
+     ZN Ising models, J. Phys. A42, 304013 (2009), arXiv:0909.3347.
+
+[26] H. Babujian and M. Karowski, Exact form factors for the scaling ZN -Ising and the affine AN −1 -Toda
+     quantum field theories, Phys. Lett. B575, 144 (2003), arXiv:hep-th/0309018.
+
+[27] A. Koubek and G. Mussardo, On the operator content of the sinh-Gordon model, Phys. Lett. B311,
+     193 (1993), arXiv:hep-th/9306044.
+
+[28] M. Jimbo, T. Miwa, and Y. Takeyama, Counting minimal form factors of the restricted sine-Gordon
+     model, Mos. Math. J. 4, 787 (2004), arXiv:math-ph/0303059.
+                                                                                         e
+[29] M. Jimbo, T. Miwa, E. Mukhin, and Y. Takeyama, Form factors and action of U(−1)1/2 (sl(2)) on
+     ∞-cycles, Commun. Math. Phys. 245, 551 (2004), arXiv:math/0305323.
+
+[30] G. Delfino and G. Niccoli, Isomorphism of critical and off-critical operator spaces in two-dimensional
+     quantum field theory, Nucl. Phys. B799, 364 (2008), arXiv:0712.2165.
+
+[31] A. B. Zamolodchikov, Integrable field theory from conformal field theory, Adv. Stud. Pure Math. 19,
+     641 (1989).
+
+[32] A. B. Zamolodchikov, Expectation value of composite field T T̄ in two-dimensional quantum field
+     theory, arXiv:hep-th/0401146.
+
+[33] J. Cardy, T T deformations of non-Lorentz invariant field theories, (2018), arXiv:1809.07849.
+
+[34] G. Delfino and G. Niccoli, Matrix elements of the operator T T̄ in integrable quantum field theory,
+     Nucl. Phys. B707, 381 (2005), arXiv:hep-th/0407142.
+
+[35] G. Delfino and G. Niccoli, Form factors of descendant operators in the massive Lee–Yang model,
+     J. Stat. Mech. 0504, P04004 (2005), arXiv:hep-th/0501173.
+
+[36] G. Delfino and G. Niccoli, The Composite operator T T̄ in sinh-Gordon and a series of massive
+     minimal models, JHEP 0605, 035 (2006), arXiv:hep-th/0602223.
+
+[37] Al. B. Zamolodchikov, From tricritical Ising to critical Ising by thermodynamic Bethe ansatz, Nucl.
+     Phys. B358, 524 (1991).
+
+[38] G. Mussardo and P. Simon, Bosonic-type S-matrix, vacuum instability and CDD ambiguities, Nucl.
+     Phys. B578, 527 (2000), arXiv:hep-th/9903072.
+
+[39] Al. B. Zamolodchikov, Resonance factorized scattering and roaming trajectories, J. Phys. A39, 12847
+     (2006).
+
+                                                    30
+[40] F. A. Smirnov and A. B. Zamolodchikov, On space of integrable quantum field theories, Nucl. Phys.
+     B915, 363 (2017), arXiv:1608.05499.
+
+[41] M. Jimbo, T. Miwa, and F. Smirnov, Fermionic structure in the sine-Gordon model: Form factors and
+     null-vectors, Nucl. Phys. B852, 390 (2011), arXiv:1105.6209.
+
+[42] M. Lashkevich and Y. Pugai, Note on four-particle form factors of operators T2n T−2n in sinh-Gordon
+     model, J. Phys. A49, 305401 (2016), arXiv:1602.05735.
+
+[43] T. Oota, Functional equations of form factors for diagonal scattering theories, Nucl. Phys. B466, 361
+     (1996), arXiv:hep-th/9510171.
+
+[44] V. A. Fateev and Y. P. Pugai, Expectation values of scaling fields in ZN Ising models, Theor. Math.
+     Phys. 154, 473 (2008).
+
+[45] G. Delfino, P. Simonetti, and J. L. Cardy, Asymptotic factorization of form factors in two-dimensional
+     quantum field theory, Phys. Lett. B387, 327 (1996), arXiv:hep-th/9607046.
+
+
+
+
+                                                    31
+

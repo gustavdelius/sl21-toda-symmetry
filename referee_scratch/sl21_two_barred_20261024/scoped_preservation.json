@@ -1,0 +1,19 @@
+{
+  "research_file_count": 2380,
+  "changed_research_files": [],
+  "concurrent_changes_outside_task": [
+    "code/lectures/README.md",
+    "lecture-notes/defects-gemini/01-all-or-nothing.qmd",
+    "lecture-notes/defects-gemini/02-momentum-and-backlund.qmd",
+    "lecture-notes/defects-gemini/03-necklace-and-lax.qmd",
+    "lecture-notes/defects-gemini/04-quantum-groups-and-q-operators.qmd",
+    "lecture-notes/defects-gemini/05-crossing-resonances-and-tunnelling.qmd",
+    "lecture-notes/defects-gemini/06-boundaries-and-breathers.qmd",
+    "lecture-notes/defects-gemini/index.qmd"
+  ],
+  "unchanged_baseline_files": 4082,
+  "head_unchanged": true,
+  "branch_unchanged": true,
+  "index_unchanged": true,
+  "note": "The eight unrelated lecture files were not written by this referee team. The unqualified preservation failure is retained; concurrent edits are not restored."
+}

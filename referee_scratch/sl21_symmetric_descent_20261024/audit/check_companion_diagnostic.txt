@@ -1,0 +1,1 @@
+Initial companion script stopped during conversion to a polynomial: SymPy retained an uncancelled 1/(x+2) after substituting b²=2+x. No mathematical check printed FAIL. Version 2 cancels the rational expression before substitution. Original script and partial output retained.

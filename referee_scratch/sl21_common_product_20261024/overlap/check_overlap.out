@@ -1,0 +1,23 @@
+PASS moving double coefficient beta times spectator-tail product
+PASS moving simple coefficient -Kw+t(g-rho)K/r
+DIAGNOSTIC rejected unit-regulator coefficient residual = -(t - 1)*(g*t - 2)*(Ca*a - Ca*w + t - 2)/(t*(-a + w)**2)
+PASS rejected unit coefficient differs by beta delta K/r
+PASS linear moving-test residue retains double-pole derivative
+PASS action plus both tails: t times insertionwise endpoint derivative
+PASS canonical finite matching: t squared insertionwise derivative
+PASS action first test derivative I+Jw
+PASS two tail first test derivatives cancel
+PASS B3A source scalar minority derivative [-2, 0, 3]
+PASS five-current source has scalar double derivative [-2, 0, 3]
+PASS barred-tail simple residue sum vanishes at infinity [-2, 0, 3]
+PASS barred tail has nonzero individual simple residues [-2, 0, 3]
+DIAGNOSTIC barred-tail simple residues = [(a + 2)*(7*a + 4)/500, -a*(a + 6)/108, -2*(a - 3)*(8*a - 9)/3375]
+PASS B3A source scalar minority derivative [-3/2, 2/3, 5/2]
+PASS five-current source has scalar double derivative [-3/2, 2/3, 5/2]
+PASS barred-tail simple residue sum vanishes at infinity [-3/2, 2/3, 5/2]
+PASS barred tail has nonzero individual simple residues [-3/2, 2/3, 5/2]
+DIAGNOSTIC barred-tail simple residues = [9*(2*a + 3)*(74*a + 7)/70304, 864*(3*a - 2)*(12*a - 151)/2924207, -9*(2*a - 5)*(70*a - 87)/42592]
+PASS BBbarB/Y2 full relative degree g-2
+PASS B3AbarB/Y2 full relative degree 3(g-rho)-1
+PASS fused pair carries two cross labels
+SUMMARY 19 PASS 0 FAIL

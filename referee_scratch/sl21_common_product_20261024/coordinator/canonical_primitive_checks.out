@@ -1,0 +1,11 @@
+PASS individual K2 tail minority derivative 0
+PASS individual K2 tail minority derivative 1
+PASS individual K2 tail minority derivative 2
+PASS individual F_A tail minority derivative 0
+PASS individual F_A tail minority derivative 1
+PASS individual F_A tail minority derivative 2
+PASS BB canonical plus action pair coefficient
+PASS AA canonical plus action pair coefficient
+INFO canonical/action BB ratio t
+INFO canonical/action AA ratio t
+INFO The two products cannot be identified termwise; an interacting map is additional data.

@@ -1,0 +1,22 @@
+PASS barA Yukawa polynomial exponent residual=0
+PASS barA V1 double antileaf residual=0
+PASS barB V1 polynomial exponent residual=0
+PASS AA fused momentum 0 residual=0
+PASS AA fused momentum 1 residual=0
+PASS AA fused momentum 2 residual=0
+PASS AA raw ordered half contact -1 residual=0
+PASS AA first test derivative cancels -1 residual=0
+PASS AA unary/balanced cancellation -1 residual=0
+PASS AA raw ordered half contact 1 residual=0
+PASS AA first test derivative cancels 1 residual=0
+PASS AA unary/balanced cancellation 1 residual=0
+PASS unlike barA degree SB(0, 0, 1) residual=0
+PASS unlike barA face positivity SB(0, 0, 1) 2*x**2 + 12*x + 16
+PASS V1 barA degree SB(0, 0, 1) residual=0
+PASS unlike barA degree SB(0, 1, 0) residual=0
+PASS unlike barA face positivity SB(0, 1, 0) 2*x**2 + 7*x + 6
+PASS V1 barA degree SB(0, 1, 0) residual=0
+PASS unlike barA degree SB(0, 1, 1) residual=0
+PASS unlike barA face positivity SB(0, 1, 1) 2*x**2 + 10*x + 12
+PASS V1 barA degree SB(0, 1, 1) residual=0
+PASS unlike barA degree SB(0, 2, 0) residual=0

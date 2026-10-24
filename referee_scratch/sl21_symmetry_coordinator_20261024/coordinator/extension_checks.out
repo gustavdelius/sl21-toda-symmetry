@@ -1,0 +1,37 @@
+PASS two-source Laurent 0
+PASS two-source Laurent 1
+PASS A-dressed Laurent 1
+PASS two-source Laurent 2
+PASS A-dressed Laurent 2
+PASS two-source Laurent 3
+PASS A-dressed Laurent 3
+PASS two-source Laurent 4
+PASS A-dressed Laurent 4
+PASS disk series to sixth order
+PASS nonzero shrinking-separation remainder
+DIAGNOSTIC t= -0.4714045207910317 M= 2.23606797749979 normalized disk remainder= 0.194648869802242079
+PASS nonzero shrinking-separation remainder
+DIAGNOSTIC t= -0.4714045207910317 M= 3.3166247903554 normalized disk remainder= 0.0628595479208968317
+PASS nonzero shrinking-separation remainder
+DIAGNOSTIC t= -0.4330127018922193 M= 2.23606797749979 normalized disk remainder= 0.204246824526945169
+PASS nonzero shrinking-separation remainder
+DIAGNOSTIC t= -0.4330127018922193 M= 3.3166247903554 normalized disk remainder= 0.0666987298107780677
+PASS endpoint radial primitive 0
+PASS endpoint radial primitive 1
+PASS ordinary Ward descent
+PASS h-regulated boundary leftover
+PASS B level formula
+PASS A level formula
+DIAGNOSTIC anomaly candidates {'A': [(0, 0, 1, 1, 0)], 'B': [(0, 1, 0, 1, 0), (1, 0, 0, 1, 0)]}
+PASS A only even-root local candidate
+PASS B only single-Yukawa local candidates
+PASS contact invisible to constant outer test
+PASS contact visible to nonconstant outer test
+PASS anchor string multiplicativity
+DIAGNOSTIC reference real-cycle potential bound phi= 5 V<= -11.3222642228384344
+PASS negative exponentially growing ray 5
+DIAGNOSTIC reference real-cycle potential bound phi= 10 V<= -128.370067426594538
+PASS negative exponentially growing ray 10
+DIAGNOSTIC reference real-cycle potential bound phi= 20 V<= -16478.8897910496808
+PASS negative exponentially growing ray 20
+FAILURES 0

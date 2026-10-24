@@ -1,0 +1,33 @@
+PASS a0sq residual=0
+PASS a2sq residual=0
+PASS a0a2 residual=0
+PASS d.a0 residual=0
+PASS d.a2 residual=0
+PASS A V1 doublepole residual=0
+PASS firstfield hol identity 0 residual=0
+PASS firstfield hol identity 1 residual=0
+PASS firstfield hol identity 2 residual=0
+PASS firstfield anti identity 0 residual=0
+PASS firstfield anti identity 1 residual=0
+PASS firstfield anti identity 2 residual=0
+PASS all normal jets differential representative residual=0
+PASS two source full Wick polynomial residual=0
+PASS no two source doublepoles at one current residual=0
+PASS distinct-source doubleface coefficient 02 residual=0
+PASS distinct-source doubleface coefficient 20 residual=0
+PASS collapsed distinct-source radial power residual=0
+PASS symmetric unary doublepole residual=0
+PASS symmetric unary simplepole residual=0
+PASS mixed null repaired by balanced contact residual=0
+PASS ordered action contact sign -1 residual=0
+PASS outer test derivative cancellation -1 residual=0
+PASS ordered action contact sign 1 residual=0
+PASS outer test derivative cancellation 1 residual=0
+PASS numerical ordered circle moment c=1.41421356237309504880168872420969807857 sign=-1 error=0.0
+PASS numerical ordered circle moment c=1.41421356237309504880168872420969807857 sign=1 error=0.0
+PASS numerical ordered circle moment c=2.718281828459045235360287471352662497757 sign=-1 error=0.0
+PASS numerical ordered circle moment c=2.718281828459045235360287471352662497757 sign=1 error=0.0
+PASS distinct source deltas radialdegree at h=2+q = 2*q + 1
+PASS sourcepair base full radialdegree at h=2+q = 2*q + 3
+PASS two current differentiated full radialdegree at h=2+q = 2*q + 1
+TOTAL 32 PASS

@@ -1,0 +1,94 @@
+Quantum Group Symmetries and Non-Local Currents 2D QFT                                               105
+
+currents act as quantum Lie derivatives. This shows that non-commutative
+differential calculus [20-22] is the geometrical tool appropriate for describing
+non-local symmetries in two-dimensional quantum field theories. The lattice
+formulation will be described elsewhere [23].
+2b. The Algebra of Charges in Perturbed CFT. In this section we describe the
+commutation relations of non-local conserved charges in perturbed conformally
+invariant field theory (CFT).
+   Consider a conformal field theory perturbed by a relevant operator with zero
+Lorentz spin. The perturbing field can be represented by (~pert.(Z, Z) ~- ~pert.(Z)(J~pert.(Z).
+The Euclidean action is taken to be
+                                                      2
+                                  S = SCFX+ ~ Sd2zq~pert.(z,e),                                     (2.9)
+
+where 2 is a generally dimensionful parameter that measures the strength of the
+perturbation away from the conformal limit. Here z and f denote Euclidean
+coordinates 3. Chiral fields F(z,~),ff(z,~) satisfy deF(z,~)=d,ff(z,f)=O in the
+conformal limit. Equations of motion for the perturbed chiral fields which are
+local with respect to the perturbing field can be deduced to first order in
+perturbation theory using Zamolodchikov's approach [24]:
+
+                               OeF(z, e) = 2 ! 2rcidwl~pert.(W' e)F(z),
+
+                                                       d~v
+                                O z g ( Z , Z) =   )~ ! ~    ~pert.(Z, W)ff(Z).                   (2.10)
+
+Equations of motion to first order can be exact to all orders in perturbation theory,
+as we will see.
+   Let us now suppose that there are currents conserved to first order in
+perturbation theory:
+                                         d e Ja(Z, Z) = O,H"(z, ~),                              (2.11 a)
+                                         Ojn(z, ~) = OeBn(z, ~).                                (2.1 lb)
+We assume that in the conformal theory these currents are chiral fields; i.e. when
+2 = 0 they satisfy OeJa = 0 j n = 0. We also suppose that they are local with respect
+to the perturbing field. The condition for the currents to be conserved to first
+order in perturbation theory is then a condition on the residue of the operator
+product expansion (OPE) between them and the perturbing field. Namely, the
+conservation laws (2.11) hold if the residues of these OPE's are total derivatives:
+                                 Res z= w(gapert.(w)Ja(z)) = O~h"(z),                            (2.12a)
+                                Res~ = r (t~pert.(I,~)J~i(e)) = 0ehtJ(e).                       (2.12b)
+
+
+
+3 We will always denote Euclidean light-cone coordinates as z and ~, whereas x , t and
+x +- = ( x +_ 0 / 2 will signify Minkowski coordinates. Their relation is z = i x + = (t ~ + ix)~2,
+  = - i x - = ( t E - ix)~2, where t E = it. We follow the convention d Z z = i d z d ~ = - d x d t r / 2
+106                                                                    D. Bernard and A. LeClair
+
+The conditions (2.12) follow from Zamolodchikov's equation of motion (2.10). In
+(2.11) the fields H a are then
+                                Ha(z, 7,) = ~,ha(z)~pert.(7,),                            (2.13)
+and similarly for Ha(z,~). From the conserved currents (2.11) we define the
+conserved charges,
+
+                               Qa = ~__~ii(Sdzja + Sd~,na),
+
+                               0 = ~--~ii(~dgJ-~+ ~dzBa).                                 (2.14)
+
+   Since the currents ja and ~/a can be non-local, we allow for non-trivial braiding
+between them:
+                     Ja(x, t)J~(y, t) = R~J-~(y, t)Jbfx, t); Vx, y.                       (2.15)
+There is no contradiction in having the above braiding relations defined for all
+x, y; we will give explicit examples in the sequel. The above relations allow one to
+defined a time-ordered product T that facilitates the string manipulations of the
+previous section:
+                r(Ja(x, t + ~)ja(y, t)) = Ja(x, t -Jr-~)ja(y, t)          ~> 0
+                                        = R~(y,            t)Jb(x, t +-~) ~ < 0.          (2.16)
+We suppose that the same braiding relations hold if the ja (ja) component of the
+current is replaced by the corresponding H a (~a) component. To find the com-
+mutation relations between the charges Qa and Qa associated to these currents,
+we apply the general fra_mework explained in the previous section. Using (2.12) it
+is easy to compute Qa(Qa) to lowest non-trivial order in perturbation theory. The
+result is:
+                                QaO~ _ Ra~_~nb _ Tan,
+                                          ~'bb   ~   "~   --
+                                                                                         (2.17)
+
+where T a~ is always a topological charge,
+
+                                 2~i (dzd~ + de~e)ha(z)-h~(e).                           (2.18)
+
+Equation (2.18) may be understood as a generalization of the topological extensions
+of super-symmetry in two-dimensions [25]. In the following section we will show
+that in the case of the sine-Gordon theory the relations (2.18) are those of the
+quantum sl(2) loop algebra.
+
+
+3. Non-Local Charges in the Sine-Gordon Theory
+
+In this section we describe the non-local charges that characterize the sine-Gordon
+theory. We will show that these charges generate the quantum sl(2) loop algebra.
+Our analysis provides a new derivation of the soliton S-matrix.
+

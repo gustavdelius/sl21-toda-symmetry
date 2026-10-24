@@ -1,0 +1,57 @@
+PASS root Gram matrix from component roots
+PASS affine root sum
+PASS odd-root pair potential coefficient
+PASS source Yukawa Hessian matrix at equal masses
+PASS fermion bilinear bosonization sign
+PASS mixed full Yukawa OPE sign: i^2 times one Wick crossing
+PASS bosonized self products
+PASS bosonized mutual product
+PASS pair momentum squared
+PASS pair dual momentum
+PASS T=-b^2 d and a1=-T
+PASS dual-current pair contractions
+PASS free direction orthogonal to all perturbing momenta
+PASS free direction norm
+PASS fixed-current Yukawa 0 residue vanishes
+PASS fixed-current Yukawa 2 residue is -b^2 derivative
+PASS charge acts on Yukawa 0 by +derivative
+PASS charge acts on Yukawa 2 by -derivative
+PASS Jminus with even perturbation has no residue
+PASS Jplus even-vertex derivative coefficient
+PASS Jplus regular with both Yukawas and composite
+PASS composite fixed-current residue from Wick expansion
+PASS composite nonderivative representative A
+PASS charge residue has opposite nonderivative representative
+PASS unique level-one primitive forced by second derivatives
+PASS composite remainder is not identically zero
+PASS boundary polynomial from two-end Taylor expansion
+PASS boundary cohomology is -A/b^2
+PASS exact charge/contact descent identity
+PASS exact fixed-current/contact descent identity
+PASS change of OPE orientation is a total derivative
+PASS full three-point Wick product: first collision endpoint
+PASS full three-point Wick product: second collision endpoint
+PASS canonical boson kinetic coefficient
+PASS canonical holomorphic fermion kinetic coefficient
+PASS canonical antiholomorphic fermion kinetic coefficient
+PASS source exponent matches -i b Phi
+PASS source composite matches Ward counterterm coefficient
+PASS bare composite normal-ordering exponent
+PASS individual bosonic Yukawa exponent has no self-normalization
+PASS radial primitive gives pi*epsilon^(2t)/t
+PASS combined Ward coefficient leaves kappa_R only
+PASS full descent at zero finite composite coupling
+PASS same-Yukawa collisions are nonsingular
+FORMULAS: t=b^2; A=(T.dX)(D.dX)/2; [B]=-[A]/t
+FORMULAS: kappa(eps)=kappa_R-lambda0*lambda2*eps^(2t)/t
+FORMULAS: b=i*g/sqrt(4*pi), lambda_j=mu_j/2
+NUMERICAL t=0.471404520791032 eps=0.1 relative_error=0.000112052
+NUMERICAL t=0.471404520791032 eps=0.05 relative_error=2.80029e-05
+NUMERICAL t=0.471404520791032 eps=0.025 relative_error=7.00008e-06
+NUMERICAL t=0.471404520791032 eps=0.0125 relative_error=1.74998e-06
+PASS circle integral coefficient and O(eps^2) remainder at t=0.471404520791032
+NUMERICAL t=-0.471404520791032 eps=0.1 relative_error=0.000780236
+NUMERICAL t=-0.471404520791032 eps=0.05 relative_error=0.000195045
+NUMERICAL t=-0.471404520791032 eps=0.025 relative_error=4.87604e-05
+NUMERICAL t=-0.471404520791032 eps=0.0125 relative_error=1.21901e-05
+PASS circle integral coefficient and O(eps^2) remainder at t=-0.471404520791032

@@ -1,0 +1,26 @@
+PASS exact raw braiding unitarity and left-dual crossing vv
+PASS exact raw braiding unitarity and left-dual crossing bv
+PASS exact raw braiding unitarity and left-dual crossing vb
+PASS exact raw braiding unitarity and left-dual crossing bb
+PASS exact physical braiding unitarity vv
+physical common denominator vv -t**4 + x
+PASS exact physical braiding unitarity bv
+physical common denominator bv t**2*(t**2*x - 1)
+PASS exact physical braiding unitarity vb
+physical common denominator vb t**4*(t**2*x - 1)
+PASS exact physical braiding unitarity bb
+physical common denominator bb -t**4 + x
+PASS all 8 mixed graded YBE assignments, 2 irrational kappas; max residual 1.4895204919483639e-15
+Homogeneous vv singular values at real rapidity: [1.1163909  1.1163909  1.1163909  1.         1.         1.
+ 0.89574359 0.89574359 0.89574359]
+PASS diagnostic: braiding unitarity is not positive-metric unitarity
+PASS vv pole residue has rank 4 (not antifundamental rank 3)
+PASS rank-four fusion highest weight (h1,h2)=(0,1): alpha=1, no free continuous label
+PASS first fused 4x3 amplitude preserves the rank-four bound-state space
+fused common denominator: (t**2 + x)*(t**6 + x)
+fused residue at -t**2 rank 12
+fused residue at -t**6 rank 4
+PASS fused 4 x antifundamental preserves the bound-state space
+fused 4 x antifundamental denominator: t**6*(x + 1)*(t**4*x + 1)
+fused 4 x antifundamental residue at -1 rank 3
+fused 4 x antifundamental residue at -1/t**4 rank 12

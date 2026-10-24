@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-24",
+  "imported_file_hashes": {
+    "result": "PASS",
+    "count": 473
+  },
+  "source_originals_unchanged": {
+    "result": "PASS",
+    "count": 473
+  },
+  "new_navigation_links": {
+    "result": "PASS",
+    "count": 90
+  },
+  "source_head_and_tracked_status": {
+    "result": "PASS",
+    "head": "483b0b9b9cc222e67cae61a549e7145151e905e4",
+    "status": ""
+  },
+  "recent_checks": {
+    "result": "PASS",
+    "scope": "Selected completed coordinator scripts, rerun in disposable storage",
+    "checks": {
+      "check_two_barred_v2.py": 56,
+      "check_contact_diamond_v2.py": 7,
+      "check_balancing.py": 5
+    }
+  },
+  "limitations": "No full historical suite, analytic proof verification, or new research was performed during consolidation."
+}

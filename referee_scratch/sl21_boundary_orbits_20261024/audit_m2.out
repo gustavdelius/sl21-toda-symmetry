@@ -1,0 +1,124 @@
+PASS screening Gram matrix
+PASS pair-dual products
+PASS screening-first node-zero residue vanishes
+PASS screening-first node-two residue is -t(d+a2)
+PASS full Yukawa fusion sign includes i squared and one crossing
+PASS fermion current level agrees with i partial h
+PASS all three potential poles including the minus action sign
+PASS double-Yukawa contact minus potential gives partial L
+PASS unlike-source radial normalization
+PASS source lower disk coefficient gives kappa_h
+PASS tail lower disk coefficient is t/h, not one
+PASS raw subset a=0 b=1 unlike
+PASS positive physical-patch degree a=0 b=1 unlike
+PASS raw subset a=0 b=1 equal
+PASS positive physical-patch degree a=0 b=1 equal
+PASS raw subset a=0 b=1 even
+PASS fused K/source degrees a=0 b=1
+PASS fused L degree with explicit cutoff a=0 b=1
+PASS fused P degree a=0 b=1
+PASS raw subset a=0 b=2 unlike
+PASS positive physical-patch degree a=0 b=2 unlike
+PASS raw subset a=0 b=2 equal
+PASS positive physical-patch degree a=0 b=2 equal
+PASS raw subset a=0 b=2 even
+PASS fused K/source degrees a=0 b=2
+PASS fused L degree with explicit cutoff a=0 b=2
+PASS two-tail degree a=0 b=2
+PASS fused P degree a=0 b=2
+PASS raw subset a=0 b=3 unlike
+PASS positive physical-patch degree a=0 b=3 unlike
+PASS raw subset a=0 b=3 equal
+PASS positive physical-patch degree a=0 b=3 equal
+PASS raw subset a=0 b=3 even
+PASS fused K/source degrees a=0 b=3
+PASS fused L degree with explicit cutoff a=0 b=3
+PASS two-tail degree a=0 b=3
+PASS fused P degree a=0 b=3
+PASS raw subset a=1 b=0 unlike
+PASS positive physical-patch degree a=1 b=0 unlike
+PASS raw subset a=1 b=0 equal
+PASS positive physical-patch degree a=1 b=0 equal
+PASS raw subset a=1 b=0 even
+PASS fused P degree a=1 b=0
+PASS even-root tail degree a=1 b=0
+PASS raw subset a=1 b=1 unlike
+PASS positive physical-patch degree a=1 b=1 unlike
+PASS raw subset a=1 b=1 equal
+PASS positive physical-patch degree a=1 b=1 equal
+PASS raw subset a=1 b=1 even
+PASS fused K/source degrees a=1 b=1
+PASS fused L degree with explicit cutoff a=1 b=1
+PASS fused P degree a=1 b=1
+PASS even-root tail degree a=1 b=1
+PASS raw subset a=1 b=2 unlike
+PASS positive physical-patch degree a=1 b=2 unlike
+PASS raw subset a=1 b=2 equal
+PASS positive physical-patch degree a=1 b=2 equal
+PASS raw subset a=1 b=2 even
+PASS fused K/source degrees a=1 b=2
+PASS fused L degree with explicit cutoff a=1 b=2
+PASS two-tail degree a=1 b=2
+PASS fused P degree a=1 b=2
+PASS even-root tail degree a=1 b=2
+PASS raw subset a=1 b=3 unlike
+PASS positive physical-patch degree a=1 b=3 unlike
+PASS raw subset a=1 b=3 equal
+PASS positive physical-patch degree a=1 b=3 equal
+PASS raw subset a=1 b=3 even
+PASS fused K/source degrees a=1 b=3
+PASS fused L degree with explicit cutoff a=1 b=3
+PASS two-tail degree a=1 b=3
+PASS fused P degree a=1 b=3
+PASS even-root tail degree a=1 b=3
+PASS raw subset a=2 b=0 unlike
+PASS positive physical-patch degree a=2 b=0 unlike
+PASS raw subset a=2 b=0 equal
+PASS positive physical-patch degree a=2 b=0 equal
+PASS raw subset a=2 b=0 even
+PASS fused P degree a=2 b=0
+PASS even-root tail degree a=2 b=0
+PASS raw subset a=2 b=1 unlike
+PASS positive physical-patch degree a=2 b=1 unlike
+PASS raw subset a=2 b=1 equal
+PASS positive physical-patch degree a=2 b=1 equal
+PASS raw subset a=2 b=1 even
+PASS fused K/source degrees a=2 b=1
+PASS fused L degree with explicit cutoff a=2 b=1
+PASS fused P degree a=2 b=1
+PASS even-root tail degree a=2 b=1
+PASS raw subset a=3 b=0 unlike
+PASS positive physical-patch degree a=3 b=0 unlike
+PASS raw subset a=3 b=0 equal
+PASS positive physical-patch degree a=3 b=0 equal
+PASS raw subset a=3 b=0 even
+PASS fused P degree a=3 b=0
+PASS even-root tail degree a=3 b=0
+PASS raw subset a=3 b=1 unlike
+PASS positive physical-patch degree a=3 b=1 unlike
+PASS raw subset a=3 b=1 equal
+PASS positive physical-patch degree a=3 b=1 equal
+PASS raw subset a=3 b=1 even
+PASS fused K/source degrees a=3 b=1
+PASS fused L degree with explicit cutoff a=3 b=1
+PASS fused P degree a=3 b=1
+PASS even-root tail degree a=3 b=1
+PASS source-only relative measure is two
+PASS even-root scalar derivative holds off g=rho
+PASS even-root tail derivative at a1
+PASS even-root tail derivative at a2
+PASS even-root tail derivative at a3
+PASS minority hole and moving-hole first variation vanish
+PASS even-root infinity term with 2 A currents
+PASS even-root infinity term with 3 A currents
+PASS combined even-root derivative coefficient
+PASS AA pair combined coefficient
+PASS AA pair subtraction primitive
+PASS AAAB is universally marginal before derivative improvement
+PASS proper AAA positive on working patch
+PASS proper AAB positive on working patch
+PASS nested integration gives improved inner denominator
+PASS nested integration has no residual delta pole
+PASS independent labelled shuffle defect
+PASS a chamber pole would survive the shuffle zero
+123 PASS, 0 FAIL

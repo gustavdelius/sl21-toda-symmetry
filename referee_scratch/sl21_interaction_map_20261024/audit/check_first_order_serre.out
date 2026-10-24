@@ -1,0 +1,11 @@
+PASS K0 derivative C contraction vanishes residual=0
+PASS K0 versus B exponent equals rho minus one residual=0
+PASS K0 versus A exponent equals one minus rho residual=0
+PASS K0 and K2 same B exponent residual=0
+PASS K0 marginal full scalar vanishes residual=0
+PASS K0 one regular C coefficient retained residual=0
+PASS K0 B integer phase and source cocycle cancel residual=0
+PASS K0 A integer phase and source cocycle cancel residual=0
+PASS K0 full zeroth jet marginal degree residual=0
+PASS K0 first surviving jet strictly improves degree residual=0
+TOTAL 10 PASS

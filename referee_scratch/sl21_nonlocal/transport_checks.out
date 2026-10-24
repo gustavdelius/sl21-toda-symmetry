@@ -1,0 +1,6 @@
+PASS kink odd insertion matrices have ad(B) eigenvalue +mu
+PASS exact body-frame odd insertion equals sqrt(mu)*f^2/2 times constant Grassmann matrix
+PASS exact kink transfer first variation is i/(4 sqrt(2 mu))*(a Ma+b Mb)
+PASS full kink holonomy is I+D+ab[Ma,Mb]/(64 mu), using left-coefficient Koszul signs
+PASS odd centralizer of the spatial vacuum is zero: odd transport components are not translation-invariant internal charges
+PASS exact kink time connection has nonzero dressed endpoints 2*mu*N; raw At -> 0 does not suffice

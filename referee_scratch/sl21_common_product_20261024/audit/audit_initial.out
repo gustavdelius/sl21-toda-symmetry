@@ -1,0 +1,4 @@
+PASS two-tail holomorphic exponent becomes g-1
+PASS equal-root anti numerator and root/bar-tail zero
+FAIL barred derivative coefficient beta
+DIAGNOSTIC: factored (b-1)(b+1) concealed b² from the substitution; expand before substituting b²=t. No mathematical coefficient changed.

@@ -1,0 +1,8 @@
+PASS independent affine root Gram matrix: [[0, -1, 1], [-1, 2, -1], [1, -1, 0]]
+PASS bosonic potential= mu0*mu2*exp(-sqrt(2)*u) + mu1*exp(sqrt(2)*u) ; vacuum Hessian= [[4*sqrt(mu0)*sqrt(mu1)*sqrt(mu2), 0], [0, 0]]
+PASS fermion mass matrix squared= Matrix([[mu0*mu2*exp(-sqrt(2)*u), 0], [0, mu0*mu2*exp(-sqrt(2)*u)]]) (conventions: normalized root fields)
+PASS SG embedded kink equation; classical mass=8*m/k^2
+PASS independent SG two-kink equation; max residual 9.155133597044475e-16
+SG tau interaction A=tanh^2((theta1-theta2)/2)= 0.35758247292071577
+Fast kink spatial displacement -log(A)/(m*cosh(theta1))= 0.8813030758449983
+PASS same-charge SG scattering has a nonzero classical displacement; a constant S_11=1 cannot match it

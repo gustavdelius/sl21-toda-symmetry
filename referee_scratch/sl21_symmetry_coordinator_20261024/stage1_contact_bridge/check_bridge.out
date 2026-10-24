@@ -1,0 +1,23 @@
+PASS node2 actual double coefficient
+PASS node2 scalar simple coefficient
+PASS node0 actual double coefficient
+PASS node0 scalar simple coefficient
+PASS node2 full field jet identity
+PASS antiholomorphic mixed identity beta a2-a0=t(d+a2)
+PASS node2 action full first jets
+PASS node2 both tails full first jets
+PASS raw mixed contact exact regulator remainder
+PASS node0 action contact solely h-t
+PASS insertion-dressed matching regulator term
+PASS canonical insertion matching coefficient
+PASS scalar first outer test jet vanishes action
+PASS scalar first outer test jet vanishes tails
+PASS numerical full-contact divisibility e=0.02
+DIAGNOSTIC e 0.02 raw contact remainder/(2 i nu lambda0 lambda2) (-0.000448666885491733375 + 0.0j) remainder/e (-0.0224333442745866688 + 0.0j)
+PASS numerical full-contact divisibility e=0.005
+DIAGNOSTIC e 0.005 raw contact remainder/(2 i nu lambda0 lambda2) (-0.000109668102817659369 + 0.0j) remainder/e (-0.0219336205635318738 + 0.0j)
+PASS numerical full-contact divisibility e=0.001
+DIAGNOSTIC e 0.001 raw contact remainder/(2 i nu lambda0 lambda2) (-0.0000218022512840179951 + 0.0j) remainder/e (-0.0218022512840179951 + 0.0j)
+PASS numerical direct node2 Laurent coefficient
+PASS numerical regulator derivative before mixed integration
+Completed 19 checks. Local separated-source bridge only; no claim of the full H8 continuation.

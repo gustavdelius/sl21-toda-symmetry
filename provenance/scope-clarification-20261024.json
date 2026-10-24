@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-24",
+  "reason": "Editor clarified the original goal: construct a fundamental U_q(sl(2|1)) R-matrix-based S-matrix and test an affine supersymmetric Toda soliton interpretation.",
+  "scope": "README and handoff/navigation documents only. No new mathematical investigation, archived-evidence changes, or book integration.",
+  "historical_manifest": "transfer-manifest.json records the initial consolidation snapshot; these four subsequent documentation changes intentionally differ from that snapshot. import-manifest.json remains unchanged.",
+  "files": {
+    "README.md": {
+      "before_sha256": "d40d496919a7f3b5a086c42c375daf5dbd1faaaa993a5ea15ef8a55e37678a59",
+      "after_sha256": "280e52425069107406da88a74a8d9baf8a0460c54713f75591e467bda17ac610"
+    },
+    "STATUS.md": {
+      "before_sha256": "bc21a645b8afe651cae5c0b60980768ea788a5a01eab38d1ef5f453758d7c41f",
+      "after_sha256": "04a7aad9fcfde2a14b3ce9d1dc305f3235c40b690b83f6654bb586030ed2112e"
+    },
+    "RESUME.md": {
+      "before_sha256": "b5a3fc3897155125ee7a75610743dc36f80875b862fe9a4afa7b77ac49bd6d9a",
+      "after_sha256": "310b7548445ec35cef5cd682d5abb3fd3e6a9f689bf998aaa05e1659d5835947"
+    },
+    "INDEX.md": {
+      "before_sha256": "7b75ef6aa0153fdb1408a8a0c9a9937d622f76adb03b0d57a4c229695ea5950e",
+      "after_sha256": "83e48358d97ecbf51a21913fc3c57e8bfa8a321bea593b9539f2ebbdde8d11bc"
+    }
+  },
+  "local_links_checked": 98
+}

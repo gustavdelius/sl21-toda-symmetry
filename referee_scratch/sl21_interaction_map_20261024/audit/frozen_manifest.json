@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-24",
+  "checks": 42,
+  "failed_checks": 0,
+  "scope": "pair source forests through mass two; candidate first-order one-barred Serre descent; full mass-two descent unresolved",
+  "sha256": {
+    "referee_scratch/sl21_interaction_map_20261024/audit/check_first_order_serre.py": "1514c6b1dc74aea09c9ce1c75a02924f474bee955de005d3038d96a360a436f2",
+    "referee_scratch/sl21_interaction_map_20261024/audit/check_contacts.py": "a46a17d1346e4de0e8bed4f16cf625e185f5ec12b4e786b68200efe26f8292b0",
+    "referee_scratch/sl21_interaction_map_20261024/audit/check_first_order_serre.out": "99847dd3b2e32c335535951dd8fd1d620ef5a358270bafb0ab2708624d3e569c",
+    "referee_scratch/sl21_interaction_map_20261024/audit/check_contacts.out": "4a08c6b4c6b9896d5e8044f96273ddb832ef5d3f346bef40efcfbb2bf7920cef",
+    "briefs/referee_sl21_interaction_map_audit_report.md": "167d0e6f8d93cc71545ddcda1415c6e63255a9428c294777a94f1d2a6615b076"
+  }
+}

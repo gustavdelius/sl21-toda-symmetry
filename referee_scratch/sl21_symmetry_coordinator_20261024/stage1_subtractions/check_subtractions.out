@@ -1,0 +1,46 @@
+PASS bilinear root and disorder products
+PASS K2/Y0 chiral exponent t-2
+PASS U/Y0 full exponent 2t-4
+PASS source pair exponent 2t-2
+PASS bare chiral coefficient n=0
+PASS actual A-dressed chiral coefficient n=0
+PASS bare chiral coefficient n=1
+PASS actual A-dressed chiral coefficient n=1
+PASS bare chiral coefficient n=2
+PASS actual A-dressed chiral coefficient n=2
+PASS bare chiral coefficient n=3
+PASS actual A-dressed chiral coefficient n=3
+PASS bare chiral coefficient n=4
+PASS actual A-dressed chiral coefficient n=4
+PASS bare chiral coefficient n=5
+PASS actual A-dressed chiral coefficient n=5
+PASS exact source-pair remainder sum
+PASS leading remainder coefficient nonzero generic
+PASS canonical endpoint leading subtraction
+PASS canonical endpoint descendant subtraction
+PASS finite matching leading subtraction
+PASS finite matching descendant subtraction
+PASS tail improvement coefficient
+PASS reference-order cocycle ABb02
+PASS reference-order cocycle ABbP
+PASS reference-order cocycle ABk0
+PASS reference-order cocycle AKb0
+PASS reference-order cocycle ABl
+PASS reference-order cocycle ALb
+t = -0.47140452079103168293 c = 2.2360679774997896964 M = 12.0
+PASS angular quadrature epsilon=0.08
+PASS integrated mode sum epsilon=0.08
+DIAGNOSTIC epsilon 0.08 absolute omitted disk 0.12507304362336 scaled coefficient (4.14716968352841e-10 - 3.00207863473052e-9j)
+PASS angular quadrature epsilon=0.04
+PASS integrated mode sum epsilon=0.04
+DIAGNOSTIC epsilon 0.04 absolute omitted disk 15.3871254338753 scaled coefficient (4.14716968352841e-10 - 3.00207863473052e-9j)
+PASS angular quadrature epsilon=0.02
+PASS integrated mode sum epsilon=0.02
+DIAGNOSTIC epsilon 0.02 absolute omitted disk 1893.00285863989 scaled coefficient (4.14716968352841e-10 - 3.00207863473052e-9j)
+PASS angular quadrature epsilon=0.01
+PASS integrated mode sum epsilon=0.01
+DIAGNOSTIC epsilon 0.01 absolute omitted disk 232886.892241074 scaled coefficient (4.14716968352841e-10 - 3.00207863473052e-9j)
+PASS nonuniform intersecting-face scaling
+DIAGNOSTIC fixed-separation decay ratio 0.480468761919018 limit 0.480566851056061
+PASS fixed-separation remainder decays
+Completed 39 substantive checks; this is not an evaluated four-word defect.

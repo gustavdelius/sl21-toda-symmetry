@@ -1,0 +1,12 @@
+PASS kink/antikink equation and two exact fermion zero modes; orientation 1
+PASS completeness: two decaying and two growing solutions span the four first-order solutions
+PASS |f|^2 norm=pi/(4*mu); bilinear integral f^2= -I/(2*mu)
+PASS projected fermionic kinetic pairing is nondegenerate, 2*integral(f^2)*I2
+PASS kink/antikink equation and two exact fermion zero modes; orientation -1
+PASS completeness: two decaying and two growing solutions span the four first-order solutions
+PASS |f|^2 norm=pi/(4*mu); bilinear integral f^2= I/(2*mu)
+PASS projected fermionic kinetic pairing is nondegenerate, 2*integral(f^2)*I2
+PASS independent normalized ODE integrations, max absolute profile error 1.1541152632823952e-10
+PASS bosonic translation mode and A^dagger*A factorization; free -d_x^2 has no nonzero L2 kernel
+PASS formal Cl_2 zero-mode quantization has two states with centred axial charges +/-1/2
+CAUTION: this formal two-state space is not yet an infrared-complete quantum kink multiplet.

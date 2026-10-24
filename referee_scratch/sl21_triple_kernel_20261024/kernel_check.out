@@ -1,0 +1,31 @@
+PASS exact zero-jet chiral Wick polynomial
+PASS mixed face double pole is beta V
+PASS mixed face simple residue is minus V prime
+PASS separated A preserves the full first-jet Ward identity
+PASS dressed endpoint derivative
+PASS first tail double coefficient
+PASS first tail simple coefficient
+PASS tail contour coefficient is t squared
+PASS action plus tails gives radial t
+PASS finite matching restores t squared
+DATA eps=0.02000 action=-225.105939805977 tails=129.765809124473 radial=-95.340130681505
+DATA eps=0.01000 action=-235.011628095562 tails=136.617623303610 radial=-98.394004791952
+DATA eps=0.00500 action=-239.960263269138 tails=140.041473836460 radial=-99.918789432678
+DATA eps=0.00250 action=-242.433157982442 tails=141.752246100116 radial=-100.680911882327
+DATA eps=0.00125 action=-243.669203315658 tails=142.607263967989 radial=-101.061939347669
+DATA eps=0.00063 action=-244.287119689297 tails=143.034670829652 radial=-101.252448859645
+DATA targets action=-244.904962996413 tails=143.462005830818 radial=-101.442957165595
+PASS unexpanded action contour converges: last error 0.617843
+PASS unexpanded action extrapolation: error 7.30665e-05
+PASS unexpanded tails contour converges: last error 0.427335
+PASS unexpanded tails extrapolation: error 7.18605e-05
+PASS unexpanded radial sum contour converges: last error 0.190508
+PASS unexpanded radial sum extrapolation: error 1.20603e-06
+PASS interior simultaneous homogeneity at scale 0.5: factor=0.187607113623, degree=2.41421356237
+PASS interior simultaneous homogeneity at scale 0.25: factor=0.035196429082, degree=2.41421356237
+PASS interior simultaneous homogeneity at scale 0.125: factor=0.00660310046993, degree=2.41421356237
+PASS proper AB face converges
+PASS simultaneous interior face converges
+PASS simultaneous endpoint face converges
+PASS A with fused endpoint converges
+TOTAL 23 PASS, 0 FAIL

@@ -1,0 +1,9 @@
+PASS BBBA source-free scalar cancels
+PASS BBBA source-free first common C jet cancels
+PASS BBBA node-zero scalar cancels
+PASS BBBA node-two scalar is minority-coordinate derivative
+PASS BBBA K tail at slot 0 minority derivative
+PASS BBBA K tail at slot 1 minority derivative
+PASS BBBA K tail at slot 2 minority derivative
+PASS proper BBA scalar cancels
+8 PASS, 0 FAIL

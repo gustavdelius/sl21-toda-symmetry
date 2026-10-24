@@ -1,0 +1,5 @@
+PASS even Laurent normal field residual=0
+PASS even Laurent majority coefficient residual=0
+PASS even Laurent minority coefficient residual=0
+PASS even Laurent derivative spectator residual=0
+TOTAL 4 PASS

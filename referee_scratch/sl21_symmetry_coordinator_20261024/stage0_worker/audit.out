@@ -1,0 +1,46 @@
+PASS independent bilinear Gram matrix
+PASS full first-jet vector identity
+PASS mixed simple coefficient is minus V prime
+PASS simultaneous rational reduction
+PASS single source total cocycle
+PASS double source total cocycle
+PASS double-source action combinatorics
+PASS endpoint cocycle ratio
+PASS left endpoint A U over U A phase
+PASS right endpoint A U over U A phase
+PASS inner-circle strip integral is pi
+PASS strip edge horizontal first pole pi at height 1.4142135623730951
+PASS strip edge horizontal first pole pi at height 1.7320508075688772
+PASS raw contact coefficient
+PASS selected finite matching coefficient
+PASS face 02 degree 2*t
+PASS face AB degree -2/t
+PASS face BD2 degree -1
+PASS face AB2 degree 2 - 2/t
+PASS face AD2 degree 2
+PASS face ABD2 degree 1 - 2/t
+PASS face B02 degree 2*t - 1
+PASS face D02 degree 2*t - 1
+PASS face BD02 degree 2*t - 3
+PASS face A02 degree 2*t + 4
+PASS face AB02 degree 2*t + 2 - 2/t
+PASS face AD02 degree 2*t + 2
+PASS face ABD02 degree 2*t - 2/t
+PASS positive new A face A02 at -0.7071067811865476
+PASS positive new A face AB02 at -0.7071067811865476
+PASS positive new A face AD02 at -0.7071067811865476
+PASS positive new A face ABD02 at -0.7071067811865476
+PASS mixed first unretained fifth jet vanishes
+PASS mixed fifth-jet spectator remainder integrable
+PASS source-pair Taylor second jet vanishes
+PASS first-order nested remainder explicit bound
+PASS positive new A face A02 at -0.5773502691896257
+PASS positive new A face AB02 at -0.5773502691896257
+PASS positive new A face AD02 at -0.5773502691896257
+PASS positive new A face ABD02 at -0.5773502691896257
+PASS mixed first unretained fifth jet vanishes
+PASS mixed fifth-jet spectator remainder integrable
+PASS source-pair Taylor second jet vanishes
+PASS first-order nested remainder explicit bound
+PASS source-pair and AB absolute domains incompatible
+INFO Double-Yukawa degrees are a forest classification, not evaluated contact coefficients.

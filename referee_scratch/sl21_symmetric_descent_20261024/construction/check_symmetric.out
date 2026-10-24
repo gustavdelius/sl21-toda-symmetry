@@ -1,0 +1,50 @@
+PASS Y0 full H3 simple pole incl two spectator derivative fields
+PASS Y0 normal-field jet identity
+PASS Y0 fused spectator derivative identity
+PASS Y0 A pole identity
+PASS Y0 double-pole coefficient
+PASS Y2 full H3 simple pole incl two spectator derivative fields
+PASS Y2 normal-field jet identity
+PASS Y2 fused spectator derivative identity
+PASS Y2 A pole identity
+PASS Y2 double-pole coefficient
+PASS V1 full A-source simple pole and evanescent spectator term
+PASS full mixed mask Leibniz rule
+PASS mask intersections retained
+PASS B higher union (0, 2, 0) positive with first-jet margin
+PASS B higher union (0, 2, 1) positive with first-jet margin
+PASS B higher union (0, 3, 0) positive with first-jet margin
+PASS B higher union (0, 3, 1) positive with first-jet margin
+PASS B higher union (1, 0, 0) positive with first-jet margin
+PASS B higher union (1, 0, 1) positive with first-jet margin
+PASS B higher union (1, 1, 0) positive with first-jet margin
+PASS B higher union (1, 1, 1) positive with first-jet margin
+PASS B higher union (1, 2, 0) positive with first-jet margin
+PASS B higher union (1, 2, 1) positive with first-jet margin
+PASS B higher union (1, 3, 0) positive with first-jet margin
+PASS B higher union (1, 3, 1) positive with first-jet margin
+PASS A higher union (0, 1, 0) positive with first-jet margin
+PASS A higher union (0, 1, 1) positive with first-jet margin
+PASS A higher union (1, 1, 0) positive with first-jet margin
+PASS A higher union (1, 1, 1) positive with first-jet margin
+PASS A higher union (2, 0, 0) positive with first-jet margin
+PASS A higher union (2, 0, 1) positive with first-jet margin
+PASS A higher union (2, 1, 0) positive with first-jet margin
+PASS A higher union (2, 1, 1) positive with first-jet margin
+PASS A higher union (3, 0, 0) positive with first-jet margin
+PASS A higher union (3, 0, 1) positive with first-jet margin
+PASS A higher union (3, 1, 0) positive with first-jet margin
+PASS A higher union (3, 1, 1) positive with first-jet margin
+PASS complete five-current placement 0
+PASS complete five-current placement 1
+PASS complete five-current placement 2
+PASS complete five-current placement 3
+PASS complete five-current placement 4
+PASS outer test first jet sign -1
+PASS outer test first jet sign 1
+PASS unlike two-source complete anti triangle
+PASS source-pair Taylor coefficient 0
+PASS source-pair Taylor coefficient 1
+PASS source-pair Taylor coefficient 2
+PASS source-pair Taylor coefficient 3
+PASS total 49

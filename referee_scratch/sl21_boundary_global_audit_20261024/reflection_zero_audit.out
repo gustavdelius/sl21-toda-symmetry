@@ -1,0 +1,32 @@
+PASS reflected momentum
+PASS original gamma argument 0
+PASS original gamma argument 1
+PASS original gamma argument 2
+PASS original gamma argument 3
+PASS reflected gamma argument 0
+PASS reflected gamma argument 1
+PASS reflected gamma argument 2
+PASS reflected gamma argument 3
+PASS source power uses barred momentum
+PASS reflected/source OPE pairing
+PASS fused momentum radial component
+PASS fused momentum angular component
+PASS radial integral pole denominator
+PASS reflected dimension polynomial
+PASS original dimension polynomial
+PASS original resonance elimination
+PASS reflected resonance enumeration
+PASS original resonance enumeration
+PASS generic original finite amplitude 1.4142136
+PASS simple-zero scaling 1.4142136
+PASS zero times identity pole finite 1.4142136
+DATA v=1.4142135623731 slope=0.0215093865949259 candidate finite=-0.0886086555876491
+PASS generic original finite amplitude 1.3591409
+PASS simple-zero scaling 1.3591409
+PASS zero times identity pole finite 1.3591409
+DATA v=1.35914091422952 slope=0.0219932308221782 candidate finite=-0.0888202310087875
+PASS generic original finite amplitude 0.34641016
+PASS simple-zero scaling 0.34641016
+PASS zero times identity pole finite 0.34641016
+DATA v=0.346410161513775 slope=-0.0296966960579036 candidate finite=0.0605472006337865
+TOTAL 28 PASS, 0 FAIL

@@ -1,0 +1,44 @@
+PASS physical pole candidates one source (0,1)
+PASS physical pole candidates equal two sources (0,1)
+PASS physical pole candidates unlike two sources (0,1)
+PASS physical pole candidates one source (0,2)
+PASS physical pole candidates equal two sources (0,2)
+PASS physical pole candidates unlike two sources (0,2)
+PASS physical pole candidates one source (1,0)
+PASS physical pole candidates equal two sources (1,0)
+PASS physical pole candidates unlike two sources (1,0)
+PASS physical pole candidates one source (1,1)
+PASS physical pole candidates equal two sources (1,1)
+PASS physical pole candidates unlike two sources (1,1)
+PASS physical pole candidates one source (1,2)
+PASS physical pole candidates equal two sources (1,2)
+PASS physical pole candidates unlike two sources (1,2)
+PASS physical pole candidates one source (2,0)
+PASS physical pole candidates equal two sources (2,0)
+PASS physical pole candidates unlike two sources (2,0)
+PASS physical pole candidates one source (2,1)
+PASS physical pole candidates equal two sources (2,1)
+PASS physical pole candidates unlike two sources (2,1)
+PASS physical pole candidates one source (2,2)
+PASS physical pole candidates equal two sources (2,2)
+PASS physical pole candidates unlike two sources (2,2)
+PASS only new candidate is full unlike zero jet
+PASS fixed source faces are exactly unary and mixed pair
+PASS free equal source-pair degree is four
+PASS free unlike source-pair degree is 2h
+PASS bare current face no pole (2,0)
+PASS bare current face no pole (0,2)
+PASS bare current face no pole (2,1)
+PASS bare current face no pole (1,2)
+PASS bare current face no pole (2,2)
+PASS proper unlike degree at resonance (0,1)
+PASS proper unlike degree at resonance (0,2)
+PASS proper unlike degree at resonance (1,0)
+PASS proper unlike degree at resonance (1,1)
+PASS proper unlike degree at resonance (1,2)
+PASS proper unlike degree at resonance (2,0)
+PASS proper unlike degree at resonance (2,1)
+SUMMARY 40 PASS, 0 FAIL
+CANDIDATES [('unlike two sources', 2, 2, 0, sqrt(17)/4 + 7/4)]
+FIXED PRE-PRESCRIBED FACES [('one source', 0, 1, 0), ('one source', 1, 0, 0), ('one source', 1, 1, 1)]
+CAUTION: Candidate pole is not a proven nonzero residue of the full forest.

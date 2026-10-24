@@ -1,0 +1,37 @@
+PASS a0^2
+PASS a2^2
+PASS a0a2
+PASS d^2
+PASS a0d
+PASS a2d
+PASS jet vector 0
+PASS jet vector 1
+PASS jet vector 2
+PASS first mixed jet coefficient
+PASS circle strip I
+PASS strip edge h=1.41421356237309504880168872420969807856967188
+PASS strip edge h=1.73205080756887729352744634150587236694280525
+PASS action + tails = raw
+PASS finite matching = canonical
+PASS logZ Y0
+PASS logZ Y2
+PASS logZ V1
+PASS logZ FA
+PASS logZ U
+PASS logZ d
+PASS Ward AA log factor
+PASS Ward BB log factor
+PASS UY0 fusion log
+PASS Y0Y2 fusion log
+PASS distinct-source action combinatorics
+PASS UY0 exponent
+PASS Y0Y2 exponent
+PASS source reflection simple zero t=-0.471404520791031682933896241403232692856557292
+PASS zero times radial identity pole t=-0.471404520791031682933896241403232692856557292
+PASS left endpoint phase
+PASS right endpoint phase
+PASS source reflection simple zero t=-0.433012701892219323381861585376468091735701313
+PASS zero times radial identity pole t=-0.433012701892219323381861585376468091735701313
+PASS left endpoint phase
+PASS right endpoint phase
+FAILURES 0

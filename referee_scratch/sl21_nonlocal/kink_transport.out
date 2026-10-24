@@ -1,0 +1,5 @@
+CUTOFF mu*L 2.0 odd first-variation norms [0.2971522075637907, 0.2971522075637907]
+CUTOFF mu*L 4.0 odd first-variation norms [0.2973017285653222, 0.2973017285653222]
+CUTOFF mu*L 6.0 odd first-variation norms [0.297301778733845, 0.297301778733845]
+CUTOFF mu*L 8.0 odd first-variation norms [0.29730177875067454, 0.29730177875067454]
+PASS both odd first variations converge to the independently derived norm 1/(2 sqrt(2 mu)) = 0.29730177875068026

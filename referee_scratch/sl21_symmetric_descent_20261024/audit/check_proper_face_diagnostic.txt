@@ -1,0 +1,1 @@
+Initial full rational simplification of the node2 H3 Laurent residual was manually interrupted after producing five PASS lines; it did not produce a mathematical failure. The exact residual is linear in H2 and J. Version 2 verifies its four independent coefficients before rational expansion, avoiding an unnecessary huge cancellation. Original script and partial output retained.

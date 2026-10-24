@@ -1,0 +1,8 @@
+PASS disjoint full-jet orders commute with source-dependent current coefficients
+PASS joint functional retains coefficient derivatives and both Wick pairings
+PASS unlike-source specialization retains commutation
+FAIL cross-field pairings have their nonzero required coefficient
+PASS dropping other-source coefficient derivatives changes the functional
+PASS node0 unlike spectator leaves h-minus-t remainder
+PASS physical node0 constant-source mixed field moment vanishes
+SUMMARY 6 PASS 1 FAIL

@@ -1,0 +1,10 @@
+PASS entire arbitrary first jet gives the raw mixed contact
+PASS outer-current test derivative cancels before normal-field substitution
+PASS Y0 physical normal jet vanishes
+PASS Y2 physical normal jet equals t beta derivative of U
+PASS switching derivative coefficient is beta squared, not t beta
+PASS Y0 has a source-test derivative even when normal contact vanishes
+PASS AA full independent source jet
+PASS AA physical field jet conversion
+PASS balanced opposite half matching cancels full raw functional
+SUMMARY 9 PASS 0 FAIL

@@ -1,0 +1,1519 @@
+                                                                                                                  hep-th/9703065
+                                                                                                                  DAMTP/96-113
+                                                                                                               ENSLAPP-A-640/97
+
+
+
+
+                                             DYNKIN DIAGRAMS AND INTEGRABLE MODELS
+                                                  BASED ON LIE SUPERALGEBRAS
+arXiv:hep-th/9703065v2 1 Mar 2000
+
+
+
+
+                                                                       Jonathan M. Evans1
+                                                                  DAMTP, University of Cambridge
+                                                               Silver Street, Cambridge CB3 9EW, UK
+                                                                     J.M.Evans@damtp.cam.ac.uk
+
+                                                                          Jens Ole Madsen
+                                                               Laboratoire de Physique Théorique
+                                                                 ENSLAPP 2 , Groupe d’Annecy
+                                                       Chemin de Bellevue, F-74941 Annecy le Vieux, France
+                                                                   madsen@lapphp.in2p3.fr
+
+
+
+
+                                                                            ABSTRACT
+                                    An analysis is given of the structure of a general two-dimensional Toda field theory in-
+                                    volving bosons and fermions which is defined in terms of a set of simple roots for a Lie
+                                    superalgebra. It is shown that a simple root system for a superalgebra has two natural
+                                    bosonic root systems associated with it which can be found very simply using Dynkin
+                                    diagrams; the construction is closely related to the question of how to recover the signs of
+                                    the entries of a Cartan matrix for a superalgebra from its Dynkin diagram. The signifi-
+                                    cance for Toda theories is that the bosonic root systems correspond to the purely bosonic
+                                    sector of the integrable model, knowledge of which can determine the bosonic part of the
+                                    extended conformal symmetry in the theory, or its classical mass spectrum, as appropri-
+                                    ate. These results are applied to some special kinds of models and their implications are
+                                    investigated for features such as supersymmetry, positive kinetic energy and generalized
+                                    reality conditions for the Toda fields. As a result, some new families of integrable theories
+                                    with positive kinetic energy are constructed, some containing a mixture of massless and
+                                    massive degrees of freedom, others being purely massive and supersymmetric, involving a
+                                    number of coupled sine/sinh-Gordon theories.
+
+                                      1
+                                          Supported by a PPARC Advanced Fellowship
+                                      2
+                                          URA 14-36 du CNRS, associée à l’E.N.S. de Lyon et à l’Université de Savoie
+1.       Introduction
+
+
+     Toda theories provide a uniform way of constructing both massless and massive in-
+tegrable field theories from Lie algebras [1–4]. In recent years these models have received
+considerable attention. It is well known that those based on finite-dimensional Lie algebras
+exhibit extended conformal symmetry (see [5–7] for reviews) whilst those based on affine
+Kac-Moody algebras are massive integrable field theories for which exact S-matrices can be
+found (see eg. [8]). Toda theories based on Lie superalgebras have also been considered by
+a number of authors [9–26]. These integrable models contain both bosonic and fermionic
+fields, but they need not be supersymmetric in general. They have been studied princi-
+pally because they provide field-theoretic realizations of W-algebras, [13-18] but there has
+also been work concerned with S-matrices for massive models [20–26]. Results for theories
+based on superalgebras are much less complete than in the bosonic case, however.
+     In this paper we establish a number of results concerning the structure of a Toda
+theory based on a general Lie superalgebra. We show that the bosonic sector of any
+such theory consists of a sum of bosonic Toda models whose lagrangians can contribute
+with positive or negative signs and we describe a simple way of reading off the Dynkin
+diagrams corresponding to these bosonic sub-theories from the Dynkin diagram of the
+original Lie superalgebra. By applying this idea to a conformally-invariant theory one
+can easily determine the bosonic subalgebra of the extended conformal symmetry which is
+responsible for the integrability of the model [5-7], while for a massive theory one can find
+the classical mass spectrum in terms of the known mass spectra of bosonic models [3,8,27].
+In addition to this information on the bosonic content of the theory, we give a criterion
+for the decoupling of certain fermionic degrees of freedom. After explaining these general
+results, we discuss various classes of examples.
+     Almost all Toda models based on finite-dimensional Lie superalgebras are conformally
+invariant, in close analogy with the bosonic situation (the exceptions are discussed in
+sections 4 and 6). For models based on an infinite-dimensional superalgebra, however, one
+finds behaviour which differs markedly from the bosonic case. While bosonic affine Toda
+models are massive integrable field theories, we shall show that the bosonic sector of a
+theory based on an affine superalgebra can in general be a combination of massive and
+conformal bosonic Toda theories, typically including a number of free massless bosons as
+well. Our methods will allow us to identify those models which are purely massive.
+     Another way in which superalgebra theories differ from their bosonic counterparts is
+that their kinetic energy can have indefinite signature. While this is not necessarily a fatal
+flaw, particularly in the context of conformal field theory where the study of non-unitary
+models is common, it is clearly interesting to ask which models have conventional, positive-
+definite kinetic energy. This point was originally raised by Olshanetsky [9], but in fact the
+class of Toda models he considered can be generalized to allow for non-standard or twisted
+reality conditions on the fields [14,19]. Our techniques enable one to see easily how such
+reality conditions descend to the bosonic sector of a superalgebra theory. By extending the
+analysis in this way, we find new families of integrable field theories with positive-definite
+lagrangians. Most of these contain both massless and massive degrees of freedom, but
+several examples are purely massive and supersymmetric, consisting of sine/sinh-Gordon
+theories coupled together in various ways.
+
+                                              1
+     The Dynkin diagram construction at the heart of this paper is intimately related
+to the question of how one recovers a Cartan matrix from a Dynkin diagram for a Lie
+superalgebra, including the rather subtle issue of reconstructing the correct relative signs
+for all the entries. We discuss this in detail in the next section. We then move on to Toda
+theories proper and to the topics indicated above. Throughout the paper we consider only
+classical, abelian Toda theories with real coupling constants, but we shall draw attention
+at various stages to those theories that would be particularly interesting to investigate
+further at the quantum level.
+
+
+2.       Simple roots and Dynkin diagrams
+
+
+      We shall be concerned with Lie superalgebras G(R) defined in terms of some finite set
+of simple roots R. This means we consider precisely the superalgebras of types A, B, C, D,
+E, F, G and their affine extensions, as defined by the Cartan-Kac classification. We first
+recall some elementary facts concerning these algebras; for more details, see [28–37,10].
+      The simple roots may be identified with a set of n vectors αi living in an r-dimensional
+space V , with i ∈ {1, . . . , n} (for affine algebras we project onto a horizontal subspace).
+Each simple root is graded bosonic (even) or fermionic (odd) as specified by the disjoint
+union R = B ∪ F or equivalently by values of the labels i ∈ ε and i ∈ τ respectively, where
+ε and τ are complementary subsets of {1, . . . , n}. We denote the span of any set of vectors
+S in V by hSi. The simple roots span the space, so V = hRi and n ≥ r (in fact n = r for
+finite-dimensional superalgebras and n = r+1 for infinite-dimensional superalgebras, with
+the exceptions of A(m, m) and A(m, m)(1) which have n = r+1 and n = r+2 respectively.)
+Every superalgebra G(R) contains a unique maximal bosonic subalgebra which we denote
+by G(R)bos , but this depends on the entire root system R and not just on the bosonic
+simple roots B.
+     There is a natural inner-product on V which will be denoted by a dot and which
+is inherited from the invariant inner-product on the algebra G(R). The inner-product is
+non-degenerate on V , by construction (since we take projected roots for affine algebras).
+For bosonic algebras the inner-product is positive-definite but for Lie superalgebras it is
+typically of indefinite signature, which gives rise to some very important differences. If
+U is any subspace of V and U ⊥ denotes the orthogonal subspace, then U ∩ U ⊥ 6= {0}
+in general. If the restriction of the inner-product to U is non-degenerate, however, then
+U ∩ U ⊥ = {0} and V = U ⊕ U ⊥ .
+     The precise definition of G(R) can be given in terms of sets of generators Hi and Ei±
+corresponding to the simple roots. These must satisfy the basic relations
+
+                       [Hi , Ej± ] = ±kij Ej± ,       [Ei+ , Ej− ] = δij Hi .            (2.1)
+
+The Cartan matrix kij has dimension n×n, rank r, and it encodes all necessary information
+about the root system. In these equations, no summation is implied and the bracket is
+understood to be graded. The definition of the algebra must be completed by further
+conditions on the generators known as Serre relations [28,30,31,32,37].
+     It is clear that by re-scaling the generators Hi and Ei± we can change the Cartan
+matrix kij → λi kij (no summation) where λi are any non-zero constants. Using this
+freedom, it is always possible to make the Cartan matrix symmetric; it is then just the
+
+                                                  2
+matrix of inner-products of the simple roots, which we write as kij = aij = αi · αj . The
+matrix aij is unique up to a permutation of the simple roots and an overall constant. We
+can take its entries to be integers, except for D(2, 1; α) and its affine extensions at generic
+values of the parameter α. To define Dynkin diagrams, it is convenient to introduce a
+slightly different Cartan matrix which we write as kij = bij = λi aij , where λi > 0. When
+the entries aij are integers, we can choose λi so that bij are also integers which obey:
+(i) |bii | = 2 or 0; (ii) if bii = 0 then bij (j = 1, . . . , n) have no common factor. These
+conditions fix the normalization of each row, so that bij is unique up to an overall sign. It is
+also useful to note the properties: (iii) bij and bji have the same sign; (iv) if bij 6= bji then
+either |bij | = 1 or |bji | = 1. We can define bij satisfying (i), (iii) and (iv) for the exceptional
+D algebras too, but we must replace (ii) with some other criterion for normalizing the rows
+corresponding to null roots if bij is to be unique. We emphasize that with our conventions
+the diagonal entries of aij and bij can be positive or negative. There are a number of other
+choices for the Cartan matrix adopted in [10,30-37], many of which rescale the rows so
+that the diagonal entries are non-negative, so relinquishing property (iii).
+      For any bosonic Lie algebra, the simple root system R is essentially unique: any
+two simple root systems are related by the action of the Weyl group and the Cartan
+matrices coincide up to a permutation of rows and columns [28,30]. For a Lie superalgebra,
+however, it is quite possible to find inequivalent simple root systems R and R′ which lead
+to isomorphic algebras G(R) = G(R′ ) despite the fact that their Cartan matrices are
+completely different. It is possible to reconstruct all allowed simple root systems for a
+given superalgebra from any one simple root system by applications of transformations
+which generalize the reflections contained in the bosonic Weyl group; for more details see
+[10,36,37]. We should merely be aware that for a given algebra there may be a number of
+equally valid simple roots systems R.
+      We now give rules for encoding the Cartan matrix bij in a Dynkin diagram—these
+follow very closely the usual bosonic conventions.
+• Draw a node for each simple root αi , coloured white if it is bosonic (i ∈ ε), black if it
+is fermionic and non-null (i ∈ τ and α2i 6= 0), grey or hatched if it is fermionic and null
+(i ∈ τ and α2i = 0).
+• Draw a bond between the nodes corresponding to i and j consisting of max(|bij |, |bji |)
+lines, this being the strength of the bond, with an arrow from i to j if |bji | > |bij |.
+We have assumed here that the entries of the Cartan matrix are integers. We can extend
+the rules to encompass those members of the continuous family D(2, 1; α) and their affine
+counterparts whose Cartan matrices have non-integer entries. We proceed as before, but
+instead of drawing a bond consisting of a number of lines to represent an integer, we draw
+a single line and label it with the real number bij whenever necessary; see eg. [36,37].
+      The scheme above defines unambiguously how one draws a Dynkin diagram to repre-
+sent a given Cartan matrix. Although our choice for the Cartan matrix itself may differ in
+small ways from some others in the literature, the Dynkin diagrams which follow from the
+rules we have given agree with those which can be found in standard references such as
+[31,32,36,37]. So far everything seems like a simple modification of the bosonic situation.
+The big difference, however, is that one cannot uniquely reconstruct the Cartan matrix
+for a superalgebra from its Dynkin diagram without giving some additional rules. The
+problematical thing is how to recover the signs of the entries of the Cartan matrix. We
+have chosen to focus on aij and bij because they are the Cartan matrices which are most
+immediately relevant for constructing integrable lagrangians, but also because the signs of
+
+                                                 3
+their entries can be recovered in a relatively straightforward way. To explain how, it is
+best to describe in more detail what kinds of Cartan matrices and diagrams are actually
+allowed by the classification of [31-35].
+     It will be convenient to refer to the infinite series of superalgebras of types A, B, C,
+D as classical (so this term is being used here in a different sense than in [31,37]) and
+to distinguish them from the exceptional algebras G2 , F4 , E6 , E7 , E8 , D(2, 1; α), G(3),
+                                        (3)
+F(4), all their affine extensions, and D4 . The Dynkin diagrams for the finite-dimensional,
+classical bosonic Lie algebras of types A, B, C and D are shown below in Figure 1.
+
+                        A
+
+
+                        B
+
+
+                        C
+
+
+
+                        D
+
+
+                    Figure 1: classical bosonic Dynkin diagrams
+
+In a similar spirit, let us introduce the symbols A*, B* and D* corresponding to the
+fermionic diagrams in Figure 2.
+
+                        A*
+
+
+                        B*
+
+
+
+                        D*
+
+
+                   Figure 2: classical fermionic Dynkin diagrams
+
+All simple root systems for classical Lie superalgebras can be obtained by combining the
+bosonic diagrams in Figure 1 with the fermionic diagrams in Figure 2. Any Dynkin diagram
+for a finite-dimensional, classical superalgebra consists of a chain of alternating blocks of
+type A and A* which may in addition have a tail of type B, B*, D, D*, or C at one end
+
+                                             4
+only. Any Dynkin diagram for an infinite-dimensional, classical superalgebra consists of a
+chain of alternating blocks of type A and A* which either has its ends joined to form a
+circle, this being permissible if the total number of grey nodes is even, or else has tails of
+type B, B*, D, D* or C attached at both ends. Any such diagrams are allowed.
+     We will make much further use of the idea that the diagrams in Figures 1 and 2
+are building blocks for general Dynkin diagrams. In particular, this suggests an obvious
+notation for various other classes of diagrams. For instance, the Dynkin diagrams for the
+classical, bosonic affine algebras can be denoted:
+                Algebra                                Type of Diagram
+                    (1)                                 b
+                  Am−1                                  A   m nodes
+                   (1)
+                  Bm                                    B-D m+1 nodes
+                   (1)
+                  Cm                                    C-C m+1 nodes
+                   (1)
+                  Dm+1                                  D-D m+2 nodes
+                   (2)
+                  A2m−2                                 B-C m nodes
+                   (2)
+                  A2m−1                                 C-D m+1 nodes
+                   (2)
+                  Dm+1                                  B-B m+1 nodes
+where m ≥ 2 (compare with Figures 3 and 5 of [29] or Tables Aff1 and Aff2 of [30]). The
+symbol Ab indicates a diagram of type A whose ends have been joined to form a circle,
+while the other symbols indicate a joining of two diagrams of type B, C or D. (Note that
+                              b represents the same diagram as B-B or C-C; when there
+when there are just two nodes A
+are three nodes B-D coincides with C-C, and C-D coincides with B-B; when there are four
+nodes Ab coincides with D-D.) We shall use a similar notation when we come to discuss
+fermionic diagrams, and in preparation we introduce two further classes B* and D* which
+contain both bosonic and fermionic nodes, as shown in Figure 3. Although these are
+composites of diagrams already defined, they will prove useful later.
+
+                          B*
+
+
+
+                          D*
+
+
+         Figure 3: two additional families of classical Dynkin diagrams
+
+     We now supply the final ingredient in the correspondence between simple root systems
+and Dynkin diagrams for classical algebras by describing how to reconstruct the signs of
+the entries in a Cartan matrix from a diagram. For bosonic or fermionic simple roots with
+non-vanishing length-squared this is straightforward: in any connected part of a diagram
+which involves only white or black nodes, these nodes all represent numbers with the same
+sign, and the bonds attached to them all represent numbers with the opposite sign. For
+diagrams with null fermionic roots things are more complicated, however, and the relative
+signs must be taken in accordance with those written in Figure 4. (The associated bosonic
+
+                                              5
+systems B± will be introduced shortly.) The signs on the dotted bonds of the fermionic
+diagrams indicate the choices necessary for an additional bond which appears in forming
+any larger, composite diagram. Notice that these rules could not be applied consistently to
+a circle containing an odd number of grey nodes; but, as mentioned above, such diagrams
+are forbidden by the classification of superalgebras.
+
+                                                  B+
+A*
+                                                  B−
+
+
+                                                  B+
+B*
+                                                  B−
+
+
+                                                  B+
+D*
+                                                  B−
+
+
+           Figure 4: signs associated with fermionic Dynkin diagrams
+
+    It would be nice to give a set of unambiguous rules for reconstructing such signs from
+any Dynkin diagram. Unfortunately, this is not possible if one adheres to the standard
+way of drawing Dynkin diagrams—which is now more or less universally followed—because
+there is an inherent ambiguity. The difficulty arises with diagrams of the type shown in
+Figure 5, where the dotted bonds can be of various of strengths.
+
+
+
+
+                      Figure 5: ambiguous Dynkin diagrams
+
+If these bonds are of strength one, for instance, the diagram could represent root systems
+for either of the algebras D(2,1) or A(1,1), depending on whether we take the signs cor-
+responding to the bonds to be equal or opposite. This means that there is not quite a
+one-to-one correspondence between diagrams and simple roots systems for superalgebras
+(and this is quite distinct from the fact that many different simple root systems can lead
+to isomorphic algebras). In practice, however, this ambiguity is not very serious because
+it involves essentially only this one particular class of diagrams.
+     It is because of this complication that we have chosen to present things initially in
+a rather concrete way. We have also concentrated on the classical algebras because we
+shall not have much reason to deal directly with the exceptional algebras in this paper.
+Nevertheless, now that we have explained the difficulties, we can give a set of rules which
+is as clear-cut as possible and which allows one to recover the signs corresponding to any
+
+                                            6
+Cartan matrix, including those for exceptional algebras. These rules apply to any Dynkin
+diagram or subdiagram (obtained by deleting a number of nodes and their attached bonds).
+• For any white or black node in any diagram, the sign on the node is opposite to the sign
+on any bond attached to it.
+• For any diagram without branches (ie. consisting of a line or a circle of nodes) the signs
+on two bonds attached to any given grey node must be opposite to one another, with the
+following exceptions:
+(i) diagrams of the form shown in Figure 5, for which the signs may be equal or opposite;
+(ii) triangles of three grey nodes, which are dealt with by the next rule.
+(These exceptions involve members of the family D(2,1;α) for various values of α.)
+• For any diagram consisting of a triangle of three grey nodes, the signs on the bonds must
+be such that the sum of the strengths of the bonds, taken with these signs, is zero.
+It is easy to see that these rules hold for all the classical examples given in Figure 4,
+and indeed that the signs given there are necessary consequences of these rules. The
+exceptional algebras G(3), F(4) and their affine extensions can be considered similarly; the
+Dynkin diagrams can be found in [36].
+     Now that we have clarified some aspects of the relationship between Cartan matrices
+and Dynkin diagrams, we consider a general simple root system R = B ∪ F and introduce
+two associated bosonic simple root systems B± .
+Definition: B± = { αi ∈ B | α2i >                                             2>
+                                  < 0 } ∪ { αi + αj ; αi , αj ∈ F | (αi + αj ) < 0 }.
+The sets B± are clearly contained within the bosonic subsystem of the entire root system
+of G(R). If we consider the bosonic subalgebras G(B± ) which are generated by B± , these
+must be contained within G(R)bos . The following observation will play a central role in all
+the following developments.
+Proposition 1: Let R be any superalgebra simple root system with B± defined as above.
+(a) The sets B± are mutually orthogonal and the restrictions of the inner-product on hRi
+to the subspaces hB± i are positive/negative-definite. Consequently G(B± ) commute and
+we have a direct sum of Lie algebras G(B+ ) ⊕ G(B− ) ⊂ G(R)bos .
+(b) If i, j ∈ τ then αi + αj ∈ B± iff αi · αj >
+                                              < 0.
+Proof: (a) The fact that the algebras commute follows immediately from the property that
+the sets of roots B± are mutually orthogonal, which can be established by inspection. On
+a simple bosonic Lie algebra, the invariant inner-product is essentially unique and must
+have definite signature. Hence, we need only check that the inner-product is positive or
+negative on any one simple root in each simple factor. It follows from the definitions of
+B± that it must be positive/negative-definite on hB± i. Part (b) is immediate if the roots
+are both null, but it is also easy to check that it holds for the combination of a grey and
+a black node, or two black nodes, which occur only in (sub)diagrams of type B*.
+     The significance of the sets B± will become clearer in the next section. Notice that
+part (b) of Proposition 1 allows the sets of roots B± to be read off very easily from the
+Dynkin diagram for R with the pattern of relative ± signs attached according to Figure
+4. Since this observation proves so useful, we have recorded the results for B± in Figure 4
+for the primitive kinds of fermionic diagrams A*, B* and D*. These results can easily be
+combined to find B± for more complicated root systems R. In general the diagrams for
+B± need not be connected and, correspondingly, the algebras G(B± ) may consist of direct
+sums of various simple factors.
+
+                                             7
+3.       Simple root systems and integrable models
+
+
+    First we establish some conventions. Two-dimensional super-Minkowski space has
+bosonic light-cone coordinates x± and fermionic light-cone coordinates θ ± which are real
+(or Majorana) spinors. Lorentz transformations act on these coordinates according to
+x± → e±λ x± and θ ± → e±λ/2 θ ± where λ is the rapidity. Covariant super-derivatives obey
+
+                          ∂                  2
+                  D± =        − iθ ± ∂± ,   D± = −i∂± ,      {D+ , D− } = 0 .
+                         ∂θ ±
+A general bosonic scalar superfield has a component expansion
+
+                            Φ = φ + iθ + ψ+ + iθ − ψ− + iθ + θ − σ .
+
+Note that the fermionic fields ψ± are components of a spinor which transform under the
+Lorentz group according to ψ± → e∓λ/2 ψ± , in contrast to the behaviour of the fermionic
+coordinates. This is consistent because spinor indices can be raised and lowered by revers-
+ing signs, though we shall never need to make use of this. We shall write spinor indices
+explicitly so as to avoid the introduction of Dirac matrices. However, we will adopt the
+usual notation for the Lorentz-invariant and parity-even inner-product
+
+                                   χ̄ψ = i(χ+ ψ− + ψ+ χ− ) ,
+
+which is real and manifestly symmetric for real fermions.
+     Now given any simple root system of a Lie superalgebra R = B ∪ F we can write down
+a corresponding integrable Toda theory in terms of a real scalar superfield Φ which takes
+values in the target space V = hRi. The equations of motion are
+                            X                              X
+                iD+ D− Φ =     µj αj exp αj · Φ + iθ + θ −   µj αj exp αj · Φ       (3.1)
+                             j∈τ                            j∈ε
+
+and they can be derived from the superspace lagrangian density
+                  i               X                            X
+             L=     D+ Φ · D− Φ +     µj exp αj · Φ + iθ + θ −     µj exp αj · Φ .    (3.2)
+                  2               j∈τ                          j∈ε
+
+
+For discussions of integrability of these equations see [1–6,9–13,16–22,25]. The quantities
+µi are non-zero parameters with the dimensions of (mass) for i ∈ τ and (mass)2 for i ∈ ε.
+These parameters can clearly be modified to some extent by shifting the fields Φ, but it is
+convenient to keep their values arbitrary for the moment. If desired one can introduce a
+dimensionless coupling β by taking L → L/β 2 , and often the Toda equations are written
+in a way which corresponds to taking Φ → βΦ in addition. This coupling will not be very
+important for us, since we work entirely classically.
+     To pass to the component field formulation of the model, we expand the exponential
+terms and eliminate the auxiliary fields σ in the standard fashion to obtain
+
+                                   L = Lbos + Lferm + Lint ,                          (3.3)
+
+                                               8
+where the terms appearing in the component lagrangian are
+
+              1               X                    X 1
+     Lbos =     ∂+ φ · ∂− φ −     µj exp αj · φ −         µi µj (αi · αj ) exp(αi + αj ) · φ
+              2               j∈ε                 i,j∈τ
+                                                        2
+            i                i                                                                            (3.4)
+    Lferm =   ψ+ · ∂ − ψ+ + ψ− · ∂ + ψ−
+            2                2
+            X
+     Lint =    iµj (αj · ψ+ )(αj · ψ− ) exp αj · φ .
+              j∈τ
+
+
+For future reference we also record the component field equations:
+                    X                          X 1
+   ∂+ ∂− φ = −            µj αj exp αj · φ −               µi µj (αi + αj )(αi · αj ) exp(αi + αj ) · φ
+                                                       2
+                    j∈ε                        i,j∈τ
+                        X
+                    +         iµj αj (αj · ψ+ )(αj · ψ− ) exp αj · φ ,                                    (3.5)
+                        j∈τ
+                    X
+    ∂ ∓ ψ± = ∓            µj αj (αj · ψ∓ ) exp αj · φ .
+                    j∈τ
+
+
+It should be clear either from the superspace description or from the component version
+written above that the Toda model really does depend on the particular simple root system
+R rather than on the superalgebra G(R). We will see examples below of Toda models with
+very different properties which are based on inequivalent simple root systems for the same
+superalgebra.
+      The bosonic sector, with lagrangian Lbos in (3.4), must be integrable by itself, because
+if the fermions are set to zero at some initial time then they remain zero according to the
+full set of equations of motion. But it is clear that this bosonic model is not necessarily a
+Toda theory based on a simple Lie algebra. Rather, Lbos will generally consist of a sum
+of several independent bosonic Toda theories, possibly including a number of massless free
+fields. Each of these independent factors may contribute to the lagrangian with either
+a positive or a negative sign. It is therefore appropriate at this stage to try to clarify
+some troublesome points concerning the positivity of actions, kinetic energy, and potential
+energy.
+      It is very important to distinguish between the overall sign of the lagrangian, which
+is irrelevant at the classical level, and the relative sign between the kinetic and potential
+terms, which has much more immediate physical significance. This relative sign determines
+whether a given classical solution is stable, and in particular the sign must be chosen
+correctly if the theory is to have oscillations with positive (mass)2 about a given stationary
+point of the potential. This is why we consider a bosonic lagrangian 21 ∂+ φ · ∂− φ − U (φ) to
+be physically sensible when the inner-product in the kinetic term is positive-definite and
+the potential U (φ) is bounded below. We shall say that any lagrangian or action of this
+type is positive-definite, or that it has positive signature. But from the classical point of
+view we could equally well change the lagrangian by an overall sign, or equivalently take
+the inner-product to be negative-definite and the potential to be bounded above. We refer
+to such a lagrangian or its action as being negative-definite or having negative signature. If
+the inner-product is neither positive- nor negative-definite we shall say that the lagrangian
+has indefinite signature.
+
+                                                            9
+     We must expect Lbos in (3.4) to have indefinite signature, in general. The correspond-
+ing Toda equations (3.5) will still be integrable (in the sense discussed in [9-25]) no matter
+what values of the parameters µi we choose, but when we pay closer attention to the rela-
+tive signs between kinetic and potential terms in (3.4), we find that there are some choices
+of particular physical interest. In fact, we can always ensure that Lbos is a combination of
+bosonic Toda models which are all individually positive- or negative-definite, even though
+their sum may have indefinite signature.
+Proposition 2: Consider the Toda theory based on a simple root system R. The bosonic
+sector has a lagrangian of the form
+                                   Lbos = L+ + L− + L0                                    (3.6)
+where L± are lagrangians for bosonic Toda theories based on simple root systems B± and
+L0 is the lagrangian for a number of free massless scalars fields. This sum of lagrangians
+corresponds to an orthogonal decomposition of the target space V = V+ ⊕ V− ⊕ V0 where
+V± = hB± i are the target spaces for L± and V0 = (hB+ i ⊕ hB− i)⊥ is the target space for
+L0 . The lagrangians L± are positive/negative-definite if we choose µi >             2>
+                                                                           < 0 for αi < 0 when
+i ∈ ε, and µi all with the same sign when i ∈ τ . Each of the scalar fields in L0 may
+contribute with a positive or negative sign.
+Proof: These statements can all be checked directly from (3.4) in conjunction with the re-
+sults of Proposition 1. In particular, part (b) of Proposition 1 ensures the positive/negative-
+definite nature of L± with the choices of signs for µi given above.
+     This gives an essentially complete description of the bosonic sector of any Toda theory
+based on a superalgebra. Moreover, the relevant semi-simple algebras with root systems B±
+can be determined very easily for any given R by using part (b) of Proposition 1 together
+with the information summarized in Figure 4. Taken together, these facts constitute a
+simple diagrammatic method for determining the bosonic sector of any Toda theory, and
+much of what follows in the rest of this paper rests on this idea. Some examples will be
+given in the following sections.
+     When we turn to consider the fermions in (3.4) we see that Lferm is a free lagrangian,
+and that all the remaining non-trivial interactions are contained in Lint . We should em-
+phasize that these interactions will link together the various components of Lbos described
+in Proposition 2; it is only when the fermions vanish that these components decouple. We
+will not attempt to analyze the structure of Lint in any generality, except for the following
+observation.
+Proposition 3: Consider the Toda theory based on a simple root system R. If the inner-
+product on V = hRi is non-degenerate when restricted to the subspace hF i spanned by
+the fermionic simple roots, then V = hF i ⊕ hF i⊥ . In this case the only relevant fermionic
+degrees of freedom are those fields in hF i, while those in hF i⊥ obey free, massless equations
+of motion and are decoupled from all other fields.
+Proof: First notice that if ω is any vector in hF i⊥ then the fermion field ω · ψ± always
+obeys a free equation of motion according to (3.5). To show that a given field decouples,
+however, we must also demonstrate that it does not act as a source for other fields by
+being present in the interaction terms. From the expression for Lint , it is clear that the
+fermion fields which are absent from the interaction terms are precisely those living in the
+subspace hF i⊥ . When the inner-product is non-degenerate on hF i we can decompose any
+ψ as a sum of fields in hF i and hF i⊥ in a unique way, and the result follows.
+
+                                              10
+Corollary: If there are no fermionic null roots in R, the fermions in hF i⊥ always decouple,
+since the inner-product is positive-definite on V = hRi and so non-degenerate on any
+subspace (this is the situation discussed in [9,17]). An even more special case arises when
+there are no fermionic roots at all, so R = B. Then all the fermions are decoupled, Lbos
+is the usual bosonic Toda theory based on B and is the only non-trivial part of (3.4). In
+this sense the superspace construction contains the usual bosonic Toda construction [1-4]
+as a special case.
+     We now summarize the classification of two important categories of Toda models. It
+turns out that they share the rather special property that their bosonic sectors correspond
+to the entire bosonic subalgebras G(R)bos of G(R).
+Proposition 4: Consider the Toda theory based on a simple root system R.
+(a) The theory is supersymmetric iff the simple root system is entirely fermionic, R = F ;
+a complete list is given in Table 1 (following [10,13,15]).
+(b) The theory with real fields has a positive-definite lagrangian iff R has no null roots;
+a complete list of such systems involving at least one fermionic root is given in Table 2
+(following [32,9]).
+(c) In each of these cases we have G(B+ ) ⊕ G(B− ) = G(R)bos , whereas in general the
+left-hand side can be a proper subalgebra.
+
+    Table 1: Totally fermionic simple root systems
+
+    (a) Linearly independent systems for finite-dimensional superalgebras
+         Superalgebra       Simple root system       Bosonic subalgebra
+         A(m, m−1)          A*    2m nodes           Am ⊕ Am−1 ⊕ U(1)
+         B(m−1, m)          B*    2m−1 nodes         Bm−1 ⊕ Cm
+         B(m, m)            B*    2m nodes           B m ⊕ Cm
+         D(m+1, m)          D*    2m+1 nodes         Dm+1 ⊕ Cm
+         D(m, m)            D*    2m nodes           Dm ⊕ Cm
+         D(2, 1; α)               —                  A1 ⊕ A1 ⊕ A1
+
+    (b) Linearly dependent systems for finite-dimensional superalgebras
+         Superalgebra       Simple root system        Bosonic subalgebra
+         A(m, m)            A*   2m+1 nodes           Am ⊕ Am
+
+    (c) Linearly dependent systems for infinite-dimensional superalgebras
+         Superalgebra        Simple root system       Bosonic subalgebra
+                 (1)         b                         (1)    (1)
+         A(m, m)             A*     2m+2 nodes        Am ⊕ Am
+                                                                 (2)     (2)
+          A(2m, 2m)(4)            B*-B*    2m+1 nodes           A2m ⊕ A2m
+                                                                  (2)      (2)
+          A(2m+1, 2m+1)(2)        D*-D*    2m+3 nodes           A2m+1 ⊕ A2m+1
+                                                                  (2)      (2)
+          A(2m+1, 2m)(2)          B*-D*    2m+2 nodes           A2m+1 ⊕ A2m
+                                                                  (1)  (1)
+          B(m, m)(1)              B*-D*    2m+1 nodes           B m ⊕ Cm
+                                                                  (1)    (1)
+          D(m+1, m)(1)            D*-D*    2m+2 nodes           Dm+1 ⊕ Cm
+                                                                  (2)  (1)
+          D(m, m)(2)              B*-B*    2m nodes             Dm ⊕ Cm
+                                                                  (1)  (1)     (1)
+          D(2, 1; α)(1)                    —                    A1 ⊕ A1 ⊕ A1
+
+                                            11
+For all entries m ≥ 1, where we define D(1, m) = C(m+1) and note D(1, 1) = C(2) =
+A(1, 0). Each of the superalgebras listed has a unique purely-fermionic simple root system
+which we have expressed in terms of the building blocks introduced in Figure 2. The
+          b stands for a diagram consisting of a circle of grey nodes, and the other symbols
+notation A*
+indicate diagrams formed by joining building blocks of types B* and D*, as discussed in
+the last section. Dynkin diagrams for the exceptional D families may be found in [37].
+
+     Table 2: Simple root systems with positive-definite inner-product
+
+     (a) Linearly independent systems for finite-dimensional superalgebras
+             Superalgebra        Simple root system     Bosonic subalgebra
+             B(0, m)             B*     m nodes          Cm
+
+     (b) Linearly dependent systems for infinite-dimensional superalgebras
+             Superalgebra       Simple root system      Bosonic subalgebra
+                                                                      (1)
+              B(0, m)(1)              B*-C         m+1 nodes        Cm
+                                                                      (2)
+              A(2m+1, 0)(2)           B*-D         m+2 nodes        A2m+1
+                                                                      (2)
+              A(2m, 0)(4)             B*-B         m+1 nodes        A2m
+                                                                      (1)
+              C(m+1)(2)               B*-B*        m+1 nodes        Cm
+
+For all entries m ≥ 1, and the building blocks signifying the type of diagram include B*
+introduced in Figure 3. (The bosonic sectors given in Table 1 of [9] are incorrect in some
+instances; this was also noted in [24].)
+     We explained above that the overall sign of a lagrangian is essentially unimportant for
+a classical theory. But the situation is rather different at the quantum level: the definition
+and interpretation of a quantum theory becomes considerably more subtle if the lagrangian
+is not positive-definite. Now on the one hand we have grown accustomed in recent years
+to the idea that indefinite or complex lagrangians can be useful quantum-mechanically in
+the description of non-unitary models, or even of unitary models if some projection onto
+a subspace of physical states can be implemented [38,39,40]. Having said that, it is also
+natural to retain a particular interest in those actions which are positive-definite—like
+those listed in Table 2—which can be quantized in an entirely straightforward way. In this
+paper we will certainly keep an open mind regarding the likely importance of theories with
+indefinite signature; but we will also single out for special attention those theories which
+are positive-definite.
+
+
+4.       Examples with extended conformal symmetry
+
+
+    Toda theories provide a valuable source of examples of extended conformal symmetries,
+in which the Virasoro algebra is embedded within some larger W-algebra. In fact the
+Toda construction, or the related procedure of Hamiltonian reduction, provides one of
+the most systematic ways of constructing W-algebras, and may perhaps lead to some
+eventual classification of them. The W-algebras arising from bosonic Toda theories have
+been investigated from a variety of different points of view. The W-algebras arising from
+
+                                              12
+superalgebra models are much less well studied. In this context our results concerning
+the structure of a general Toda model can provide some basic information on the bosonic
+sectors of these new extended conformal symmetries.
+     Let us now briefly recall how conformal symmetry arises. The following statements
+are well-known but it is useful to collect them in a proposition for completeness and for
+future reference.
+Proposition 5: Given a simple root system R which is linearly independent, the corre-
+sponding Toda model is invariant under conformal transformations x± → y ± (x± ) acting
+on the fields according to
+
+                         φ(x+ , x− ) → φ(y + , y − ) + ρ log(∂+ y + ∂− y − )
+                                                                                          (4.1)
+                        ψ± (x+ , x− ) → (∂± y ± )1/2 ψ± (y + , y − )
+
+where the vector ρ is defined by the conditions
+                                               
+                                                    1     i∈ε
+                                    ρ · αi =
+                                                   1/2    i∈τ
+
+Linear independence of R (or n = r) ensures that ρ exists; this holds for all finite-
+dimensional Lie superalgebras, except for the family A(m, m) (which is unusual in having
+n = r+1). If R = F , so that the model is also supersymmetric, then conformal invariance
+is extended to superconformal invariance. A complete list of superconformal models is
+therefore given in Table 1, section (a).
+Proof: These statements can be verified directly from (3.4) or (3.5); for details see eg. [13].
+     A consequence of R being linearly independent is that we can always re-define the
+Toda fields by additive constants so as to make |µi | = 1. The fact that these mass
+parameters can essentially be eliminated is a manifestation of conformal invariance. The
+inhomogeneous pieces in the transformation of the bosons in (4.1) give rise to a classical
+central charge 12ρ2 but this is generally modified quantum-mechanically—see [2,13] and
+references given there.
+     To illustrate the results of the previous section, we list in Table 3 all linearly indepen-
+dent simple root systems of rank 1 or 2, together with a selection of root systems of rank
+3. In each case we specify R by its Dynkin diagram and give the corresponding bosonic
+systems B± as found by our diagrammatic method. The number of free scalar fields in
+the bosonic sector of the Toda theory is indicated by the dimension of V0 , and in all these
+examples they contribute with a negative sign. Simple root systems of higher rank can be
+considered in an exactly similar fashion.
+     The examples labeled (1)-(6) are particularly instructive and so we shall examine them
+more closely. We adopt the notation Φi = αi · Φ for superfields and their components. It
+will be convenient to denote the lagrangians for a free massless boson φ and fermion ψ by
+
+               Lfree (φ) = ∂+ φ ∂− φ ,       Lfree (ψ) = iψ+ ∂− ψ+ + iψ− ∂+ ψ− ,          (4.2)
+
+respectively. The overall normalizations for various lagrangians appearing below will not
+always be standard, but we choose them in order to eliminate as many awkward numerical
+factors as possible.
+
+                                                   13
+Table 3: Some low-rank linearly-independent simple root systems
+      Superalgebra          R                   B+                B−         dimV0
+(1)      A1                                                       —            0
+(2)      B(0,1)                                                   —            0
+(3)      B(0,2)                                                   —            0
+(4)      A(1,0)                                                   —            1
+(5)      A(1,0)                                                   —            1
+         B(1,1)                                                   —            1
+         B(1,1)                                                                0
+         A(2,0)                                                   —            1
+         B(1,2)                                                   —            1
+         B(2,1)                                                                0
+
+(6)      C(3)                                                     —            1
+
+
+         D(2,1)                                                                0
+
+
+
+(1) A1 : the simplest possible Lie algebra produces the prototype of all Toda models—the
+Liouville theory. This consists of a single bosonic field φ with lagrangian
+
+                             Lexp (φ) = ∂+ φ ∂− φ − exp 2φ .                             (4.3)
+
+In the superspace approach, this actually comes accompanied by a free fermion ψ so that
+
+                          Lbos = Lexp (φ) ,     Lferm = Lfree (ψ) .                      (4.4)
+
+As for any bosonic algebra, however, the fermionic degrees of freedom decouple completely.
+(2) B(0, 1): the simplest possible superalgebra with a single fermionic simple root. On
+choosing a suitable normalization for the fields, the expressions for Lbos and Lferm given
+in (4.4) above are unchanged. But the fermion is no longer free; instead it is coupled to
+the Liouville field through the interaction term
+
+                                    Lint = ψ̄ψ exp φ .                                   (4.5)
+
+This is the supersymmetric Liouville theory (see eg. [11] and references given there).
+(3) B(0,2): R has τ = {1} and Cartan matrix
+                                                         
+                                                1    −1
+                                   aij =                      .
+                                               −1     2
+
+                                               14
+The full set of equations of motion is
+
+       ∂+ ∂− φ1 = − exp 2φ1 + exp φ2 + 12 ψ̄1 ψ1 exp φ1 ,            ∂± ψ1∓ = ±ψ1± exp φ1 ,
+       ∂+ ∂− φ2 = exp 2φ1 − 2 exp φ2 − 21 ψ̄1 ψ1 exp φ1 ,            ∂± ψ2∓ = ∓ψ1± exp φ1 .
+
+We can see directly from these equations that the bosonic sector is a C2 Toda theory with
+fields 2φ1 and φ2 , confirming the information given in Table 3. It is also evident that the
+only relevant fermionic field is ψ1 , since the combination ψ1 + ψ2 decouples, in keeping
+with Proposition 3. Following on from example (2), this is the next member of a series of
+conformally-invariant models based on the root systems for B(0, n) [17]—see Table 2 (a).
+For n > 1 the models are not supersymmetric; they consist of a Cn Toda theory, with the
+field 2φ1 corresponding to the long root, and φ1 coupled to a single fermion ψ1 through
+an interaction of type (4.5).
+(4) A(1,0) = C(2): R has τ = {1, 2} and Cartan matrix
+                                                           
+                                                    0   1
+                                        aij =                   .
+                                                    1   0
+
+The equations of motion now read
+
+        ∂+ ∂− φ1 = − exp(φ1 + φ2 ) + 21 ψ̄2 ψ2 exp φ2 ,             ∂± ψ1∓ = ±ψ2± exp φ2 ,
+        ∂+ ∂− φ2 = − exp(φ1 + φ2 ) + 12 ψ̄1 ψ1 exp φ1 ,             ∂± ψ2∓ = ±ψ1± exp φ1 .
+
+Since the root system is entirely fermionic, this model is supersymmetric. The bosonic
+sector consists of an A1 Toda, or Liouville theory, together with a scalar field. More
+precisely, if we introduce the fields
+
+                              2u = φ1 + φ2      and     2v = φ1 − φ2                           (4.6)
+
+then the bosonic sector is
+
+                             Lbos = L+ + L0 = Lexp (u) − Lfree (v) .                           (4.7)
+
+Similarly, if we adopt corresponding redefinitions for the fermions
+
+                              2 χ = ψ1 + ψ2     and     2η = ψ1 − ψ2                           (4.8)
+
+then we have
+                                  Lferm = Lfree (χ) − Lfree (η) .                              (4.9)
+We can complete the description of the model in terms of these new fields by giving the
+interaction term
+
+                     Lint = (χ̄χ + η̄η) exp u cosh v + 2χ̄η exp u sinh v .                    (4.10)
+
+This example is known to be closely related to the N = 2 super Liouville theory; we will
+return to it briefly in section 7.
+
+                                                15
+(5) A(1,0)=C(2): R has τ = {2} and Cartan matrix
+                                              
+                                         2 −1
+                                aij =            .
+                                        −1 0
+
+The equations of motion are
+
+           ∂+ ∂− φ1 = −2 exp φ1 − 21 ψ̄2 ψ2 exp φ2 ,   ∂± ψ1∓ = ∓ψ2± exp φ2 ,
+           ∂+ ∂− φ2 = exp φ1 ,                         ∂± ψ2∓ = 0 .
+
+The bosonic sector is again based on A1 ⊕ U(1) where now φ1 is the Liouville field and
+φ1 + 2φ2 is the scalar, but apart from this the equations of motion make clear that this
+model bares little resemblance to the previous example based on the same algebra, eg. it
+is not supersymmetric. This illustrates the fact that the properties of the Toda theory
+depend fundamentally on the root system rather than on the algebra which it defines. In
+general there is no reason to expect even that the bosonic sectors should coincide. Notice
+also that neither of the fermions are decoupled in this example, despite the fact that ψ2
+obeys a free equation of motion.
+(6) C(3): R has τ = {1, 2} and Cartan matrix
+                                                     
+                                         0     2 −1
+                                aij =  2      0 −1  .
+                                        −1 −1 2
+
+The bosonic sector corresponds to C2 ⊕ U(1). As in example (4), it is useful to introduce
+the combinations of fields (4.6) and (4.8). The expression for the bosonic lagrangian is
+then similar to (4.7) except that L+ is now a lagrangian for a C2 Toda model with fields
+u and φ3 while v is still the free scalar which contributes with opposite sign. Proposition
+3 states that ψ3 decouples, leaving χ and η as the only important fermionic degrees of
+freedom, and (4.9) is unchanged. The interaction term (4.10) is also unchanged. This
+analysis can be generalized immediately to any of the algebras C(m) with root systems
+of type D*. The lagrangian L+ becomes a Cm−1 Toda model in general, but there are
+only ever two relevant fermions which interact with the bosons in just the way we have
+described.
+
+
+5.       Examples without conformal symmetry
+
+
+     For bosonic Toda theories there is a clear-cut distinction between those based on
+finite-dimensional algebras, which are conformally invariant, and those based on affine
+algebras, which are massive. In the last section we saw that Toda theories based on
+finite-dimensional superalgebras are also conformally invariant (with the exception of the
+A(m, m) series) just as in the bosonic case. When we come to Toda models based on affine
+superalgebras, however, we find a whole range of new possibilities. Some models resemble
+their bosonic siblings in that they consist entirely of massive degrees of freedom. But
+others contain mixtures of massless and massive modes, and some may have no massive
+degrees of freedom at all in their bosonic sectors.
+
+                                             16
+Table 4: Some low-rank linearly-dependent simple root systems
+      Superalgebra          R                    B+               B−          dimV0
+         (1)
+(1)     A1                                                        —             0
+(2)     A(1, 0)(2)                                                —             0
+        A(2, 0)(4)                                                —             0
+        B(0, 1)(1)                                                —             0
+        A(2, 2)(4)                                                              0
+        D(2, 1)(2)                                                              0
+        A(2, 1)(2)                                                              0
+
+(3)     B(1, 1)(1)                                                              0
+
+
+        A(2, 1)(2)                                                —             1
+
+
+        A(1, 0)(1)                                                —             1
+
+
+(4)     A(1, 1)(1)                                                              0
+
+
+        A(1, 1)(1)                                                              0
+
+
+        A(2, 0)(1)                                                —             1
+
+
+        A(3, 1)(2)                                                —             1
+
+
+(5)     D(2, 1)(1)                                                              0
+
+
+
+      We can readily see how these various possibilities arise by applying our diagrammatic
+method to determine the bosonic sectors of a number of representative examples, with
+results summarized in Table 4. It is generally straightforward to combine the diagrams in
+Figures 2, 3 and 4 in order to extract the necessary information. The only cases in which
+a little extra thought may be required are those root systems with a very small number of
+nodes so that the tails of the affine diagrams are not well-separated; we have included the
+least obvious examples in the table.
+
+                                            17
+     To amplify our previous remarks, we note that some of these models are purely mas-
+sive, including those labeled (1)-(5); some contain mixtures of massive and massless degrees
+of freedom (the most trivial possible conformal theory being a free massless field); and one
+theory, based on the second choice of simple roots for A(1, 1)(1), has a conformally-invariant
+bosonic sector. Many more examples of each kind can be found by looking at higher-rank
+diagrams. The cases (1)-(5) turn out to be of special interest, so we now consider them in
+more detail.
+     We mentioned in the last section that for R linearly independent, r = n, we can choose
+the values of |µi | as we please by making constant shifts in the fields. In this section we
+are taking R to be linearly dependent. All but one family of simple roots of this type have
+n = r+1, in common with bosonic affine algebras. This means that they obey exactly one
+linear relation and so, while we may be free to alter ratios of the parameters µi , there is
+always one surviving overall mass scale m which cannot be eliminated. The exceptions,
+with n = r+2, are simple root systems for the algebras A(m, m)(1) . In these cases there are
+two independent mass parameters m and m′ , or equivalently a single mass parameter m and
+an additional dimensionless ratio γ = m/m′ (in addition to the possibility of introducing
+the usual kind of Toda coupling β which we are omitting throughout). In all the examples
+below µi will be chosen to be a zero-eigenvector of the Cartan matrix, ensuring that the
+minimum of the bosonic potential occurs where the fields vanish. As with the conformal
+examples, we adopt overall normalizations so as to fix various numerical constants in a
+simple way.
+      (1)
+(1) A1 : the simplest affine Lie algebra, with Cartan matrix
+                                                         
+                                                 2   −2
+                                    aij =                     .
+                                                −2    2
+
+Note that the rows are proportional to one another, implying a linear relation between
+the superfields Φ1 + Φ2 = 0. This results is the prototype of all affine Toda theories—the
+sinh-Gordon theory. There is a single independent bosonic field φ of mass m governed by
+the lagrangian
+                      Lsinh (φ; m) = ∂+ φ ∂− φ − m2 sinh2 φ
+                                                                                      (5.1)
+                                   = ∂+ φ ∂− φ − 12 m2 (cosh 2φ − 1) ,
+where we have added a constant to make the minimum value of the potential zero. As with
+the Liouville theory, this is accompanied in the superspace construction by a free massless
+fermion ψ so that
+                         Lbos = Lsinh (φ; m) ,    Lferm = Lfree (ψ) ,                 (5.2)
+but the boson and fermion do not interact with one another. The relationship with the
+sine-Gordon theory will be discussed in section 7.
+(2) A(1, 0)(2) = C(2)(2) : defined by the same Cartan matrix as above, but now the roots
+are fermionic and the theory is supersymmetric. With a suitable normalization for the
+fields, the terms Lbos and Lferm are unchanged, but there is an additional interaction term
+
+                                     Lint = mψ̄ψ cosh φ                                  (5.3)
+
+which gives the fermion a mass m equal to that of the boson. This is the supersymmetric
+sinh-Gordon theory.
+
+                                                18
+(3) B(1, 1)(1): R has τ = {1, 2, 3} and Cartan matrix
+                                                     
+                                         1 −1 −1
+                                 aij =  −1 0      2  .
+                                         −1 2      0
+
+There is a single linear relation amongst the simple roots, and consequently the superfields
+                                                                          (1)
+obey 2Φ1 + Φ2 + Φ3 = 0. The bosonic sector consists of a pair of A1 Toda models,
+or sinh-Gordon theories, which contribute with opposite signs. To see this explicitly we
+introduce the independent fields
+
+                u = −φ1 = φ1 + φ2 + φ3 ,           2v = φ1 + φ2 = −(φ1 + φ3 ) ,
+
+and in terms of these we find
+
+                      Lbos = L+ + L− = Lsinh (u; 2m) − 4Lsinh (v; m) .                    (5.4)
+
+Note that the masses of these two theories are different and also that the relative coefficient
+between their lagrangians cannot be changed. If we introduce the corresponding fermionic
+fields
+               χ = −ψ1 = ψ1 + ψ2 + ψ3 ,        2η = ψ1 + ψ2 = −(ψ1 + ψ3 ) ,
+then we find similarly
+                                 Lferm = Lfree (χ) − 4Lfree (η) .                         (5.5)
+The interaction term is also easily found to be
+
+     Lint = m { χ̄χ exp(−u) + ( χ̄χ + 4η̄η ) exp u cosh 2v + 4χ̄η exp u sinh 2v } .       (5.6)
+
+(4) A(1, 1)(1): R is defined by τ = {1, 2, 3, 4} and the Cartan matrix
+                                                            
+                                         0     1      0   −1
+                                       1      0     −1    0 
+                                aij =                        .
+                                         0    −1      0    1
+                                        −1     0      1    0
+
+As mentioned earlier, there are two linear relations amongst simple roots for these algebras,
+and in this case we have Φ1 + Φ3 = Φ2 + Φ4 = 0. Once again the bosonic sector consists of
+a pair of sinh-Gordon theories which contribute with opposite overall signs. We introduce
+
+             2u = φ1 + φ2 = −(φ3 + φ4 ) ,           2χ = ψ1 + ψ2 = −(ψ3 + ψ4 ) ,
+             2v = φ1 + φ4 = −(φ2 + φ3 ) ,           2η = ψ1 + ψ4 = −(ψ2 + ψ3 ) ,
+
+and then the bosonic sector is given by
+
+                         Lbos = L+ + L− = Lsinh (u; m) − Lsinh (v; m) ,                   (5.7)
+
+while in the fermionic sector
+
+                                 Lferm = Lfree (χ) − Lfree (η) .                          (5.8)
+
+                                               19
+Lastly, we find the interaction term
+                                  
+          Lint = 21 m( χ̄χ + η̄η ) γ cosh(u + v) + γ −1 cosh(u − v)
+                            
+                    + mχ̄η γ cosh(u + v) − γ −1 cosh(u − v)                               (5.9)
+               = m(χ̄χ + η̄η) cosh u cosh v + 2mχ̄η sinh u sinh v       when γ = 1 .
+
+Notice that the masses of the sinh-Gordon theories appearing in L± are equal, irrespective
+of the value of the dimensionless parameter γ. The case γ = 1 is given explicitly in
+preparation for some observations to follow in Section 7.
+(5) D(2, 1)(1): R defined by τ = {1, 2, 3, 4} and Cartan matrix
+                                                            
+                                        0      2    −1    −1
+                                      2       0    −1    −1 
+                               aij =                         .
+                                       −1     −1     0     2
+                                       −1     −1     2     0
+
+Here there is one linear relation Φ1 + Φ2 + Φ3 + Φ4 = 0. In this case the bosonic sector
+consists of three sinh-Gordon theories, one contributing positively, the others negatively.
+We introduce the independent fields
+
+            2u = φ1 + φ2 = −(φ3 + φ4 ) ,            2χ = ψ1 + ψ2 = −(ψ3 + ψ4 ) ,
+            2v1 = φ1 + φ3 = −(φ2 + φ4 ) ,           2η1 = ψ1 + ψ3 = −(ψ2 + ψ4 ) ,
+            2v2 = φ1 + φ4 = −(φ2 + φ3 ) ,           2η2 = ψ1 + ψ4 = −(ψ2 + ψ3 ) .
+
+Then the bosonic sector is
+
+            Lbos = L+ + L− = Lsinh (u; 2m) − 2Lsinh (v1 ; m) − 2Lsinh (v2 ; m) ,         (5.10)
+
+and in the fermionic sector
+
+                        Lferm = Lfree (ψ) − 2Lfree (η1 ) − 2Lfree (η2 ) .                (5.11)
+
+A short calculation reveals the interaction term
+
+    Lint = m(χ̄χ + η̄1 η1 + η̄2 η2 ){ exp u cosh(v1 + v2 ) + exp (−u) cosh(v1 − v2 ) }
+                  + 2mη̄1 η2 { exp u cosh(v1 + v2 ) − exp (−u) cosh(v1 − v2 ) }
+                                                                                         (5.12)
+                  + 2mχ̄η1 { exp u sinh(v1 + v2 ) − exp (−u) sinh(v1 − v2 ) }
+                  + 2mχ̄η2 { exp u sinh(v1 + v2 ) + exp (−u) sinh(v1 − v2 ) } .
+
+If we set v1 = v2 = v and η1 = η2 = η then we recover example (3) above. This is
+because the simple root systems involved are related by the folding operation discussed for
+superalgebras in [36].
+    Given everything we have said so far, it is natural to ask which Toda theories based
+on superalgebras are purely massive.
+
+
+
+                                               20
+Proposition 6: A Toda theory is purely massive iff it is based on a simple root system
+R whose Dynkin diagram belongs to one of the following classes:
+(a) Affine diagrams with no grey nodes—in addition to the usual bosonic affine root
+systems we have precisely the cases listed in Table 2, section (b).
+(b) Affine diagrams which are entirely fermionic, ie. which give massive supersymmetric
+theories—precisely the cases listed in Table 1, section (c).
+Proof: In order to get a purely massive bosonic theory there must be a linear relation
+amongst the roots in both B+ and B− , so that they both represent affine bosonic alge-
+bras; this means the numbers of nodes in these diagrams, denoted by n, must exceed the
+dimensions of V± = hB± i. But in addition B+ and B− must together span V to ensure
+that V0 is trivial and so exclude massless scalars. Let us consider first those diagrams with
+n = r + 1, which omits just the root systems of A(m, m)(1) . We have one linear relation
+on R and hence at least one on B+ ∪ B− . If either of B± is empty, then this single linear
+relation can suffice to make the remaining bosonic root system affine—this gives rise to the
+class of allowed cases in (a). If neither of B± is trivial, however, then we need one extra
+linear relation to ensure that both represent bosonic affine root systems. For all allowed
+Dynkin diagrams, it is easy to see that the number of bonds never exceeds the number
+of nodes by more than one. Using this in conjunction with the definitions of B± , we see
+that n(B+ ) + n(B− ) ≤ n(R) + 1, with equality only when R = F is purely fermionic. This
+gives rise to almost all the examples in class (b). Finally, we must consider root systems
+for A(m, m)(1) with n = r + 2. But these diagrams are all circular, which means that the
+bound used above can be improved to n(B+ ) + n(B− ) ≤ n(R), again with equality only
+for the purely fermionic case. This allows just the last entry in Table 2, completing the
+proof.
+     The examples (1)-(5) from Table 4 all belong to one or other of the classes in Proposi-
+tion 6. We should emphasize that for class (b)—supersymmetric models—the lagrangians
+are generally of indefinite signature. Nevertheless, from what we have said in Section 3,
+the masses of the bosons are perfectly well-defined, since the relative sign between the
+potential and kinetic energy terms is always physically sensible (provided we choose the
+parameters µi as indicated in Proposition 2). Furthermore, the lists of bosonic sectors
+given in Tables 1 and 2 tell us immediately the bosonic masses of any of the superalgbera
+theories in Proposition 6, in terms of the known results for bosonic Toda models [3,8,27].
+This provides a proof of the mass formulas for the particular series A(m, m)(1) , B(m, m)(1) ,
+and D(m+1, m)(1) which were conjectured in [25] on the basis of computer calculations.
+     For the supersymmetric examples in class (b) of Proposition 6, the fermions must be
+degenerate in mass with the bosons. Whether these models can be associated with ‘pseudo-
+unitary’ quantum S-matrices (see eg. [41,40]) as suggested by perturbative calculations [25]
+is a fascinating issue, but not one that we shall attempt to pursue here. By contrast, the
+examples in class (a) have conventional positive-definite lagrangians and so they can be
+quantized straightforwardly. Since they are not supersymmetric, the bosonic and fermionic
+masses will be different. Some relevant S-matrices are discussed in [24].
+
+
+
+
+                                             21
+6.       Conformal curiosities
+
+
+     We stated in Proposition 5 that the existence of a conformal symmetry (4.1) relies on
+R being linearly independent. But there are numerous Toda models for which R is linearly
+dependent and yet for which the bosonic sector Lbos is conformally invariant when taken
+in isolation. Perhaps the most striking examples are those based on the finite-dimensional
+algebras A(m, m) whose special properties were noted in section 4, though we have seen
+similar behaviour for several other models based on infinite-dimensional superalgebras in
+the last section. In all these cases we must conclude that the interactions with the fermions
+break the conformal invariance present in the bosonic sector. It is interesting to consider
+whether the conformal symmetry might be extended in some more subtle way so as to
+include the fermions.
+     Keeping to our earlier notation, we write φj = αj · φ and ψj = αj · ψ, and we consider
+the transformations
+
+               φj → φj + hj log(∂+ y + ∂− y − ) ,       ψj± → (∂± y ± )1−hj ψj± ,        (6.1)
+
+where hj may be a different real number for each fermionic root αj . The usual choice,
+corresponding to (4.1), is hj = 1/2. It is easy to see from (3.4) that the relationship between
+the conformal weights of the bosons and fermions in (6.1) automatically renders the terms
+in Lint invariant. The problem is that it is much more difficult to achieve invariance of
+the other terms—particularly since a linear relation amongst the simple roots imposes a
+corresponding relationship amongst the fields and hence amongst the possible values of
+the numbers hj . There are, however, two families of examples in which exotic conformal
+symmetries of this type exist.
+     First we consider a Toda model based on A(m, m), R being of type A* with 2m−1
+nodes. Examination of the   PCartan matrix reveals that the linear relation involves only
+the odd-numbered roots:        j α2j+1 = 0. Now it is easy to see that in this case (3.4) is
+invariant if we choose hj = 0 for j odd and hj = 1 for j even, and that this is consistent
+with the linear relation amongst the fields. (Here ‘odd’ and ‘even’ refer to the values of the
+integer labels, not to the grading of the roots, which are all fermionic!) This was pointed
+out in [15] for the simplest case based on A(1,1). The second set of examples is based on
+A(m, m−1), again with R of type A* but this time with 2m nodes. Now the simple roots
+are actually linearly independent, and we have already seen that this model is invariant
+under the standard conformal transformations with hj = 1/2. But in fact it is invariant
+under any assignment of conformal weights of the type
+
+                        hj = s for j odd ,          hj = 1−s for j even ,                (6.2)
+
+where s is any real number.
+     The existence of these rather strange conformal symmetries can be traced to a specific
+feature of the simple root systems of type A*. They can be divided into disjoint sets
+F0 = {αj ∈ F | j even } and F1 = {αj ∈ F | j odd } and on each of these individually
+the inner-product vanishes, so we obtain a non-zero result only when we choose one vector
+from each set. For this to hold it is obviously necessary that all the simple roots are null,
+but this is by no means sufficient, and it is not difficult to see that the A* root systems
+
+                                               22
+are the unique ones having this property. The reason it is important is that the conformal
+weights of a fermion are usually fixed to be 1/2 by its kinetic terms, but when we have
+inner-products of this peculiar type a fermion field never appears paired with itself in the
+kinetic term, because of the degeneracy.
+      These remarks strongly suggest that non-standard conformal symmetries (6.1) with
+hj 6= 1/2 occur only for the models that we have just discussed based on the A* root
+systems. Although there are many other Toda models based on linearly-dependent simple
+root systems with conformally-invariant bosonic sectors, it seems likely that for these the
+conformal symmetry is irrevocably broken by the addition of fermions. This is similar in
+many ways to some recent results concerning the incompatibility of (1,0) supersymmetry
+and extended conformal invariance in Toda models [42].
+      The emergence of fermions with integer spin is reminiscent of ghosts in a topological
+field theory. Indeed, the special feature of the A* root system—that it can be divided into
+the two disjoint degenerate sets F0 and F1 —is also known to be linked to the existence of
+N = 2 supersymmetry in certain versions of the A(m, m−1) models [13,14,15]. It is natural
+to expect that the family of conformal symmetries which exists between s = 1/2 and s = 0
+or 1 should correspond to the usual twisting of an N = 2 model into a topological theory.
+The fact that the conformal symmetry of the A(m, m) model exists only for s = 0 means
+that it does not seem to be immediately related to a topological twisting; nevertheless
+it would be interesting to investigate whether it too might have a topological character.
+Topological properties of massive Toda theories have already been investigated in [26].
+
+
+7.       Twisted reality conditions
+
+
+      We now discuss one last ingredient which is important in the taxonomy of Toda
+models. We have assumed so far that the fields appearing in the Toda equations are real.
+In fact the integrability of the equations is unaffected if we take all the fields to be complex
+in (3.1), so there exist complex versions of all the Toda theories we have been considering.
+A related possibility which is more interesting in many respects is to impose non-standard
+or twisted reality conditions on the fields, corresponding to a reflection symmetry of the
+simple root system R. This was first pointed out for abelian Toda models in [14] and
+applied to the study of N = 2 supersymmetry in [14,15]; the construction has recently been
+related to Hamiltonian reduction and extended to the case of non-abelian Toda models in
+[19].
+      In the bosonic case, a symmetry of R is equivalent to a symmetry of the Dynkin
+diagram. For superalgebras, however, we encounter once again the problem that the
+diagram may have more symmetry than the Cartan matrix, because of the now familiar
+issue of signs. With the approach we have developed in this paper, we can extend the
+results of [14], clarifying the effect on the bosonic sector.
+Proposition 7: Let σ be a permutation of order two acting on a set of simple roots R.
+(a) We can impose reality conditions
+                                      αi · Φ∗ = ασ(i) · Φ                                 (7.1)
+consistent with integrability of the Toda equations based on R provided:
+                              aσ(i)σ(j) = aij   and   µσ(i) = µi .                        (7.2)
+
+                                                23
+The first condition means that σ can be regarded as a reflection symmetry of the Dynkin
+diagram even after attaching signs as described in Section 2. The second condition is
+automatically satisfied if we have chosen |µi | = 1 when n = r, or if we have chosen µi to
+coincide with the unique null eigenvector of the Cartan matrix when n = r+1. (We have
+assumed µi real, but there is actually no loss of generality in doing this.)
+(b) The permutation σ acts in an obvious way as a symmetry of the associated bosonic
+root systems B± . The bosonic sector of the theory defined by (7.1) therefore consists
+of bosonic Toda theories, as explained in Proposition 2, but each with twisted reality
+conditions corresponding to these symmetries of B± .
+(c) Taking standard reality conditions, σ = 1, or twisted reality conditions, σ 6= 1, does not
+affect whether the theory is conformally-invariant (under (4.1)), or whether it is massive,
+in which case the classical mass spectrum is unchanged.
+Proof: The results all follow easily from (3.1), (3.5) and the definition of B± . Notice that
+the conformal transformations in (4.1) only change the real parts of the fields, no matter
+what reality conditions are chosen. The mass spectrum is obtained by linearizing the
+equations of motion (3.5) and so it is clear that this is unchanged.
+     The imposition of twisted reality conditions amounts to taking certain components of
+the Toda field to be imaginary rather than real, but in a way which preserves the reality of
+the lagrangian. This can be thought of as a kind of generalization of the simple behaviour
+of a free massless scalar field, for which
+
+                            φ = iρ    ⇒     Lfree (φ) = −Lfree (ρ) .                     (7.3)
+
+All bosonic Toda theories have lagrangians of definite signature, so changing the reality
+conditions of the fields must always lead to a lagrangian of indefinite signature, except
+perhaps when there is only one independent field, as for the free scalar above. The be-
+haviour (7.3) cannot be generalized to the Liouville theory, because there is no non-trivial
+symmetry of the Dynkin diagram for A1 , but it can be generalized to its affine counterpart,
+                                                   (1)
+the sinh-Gordon theory, based on the algebra A1 .
+     We discussed the sinh-Gordon theory as example (1) from Table 4, and we saw that the
+model consists of a single bosonic field (since the accompanying free fermion can essentially
+be ignored) with lagrangian
+
+                       Lsinh (φ; m) = ∂+ φ ∂− φ − m2 sinh2 φ
+                                                                                         (7.4)
+                                     = ∂+ φ ∂− φ − 12 m2 (cosh 2φ − 1) .
+
+There is clearly a symmetry σ of the Dynkin diagram which exchanges its two nodes
+and corresponds to reflection in a vertical axis through the figure drawn in Table 4. The
+imposition of reality conditions (7.1) corresponding to this symmetry means that we must
+set φ = iρ where ρ is real. But
+
+                        φ = iρ    ⇒      Lsinh (φ; m) = −Lsin (ρ; m) ,                   (7.5)
+
+where we introduce the well-known sine-Gordon lagrangian
+
+                         Lsin (ρ; m) = ∂+ ρ ∂− ρ − m2 sin2 ρ
+                                                                                         (7.6)
+                                     = ∂+ ρ ∂− ρ + 12 m2 (cos 2ρ − 1) .
+
+                                              24
+Twisted reality conditions are therefore important in understanding how the sine-Gordon
+theory fits into the general framework of the Toda construction. We repeat that this is the
+only bosonic example for which a lagrangian of definite signature (albeit negative) emerges
+when twisted reality conditions are used; all other bosonic theories acquire indefinite sig-
+nature.
+    These observations are easily extended to the supersymmetric sinh-Gordon theory,
+example (2) of Table 4. Again the symmetry corresponds to reflection in vertical axes
+through the diagrams in the Table. When (7.1) is applied to the fermions we must take
+ψ = iλ with λ real. But then
+
+                            ψ = iλ    ⇒    Lfree (ψ) = −Lfree (λ) .                       (7.7)
+
+(Strictly speaking this applies in the previous example too, although there the fermions
+were ultimately irrelevant.) The interaction term (5.3) also remains real, becoming
+
+                                     Lint = −mλ̄λ cos ρ                                   (7.8)
+
+when expressed in terms ρ and λ. (See [21] for the super sine-Gordon S-matrix.)
+     When we consider other superalgebra models, we find that the situation encountered
+for bosonic theories may be reversed: starting from a model with an indefinite lagrangian, it
+may be possible to choose reality conditions which render the lagrangian positive-definite.
+The superalgebra models that have positive-definite actions with conventional reality con-
+ditions were studied by Olshanetsky [9]; these are the theories to which we have already
+drawn attention in Table 2. In addition, it was pointed out in [14] that the family of
+conformal models based on the algebras C(m) with simple roots of type D* have indefinite
+signature with conventional reality conditions, but become positive-definite when twisted
+reality conditions are used.
+     The first two members of this conformal series were discussed as examples (4) and
+(6) in Table 3 (recall that A(1, 0) = C(2)). Referring to the explicit descriptions of these
+models and their Cartan matrices given there, we clearly have a reflection symmetry σ
+defined by exchange of the roots labelled in each case by 1 and 2. The corresponding
+reality condition (7.1) implies that u and χ should still be real, but now v = iw and η = iλ
+where w and λ are real. For the lagrangian written in (4.7) we see that L+ is unchanged
+but L0 = −Lfree (v) = Lfree (w) so that Lbos becomes positive-definite. Similarly in the
+fermionic sector (4.9) we have Lfree (η) = −Lfree (λ) so that Lferm is now also positive-
+definite. Lastly, the interaction term (4.10) becomes
+
+                      Lint = (χ̄χ − λ̄λ) exp u cos w − 2χ̄λ exp u sin w .                 (7.9)
+
+The case C(2) is the N = 2 super-Liouville theory; for more details, including the N = 2
+superspace description, see eg. [15,12].
+     In [14] it was shown that C(m) is the only family of conformal theories for which
+twisted reality conditions lead to positive-definite actions in the way we have just described.
+The techniques we have developed in this paper allow one to prove this in a much simpler
+way, and also to extend the analysis beyond the super sinh/sine-Gordon theory to all affine
+superalgebras.
+Proposition 8: The simple root systems R which yield positive-definite Toda lagrangians
+in conjunction with twisted reality conditions are those listed in Table 5.
+
+                                              25
+    Table 5: Root systems with positive-definite twisted reality conditions
+
+    (a) Conformal theories
+         Superalgebra              Simple root system            Bosonic sector
+         A(1, 0) = C(2)             A*    2 nodes                A1 ⊕ U(1)
+         C(m+1)                     D*    m+1 nodes              Cm ⊕ U(1)
+
+    (b) Massive theories
+         Superalgebra              Simple root system            Bosonic sector
+           (1)                                                    (1)
+          A1                       B-B      2 nodes              A1
+                                                                  (1)
+          C(2)(2)                  B*-B*    2 nodes              A1
+                                   b                              (1)  (1)
+          A(1, 1)(1)               A*       4 nodes              A1 ⊕ A1
+                                                                  (1)  (1)
+          B(1, 1)(1)               D*-B*    3 nodes              A1 ⊕ A1
+                                                                  (1)  (1)  (1)
+          D(2, 1)(1)               D*-D*    4 nodes              A1 ⊕ A1 ⊕ A1
+                                                                  (1)  (1)  (1)
+          D(2, 1; α)(1)                    —                     A1 ⊕ A1 ⊕ A1
+
+    (c) Mixed conformal and massive bosonic sectors
+         Superalgebra      Simple root system       Bosonic sector
+                                                                  (1)
+          C(m)(1)                  D*-C      m+1 nodes           Cm−1 ⊕ U(1)
+                                                                  (2)
+          A(2m−1, 1)(2)            D*-D      m+2 nodes           A2m−1 ⊕ U(1)
+                                                                  (2)
+          A(2m−2, 1)(2)            D*-B      m+1 nodes           A2m−2 ⊕ U(1)
+                                                                  (1)
+          B(1, m)(1)               D*-B*     m+2 nodes           Cm ⊕ U(1)
+                                                                  (1)
+          D(2, m)(1)               D*-D*     m+3 nodes           Cm ⊕ U(1) ⊕ U(1)
+
+For all entries in the table, m ≥ 2. The notation used for Dynkin diagrams combines the
+building blocks introduced in Figures 2, 3 and 4.
+Proof: The theory will have definite signature only if one of the systems B± is either empty
+                      (1)
+or corresponds to A1 . On any other kind of bosonic subsystem, the symmetry must act
+trivially. Together these facts tightly constrain the possible Dynkin diagrams which need
+be considered. But even when these conditions are met, we must still check that the scalar
+fields are also given the correct signs by the choice of reality condition. These observations
+quickly narrow down the possibilities to those listed in Table 5, which can then be checked
+case by case.
+     Notice that the last two classical entries in section (b) of Table 5 are limiting cases
+of the last two infinite families in section (c). It is important to treat them separately,
+however, since they behave differently from the other members of their families. This is
+because there are more connected fermionic nodes in their Dynkin diagrams, and so their
+bosonic sectors, as found by our diagrammatic methods, deviate slightly from the general
+patterns found for the infinite series. In particular, the scalar fields corresponding to the
+U(1) factors which occur for the infinite families are absent in these two special cases. This
+is in accordance with Proposition 6, which states that a theory is purely massive if it is
+based on an affine system of fermionic simple roots.
+     The families in section (c) of Table 5 may prove interesting to investigate in the future,
+since they involve a mixture of massive and massless degrees of freedom. Their structure,
+
+                                              26
+including the interaction potentials, can easily be found explicitly by adapting what we
+have already said about the conformal cases based on C(2), C(3) and the generalization
+to C(m). Of most immediate interest, however, are the models singled out in section (b)
+of Table 5. The first two cases are the sinh/sine-Gordon theory and its supersymmetric
+extension, which we discussed above. In addition, we find the examples (3) (4) and (5)
+from our list given earlier in Table 4. In each of these cases the new reality conditions
+correspond to a reflection symmetry in a horizontal axis through the diagrams drawn in
+Table 4, and the orientations of the diagrams for B± then reveal how this symmetry acts
+on these associated sets of bosonic roots.
+     In example (4) it is important that γ = 1 in order to fulfill the second criterion in
+(7.2) of Proposition 7. Using the notation introduced earlier, the new reality conditions
+correspond to setting v = iw and η = iλ. The bosonic lagrangian becomes positive-definite
+because L− = −Lsinh (v, m) = Lsin (w, m) giving
+
+                              Lbos = Lsinh (u; m) + Lsin (w; m)                        (7.10)
+
+so that we end up with independent sinh-Gordon and sine-Gordon theories. Similarly, in
+the fermionic sector Lfree (η) = −Lfree (λ) so that
+
+                                 Lferm = Lfree (η) + Lfree (λ)                         (7.11)
+
+is also positive-definite. The interaction term (5.9) becomes
+
+                    Lint = m(χ̄χ − λ̄λ) cosh u cos w − 2mχ̄λ sinh u sin w              (7.12)
+
+which is clearly real, as it should be. This is the N = 2 super sine/sinh-Gordon theory
+(see [23] for a discussion of the S-matrix).
+     Examples (3) and (5) are related, as we remarked earlier. Concentrating on the latter
+case, the new reality conditions are vj = iwj and ηj = iλj with j = 1, 2, where the new
+fields are all real. We then find a bosonic sector consisting of a single sinh-Gordon model
+and two sine-Gordon models:
+
+                   Lbos = Lsinh (u; 2m) + 2Lsin (w1 ; m) + 2Lsin (w2 ; m) ,            (7.13)
+
+while the fermionic lagrangian is also positive-definite:
+
+                        Lferm = Lfree (χ) + 2Lfree (λ1 ) + 2Lfree (λ2 ) ,              (7.14)
+
+and the interaction term (5.12) becomes
+
+    Lint = m(χ̄χ − λ̄1 λ1 − λ̄2 λ2 ){ exp u cos(w1 + w2 ) + exp (−u) cos(w1 − w2 ) }
+                  − 2mλ̄1 λ2 { exp u cos(w1 + w2 ) − exp (−u) cos(w1 − w2 ) }
+                                                                                       (7.15)
+                  − 2mχ̄λ1 { exp u sin(w1 + w2 ) − exp (−u) sin(w1 − w2 ) }
+                  − 2mχ̄λ2 { exp u sin(w1 + w2 ) + exp (−u) sin(w1 − w2 ) } .
+
+The generalization to D(2, 1; α)(1) will be considered in detail elsewhere [43]. It would be
+very interesting to find the S-matrices corresponding to these new models.
+
+                                               27
+8.       Concluding Remarks
+
+
+     In this paper we have attempted to develop a general and coherent approach to the
+analysis of Toda systems based on Lie superalgebras. The observation at the heart of
+the paper concerns the relationship between the simple root system R for a superalgebra
+and the two associated bosonic root systems B± , which allows one to read off the bosonic
+content of the integrable model. As part of this discussion, we also hope to have clarified
+a number of issues regarding Lie superalgebras, simple root systems, and their Dynkin
+diagrams, which may be of interest quite independent of any connection to integrable
+systems.
+     As far as Toda theories themselves are concerned, one obvious problem is to extend
+the methods developed here to the non-abelian situation. There are also a number of new
+models we have found which would be very interesting to study further at the quantum
+level, particularly the supersymmetric combinations of sine/sinh-Gordon theories discussed
+in the last section.
+
+Acknowledgements
+JME is grateful to Prof. V. Kac for helpful correspondence concerning Lie superalgebras,
+and in particular for directing him to [35]. The research of JME is supported by a PPARC
+Advanced Fellowship.
+
+
+
+
+                                            28
+         References
+
+
+ [1] A.N. Leznov and M.V. Saveliev, Lett. Math. Phys. 3 (1979) 489; Commun. Math.
+     Phys. 74 (1980) 11; Commun. Math. Phys. 89 (1983) 59; Acta. Appl. Math. 16
+     (1989) 1
+ [2] P. Mansfield, Nucl. Phys. B208 (1982) 277; B222 (1983) 419
+ [3] A.V. Mikhailov, M.A. Olshanetsky and A.M. Perelomov, Commun. Math. Phys. 79
+     (1981) 473
+ [4] D.I. Olive and N. Turok, Nucl. Phys. B257 (1986) 277; B265 (1986) 469
+ [5] P. Mansfield and B. Spence, Nucl. Phys. B362 (1991) 294
+ [6] P. Forgács, A. Wipf, J. Balog, L. Fehér and L. O’Raifeartaigh, Phys. Lett. B227
+     (1989) 214; L. Feher, L. O’Raifeartaigh, P. Ruelle, I. Tsutsui and A. Wipf, Phys. Rep.
+     222 (1992) 1
+ [7] P. Bouwknegt and K. Schoutens, Phys. Rep. 223 (1993) 183
+ [8] A.E. Arinstein, V.A. Fateev and A.B. Zamalodchikov, Phys. Lett. B87 (1979) 389;
+     H.W. Braden, E. Corrigan, P.E. Dorey and Y. Sasaki, Nucl. Phys. B338 (1990) 689;
+     P. Christie and G. Mussardo, Int. J. Mod. Phys. A5 (1990) 4581;
+     G.W. Delius, M.T. Grisaru and D. Zanon, Nucl. Phys. B382 (1992) 365
+ [9] M.A. Olshanetsky, Commun. Math. Phys. 88 (1983) 63
+[10] D.A. Leites, M.V. Saveliev and V.V. Serganova, Embeddings of Osp(N/2) and associ-
+     ated non-linear supersymmetric equations, in Group Theoretical Methods in Physics
+     Vol. 1 (Proc. Third Yurmala Seminar USSR 22-24 May 1985), (VNU Science Press,
+     Utrecht, 1986)
+[11] H.C. Liao and P. Mansfield, Nucl. Phys. B344 (1990) 696; Phys. Lett. B267 (1991)
+     188
+[12] H.C. Liao and P. Mansfield, Phys. Lett. B252 (1991) 230; B252 (1991) 237
+[13] J.M. Evans and T.J. Hollowood, Nucl. Phys. B352 (1991) 723, erratum Nucl. Phys.
+     B382 (1992) 662
+[14] J.M. Evans, Nucl. Phys. B390 (1993) 225
+[15] J.M. Evans and T.J. Hollowood, Phys. Lett. B293 (1992) 100
+[16] H. Nohara and K. Mohri, Nucl. Phys. B349 (1991) 253;
+     S. Komata, K. Mohri and H. Nohara, Nucl. Phys. B359 (1991) 168;
+     H. Nohara, Ann. Phys. 241 (1992) 1
+[17] G.M.T. Watts, Nucl. Phys. B361 (1991) 311;
+     K. Ito, Int. J. Mod. Phys. A7 (1992) 4885
+[18] T. Inami and K-I. Izawa, Phys. Lett. B255 (1991) 521;
+     F. Delduc, E. Ragoucy and P. Sorba, Commun. Math. Phys. 146 (1992) 403;
+     L. Frappat, E. Ragoucy and P. Sorba, Commun. Math, Phys. 157 (1993) 499
+[19] J.M. Evans and J.O. Madsen, Phys. Lett. B384 (1996) 131
+[20] C. Ahn, D. Bernard and A. LeClair, Nucl. Phys. B346 (1990) 409
+[21] C. Ahn, Nucl. Phys. B354 (1990) 57
+
+                                            29
+[22] T. Inami and H. Kanno, Commun. Math. Phys. 136 (1991) 519; Nucl. Phys. B359
+     (1991) 201
+[23] K. Kobayashi and T. Uematsu, Phys. Lett. B264 (1991) 107; B275 (1992) 361
+[24] M.T. Grisaru, S. Penati and D. Zanon, Phys. Lett. B253 (1991) 357;
+     G.W. Delius, M.T. Grisaru, S. Penati and D. Zanon, Nucl. Phys. B359 (1991) 125;
+     Phys. Lett. B256 (1991) 164;
+     M.T. Grisaru, S. Penati and D. Zanon, Nucl. Phys. B369 (1992) 373
+[25] S. Penati and D. Zanon, Phys. Lett. B288 (1992) 297;
+     A. Gualzetti, S. Penati and D. Zanon, Nucl. Phys. B398 (1993) 622
+[26] S. Penati, M. Pernici and D. Zanon, Phys. Lett. B309 (1993) 304;
+     S. Penati and D. Zanon, Nucl. Phys. B436 (1995) 265
+[27] M.D. Freeman, Phys. Lett. B261 (1991) 57
+     A. Fring, H.C. Liao and D.I Olive, Phys. Lett. B266 (1991) 82
+[28] J.E. Humphries, Introduction to Lie Algebras and Representation Theory,
+     (Springer-Verlag, 1972);
+     J.P. Serre, Complex Semi-Simple Lie Algebras, (Springer-Verlag, 1986)
+[29] P. Goddard and D. Olive, Int. J. Mod. Phys. A1 (1986) 303
+[30] V.G. Kac, Infinite Dimensional Lie Algebras, 3rd Edition, (CUP, 1990)
+[31] V.G. Kac, Adv. Math. 26 (1978) 8
+[32] V.G. Kac, Adv. Math. 30 (1978) 85
+[33] V.G. Kac, Contravariant form for infinite-dimensional Lie algebras and superalgebras,
+     in Group Theoretical Methods in Physics XIII, Springer Lecture Notes in Physics,
+     Vol. 94 (1979) 441
+[34] V.V. Serganova, Math. USSR Iz. 24 (1985) 539
+[35] J.W. van de Leur, Commun. Alg. 17(8) (1989) 1815;
+     Contragredient Lie Superalgebras of Finite Growth, Thesis (1986) Utrecht University
+[36] L. Frappat, A. Sciarrino and P. Sorba, Commun. Math. Phys. 121 (1989) 457
+[37] L. Frappat, P. Sorba and A. Sciarrino, Dictionary on Lie Superalgebras,
+     hep-th/9607161; preprint ENSLAPP-AL-600/96, DSF-T-30/96
+[38] T. Eguchi and S-K. Yang, Phys. Lett. B224 (1989) 373; B235 (1990) 282;
+     T.J. Hollowood and P. Mansfield, Phys. Lett. B226 (1989) 73;
+     A. LeClair, Phys. Lett. B230 (1989) 103;
+     D. Bernard and A. LeClair, Phys. Lett. B247 (1990) 309;
+     F.A. Smirnov, Nucl. Phys. B337 (1990) 156; Int. J. Mod. Phys. A4 (1989) 4213;
+     N. Yu. Reshetikhin and F.A. Smirnov, Commun. Math. Phys. 131 (1991) 157
+[39] G. Felder, Nucl. Phys. B317 (1989) 215;
+     P. Bouwknegt, J. McCarthy and K. Pilch, Commun. Math. Phys. 131 (1990) 125
+[40] T.J. Hollowood, Nucl. Phys. B384 (1992) 523; Int. J. Mod. Phys. A8 (1993) 947
+[41] J.L. Cardy and G. Mussardo, Phys. Lett. B225 (1989) 275
+[42] J.M. Evans and J.O. Madsen, Phys. Lett. B389 (1996) 665
+[43] J.M. Evans and J.O. Madsen, Quantum Integrability of Coupled N =1 Su-
+     per Sine/Sinh-Gordon Theories and the Lie Superalgebra D(2, 1; α), Preprint
+     DAMTP/97-147 US-FT/35-97; hep-th/9712227
+
+
+                                           30
+

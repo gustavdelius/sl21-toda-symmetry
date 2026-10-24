@@ -1,0 +1,88 @@
+PASS Yukawa squared norm 
+PASS primary U-source power 
+PASS endpoint fused momentum 
+PASS reflected resonance norm 
+PASS A scaling dimension 
+PASS U scaling dimension 
+PASS LP A radial label 
+PASS LP U radial label 
+PASS LP U angular label 
+PASS general Gaussian OPE factor 
+PASS general Gaussian pair contact factor 
+PASS isotropic A extra factor 
+PASS isotropic U extra factor 
+PASS isotropic UY0 OPE factor 
+PASS isotropic Y0Y2 contact factor 
+PASS fixed action A canonical scale 
+PASS fixed action B canonical scale 
+PASS general current Ward A transport 
+PASS general current Ward B transport 
+PASS isotropic current pair normalization 
+PASS isotropic Ward A coefficient 
+PASS isotropic Ward B coefficient 
+PASS physical Gaussian Yukawa Z0=Z2=1 
+PASS physical Gaussian U factor 
+PASS physical Gaussian A amplitude factor 
+PASS physical Gaussian U amplitude factor 
+PASS physical Gaussian UY0 OPE factor 
+PASS physical Gaussian Y0Y2 action contact 
+PASS physical Gaussian Ward coefficients 
+PASS fixed-action Ward A amplitude common scale 
+PASS fixed-action Ward B amplitude common scale 
+PASS Liouville source ratio 0 
+PASS SL simple zero slope 0 1.0000000000001833009238
+PASS SL slope converges linearly 0 
+PASS zero times identity residue 0 
+PASS symmetric gamma recurrence 0 
+PASS positive-branch endpoint ratio 0 
+PASS identity residue radial integral 0 
+PASS cutoff subtraction sign 0/0 
+PASS cutoff subtraction sign 0/1 
+PASS arbitrary H amplitude A 0 
+PASS arbitrary H amplitude U 0 
+PASS arbitrary H endpoint subtraction 0 
+PASS arbitrary H fixed-action B endpoint 0 
+PASS coupling winding vector 0 
+PASS geometric field characters 0 
+PASS compensated-loop characters 0 
+PASS direct-pullback has inverse characters 0 
+PASS Liouville source ratio 1 
+PASS SL simple zero slope 1 1.00000000000006860078839
+PASS SL slope converges linearly 1 
+PASS zero times identity residue 1 
+PASS symmetric gamma recurrence 1 
+PASS positive-branch endpoint ratio 1 
+PASS identity residue radial integral 1 
+PASS cutoff subtraction sign 1/0 
+PASS cutoff subtraction sign 1/1 
+PASS arbitrary H amplitude A 1 
+PASS arbitrary H amplitude U 1 
+PASS arbitrary H endpoint subtraction 1 
+PASS arbitrary H fixed-action B endpoint 1 
+PASS coupling winding vector 1 
+PASS geometric field characters 1 
+PASS compensated-loop characters 1 
+PASS direct-pullback has inverse characters 1 
+PASS FF shifted identity K0L1 8.1637e-72
+PASS FF shifted identity K0L3 6.5956e-69
+PASS FF shifted identity K1L1 4.5278e-71
+PASS FF shifted identity K1L2 7.2587e-71
+PASS FF shifted identity K2L2 1.5501e-70
+PASS FF shifted identity K2L3 4.683e-69
+PASS FF shifted identity K3L3 7.7421e-69
+PASS FF A neutral 2 particles 4.5278e-71
+PASS FF U neutral 2 particles 9.9612e-71
+PASS FF A neutral 4 particles 1.2082e-70
+PASS FF U neutral 4 particles 4.0498e-71
+PASS FF A neutral 6 particles 2.3251e-69
+PASS FF U neutral 6 particles 9.864e-69
+PASS reflected generic resonance enumeration [(0, 0, 0, 0), (1, 0, 0, 0)]
+PASS unreflected generic resonance enumeration [(0, 0, 0, 0)]
+PASS interface U character -2,1 
+PASS interface A character -2,1 
+PASS interface U character 0,3 
+PASS interface A character 0,3 
+PASS interface U character 1,1 
+PASS interface A character 1,1 
+PASS all protected inputs unchanged 8 files
+SUMMARY 87 PASS 0 FAIL

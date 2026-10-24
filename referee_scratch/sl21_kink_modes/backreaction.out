@@ -1,0 +1,10 @@
+PASS independent Grassmann algebra: a^2=b^2=0, ab=-ba
+PASS exact full boson and fermion EOM through all Grassmann degrees, orientation 1
+PASS nilpotent massless-field backreaction: v2(+inf)-v2(-inf)= sqrt(2)/(4*mu)
+PASS static charge/boundary relation Delta v = -g^2 Q_F/(2*sqrt(2))
+PASS exact full boson and fermion EOM through all Grassmann degrees, orientation -1
+PASS nilpotent massless-field backreaction: v2(+inf)-v2(-inf)= -sqrt(2)/(4*mu)
+PASS static charge/boundary relation Delta v = -g^2 Q_F/(2*sqrt(2))
+PASS full axial symmetry coefficient identity M J+J M=0
+Fixed identical v vacua at both infinities require ab=0 for this exact static family.
+Allowing the nilpotent boundary shift gives an exact finite-energy supernumber solution.

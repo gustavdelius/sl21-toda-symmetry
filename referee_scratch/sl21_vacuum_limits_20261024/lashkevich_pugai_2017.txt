@@ -1,0 +1,673 @@
+                                                                   Algebraic approach to form factors
+                                                                   in the complex sinh-Gordon theory
+                                                                       Michael Lashkevich and Yaroslav Pugai,
+                                               Landau Institute for Theoretical Physics, 142432 Chernogolovka, Russia ∗
+                                               Moscow Institute of Physics and Technology, 141707 Dolgoprudny, Russia
+                                               Kharkevich Institute for Information Transmission Problems, 19 Bolshoy Karetny per.,
+                                               127994 Moscow, Russia
+arXiv:1610.04926v3 [hep-th] 24 Nov 2016
+
+
+
+
+                                                                                             Abstract
+                                                   We study form factors of the quantum complex sinh-Gordon theory in the algebraic approach.
+                                               In the case of exponential fields the form factors can be obtained from the known form factors of the
+                                               ZN -symmetric Ising model. The algebraic construction also provides an Ansatz for form factors of
+                                               descendant operators. We obtain generating functions of such form factors and establish their main
+                                               properties: the cluster factorization and reflection equations.
+
+                                          1. Introduction
+
+                                          We study form factors of local and quasilocal operators in the two-dimensional complex sinh-Gordon
+                                          model, which is a quantum version of the model introduced by Pohlmeyer–Lund–Regge [1,2] for negated
+                                          coupling constant. The action of the theory is given by
+                                                                                    Z 2                        
+                                                                                      d x ∂µ χ ∂ ν χ̄      2
+                                                                         S[χ, χ̄] =                     − m0 χχ̄ ,                       (1.1)
+                                                                                       4π    1 + g0 χχ̄
+
+                                          where χ = χ1 + iχ2 , χ̄ = χ1 − iχ2 is a complex scalar boson field. Initially, the model was introduced for
+                                          negative values of g0 , where it has a rich spectrum of solitons and their bound states. We will assume that
+                                          g0 > 0, so that the spectrum consists of the only particle-antiparticle pair [3]. De Vega and Maillet [4, 5]
+                                          found that in the semiclassical limit the coupling constant is finally renormalized according to
+                                                                                                   g0
+                                                                                           g=           ,                                              (1.2)
+                                                                                                 1 + g0
+                                          while the mass of the lightest particle, which corresponds to the only particle of the model we consider,
+                                          is given by
+                                                                                                sin πg
+                                                                                        m = m0         .                                      (1.3)
+                                                                                                  πg
+                                          The exact quantum relations are unknown, but our results do not rely upon them, since we always
+                                          assume g be a constant in the exact S matrix below and m be the mass of the particle.
+                                             The model is integrable on the quantum level [6]. It means that the S matrix is factorizable and,
+                                          hence, is uniquely defined as soon as the two-particle S matrix is known. Denote the particle by 1 and
+                                          the antiparticle by 1̄. According to Dorey and Hollowood [7] the exact two-particle S matrix reads
+
+                                                                                                              sinh (θ/2 − iπg)
+                                                                      S11 (θ) = S1̄1̄ (θ) = S11̄ (iπ − θ) =                    ,                       (1.4)
+                                                                                                              sinh (θ/2 + iπg)
+                                          where θ = θ1 − θ2 is the difference of rapidities θi of colliding particles, defined in the standard way in
+                                          terms of momenta: pi = (m ch θi , m sh θi ). In our case g > 0 there are no poles on the physical sheet
+                                          (0 ≤ Im θ ≤ π), so that there are no bound states in the theory.
+                                            ∗ Mailing address.
+
+
+
+
+                                                                                                 1
+     Form factors are matrix elements of quasilocal operators of a theory with respect to the eigenstates of
+the Hamiltonian. A full set of form factors completely defines an operator. Form factors make it possible
+to calculate large-distance asymptotics of correlation functions in massive models with, in principle,
+arbitrary precision. For integrable models on the plane form factors can be found exactly by solving a
+system of linear difference equations and analyticity conditions called form factor axioms [8], as soon as
+the spectrum of the model and the S matrix are known. Every solution defines a quasilocal operator.
+There are many approaches to find solutions to the form factor axioms [9–11]. In this note we show
+how to find form factors for the complex sinh-Gordon model following the algebraic approach proposed
+in [12–14]
+     More precisely, let |θ1 α1 . . . θN αN i be the eigenstate defined as an in-state with N particles of types
+α1 , . . . , αN with rapidities θ1 > . . . > θN . Let O(x) be any quasilocal operator. Then the matrix
+elements
+                               hvac|O(0)|θ1 α1 . . . θN αN i = FO (θ1 , . . . , θN )α1 ...αN                (1.5)
+define a set of analytic functions FO . All other matrix elements are expressed in terms of these analytic
+functions by means of the crossing symmetry.
+    To understand the operator contents of the theory, its dual description [3, 15] is more useful. The
+dual action is formulated in terms of two neutral scalar fields ϑ(x), ϕ(x):
+                                  Z                                                
+                                           (∂µ ϑ)2 + (∂µ ϕ)2
+                    Sdual [ϑ, ϕ] = d2 x                      + meβϕ cos αϑ − λe−2βϕ .                (1.6)
+                                                   8π
+Here the coupling constants α and β are not independent, and they are related to the coupling constant
+g of the complex sinh-Gordon model:
+                                                         1
+                                         α2 = β 2 + 1 =    .                                     (1.7)
+                                                        2g
+                                        2
+The constant λ is of dimension m2+4β and by an appropriate shift of the field ϕ can be adjusted in such
+a way that m would coincide with the physical mass of the theory. Introduce the exponential operators
+                                                                        
+                                             ia         b        iq
+                            Vabq (x) = exp      ϑ(x) −    ϕ(x) −    ϑ̃(x) .                        (1.8)
+                                             2α        2β        2α
+
+Here a, b are arbitrary real parameters, an integer q is the charge of the operator, and ϑ̃(x) is the dual
+field defined, as usual, by the equation ∂ µ ϑ̃ = ǫµν ∂ν ϑ. The fields χ, χ̄ are given (up to a normalization
+constant) by
+                       χ(x) ∼ V01 1 (x),     χ̄(x) ∼ V01 −1 (x),     χχ̄(x) ∼ V02 0 (x).                (1.9)
+Since the expressions above contain the dual field ϑ̃, these operators are not mutually local. Two operators
+O1 , O2 are mutually quasilocal, if they possess the following property. Consider any correlation function
+hO1 (x1 )O2 (x2 ) · · · i. If we take x1 and make a round trip in the counter-clockwise direction along a
+closed contour, which encircles x2 , we will just gain a phase factor e2πiγ . The quantity γ = γ(O1 , O2 ) is
+called the mutual locality exponent of the operators. For the exponential operators Vabq (x) the mutual
+locality exponents are
+                                         γ(Vabq , Va′ b′ q′ ) = −g(aq ′ + a′ q).                      (1.10)
+In particular, the mutual locality with the bosons χ, χ̄ are
+                                       γ(Vabq , χ) = −γ(Vabq , χ̄) = −ga.                                 (1.11)
+It means that the operator Vabq is local with respect to the basic bosons of the initial Lagrangian (1.1)
+for ga ∈ Z only.
+    Beside the exponential (or primary) operators Vabq (x) the theory contains a set of descendant oper-
+ators. Let us use the light-cone variables x± = x1 ± x0 and the corresponding derivatives ∂± . Then the
+operators of the form
+                                        k1          l1          k̄1          l̄1
+                               O(x) = (∂−  ϑ · · · ∂−  ϕ · · · ∂+   ϑ · · · ∂+   ϕ · · · )Vabq (x)   (1.12)
+                                                                  P           P             P      P
+are called level (k, k̄) descendant operators, where k = ki + li , k̄ = k̄i + l̄i . The (Lorentz) spin
+s of such operator and its (ultraviolet) scaling dimension d read
+                                                           a2 + q 2    b2
+                            s = −gaq + k − k̄,        d=            −      + k + k̄.                      (1.13)
+                                                             4α2      4β 2
+
+                                                       2
+It must be noted that the spin is well-defined in the massive theory, while the scaling dimension is not,
+so that operators can be renormalized by admixture of operators of lower dimensions.
+    The fields Vabq (x) and their descendants are not all independent. It can be found that they are
+subject to two constraints called the reflection relations:
+
+                              Vabq (x) = RL (b)Va,2g−1 −2−b,q (x) = RSL (a, b, q)Va,−2−b,q (x).                                    (1.14)
+
+Here RL (b) is the Liouville reflection function [16] and RSL (a, b, q) is the sine-Liouville reflection func-
+tion [17, 15]. Since we will not discuss here the overall normalization of operators, we are not interested
+in their exact form. In the case of descendant operators the reflection functions become matrices [16,18].
+Later we derive these properties for operators defined by their form factors.
+    In the region g < 0 (the complex sine-Gordon model) the scattering theory based on (1.4) will contain
+bound states. For integer values of g −1 = −N it coincides (up to a reduction) with that of the ZN Ising
+model. The last is a perturbation of the well-known ZN parafermion models [19, 20], which contains the
+primary operators Φκmm̄ (x), κ = 0, 1, . . . , N , m − κ, m̄ − κ = 0 mod 2, and their W -algebraic descendants.
+It can be shown that Vabq ∼ Φκmm̄ , where the parameters a, b, q are related to κ, m, m̄ according to
+                                                m̄ − m                                    m + m̄
+                                         a=            ,            b = κ,          q=           .                                 (1.15)
+                                                   2                                        2
+This identification [21] follows from the fact that the sine-Liouville model, i.e. the model described by
+the action (1.6) with λ = 0, is nothing but the SL(2, R)/U (1) coset conformal field theory, which is a
+noncompact (or negative real N ) counterpart of the ZN parafermion conformal models.
+    Since the form factors of all primary operators and some descendant operators in the ZN Ising model
+are known explicitly [22–25], we may extend the corresponding expressions to the region g > 0. Moreover,
+our algebraic approach makes it possible to systematically study descendant operators of arbitrary levels.
+    In Section 2 we introduce the algebraic construction for primary operators. Then, in Section 3 we
+obtain recurrent relations and establish the main properties of form factors of primary operators. In
+Section 4 we define descendant operators in terms of their form factors and prove their cluster factor-
+ization property. In Section 5 we show that the form factors of primary operators can be considered as
+generating functions for form factors of descendant operators for generic values of a, b, and derive the
+reflection relations for descendant operators.
+
+2. Form factors of primary fields
+
+We are searching form factors as solutions to the equations called the form factor axioms [8]. Remind
+their formulation for our case. Let sO be the Lorentz spin of the operator O(x). Denote χ1 = χ, χ1̄ = χ̄.
+Then
+
+                 1. FO (θ1 + ϑ, . . . , θN + ϑ)α1 ...αN = esO ϑ FO (θ1 , . . . , θN )α1 ...αN ,                                    (2.1a)
+                                                                   2πiγ(O,χα1 )
+                 2. FO (θ1 , θ2 , . . . , θN )α1 α2 ...αN = e                     F (θ2 , . . . , θN , θ1 − 2πi)α2 ...αN α1 ,      (2.1b)
+                 3. FO (. . . , θi , θi+1 , . . . )...αi αi+1 ... = Sαi αi+1 (θi − θi+1 )FO (. . . , θi+1 , θi , . . .),           (2.1c)
+                 4. ′ Res FO (ϑ′ , ϑ, θ1 , . . . , θN )1̄1α1 ...αN
+                    ϑ =ϑ+iπ
+                                                            N
+                                                                               !
+                                                            Y
+                          = −i 1 − e2πiγ(O,χ)                    S1αi (ϑ − θi ) FO (θ1 , . . . , θN )α1 ...αN .                    (2.1d)
+                                                         i=1
+
+The last equation provides the residue of the only singularity (kinematic pole) of form factors on the
+physical sheet.
+    Our first aim is to find form factors of exponential operators Vabq (x). We obtain them by extending
+expressions for form factors of the ZN Ising models known from [22,23]. In contrast to previous works, we
+use a new algebraic construction, which admits a straightforward generalization to descendant operators
+(see Section 4).
+    Our construction is based on the Heisenberg algebra generated by the elements α±           ±
+                                                                                          k , βk (k ∈ Z,
+          ±
+k 6= 0), γ with the only nonzero commutation relations
+             ′          (1)                                    ′           (2)
+     [αεk , αεl ] = kAεk δε+ε′ ,0 δk+l,0 ,          [βkε , βlε ] = kAεk δε+ε′ ,0 δk+l,0 ,             [γ − , γ + ] = (log ω)−1 ,    (2.2)
+
+                                                                       3
+where
+                                  1 k/2   (i)
+                                    (ω    − ω −k/2 )(ω k/2 + (−1)k+i ω −k/2 ).
+                                         Ak =                                                                                                   (2.3)
+                                  2
+In what follows the parameter ω will be related to the coupling constant of the model:
+
+                                                                          ω = e−2πig .                                                          (2.4)
+
+Add two central elements P+ , P− and define the vacuum vectors |1ip , p h1| with p = (p+ , p− ) by the
+conditions
+                        αεk |1ip = βkε |1ip = 0 (k > 0), P± |1ip = p± |1ip ,
+                                       ε          ε
+                                 p h1|α−k = p h1|β−k = 0                        (k > 0),        p h1|P± = p h1|p± ,                             (2.5)
+                                                                     mγ − +(n−m)γ +
+                                                          p h1|e                         |1ip = 1.
+In fact, the vacuum vectors depend on the value of n in the last line, but we may ignore this subtlety.
+The Fock spaces over bra and ket vacuums will be respectively denoted as Fp and F̄p .
+    It is convenient to introduce the normal product :· · ·: with respect to these vacuum states such that
+        ′        ′
+                               ε′      ε′
+:αεk αε−k : = αε−k αεk , :βkε β−k : = β−k βkε (k > 0). As for zero mode operators, we assume
+                                                    Y            −        +           −P             +P
+                                                :        emi γ +ni γ : = eγ                i mi +γ        i ni   .
+                                                    i
+
+Define the vertex operators
+                                     ε          X αε + β ε                                            ε              X αε − β ε
+                     λε (z) = ω γ exp                    k           k −k
+                                                                      z     ,        λ†ε (z) = ω −γ exp                     k       k −k
+                                                                                                                                     z     .    (2.6)
+                                                             k                                                                  k
+                                                k6=0                                                                 k6=0
+
+Products of vertex operators are given by
+                                                                                                                     z
+                 λε (z ′ )λε (z) = :λε (z ′ )λε (z): ,                               λε (z ′ )λ−ε (z) = fε     ′
+                                                                                                                 :λε (z ′ )λ−ε (z): ,
+                                                                                                             z
+                                                                                                            z
+                λ†ε (z ′ )λ†ε (z) = :λ†ε (z ′ )λ†ε (z): ,                            λ†ε (z ′ )λ†−ε (z) = fε ′ :λ†ε (z ′ )λ†−ε (z): ,
+                                       z                                                                   z                                  (2.7)
+               λε (z ′ )λ†−ε (z) = gε ′ :λε (z ′ )λ†−ε (z): ,                         λε (z ′ )λ†ε (z) = :λε (z ′ )λ†ε (z): ,
+                                        zz 
+                † ′
+               λε (z )λ−ε (z) = gε ′ :λ†ε (z ′ )λ−ε (z): ,                            λε (z ′ )λ†ε (z) = :λε (z ′ )λ†ε (z): ,
+                                          z
+where ε = ± and
+                                 ω ε/2 z − ω −ε/2            ω −ε/2 z + ω ε/2
+                                  fε (z) =        , gε (z) =                  .              (2.8)
+                                       z−1                        z+1
+   It can be seen that the vertex operators commute everywhere except the poles of their products.
+Equations (2.7) provide a simple rule to calculate vacuum expectation values of products of vertex
+operators:
+
+  hλε1 (x1 ) · · · λεK (xK )λ†ε′1 (y1 ) · · · λ†ε′ (yL )i
+                                                     L
+                                                              K
+                                                              Y                     L
+                                                                                    Y                         K Y
+                                                                                                              Y L
+                                                          =     hλεi (xi )λεj (xj )i hλ†ε′i (yi )λ†ε′j (yj )i     hλεi (xi )λ†ε′j (yj )i,
+                                                              i<j                            i<j                                i=1 j=1
+
+where h· · · i denote an average with respect to any vacuum |1ip .
+   Now define the currents
+                                     t(z) = ω P+ /4 λ+ (z) + ω −P+ /4 λ− (z),
+                                                                                                                                                (2.9)
+                                                    t† (z) = ω P− /4 λ†+ (z) + ω −P− /4 λ†− (z).
+Below we will need the following property. The products t(z ′ )t(z) and t† (z ′ )t† (z) are regular for any
+values of z ′ , z, while t(z ′ )t† (z) has the only pole at z ′ = −z:
+                                      iCz  P+ −P−             P− −P+        
+                   t(z ′ )t† (z) =          ω  4   s + (z) − ω    4   s − (z)  + O(1)                                       as z ′ → −z,       (2.10)
+                                     z′ + z
+
+                                                                                 4
+where C = i(ω 1/2 − ω −1/2 ) = 2 sin πg and
+
+                                                          sε (z) = :λε (−z)λ†−ε (z): .                                                            (2.11)
+
+   Let X = (x1 , . . . , xK ), Y = (y1 , . . . , yL ). Define the functions
+
+                                     JKL,p (X|Y ) = p h1|t(x1 ) · · · t(xK )t† (y1 ) · · · t† (yL )|1ip                                           (2.12)
+
+and
+                                                                        PK            PL
+                                                       e 2 (p+ −p− )(                           )
+                                                 K+L     g                                  ′
+  Rp (θ1 , . . . , θK |θ1′ , . . . , θL
+                                      ′
+                                        ) = C−    2                        i=1 θi −    j=1 θj
+
+
+                                                                          K
+                                                                          Y                     L
+                                                                                                Y                     K Y
+                                                                                                                      Y L
+                                                                      ×         R(θi − θj )           R(θi′ − θj′ )             R† (θi − θj′ ) (2.13)
+                                                                          i<j                   i<j                   i=1 j=1
+
+with
+                                                        sh 2θ
+                                     R(θ) =               R̄(θ), R† (θ) = R̄−1 (θ − iπ),
+                                             sh θ2 + iπg
+                                             ∞     iθ
+                                                                 iθ
+                                                                                                                                                 (2.14)
+                                            Y   Γ 2π  + g + n Γ − 2π + g + n Γ2 (n − g)
+                                    R̄(θ) =        iθ
+                                                                 iθ
+                                                                                         ,
+                                            n=1
+                                                Γ 2π  − g + n Γ − 2π − g + n Γ2 (n + g)
+It can be checked that the functions
+                                                                                           ′           ′
+  Fp (θ1 , . . . , θK , θ1′ , . . . , θL
+                                       ′
+                                         ) 1...1 1̄...1̄ = JKL,p (eθ1 , . . . , eθK |eθ1 , . . . , eθL )Rp (θ1 , . . . , θK |θ1′ , . . . , θL
+                                                                                                                                            ′
+                                                                                                                                              )   (2.15)
+                                          |{z} |{z}
+                                          K      L
+
+
+satisfy the form factors axioms (2.1) and, hence, define some operators Φpq (x) with q = L − K. Namely,
+equation (2.1a) is evident. Equations (2.1b), (2.1c) are satisfied due to the fact that JKL,p (X|Y ) is
+symmetric in xi and in yj variables, while the function R(θ) satisfies the equations
+
+                                          R(2πi − θ) = R(θ),                    R(θ) = S11 (θ)R(−θ).
+
+The kinematic pole condition (2.1d) follows from equation (2.10). It can be checked directly along the
+guidelines of [12]. The derivation is based on the property: f+ (eθ )/f− (eθ ) = S11 (θ), g+ (eθ )/g− (eθ ) =
+S11̄ (θ).
+     For negative integer g −1 these functions coincide with form factors of primary operators Φκmm̄ of the
+ZN Ising models for p± = 1 + N + κ ± 12 (m − m̄) [22,23]. As it was discussed in Introduction, for positive
+g these operators are identified with exponential operators in the complex sinh-Gordon model. Hence,
+the operators Φpq (x) coincide, up to a normalization factor, with Vabq (x), if we set
+
+                                                             p± = 1 − g −1 + b ∓ a.                                                               (2.16)
+
+It is easy to see that the exponential factor in (2.13) just corresponds to the locality exponents (1.11).
+    There are evident periodicity properties of the functions JKL,p :
+
+           JKL,(p+ ,p− ) (X|Y ) = (−)K JKL,(p+ +2g−1 ,p− ) (X|Y ) = (−)L JKL,(p+ ,p− +2g−1 ) (X|Y ),                                              (2.17)
+
+which lead to the corresponding relations for form factors.
+
+3. Recursion relations
+
+Consider the function JK+1 L,p (x, X|Y ) as a function of the variable x. First, consider its asymptotics
+as x → ∞:
+                             JK+1 L,p (x, X|Y ) → CKL,p+ JKL,p+σ (X|Y )
+with the shift σ = (1, −1) and the constant factor
+                                                                            πg
+                                                      CKL,z = 2 cos            (z − K + L).                                                        (3.1)
+                                                                             2
+
+                                                                            5
+The only singularities of this function are simple poles at the points x = −yi , i = 1, . . . , L. Their residues
+are easily computable by using (2.10) and (2.11):
+                            Res JK+1 L,p (x, X|Y ) = yi Rp,i (X|Y )JK L−1,p (X|Ŷi ).
+                           x=−yi
+
+Here Ŷi = Y \ {yi } and
+                                     K                   L                     
+                              p+ −p− Y        xj            Y                 yj
+  Rp,i (X|Y ) = 2i sin πg · ω    4       f+ −                       f−
+                                     j=1
+                                              yi                              yi
+                                                       j=1 (j6=i)
+                                                                          K                        L                      
+                                                             p− −p+       Y        xj                Y                  yj
+                                                        −ω      4             f− −                             f+              . (3.2)
+                                                                          j=1
+                                                                                   yi                                   yi
+                                                                                                  j=1 (j6=i)
+
+These properties uniquely define the function JK+1 L,p (x, X|Y ) as an analytic function of x:
+                                                                    L
+                                                                    X yi Rp,i (X|Y )
+              JK+1 L,p (x, X|Y ) = CKL,p+ JKL,p+σ (X|Y ) +                                      JK L−1,p (X|Ŷi ).                (3.3)
+                                                                    i=1
+                                                                               x + yi
+This relation expresses the function JK+1 L in terms of JKL and JK L−1 recursively. Similarly, we obtain
+a recursion relation in L:
+                                                                L
+                                                                X xi Rp∗ ,i (Y |X)
+             JK L+1,p (X|y, Y ) = CLK,p− JKL,p−σ (X|Y ) +                                       JK−1 L,p (X̂i |Y ),               (3.4)
+                                                                i=1
+                                                                               y + xi
+where (p+ , p− )∗ = (p− , p+ ). Together with the initial condition
+                                                J00,p (∅|∅) = 1                                                                   (3.5)
+the recursion relations (3.3), (3.4) uniquely define the functions JKL,p (X|Y ) and, hence, the form factors
+of primary operators.
+    The use of the recursion relations is that they make it possible to prove some important properties.
+First of all, we immediately find that the JK0 and J0L functions are constant:
+                                                                               K
+                                                                               Y               πg
+      JK0,p (X|∅) = JK,p+ ,        J0L,p (∅|Y ) = JL,p− ,       JK,z =                 2 cos      (z + K + 1 − 2i).               (3.6)
+                                                                               i=1
+                                                                                                2
+Next, the following symmetry properties can be easily obtained:
+                                   JKL,p (X|Y ) = JLK,p∗ (Y |X),                                                                  (3.7)
+                                                                −1        −1
+                                   JKL,p (X|Y ) = JKL,−p (X |Y ),                                                                 (3.8)
+                                                   JK−L,p+
+                                   JKL,p (X|Y ) =          JKL,−p∗ (X|Y ).                                                        (3.9)
+                                                  JK−L,−p−
+Equations (3.7) and (3.8) are evident. The equation (3.9), which corresponds to the reflection rela-
+tions (1.14), is a little less trivial. Literally, it corresponds to the Liouville reflection, but together with
+the periodicity properties (2.17) it provides the sine-Liouville reflection as well.
+    Let us prove (3.9) from the recursion relations. For the sake of definiteness, let K ≥ L. For L = 0
+this relation is an immediate consequence of (3.6). We shall prove it by induction in L. Assume it to
+hold for all L ≤ L0 . By applying it to the r.h.s. of (3.4) for L = L0 , we obtain
+                                    JK−L0 ,p+ −1
+  JK L0 +1,p (X|Y, y) = CL0 K,p−                 JKL0 ,−p∗ −σ (X|Y )
+                                   JK−L0 ,−p− −1
+                                                                     L0
+                                                        JK−L0 −1,p+ X   xi R−p,i (Y |X)
+                                                   +                                    JK−1 L0 ,−p∗ (X̂i , Y ).
+                                                       JK−L0 −1,−p− i=1     y + xi
+We used the evident fact that Rp∗ ,i (Y |X) = R−p,i (Y |X). It is easy to check that
+                                          JK−L0 ,p+ −1             JK−L0 −1,p+
+                              CL0 K,p−                 = CKL0 ,p+              .
+                                         JK−L0 ,−p− −1            JK−L0 −1,−p−
+By substituting it to the previous equation and applying (3.4) again, we obtain (3.9) for L = L0 + 1.
+
+                                                        6
+4. Form factors of descendant fields
+         L∞
+Let A =     k=0 Ak be a commutative graded algebra generated by the elements a−k , b−k (k > 0),
+deg a−k = deg b−k = k. Define two representations of this algebra π and π̄ on F̄p :
+                                                               +
+                                                         α−
+                                                          k − αk                                 βk− − βk+
+                                         π(a−k ) =             (1)
+                                                                         ,       π(b−k ) =           (2)
+                                                                                                             ,
+                                                              Ak                                   Ak
+                                                                +                                       +                                        (4.1)
+                                                         α−
+                                                          −k − α−k
+                                                                                                  −
+                                                                                                 β−k − β−k
+                                         π̄(a−k ) =                (1)
+                                                                             , π̄(b−k ) =             (2)
+                                                                                                                 .
+                                                              Ak                                    Ak
+
+To any element h ∈ A we may associate a state in Fp and a state in F̄p :
+
+                                                 p hh| = p h1|π(h),               |hip = π̄(h)|1ip                                               (4.2)
+
+For any pair of elements h, h′ ∈ A define the functions
+                                         ′
+                                    hh̄
+                                   JKL,p (X|Y ) = p hh|t(x1 ) . . . t(xK )t† (y1 ) . . . t† (yL )|h′ ip .                                        (4.3)
+
+These functions are straightforwardly calculated for any given pair h, h′ . Indeed, move π(h) to the right
+and π̄(h) to the left with the use of the commutation relations
+
+                   [π(a−k ), λ± (z)] = (∓)k+1 z k λ± (z),                        [π(a−k ), λ†± (z)] = (∓)k+1 z k λ†± (z),
+                   [π(b−k ), λ± (z)] = (∓)k z k λ± (z),                          [π(b−k ), λ†± (z)] = −(∓)k z k λ†± (z),
+                                                                                                                                                 (4.4)
+                   [λ± (z), π̄(a−k )] = −(∓)k+1 z −k λ± (z), [λ†± (z), π̄(a−k )] = −(∓)k+1 z −k λ†± (z),
+                   [λ± (z), π̄(b−k )] = −(∓)k z −k λ± (z),                       [λ†± (z), π̄(b−k )] = (∓)k z −k λ†± (z)
+
+and
+      [π(a−k ), π̄(a−k )] = −(1 + (−1)k )k(A+
+                                            k)
+                                              −1
+                                                 ,                            [π(b−k ), π̄(b−k )] = −(1 − (−1)k )k(Bk+ )−1 ,
+                                                                                                                                                 (4.5)
+                                             [π(a−k ), π̄(b−k )] = [π(b−k ), π̄(a−k )] = 0.
+
+At last, π on the right and π̄ on the left kill the vacuums:
+
+                            π(a−k )|1ip = π(b−k )|1ip = 0,                        p h1|π̄(a−k ) = p h1|π̄(b−k ) = 0.                             (4.6)
+
+   The main fact is that the functions
+       ′                                                           ′                         ′           ′
+  Fphh̄ (θ1 , . . . , θK , θ1′ , . . . , θL
+                                          ′                    hh̄
+                                            ) 1...1 1̄...1̄ = JKL,p (eθ1 , . . . , eθK |eθ1 , . . . , eθL )Rp (θ1 , . . . , θK |θ1′ , . . . , θL
+                                                                                                                                               ′
+                                                                                                                                                 ) (4.7)
+                                             |{z} |{z}
+                                             K     L
+
+                                                                                             ′
+                                                                hh̄
+again satisfy the form factor axioms and define operators Φpq       . In the same way as in [12] we conclude
+that they correspond to descendant operators over Φpq . The operators Φhpq are right (chiral) descendants,
+while the operators Φh̄pq are left (antichiral) ones. If h ∈ Ak , h′ ∈ Ak̄ the spin and ultraviolet conformal
+                              hh̄′
+dimension of the operator Φpq      are given by (1.13) if we assume (2.16).
+                                                                                       a
+     In simple cases descendant operators can be easily understood. For example, Φpq−1 = −2im−1 ∂− Φpq ,
+  ā
+Φpq−1 = 2im−1 ∂+ Φpq . This can be generalized. Let
+
+                                                    ι1−2k = a1−2k ,                ι−2k = b−2k .                                                 (4.8)
+                                                                    P                   P
+The element ι−k in the π representation only produces the factor K     i=1 e
+                                                                             kθi
+                                                                                 − (−1)k Li=1 e
+                                                                                                kθi′
+                                                                                                     in the
+form factors, which is an eigenvalue of an integral of motion. We conclude that
+                                         ′                ′                              ′                   ′
+                                ι−k h h̄         hh̄
+                               Φpq       (x) = [Φpq  (x), Ik ],                  Φhpqι−k h (x) = [Φpq
+                                                                                                   hh̄
+                                                                                                       (x), I−k ],                               (4.9)
+
+where Ik is an appropriately normalized spin k conserved charge. In other cases the identification of
+operators defined by their form factors with the operators (1.12) is not clear.
+
+                                                                             7
+    An important property of form factors of descendant operators is the cluster factorization. Suppose
+that the sets X and Y decompose in two parts: X = (eΛ X (1) ) ∪ X (2) , Y = (eΛ Y (1) ) ∪ Y (2) . Denote
+                                                                                              hh̄′
+K (1) = #X (1) , . . . , L(2) = #Y (2) . Let h ∈ Ak , h′ ∈ Al . We want to find the function JKL,p (X|Y ) in the
+limit Λ → ∞. Since in this limit f± (xe−Λ ) → ω ∓1/2 and g± (xe−Λ ) → ω ±1/2 , we obtain
+             ′
+        hh̄
+  e−kΛ JKL,p (eΛ X (1) , X (2) |eΛ Y (1) , Y (2) )
+                                                                       ′
+     h                                (1)
+  = JK (1) L(1) ,p−σ(K (2) −L(2) ) (X     |Y (1) )JK
+                                                   h̄
+                                                      (2) L(2) ,p+σ(K (1) −L(1) ) (X
+                                                                                     (2)
+                                                                                         |Y (2) ) + O(e−Λ )                                                  as Λ → ∞. (4.10)
+
+It means that for large difference of two groups of rapidities each form factor of a (k, k̄) level operator
+factorizes into the product of form factors of a right (k, 0) level descendant operator over Vabq (x) and a
+left (0, k̄) level one.
+
+5. Generating functions of descendant operators
+
+The currents t(z), t† (z) together with s± (z) defined in (2.10), (2.11) generate a current algebra. The
+currents s± (z), which have no analogue in the usual free field representation [22, 23, 26], play a special
+role. Insertion of one of them into a matrix element p hh| · · · |h′ ip reduces to multiplying the matrix
+element by an h, h′ -independent factor. This factor provides the correct residues of the kinematic poles
+in form factors. Besides, the currents s± (z) play an important role in the construction of generating
+functions of descendant operators below.
+    Consider the products
+                                                                 #X                  #Y                          #U                   #V                    
+                          (∞)
+                                                                 Y              1      Y
+                                                                                                   †        1        Y               1      Y                 1
+                    T           (z; X; Y ; U ; V ) =                   t                       t                           s+                       s−                 ,
+                                                                 i=1
+                                                                               zxi       i=1
+                                                                                                           zyi       i=1
+                                                                                                                                    zui       i=1
+                                                                                                                                                             zvi
+                                                                                                                                                                            (5.1)
+                                                                 #X
+                                                                 Y               #Y
+                                                                                 Y                         #U
+                                                                                                           Y                    #V
+                                                                                                                                Y
+                     T (0) (z; X; Y ; U ; V ) =                        t(zxi )           t† (zyi )                 s+ (zui )          s− (zvi ).
+                                                                 i=1             i=1                       i=1                  i=1
+
+They make it possible to define infinite sets of vectors
+                                                                                                   ∞
+                                                                                                   X
+                                                       (∞)                                                                                −n
+                                            p h1|T           (z; X; Y ; U ; V ) =                          p hn; X; Y ; U ; V |z               ,
+                                                                                                   n=0
+                                                                                                    ∞                                                                       (5.2)
+                                                                                                   X
+                                                 (0)                                                           n
+                                             T         (z; X; Y ; U ; V )|1ip =                            z |n; X; Y ; U ; V ip .
+                                                                                                   n=0
+
+                                                                                                                                          +                            −
+But these vectors do not belong to Fp , F̄p since they contain factors ω rγ +(#X−#Y −r)γ with r ∈ Z.
+Nevertheless, the contribution of these factors in each matrix element can be, in fact, reduced to a shift
+of the zero mode p and a constant factor.
+    Now we formulate the main statement about the generating functions for descendant operators. For
+any given numbers p, n, n′ and L − K = q, and sets X̄, Ȳ , Ū , V̄ , X̄ ′ , Ȳ ′ , Ū ′ , V̄ ′ , subject to the conditions
+
+                          (−)k Sk (X̄) = Sk (Ȳ ) = −Sk (Ū ) − Sk (V̄ )                                                                  (1 ≤ k ≤ n),                     (5.3a)
+                                k       ′                    ′                       ′                     ′                                                  ′
+                          (−) Sk (X̄ ) = Sk (Ȳ ) = −Sk (Ū ) − Sk (V̄ )                                                                  (1 ≤ k ≤ n ),                    (5.3b)
+
+there exists a pair of elements h ∈ An , h′ ∈ An′ , which are the same for any value of K (for given q),
+such that
+                      ′
+                  hh̄
+                 JKL,p (X|Y ) = p0 hn; X̄; Ȳ ; Ū ; V̄ |t(x1 ) . . . t(xK )t† (y1 ) . . . t† (yL )|n′ ; X̄ ′ ; Ȳ ′ ; Ū ′ ; V̄ ′ ip0                                      (5.4)
+
+with p0 = p + (#X̄ ′ − #Ȳ ′ − #X̄ + #Ȳ )σ. Moreover, for generic values of p the whole spaces π(A) ⊂ Fp
+and π̄(A) ⊂ F̄p can be spanned by such vectors. The proof of this statement repeats in main steps that
+of the analogous statement in [12] in the case of sinh-/sine-Gordon model. We postpone it to a more
+detailed future publication.
+    We may say that matrix elements between vectors in the l.h.s. of (5.2) are generating functions of
+form factors of descendant operators subject to the conditions (5.3). Note that without presence of the
+
+                                                                                           8
+currents s± (z) these conditions have no nontrivial solutions. Another fact to be noted is that for special
+values of p the ‘spanning’ property can be broken. It is broken e.g. for p± = g −1 + 1, q = 0, which
+corresponds to the unit operator, whose form factors all vanish except the zero-particle one. It seems to
+be broken of all (a, b) ∈ Z2 , q + a + b ∈ 2Z.
+   There is an important consequence of this statement. From (3.9) we obtain
+                                                  †             †       ′    ′    ′    ′    ′
+     p0 hn; X̄; Ȳ ; Ū ; V̄ |t(x1 ) . . . t(xK )t (y1 ) . . . t (yL )|n ; X̄ ; Ȳ ; Ū ; V̄ ip0
+                       J−q0 ,p0+
+                  =              · −p∗0 hn; X̄; Ȳ ; Ū ; V̄ |t(x1 ) . . . t(xK )t† (y1 ) . . . t† (yL )|n′ ; X̄ ′ ; Ȳ ′ ; Ū ′ ; V̄ ′ i−p∗0 ,
+                      J−q0 ,−p0−
+
+                                                                   h̃h̃                              ¯′
+where q0 = q − #X̄ + #Ȳ − #X̄ ′ + #Ȳ ′ . The r.h.s. is equal to JKL,−p∗ (X|Y ) with some elements
+      ′
+h̃, h̃ ∈ A. We conclude that for a given generic value of p and any given value of q for all h ∈ An ,
+h′ ∈ An′ there exist elements h̃ ∈ An , h̃′ ∈ An′ such that
+                                                                             ¯′
+                                                   hh̄            h̃h̃
+                                                  JKL,p (X|Y ) = JKL,−p∗ (X|Y ).                                                                  (5.5)
+
+This means that the descendant operators possess the reflection property, though it is not as trivial as
+that in the case of primary operators.
+
+6. Conclusion
+
+Here we found form factors of quasilocal operators in the complex sinh-Gordon model within the algebraic
+approach. The form factors of exponential operators are found completely up to overall normalization
+factors. For descendant operators, we have different definitions in terms of the basic field ϑ, ϕ and in
+terms of form factors. More or less direct identification is only accessible in special cases related to the
+action of integrals of motion. We study main properties of form factors and show how the reflection
+relations manifest themselves in the form factor theory.
+    The results can be also applied to the complex sine-Gordon theory (g < 0), but its complicated
+spectrum of bound states demands more accuracy. In the special case of g −1 negative integer the
+construction describes the ZN Ising model, but in this case a selection of admissible operators is necessary.
+For primary fields this selection is well-known, but for descendant operators it is complicated. We will
+describe it in a forthcoming paper. There we will also give proofs omitted here for brevity.
+
+Acknowledgments
+
+We are grateful A. Litvinov for a useful discussion. The study of form factors of descendant operators
+was supported by Russian Science Foundation under the grant # 14-12-01383.
+
+References
+
+ [1] K. Pohlmeyer, Commun. Math. Phys. 46, 207 (1976).
+ [2] F. Lund and T. Regge, Phys. Rev. D14, 1524 (1976).
+ [3] V. A. Fateev, Phys. Lett. B357, 397 (1995).
+ [4] H. J. de Vega and J. M. Maillet, Phys. Lett. B101, 302 (1981).
+ [5] H. J. de Vega and J. M. Maillet, Phys. Rev. D28, 1441 (1983).
+ [6] G. Bonneau and F. Delduc, Nucl. Phys. B250, 561 (1985).
+ [7] N. Dorey and T. J. Hollowood, Nucl. Phys. B440, 215 (1995), arXiv:hep-th/9410140.
+ [8] F. A. Smirnov, Adv. Ser. Math. Phys. 14, 1 (1992).
+ [9] F. A. Smirnov, Nucl. Phys. B337, 156 (1990).
+[10] S. L. Lukyanov, Commun. Math. Phys. 167, 183 (1995), arXiv:hep-th/9307196.
+
+                                                                        9
+[11] H. Babujian and M. Karowski, J. Phys. A35, 9081 (2002), arXiv:hep-th/0204097.
+[12] B. Feigin and M. Lashkevich, J. Phys. A42, 304014 (2009), arXiv:0812.4776.
+[13] O. Alekseev and M. Lashkevich, JHEP 1007, 095 (2010), arXiv:0912.5225.
+[14] M. Lashkevich and Y. Pugai, JHEP 1309, 095 (2013), arXiv:1305.1674.
+[15] V. A. Fateev, (2001), arXiv:hep-th/0103014.
+[16] A. B. Zamolodchikov and Al. B. Zamolodchikov, Nucl. Phys. B477, 577 (1996),
+     arXiv:hep-th/9506136.
+[17] P. Baseilhac and V. A. Fateev, Nucl. Phys. B532, 567 (1998), arXiv:hep-th/9906010.
+[18] V. Fateev, D. Fradkin, S. Lukyanov, A. Zamolodchikov, and Al. Zamolodchikov, Nucl. Phys.
+     B540, 587 (1999), arXiv:hep-th/9807236.
+[19] V. A. Fateev and A. B. Zamolodchikov, Sov. Phys. JETP 62, 215 (1985), [Zh. Eksp. Teor. Fiz. 89,
+     380 (1985)].
+[20] A. B. Zamolodchikov and V. A. Fateev, Sov. Phys. JETP 63, 913 (1986), [Zh. Eksp. Teor. Fiz. 90,
+     1553 (1986)].
+[21] T. Fukuda and K. Hosomichi, JHEP 0109, 003 (2001), arXiv:hep-th/0105217.
+[22] M. Jimbo, H. Konno, S. Odake, Y. Pugai, and J. Shiraishi, J. Stat. Phys. 102, 883 (2001),
+     arXiv:math/0001071.
+[23] V. A. Fateev, V. V. Postnikov, and Y. P. Pugai, JETP Lett. 83, 172 (2006),
+     arXiv:hep-th/0601073.
+[24] V. A. Fateev and Y. P. Pugai, J. Phys. A42, 304013 (2009), arXiv:0909.3347.
+[25] H. Babujian and M. Karowski, Phys. Lett. B575, 144 (2003), arXiv:hep-th/0309018.
+[26] V. A. Fateev and Y. P. Pugai, Theor. Math. Phys. 154, 473 (2008).
+
+
+
+
+                                                 10
+

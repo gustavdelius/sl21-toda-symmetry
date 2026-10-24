@@ -1,0 +1,1 @@
+2026-10-24: Complete mass2 channels derived independently. h-regulator yields explicit (h−t) Ward defect and t/h tail improvement. One common meromorphic family supplies overlap prescription and generic diagonal identity; report briefs/referee_sl21_coord_stage1_kernels_report.md. Completed stage0 inputs and all recorded protected inputs unchanged. No old files edited.

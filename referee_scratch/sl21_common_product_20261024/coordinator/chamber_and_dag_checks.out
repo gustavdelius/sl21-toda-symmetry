@@ -1,0 +1,14 @@
+INFO chamber angular 32 0.28038159813407 residue/3 0.093460532711355
+INFO chamber angular 64 0.28038157909521 residue/3 0.09346052636507
+INFO chamber angular 128 0.28038157821019 residue/3 0.093460526070065
+INFO chamber angular 256 0.28038157817089 residue/3 0.093460526056963
+PASS nonzero individual-chamber residue independently integrated
+INFO delta 0.02 finite residue 0.08945381164404802
+INFO delta 0.005 finite residue 0.0924379398978671
+INFO delta 0.001 finite residue 0.09325486707592949
+PASS full three-relative-coordinate Jacobian u R^2
+PASS acyclic incidence has a strictly positive linear functional
+INFO Thus positive edge parameters cannot run to infinity at fixed momentum; normalized power distributions push forward without a positive cycle.
+PASS holomorphic-antiholomorphic pair gives a positive cycle, outside the DAG proof
+PASS both first two one-dimensional chamber residues cancel in complete i0 boundary value
+INFO No full five-current anomaly is inferred from the nonzero chamber number.

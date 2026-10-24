@@ -1,0 +1,33 @@
+PASS B-source V1 power two
+PASS A-source V1 double pole
+PASS B derivative contraction with V1 is -t
+PASS fused B FA derivative contraction 1-t
+PASS full field-jet identity eta k=d
+PASS moving-A double pole coefficient
+PASS moving-A simple pole eta V prime
+PASS bare action coefficient gamma
+PASS two-tail scalar derivative coefficient gamma squared
+PASS bare action antichiral field jet T=-gamma k
+PASS finite matching leaves canonical gamma squared
+PASS exact simultaneous scalar kernel resolution
+PASS bare action first test jet cancels
+PASS tail first test jets cancel
+PASS reference cocycle BAaV
+PASS reference cocycle BAh
+PASS reference cocycle BHa
+PASS B FA cocycle ratio exponent
+PASS lambda2 U delta-prime has product density dimension
+PASS left FA B=s squared B FA
+PASS right FA commutes with B
+PASS proper and primitive degrees positive
+DIAGNOSTIC double-pole first-test-jet delta 0.02 normalized (0.956041155523775943 + 0.0j)
+DIAGNOSTIC double-pole first-test-jet delta 0.01 normalized (0.977729432467596653 + 0.0j)
+DIAGNOSTIC double-pole first-test-jet delta 0.005 normalized (0.988790833759532122 + 0.0j)
+PASS double-pole test derivative convergence
+DIAGNOSTIC epsilon 0.02 mixed remainder bound 0.00471394059177034 primitive power 1.23854197322217e-9
+DIAGNOSTIC epsilon 0.01 mixed remainder bound 0.00235701984079163 primitive power 3.2712868341632e-11
+DIAGNOSTIC epsilon 0.005 mixed remainder bound 0.00117851122899579 primitive power 8.640254252772e-13
+PASS mixed remainder O(epsilon) bound
+PASS candidate derivative contact visible to nonconstant outer test
+DIAGNOSTIC candidate density contact nonconstant-test value -0.626657068657750126
+Completed 25 checks. Scope: restricted lambda1 companion and local first-test jets, not a common all-order product.

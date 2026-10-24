@@ -1,0 +1,61 @@
+PASS canonical T.d
+PASS A right-minus-left weight
+PASS B right-minus-left weight
+PASS triple A K^0 B
+PASS triple A K^2 B
+PASS triple B K^0 A
+PASS triple B K^-2 A
+PASS quartic B vs barA K^0 BBB
+PASS quartic B vs barA K^2 BBB
+PASS quartic B vs barB K^0 BBA
+PASS quartic B vs barB K^0 BAB
+PASS quartic B vs barB K^0 ABB
+PASS quartic B vs barB K^-2 BBA
+PASS quartic B vs barB K^-2 BAB
+PASS quartic B vs barB K^-2 ABB
+PASS quartic A vs barA K^0 AAB
+PASS quartic A vs barA K^0 ABA
+PASS quartic A vs barA K^0 BAA
+PASS quartic A vs barA K^2 AAB
+PASS quartic A vs barA K^2 ABA
+PASS quartic A vs barA K^2 BAA
+PASS quartic A vs barB K^0 AAA
+PASS quartic A vs barB K^-2 AAA
+PASS single-minority polynomial factor
+PASS majority coefficient factor
+PASS majority mode classification B m=-4
+PASS majority mode classification B m=-3
+PASS majority mode classification B m=-2
+PASS majority mode classification B m=-1
+PASS majority mode classification B m=0
+PASS majority mode classification B m=1
+PASS majority mode classification B m=2
+PASS majority mode classification B m=3
+PASS majority mode classification B m=4
+PASS majority mode classification A m=-4
+PASS majority mode classification A m=-3
+PASS majority mode classification A m=-2
+PASS majority mode classification A m=-1
+PASS majority mode classification A m=0
+PASS majority mode classification A m=1
+PASS majority mode classification A m=2
+PASS majority mode classification A m=3
+PASS majority mode classification A m=4
+PASS matrix commutator EF
+PASS matrix K weight A
+PASS matrix K weight B
+PASS matrix K weight barA
+PASS matrix K weight barB
+PASS matrix AA mixed
+PASS matrix BB mixed
+PASS matrix A barB mixed
+PASS matrix B barA mixed
+PASS matrix triple barA
+PASS matrix triple barB
+PASS matrix quartic B
+PASS matrix quartic A
+PASS matrix quartic barB
+PASS matrix quartic barA
+PASS matrix witness nonzero C
+PASS matrix witness nonzero E cubed
+SUMMARY 60 PASS, 0 FAIL
