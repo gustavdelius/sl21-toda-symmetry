@@ -59,7 +59,7 @@ The other main gaps are relations containing two barred generators, arbitrary wo
 - `provenance/`: source paths, hashes, licensing context and migration checks.
 - `tools/`: a read-only archive verifier and a small check runner that works in a temporary copy.
 
-The material was consolidated from Gustav Delius's `affine_toda` repository. Original files were retained there as a historical backup; this repository is the new place to continue the research. It has independent Git metadata and is not a worktree of the book. No remote or public publication has been configured.
+The material was consolidated from Gustav Delius's `affine_toda` repository. The research is saved in initial commit `213dbc7`. After verifying the committed copies, the 444 original project research files and five generated Python cache files were deleted from the old checkout on 24 October 2026. The book and shared background material remain there. This repository is now the place to continue the research; see the [cleanup record](provenance/research-cleanup-20261024.json). It has independent Git metadata and is not a worktree of the book. No remote or public publication has been configured.
 
 ## Checking the archive
 
